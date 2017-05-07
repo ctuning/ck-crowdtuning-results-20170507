@@ -1,0 +1,94 @@
+{
+  "characteristics": {
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "time_gpu", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CAFFE_COMPUTE_DEVICE_ID": 0, 
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "", 
+      "CK_CAFFE_MODEL": "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-vuu8hxok.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-vuu8hxok.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "/home/fursin/CK/local/env/6904642109d47e95/bvlc_googlenet.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "/home/fursin/CK/local/env/6904642109d47e95/bvlc_googlenet.caffemodel", 
+      "CK_GPU_FREQUENCY": "max"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "", 
+    "no_state_check": "yes", 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "file_model_topology": "tmp-vuu8hxok.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "choices": {
+      "env": {
+        "CK_CAFFE_BATCH_SIZE": "1"
+      }
+    }, 
+    "cmd_key": "time_gpu", 
+    "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "cpu_uid": "f6224bcc1776460f", 
+    "dnn_engine_name": "BVLC Caffe framework (opencl,libdnn,viennacl)", 
+    "dnn_engine_package_uoa": "c412f85ecc2bd6c9", 
+    "dnn_type": "opencl", 
+    "gpgpu_name": "Intel(R) HD Graphics", 
+    "gpgpu_uid": "8447d5b69ee38f96", 
+    "gpu_name": "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "nn_type": "bvlc, googlenet", 
+    "os_name": "Ubuntu 17.04", 
+    "os_uid": "e152ab3a17ec4a42", 
+    "plat_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "platform_uid": "09a35e87641079dc", 
+    "user": "-", 
+    "xdeps": {
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (bvlc, googlenet)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "b96fc6a959de0ad1", 
+        "ver": "trunk"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (opencl,libdnn,viennacl)", 
+        "name": "Caffe framework", 
+        "package_uoa": "c412f85ecc2bd6c9", 
+        "ver": "master-880111e3"
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.7.2", 
+      "compiler": "6.3.0", 
+      "lib-blas": "0.2.19-85636ff1", 
+      "lib-boost": "1.62.0", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-e56ed55", 
+      "lib-hdf5": "1.10.0", 
+      "lib-lmdb": "development-4d21543", 
+      "lib-opencl": "6.3.0.1904", 
+      "lib-opencv": "3.2.0", 
+      "lib-protobuf-host": "3.1.0", 
+      "lib-viennacl": "master-5494bef3"
+    }
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - failed to find the 'Total Time' string in Caffe output"
+  }, 
+  "user": "-"
+}

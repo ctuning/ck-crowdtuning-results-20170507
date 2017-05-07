@@ -1,0 +1,102 @@
+{
+  "characteristics": {
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-andebench", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "192.168.0.28:3154", 
+          "core_clusters": [
+            0, 
+            0, 
+            0, 
+            0
+          ], 
+          "core_names": [
+            "Qualcomm Technologies, Inc APQ8016", 
+            "Qualcomm Technologies, Inc APQ8016", 
+            "Qualcomm Technologies, Inc APQ8016", 
+            "Qualcomm Technologies, Inc APQ8016"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "192.168.0.28:3154", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/home/fursin/CK/local/wa-result/3e8ebe9247179c48/20170322-080008", 
+      "CK_WA_SCRIPTS_PATH": "/home/fursin/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "check_abi": false, 
+        "check_apk": true, 
+        "force_install": false, 
+        "install_timeout": 300, 
+        "uninstall_apk": false
+      }
+    }, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "dragonboard", 
+    "target_os": "android22-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "meta": {
+    "apk_name": "com.eembc.coremark", 
+    "apk_version": "1383", 
+    "cpu_name": "Qualcomm Technologies, Inc APQ8016", 
+    "gpu_name": "Qualcomm Adreno (TM) 306", 
+    "local_target_uid": "27c945e2f67d4531", 
+    "local_target_uoa": "dragonboard", 
+    "os_name": "Android 5.1.1", 
+    "plat_name": "UNKNOWN MSM8916 FOR ARM64", 
+    "program_uid": "55ac934b35b25132", 
+    "program_uoa": "wa-andebench", 
+    "scenario": "-", 
+    "serial_number": "192.168.0.28:3154", 
+    "wa_version": "", 
+    "workload_name": "andebench"
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - Error while running workload:\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\ncom.arm.wlauto.uiauto.andebench.UiAutomation:\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: 1\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\nError in runUiAutomation:\ncom.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: -1\nINSTRUMENTATION_STATUS: stream=\nTest results for WatcherResultPrinter=.E\nTime: 21.396\n\nFAILURES!!!\nTests run: 1,  Failures: 0,  Errors: 1\n\n\nINSTRUMENTATION_STATUS_CODE: -1\n\nError while running workload:\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\ncom.arm.wlauto.uiauto.andebench.UiAutomation:\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: 1\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\nError in runUiAutomation:\ncom.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: -1\nINSTRUMENTATION_STATUS: stream=\nTest results for WatcherResultPrinter=.E\nTime: 22.13\n\nFAILURES!!!\nTests run: 1,  Failures: 0,  Errors: 1\n\n\nINSTRUMENTATION_STATUS_CODE: -1\n\nError while running workload:\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\ncom.arm.wlauto.uiauto.andebench.UiAutomation:\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: 1\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\nError in runUiAutomation:\ncom.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: -1\nINSTRUMENTATION_STATUS: stream=\nTest results for WatcherResultPrinter=.E\nTime: 22.07\n\nFAILURES!!!\nTests run: 1,  Failures: 0,  Errors: 1\n\n\nINSTRUMENTATION_STATUS_CODE: -1\n\nError while running workload:\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\ncom.arm.wlauto.uiauto.andebench.UiAutomation:\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: 1\nINSTRUMENTATION_STATUS: numtests=1\nINSTRUMENTATION_STATUS: stream=\nError in runUiAutomation:\ncom.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: id=UiAutomatorTestRunner\nINSTRUMENTATION_STATUS: test=runUiAutomation\nINSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.andebench.UiAutomation\nINSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: Did not see start button.\nat com.arm.wlauto.uiauto.andebench.UiAutomation.waitForStartButton(UiAutomation.java:58)\nat com.arm.wlauto.uiauto.andebench.UiAutomation.runUiAutomation(UiAutomation.java:45)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)\nat com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)\nat com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)\nat com.android.commands.uiautomator.Launcher.main(Launcher.java:83)\nat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\nat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)\n\nINSTRUMENTATION_STATUS: current=1\nINSTRUMENTATION_STATUS_CODE: -1\nINSTRUMENTATION_STATUS: stream=\nTest results for WatcherResultPrinter=.E\nTime: 22.024\n\nFAILURES!!!\nTests run: 1,  Failures: 0,  Errors: 1\n\n\nINSTRUMENTATION_STATUS_CODE: -1\n\nExceeded maxium number of retries. Abandoning job.\nFAILURE: INSTRUMENTATION_STATUS: numtests=1"
+  }, 
+  "user": "5f780539ea4a803d"
+}

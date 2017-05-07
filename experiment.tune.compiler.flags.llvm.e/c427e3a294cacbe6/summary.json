@@ -1,0 +1,604 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 1400, 
+        "2": 1400, 
+        "3": 1400, 
+        "4": 2000, 
+        "5": 2000, 
+        "6": 2000, 
+        "7": 2000
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 19935146, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+      "platform_uid": "d6bd40fe7496f776"
+    }, 
+    "iterations": 115, 
+    "last_touch_uid": "c2b711bf4c2aa605", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2956, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.571837, 
+          "##characteristics#run#repeat#min": 19935146
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0825439783491, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.54031984579
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math", 
+          "##characteristics#compile#md5_sum#min": "c5e179690dc4fdcea060f5490cc710f7", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 3.7730940360015e-05
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 0.92375, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.66499845078338, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.024765710078529
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-signed-char": "-fno-signed-char"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6ce33e5e3b4eaead", 
+    "touched": 80, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnts-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 1400, 
+        "2": 1400, 
+        "3": 1400, 
+        "4": 2000, 
+        "5": 2000, 
+        "6": 2000, 
+        "7": 2000
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 1528346237, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+      "platform_uid": "d6bd40fe7496f776"
+    }, 
+    "iterations": 172, 
+    "last_touch_uid": "273d54c7f96afc3c", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2776, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.691342, 
+          "##characteristics#run#repeat#min": 1528346237
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0028818443804, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3000390963707
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fomit-frame-pointer ", 
+          "##characteristics#compile#md5_sum#min": "8ed65892418815cbe4af9a4559838a4b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 2.0802857688004e-06
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer "
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fomit-frame-pointer "
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fomit-frame-pointer ": {
+            "##characteristics#compile#obj_size#min_imp": 0.99712643678161, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.76915517495007, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 4.2001096229153e-06
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmerge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#fno-constant-cfstrings": "-fno-constant-cfstrings", 
+          "##compiler_flags#fno-inline": "-fno-inline", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "1d2a77acdac90cf7", 
+    "touched": 136, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 1400, 
+        "2": 1400, 
+        "3": 1400, 
+        "4": 2000, 
+        "5": 2000, 
+        "6": 2000, 
+        "7": 2000
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 484607884, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+      "platform_uid": "d6bd40fe7496f776"
+    }, 
+    "iterations": 199, 
+    "last_touch_uid": "d404cb42fd5bd144", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3284, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.779741, 
+          "##characteristics#run#repeat#min": 484607884
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0024360535932, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1388619808672
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fomit-frame-pointer ", 
+          "##characteristics#compile#md5_sum#min": "05ea81eb565dbb391f5333a26a50a9b5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 2.9609579473457e-06
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer "
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fomit-frame-pointer "
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fomit-frame-pointer ": {
+            "##characteristics#compile#obj_size#min_imp": 0.99756986634265, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.87816413683066, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00016891464489961
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#ffp-contract": "-ffp-contract=on", 
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#funroll-loops": "-funroll-loops", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "9131bee0c24e65b9", 
+    "touched": 165, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 200
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "1", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 840903, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+      "platform_uid": "d6bd40fe7496f776"
+    }, 
+    "iterations": 106, 
+    "last_touch_uid": "992fec3e28248dd9", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2852, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.544109, 
+          "##characteristics#run#repeat#min": 840903
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0507757404795, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.163133718956
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fslp-vectorize-aggressive -mno-implicit-float", 
+          "##characteristics#compile#md5_sum#min": "55854897575e8f916619dd5f66cfee1f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00069014632742567
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fslp-vectorize-aggressive", 
+          "##compiler_flags#mno-implicit-float"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fslp-vectorize-aggressive": {
+            "##characteristics#compile#obj_size#min_imp": 1.0042253521127, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85946176993743, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00084994293269073
+          }, 
+          "##compiler_flags#mno-implicit-float": {
+            "##characteristics#compile#obj_size#min_imp": 0.95320855614973, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.99728152698125, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0046200811315328
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmerge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#fno-rtti": "-fno-rtti", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d720cae450ebd2c1", 
+    "touched": 70, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 200
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "1", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 37725, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+      "platform_uid": "d6bd40fe7496f776"
+    }, 
+    "iterations": 40, 
+    "last_touch_uid": "680fd24610b6e7b0", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3032, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.755478, 
+          "##characteristics#run#repeat#min": 37725
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0474934036939, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1417010082508
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math", 
+          "##characteristics#compile#md5_sum#min": "7eba62aa855d7e9e2007144b63dd6725", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0004799295009541
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 0.95465994962217, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.87601607478255, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00033449214771696
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#funroll-loops": "-funroll-loops", 
+          "##compiler_flags#mno-long-calls": "-mno-long-calls"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d6b43b2ad088c9e3", 
+    "touched": 2, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 200
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "1", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 331833, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+      "platform_uid": "d6bd40fe7496f776"
+    }, 
+    "iterations": 77, 
+    "last_touch_uid": "1f50c815c04e3aa7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2704, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.917175, 
+          "##characteristics#run#repeat#min": 331833
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99112426035503, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1091705888489
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "07b1eb7212fdd204bb9964eec60a56b1", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0063615434918645
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mstackrealign"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 1.0089552238806, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90144079831731, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0051069872954227
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-rtti": "-fno-rtti", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#fvectorize": "-fvectorize", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float", 
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "2dbbee681ead8dc4", 
+    "touched": 40, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }
+]

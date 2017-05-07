@@ -1,0 +1,175 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "75d1396487cbf79f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "2": 1094.4, 
+          "3": 1094.4
+        }, 
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "3": 1094.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "2": 1094.4, 
+          "3": 1094.4
+        }, 
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "3": 1094.4
+        }
+      ], 
+      "image_height": 667, 
+      "image_width": 480, 
+      "mispredictions": [
+        {
+          "correct_answer": "nightmare before Christmas hat", 
+          "mispredicted_image": "misprediction-image-d0c8474aa3d2400d.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/Pictures/Messenger/received_188008128339851.jpeg ----------\n0.2528 - \"n04209133 shower cap\"\n0.1839 - \"n03124170 cowboy hat, ten-gallon hat\"\n0.1712 - \"n04259630 sombrero\"\n0.1307 - \"n03814639 neck brace\"\n0.0420 - \"n02807133 bathing cap, swimming cap\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/emulated/0/Pictures/Messenger/received_188008128339851.jpeg ----------\n0.2528 - \"n04209133 shower cap\"\n0.1839 - \"n03124170 cowboy hat, ten-gallon hat\"\n0.1712 - \"n04259630 sombrero\"\n0.1307 - \"n03814639 neck brace\"\n0.0420 - \"n02807133 bathing cap, swimming cap\"\n", 
+      "time": [
+        7687, 
+        8183, 
+        7568, 
+        7902, 
+        7669, 
+        7344
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.226683, 
+          0.223295, 
+          0.240957, 
+          0.241777, 
+          0.236372, 
+          0.256026
+        ], 
+        "execution_time_kernel_0": [
+          0.226683, 
+          0.223295, 
+          0.240957, 
+          0.241777, 
+          0.236372, 
+          0.256026
+        ], 
+        "execution_time_kernel_1": [
+          0.043645, 
+          0.049068, 
+          0.045792, 
+          0.043708, 
+          0.046647, 
+          0.043944
+        ], 
+        "execution_time_kernel_2": [
+          7.270406, 
+          7.768983, 
+          7.140721, 
+          7.457427, 
+          7.249496, 
+          6.907792
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "a5b6eb4a6b6424b9", 
+      "cpu_freqs_after": [
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "2": 1094.4
+        }, 
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "2": 1094.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "2": 1094.4
+        }, 
+        {
+          "0": 1094.4, 
+          "1": 1094.4, 
+          "2": 1094.4
+        }
+      ], 
+      "image_height": 854, 
+      "image_width": 480, 
+      "prediction": "---------- Prediction for /storage/emulated/0/Pictures/Messenger/received_188008128339851.jpeg ----------\n0.4251 - \"n03124170 cowboy hat, ten-gallon hat\"\n0.1835 - \"n04259630 sombrero\"\n0.0630 - \"n04209133 shower cap\"\n0.0562 - \"n03255030 dumbbell\"\n0.0330 - \"n03942813 ping-pong ball\"\n", 
+      "time": [
+        15463, 
+        12303, 
+        9050, 
+        10363, 
+        9238, 
+        9330
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.351605, 
+          0.289801, 
+          0.255544, 
+          0.239174, 
+          0.242654, 
+          0.234291
+        ], 
+        "execution_time_kernel_0": [
+          0.351605, 
+          0.289801, 
+          0.255544, 
+          0.239174, 
+          0.242654, 
+          0.234291
+        ], 
+        "execution_time_kernel_1": [
+          0.078173, 
+          0.078163, 
+          0.067583, 
+          0.070565, 
+          0.068604, 
+          0.07502
+        ], 
+        "execution_time_kernel_2": [
+          14.755461, 
+          11.631815, 
+          8.510168, 
+          9.848945, 
+          8.778969, 
+          8.885583
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8909", 
+    "cpu_uid": "20657674ba29b92d", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 304", 
+    "gpu_uid": "8c922c304eb28756", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "ZTE Z828", 
+    "platform_uid": ""
+  }
+}

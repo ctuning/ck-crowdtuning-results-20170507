@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "58330ccd397b4982", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        4503, 
+        4436, 
+        4431
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.562178, 
+          3.554666, 
+          3.518241
+        ], 
+        "execution_time_kernel_0": [
+          3.562178, 
+          3.554666, 
+          3.518241
+        ], 
+        "execution_time_kernel_1": [
+          0.270461, 
+          0.259534, 
+          0.271518
+        ], 
+        "execution_time_kernel_2": [
+          0.510197, 
+          0.506261, 
+          0.507802
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "LEMOBILE LE X820", 
+    "platform_uid": ""
+  }
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "windows-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 1400
+      }, 
+      "cpu_name": "AMD E1-2500 APU with Radeon(TM) HD Graphics", 
+      "cpu_num_proc": 2, 
+      "cpu_uid": "9a7816f3088f6069", 
+      "gpu_misc_uid": "d553b444ddab9185", 
+      "gpu_name": "AMD Radeon HD 8200 / R3 Series", 
+      "kernel_repetitions": 20828993, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "Acer V1.06 (Aspire ES1-520)", 
+      "platform_uid": "5d6b9ed4468aaefd"
+    }, 
+    "iterations": 35, 
+    "last_touch_uid": "a843a7873a1786cc", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4329, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.946, 
+          "##characteristics#run#repeat#min": 20828993
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1607761607762, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.631905961377
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math -fslp-vectorize-aggressive -msoft-float", 
+          "##characteristics#compile#md5_sum#min": "c87eebbd964b1ce15962d8bb611deaae", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0028547439126785
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#msoft-float": "-msoft-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math", 
+          "##compiler_flags#fslp-vectorize-aggressive", 
+          "##compiler_flags#msoft-float"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 0.83474739683764, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.61388802649281, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.032909034461347
+          }, 
+          "##compiler_flags#fslp-vectorize-aggressive": {
+            "##characteristics#compile#obj_size#min_imp": 1.0116849731246, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96359223300971, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.014563106796116
+          }, 
+          "##compiler_flags#msoft-float": {
+            "##characteristics#compile#obj_size#min_imp": 0.96371326803206, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97558964209137, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010555830446973
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fassociative-math": "-fassociative-math", 
+          "##compiler_flags#fno-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#fvectorize": "-fvectorize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "24b951bc94d4cab9", 
+    "touched": 6, 
+    "user": "e12405aae2e6a2a4", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "windows-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 1400
+      }, 
+      "cpu_name": "AMD E1-2500 APU with Radeon(TM) HD Graphics", 
+      "cpu_num_proc": 2, 
+      "cpu_uid": "9a7816f3088f6069", 
+      "gpu_misc_uid": "d553b444ddab9185", 
+      "gpu_name": "AMD Radeon HD 8200 / R3 Series", 
+      "kernel_repetitions": 613873542, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "Acer V1.06 (Aspire ES1-520)", 
+      "platform_uid": "5d6b9ed4468aaefd"
+    }, 
+    "iterations": 36, 
+    "last_touch_uid": "5c0b4e9896456506", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2670, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.129, 
+          "##characteristics#run#repeat#min": 613873542
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1101123595506, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2196588538471
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops", 
+          "##characteristics#compile#md5_sum#min": "727ff1c9ced86383c0ffffbc56a99de6", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0094490121487301
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fno-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.90080971659919, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.82101956014999, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0092226613965744
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#mlong-calls": "-mlong-calls", 
+          "##compiler_flags#mno-global-merge": "-mno-global-merge", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "82250e92b4e55a3b", 
+    "touched": 8, 
+    "user": "e12405aae2e6a2a4", 
+    "validated": 1
+  }
+]

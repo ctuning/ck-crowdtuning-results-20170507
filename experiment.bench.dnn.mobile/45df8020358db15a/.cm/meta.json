@@ -1,0 +1,190 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4bbdfe1cf2c866d8", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        1359, 
+        1242, 
+        1150
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.063713, 
+          0.063457, 
+          0.094064
+        ], 
+        "execution_time_kernel_0": [
+          0.063713, 
+          0.063457, 
+          0.094064
+        ], 
+        "execution_time_kernel_1": [
+          0.460066, 
+          0.467313, 
+          0.451456
+        ], 
+        "execution_time_kernel_2": [
+          0.702985, 
+          0.5787, 
+          0.47241
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "c0cb384d8fb72b78", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1483554264257.jpg ----------\n0.4209 - \"n03529860 home theater, home theatre\"\n0.1763 - \"n03180011 desktop computer\"\n0.1365 - \"n03782006 monitor\"\n0.0788 - \"n04404412 television, television system\"\n0.0488 - \"n04152593 screen, CRT screen\"\n", 
+      "time": [
+        1522, 
+        1496, 
+        1297, 
+        1413, 
+        1421, 
+        1529, 
+        1561, 
+        1511, 
+        1882
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.058925, 
+          0.095351, 
+          0.06058, 
+          0.077416, 
+          0.095295, 
+          0.086125, 
+          0.066537, 
+          0.071876, 
+          0.084795
+        ], 
+        "execution_time_kernel_0": [
+          0.058925, 
+          0.095351, 
+          0.06058, 
+          0.077416, 
+          0.095295, 
+          0.086125, 
+          0.066537, 
+          0.071876, 
+          0.084795
+        ], 
+        "execution_time_kernel_1": [
+          0.5465, 
+          0.540158, 
+          0.523948, 
+          0.566884, 
+          0.541319, 
+          0.559967, 
+          0.548944, 
+          0.551756, 
+          0.559551
+        ], 
+        "execution_time_kernel_2": [
+          0.790831, 
+          0.695255, 
+          0.573795, 
+          0.617244, 
+          0.620988, 
+          0.729941, 
+          0.788305, 
+          0.746209, 
+          1.080402
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x41-8-0x1-0xd07-2", 
+    "cpu_uid": "c09438c4ac9cfda1", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 418", 
+    "gpu_uid": "04be7a8c8ccdb721", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "LGE VS990", 
+    "platform_uid": ""
+  }
+}

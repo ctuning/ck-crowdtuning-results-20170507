@@ -1,0 +1,136 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "c0be33283ba42749", 
+      "cpu_freqs_after": [
+        {
+          "0": 1958.4, 
+          "1": 1958.4, 
+          "2": 1958.4, 
+          "3": 1958.4
+        }, 
+        {
+          "0": 1958.4, 
+          "1": 1958.4, 
+          "2": 1958.4, 
+          "3": 1958.4
+        }, 
+        {
+          "0": 1958.4, 
+          "1": 1958.4, 
+          "2": 1958.4, 
+          "3": 1958.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1958.4, 
+          "1": 1958.4, 
+          "2": 1958.4, 
+          "3": 1958.4
+        }, 
+        {
+          "0": 1958.4, 
+          "1": 1958.4, 
+          "2": 1958.4, 
+          "3": 1958.4
+        }, 
+        {
+          "0": 1958.4, 
+          "1": 1958.4, 
+          "2": 1958.4, 
+          "3": 1958.4
+        }
+      ], 
+      "image_height": 320, 
+      "image_width": 240, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.0315 - \"n04399382 teddy, teddy bear\"", 
+          "mispredicted_image": "misprediction-image-f1eacdb615a75ef5.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1487040112978.jpg ----------\n0.5706 - \"n02443484 black-footed ferret, ferret, Mustela nigripes\"\n0.0755 - \"n02497673 Madagascar cat, ring-tailed lemur, Lemur catta\"\n0.0691 - \"n01817953 African grey, African gray, Psittacus erithacus\"\n0.0535 - \"n02443114 polecat, fitch, foulmart, foumart, Mustela putorius\"\n0.0315 - \"n04399382 teddy, teddy bear\"\n"
+        }, 
+        {
+          "correct_answer": "rideable toy car", 
+          "mispredicted_image": "misprediction-image-438cb4e7364ce747.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1487040320133.jpg ----------\n0.2362 - \"n06596364 comic book\"\n0.0855 - \"n01734418 king snake, kingsnake\"\n0.0645 - \"n03792782 mountain bike, all-terrain bike, off-roader\"\n0.0464 - \"n02749479 assault rifle, assault gun\"\n0.0356 - \"n03998194 prayer rug, prayer mat\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1487040112978.jpg ----------\n0.5706 - \"n02443484 black-footed ferret, ferret, Mustela nigripes\"\n0.0755 - \"n02497673 Madagascar cat, ring-tailed lemur, Lemur catta\"\n0.0691 - \"n01817953 African grey, African gray, Psittacus erithacus\"\n0.0535 - \"n02443114 polecat, fitch, foulmart, foumart, Mustela putorius\"\n0.0315 - \"n04399382 teddy, teddy bear\"\n", 
+      "time": [
+        4934, 
+        3746, 
+        3941, 
+        4775, 
+        4230, 
+        3649, 
+        4230, 
+        4252, 
+        4415
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.12889, 
+          0.13938, 
+          0.130139, 
+          0.137045, 
+          0.126373, 
+          0.133703, 
+          0.143129, 
+          0.149538, 
+          0.156661
+        ], 
+        "execution_time_kernel_0": [
+          0.12889, 
+          0.13938, 
+          0.130139, 
+          0.137045, 
+          0.126373, 
+          0.133703, 
+          0.143129, 
+          0.149538, 
+          0.156661
+        ], 
+        "execution_time_kernel_1": [
+          0.007467, 
+          0.006181, 
+          0.005906, 
+          0.007101, 
+          0.005793, 
+          0.005541, 
+          0.007128, 
+          0.007415, 
+          0.006886
+        ], 
+        "execution_time_kernel_2": [
+          4.684584, 
+          3.500141, 
+          3.710753, 
+          4.533067, 
+          4.000488, 
+          3.413545, 
+          3.98244, 
+          3.963117, 
+          4.154099
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm MSM8974PRO-AC", 
+    "cpu_uid": "1305ed04175b26fd", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 330", 
+    "gpu_uid": "7b42b07cd7764052", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "ONEPLUS A0001", 
+    "platform_uid": "e67af66f3002ab8c"
+  }
+}

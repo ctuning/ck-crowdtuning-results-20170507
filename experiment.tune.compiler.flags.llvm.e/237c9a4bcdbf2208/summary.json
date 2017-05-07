@@ -1,0 +1,83 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "mocha", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "", 
+      "gpu_name": "NVIDIA Corporation NVIDIA Tegra", 
+      "gpu_uid": "7ee42482b9ea5d8d", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.4", 
+      "os_uid": "4adf90e1e0efcce1", 
+      "platform_name": "XIAOMI MI PAD", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "09896c4db9842fa9", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3080, 
+          "##characteristics#run#execution_time_kernel_0#min": 4.9699997901917, 
+          "##characteristics#run#repeat#min": 6618133
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3061760060433765
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-diagnostics-fixit-info -ftemplate-backtrace-limit=287 -mcrc", 
+          "##characteristics#compile#md5_sum#min": "9c44395574c55e93883eb4cc23a4ff4f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-mcrc": "-mcrc", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-diagnostics-fixit-info": "-fno-diagnostics-fixit-info", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=287"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-mcrc", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-diagnostics-fixit-info", 
+          "##compiler_flags#ftemplate-backtrace-limit"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8949478a3b731d0e", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

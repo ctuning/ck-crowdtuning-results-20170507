@@ -1,0 +1,141 @@
+{
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-4.0.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "ffast-math": "-ffast-math"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 37725, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#ffast-math"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        0, 
+        0
+      ], 
+      "raw": [
+        "clang version 4.0.0 (tags/RELEASE_400/final)", 
+        "Target: armv7l-unknown-linux-gnueabihf", 
+        "Thread model: posix", 
+        "InstalledDir: /home/fursin/CK-TOOLS/llvm-4.0.0-linux-32/bin", 
+        ""
+      ], 
+      "str": "4.0.0"
+    }, 
+    "number_of_selected_compiler_flags": 2, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+        "current_freq": {
+          "0": 200.0
+        }, 
+        "max_freq": {
+          "0": 1400.0
+        }, 
+        "name": "ODROID-XU3", 
+        "num_proc": "1", 
+        "sub_name": "ARMv7 Processor rev 3 (v7l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "ODROID-XU3"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "12.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0100", 
+          "Serial": "0000000000000000", 
+          "ck_cpu_name": "ODROID-XU3", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 200.0, 
+          "max_freq": 1400.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "12.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0100", 
+          "Serial": "0000000000000000", 
+          "ck_cpu_name": "ODROID-XU3", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 200.0, 
+          "max_freq": 1400.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv7l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Ubuntu 16.04.2 LTS", 
+        "name_long": "Linux-3.10.105-135-armv7l-with-Ubuntu-16.04-xenial", 
+        "name_short": "Linux 3.10.105", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Hardkernel odroid-xu3 board based on EXYNOS5422\u0000", 
+        "name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+        "vendor": "Hardkernel"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "d6b43b2ad088c9e3", 
+    "statistical_repetitions": 2
+  }, 
+  "sub_points": 1
+}

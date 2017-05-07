@@ -1,0 +1,74 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "00d4bcb8d7bb2cf7", 
+      "cpu_freqs_after": [
+        {
+          "2": 1516.8, 
+          "3": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1516.8, 
+          "1": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        14788, 
+        14377, 
+        13502
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          9.907353, 
+          10.380898, 
+          9.501363
+        ], 
+        "execution_time_kernel_0": [
+          9.907353, 
+          10.380898, 
+          9.501363
+        ], 
+        "execution_time_kernel_1": [
+          1.399918, 
+          1.028245, 
+          1.082988
+        ], 
+        "execution_time_kernel_2": [
+          3.173622, 
+          2.785267, 
+          2.697401
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8952", 
+    "cpu_uid": "1f1cb8b93485c984", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 405", 
+    "gpu_uid": "c5bebc57566d5cd2", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "HTC MSM8952 FOR ARM64", 
+    "platform_uid": ""
+  }
+}

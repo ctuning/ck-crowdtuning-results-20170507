@@ -1,0 +1,105 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "21c004f5194309a4", 
+      "cpu_freqs_after": [
+        {
+          "0": 1401, 
+          "1": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }, 
+        {
+          "0": 1401, 
+          "3": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1401, 
+          "1": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }, 
+        {
+          "0": 1401, 
+          "3": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        14333, 
+        14935, 
+        14035, 
+        10570, 
+        10441, 
+        10751
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          9.75768, 
+          11.180836, 
+          10.651192, 
+          8.048669, 
+          7.966177, 
+          8.374339
+        ], 
+        "execution_time_kernel_0": [
+          9.75768, 
+          11.180836, 
+          10.651192, 
+          8.048669, 
+          7.966177, 
+          8.374339
+        ], 
+        "execution_time_kernel_1": [
+          1.072931, 
+          0.548118, 
+          0.951911, 
+          0.940574, 
+          0.954643, 
+          0.876462
+        ], 
+        "execution_time_kernel_2": [
+          2.936159, 
+          1.709469, 
+          2.023727, 
+          1.297741, 
+          1.261414, 
+          1.285571
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8937", 
+    "cpu_uid": "e874b4472681058b", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 505", 
+    "gpu_uid": "c347940bf9e5dc00", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "ASUS MSM8937 FOR ARM64", 
+    "platform_uid": ""
+  }
+}

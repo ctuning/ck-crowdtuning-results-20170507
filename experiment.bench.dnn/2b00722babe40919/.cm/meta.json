@@ -1,0 +1,145 @@
+{
+  "characteristics": {
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe-time", 
+    "dataset_file": "", 
+    "device_id": "9886674d3359493432", 
+    "energy": "no", 
+    "env": {
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "1", 
+      "CK_CAFFE_MODEL": "D:\\Work1\\CK\\ck-repos\\ck-caffe\\program\\caffe-time\\tmp\\tmp-hirv1on9.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-hirv1on9.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "jacintonet11_bn_iter_320000.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "D:\\!FGG\\Installations\\caffemodel-tidsp-jacintonet11-non-sparse\\jacintonet11_bn_iter_320000.caffemodel", 
+      "CK_GPU_FREQUENCY": "max", 
+      "XCT_REPEAT_MAIN": "1"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "yes", 
+    "no_state_check": "yes", 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "android21-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "file_model_topology": "tmp-hirv1on9.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "dnn_type": "cpu", 
+    "choices": {
+      "env": {}
+    }, 
+    "cmd_key": "default", 
+    "cpu_name": "ARM Cortex-A53 ; Samsung Exynos M1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "dnn_engine_name": "BVLC Caffe framework (cpu)", 
+    "dnn_engine_package_uoa": "b39f40abfd34f10b", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "nn_type": "tidsp, jacintonet11, non-sparse", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7", 
+    "user": "Samsung S7", 
+    "xdeps": {
+      "boost": {
+        "data_name": "Boost library", 
+        "name": "Boost C   libraries", 
+        "package_uoa": "44094af948731a1c", 
+        "ver": "1.62.0"
+      }, 
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (tidsp, jacintonet11, non-sparse)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "90896a4ec3be86d7", 
+        "ver": "trunk"
+      }, 
+      "compiler": {
+        "data_name": "Android NDK GCC compiler", 
+        "name": "C   compiler", 
+        "package_uoa": "", 
+        "ver": "4.9.x"
+      }, 
+      "lib-blas": {
+        "data_name": "OpenBLAS library", 
+        "name": "BLAS library", 
+        "package_uoa": "3becaf2cd0422880", 
+        "ver": "0.2.19-85636ff"
+      }, 
+      "lib-boost": {
+        "data_name": "Boost library", 
+        "name": "Boost library", 
+        "package_uoa": "44094af948731a1c", 
+        "ver": "1.62.0"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (cpu)", 
+        "name": "Caffe library", 
+        "package_uoa": "b39f40abfd34f10b", 
+        "ver": "trunk-c61d487"
+      }, 
+      "lib-gflags": {
+        "data_name": "GFlags library", 
+        "name": "GFlags library", 
+        "package_uoa": "160d8d49aa9f0225", 
+        "ver": "2.2.0"
+      }, 
+      "lib-glog": {
+        "data_name": "GLog library", 
+        "name": "GLog library", 
+        "package_uoa": "6f3b024855a80beb", 
+        "ver": "development-da816ea"
+      }, 
+      "lib-opencv": {
+        "data_name": "OpenCV library", 
+        "name": "OpenCV library", 
+        "package_uoa": "b5073a464ad381b6", 
+        "ver": "3.2.0"
+      }, 
+      "lib-protobuf": {
+        "data_name": "ProtoBuf library", 
+        "name": "ProtoBuf library", 
+        "package_uoa": "4fbad3749d3a42da", 
+        "ver": "3.1.0"
+      }, 
+      "lib-protobuf-host": {
+        "data_name": "", 
+        "name": "ProtoBuf HOST library", 
+        "package_uoa": "", 
+        "ver": ""
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.7.2", 
+      "compiler": "4.9.x", 
+      "lib-blas": "0.2.19-85636ff", 
+      "lib-boost": "1.62.0", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-da816ea", 
+      "lib-hdf5": "", 
+      "lib-lmdb": "", 
+      "lib-opencv": "3.2.0", 
+      "lib-protobuf": "3.1.0", 
+      "lib-protobuf-host": "3.1.0"
+    }
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - failed to find the 'Total Time' string in Caffe output"
+  }, 
+  "user": "Samsung S7"
+}

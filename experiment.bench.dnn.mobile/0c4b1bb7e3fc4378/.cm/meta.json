@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "509fd6668c6a1fe8", 
+      "cpu_freqs_after": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.2390 - \"laptop (228)\"\n0.1189 - \"printer (556)\"\n0.0839 - \"modem (764)\"\n0.0461 - \"notebook (552)\"\n0.0349 - \"projector (534)\"\n", 
+      "time": [
+        5309, 
+        5392, 
+        5370
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          2.860964, 
+          2.881083, 
+          2.9156
+        ], 
+        "execution_time_kernel_0": [
+          2.860964, 
+          2.881083, 
+          2.9156
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.260167, 
+          2.333434, 
+          2.279522
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8994", 
+    "cpu_uid": "95a13ab847eb8fda", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 430", 
+    "gpu_uid": "7ed6d5d0174571b2", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 7.1.2", 
+    "os_uid": "1819afe0824167af", 
+    "plat_name": "HUAWEI NEXUS 6P", 
+    "platform_uid": "22fd854818484a5f"
+  }
+}

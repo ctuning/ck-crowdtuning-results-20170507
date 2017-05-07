@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "a78a12922fbcf7a7", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 1200, 
+      "image_width": 1600, 
+      "prediction": "0.4674 - \"screen (510)\"\n0.2185 - \"monitor (869)\"\n0.1179 - \"television (944)\"\n0.0407 - \"desktop computer (550)\"\n0.0155 - \"notebook (552)\"\n", 
+      "time": [
+        4014, 
+        3771, 
+        3822, 
+        4644, 
+        4165, 
+        3779
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.181852, 
+          1.068835, 
+          1.066062, 
+          1.095147, 
+          1.349628, 
+          1.131601
+        ], 
+        "execution_time_kernel_0": [
+          1.181852, 
+          1.068835, 
+          1.066062, 
+          1.095147, 
+          1.349628, 
+          1.131601
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.549085, 
+          2.477511, 
+          2.484889, 
+          3.314833, 
+          2.450193, 
+          2.453422
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT8163", 
+    "cpu_uid": "4ff6a09d0ea92ac1", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "ARCHOS 101E NEON", 
+    "platform_uid": "07e14fb18c2382d8"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "7547f794def13c75", 
+      "cpu_freqs_after": [
+        {
+          "0": 1512, 
+          "1": 1512, 
+          "2": 1512, 
+          "3": 1512
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1512, 
+          "1": 1512, 
+          "2": 1512, 
+          "3": 1512
+        }
+      ], 
+      "image_height": 1944, 
+      "image_width": 2592, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1483352561558.jpg ----------\n0.3479 - \"n02123159 tiger cat\"\n0.2608 - \"n02123045 tabby, tabby cat\"\n0.0776 - \"n02127052 lynx, catamount\"\n0.0668 - \"n02124075 Egyptian cat\"\n0.0343 - \"n04040759 radiator\"\n", 
+      "time": [
+        5074, 
+        5058, 
+        5072
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.195618, 
+          0.200592, 
+          0.207184
+        ], 
+        "execution_time_kernel_0": [
+          0.195618, 
+          0.200592, 
+          0.207184
+        ], 
+        "execution_time_kernel_1": [
+          0.417328, 
+          0.400635, 
+          0.400849
+        ], 
+        "execution_time_kernel_2": [
+          4.280487, 
+          4.28949, 
+          4.300628
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "QCT APQ8064 FLO", 
+    "cpu_uid": "9c1421ca1fd2c77a", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 320", 
+    "gpu_uid": "2d0bb02c4824949f", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "ASUS NEXUS 7", 
+    "platform_uid": "148a1be1dfacc489"
+  }
+}

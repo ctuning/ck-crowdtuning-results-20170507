@@ -1,0 +1,47 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4adc71f4dc291efb", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "", 
+      "time": [
+        7546, 
+        7578, 
+        7510
+      ], 
+      "user": "", 
+      "xopenme": {}
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "SAMSUNG JF", 
+    "cpu_uid": "45d2a18eedf4b9d5", 
+    "crowd_uid": "9dc1e8944f728b1a", 
+    "engine": "Caffe OpenCL", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 320", 
+    "gpu_uid": "2d0bb02c4824949f", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG GT-I9505", 
+    "platform_uid": "1a6c0b890473bb64"
+  }
+}

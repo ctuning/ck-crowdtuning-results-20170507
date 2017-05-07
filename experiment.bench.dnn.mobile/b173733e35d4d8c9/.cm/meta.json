@@ -1,0 +1,143 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "a85d9c4386b87b7b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /storage/emulated/0/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        10000, 
+        10322, 
+        10143
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          3.145551, 
+          3.430391, 
+          3.277261
+        ], 
+        "execution_time_kernel_0": [
+          3.145551, 
+          3.430391, 
+          3.277261
+        ], 
+        "execution_time_kernel_1": [
+          0.921747, 
+          0.932034, 
+          0.932358
+        ], 
+        "execution_time_kernel_2": [
+          5.695537, 
+          5.737026, 
+          5.762373
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "2dc83092abdc720b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 2448, 
+      "image_width": 3264, 
+      "mispredictions": [
+        {
+          "correct_answer": "Christmas tree", 
+          "mispredicted_image": "misprediction-image-465448b4c0d93bef.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482264764041.jpg ----------\n0.2570 - \"n03134739 croquet ball\"\n0.1286 - \"n03445777 golf ball\"\n0.0527 - \"n07714990 broccoli\"\n0.0492 - \"n12768682 buckeye, horse chestnut, conker\"\n0.0295 - \"n11939491 daisy\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482264764041.jpg ----------\n0.2570 - \"n03134739 croquet ball\"\n0.1286 - \"n03445777 golf ball\"\n0.0527 - \"n07714990 broccoli\"\n0.0492 - \"n12768682 buckeye, horse chestnut, conker\"\n0.0295 - \"n11939491 daisy\"\n", 
+      "time": [
+        9891, 
+        10277, 
+        9971
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          3.278286, 
+          3.364198, 
+          3.140272
+        ], 
+        "execution_time_kernel_0": [
+          3.278286, 
+          3.364198, 
+          3.140272
+        ], 
+        "execution_time_kernel_1": [
+          0.566436, 
+          0.56573, 
+          0.569556
+        ], 
+        "execution_time_kernel_2": [
+          5.791151, 
+          6.161733, 
+          6.063624
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "0x41-8-0x0-0xd03-4", 
+    "cpu_uid": "143de98987a30459", 
+    "crowd_uid": "177a48e4305ab28a", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T830", 
+    "gpu_uid": "cd4f4a81a14cb70f", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-T580", 
+    "platform_uid": "430599e08ace483c"
+  }
+}

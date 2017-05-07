@@ -1,0 +1,181 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "8fb34414f428e220", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        6186, 
+        5019, 
+        5751, 
+        5514, 
+        5393, 
+        4973, 
+        5564, 
+        5010, 
+        5371
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.987275, 
+          3.900361, 
+          4.399681, 
+          4.426216, 
+          4.330339, 
+          4.020235, 
+          4.220455, 
+          3.911185, 
+          4.198992
+        ], 
+        "execution_time_kernel_0": [
+          4.987275, 
+          3.900361, 
+          4.399681, 
+          4.426216, 
+          4.330339, 
+          4.020235, 
+          4.220455, 
+          3.911185, 
+          4.198992
+        ], 
+        "execution_time_kernel_1": [
+          0.288555, 
+          0.278028, 
+          0.289496, 
+          0.266246, 
+          0.256817, 
+          0.259234, 
+          0.253745, 
+          0.24834, 
+          0.255533
+        ], 
+        "execution_time_kernel_2": [
+          0.532343, 
+          0.7192, 
+          0.845535, 
+          0.686594, 
+          0.676669, 
+          0.440497, 
+          0.848325, 
+          0.519779, 
+          0.728598
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "e8eae45bb92879d0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3036, 
+      "image_width": 4048, 
+      "mispredictions": [
+        {
+          "correct_answer": "mouse", 
+          "mispredicted_image": "misprediction-image-32a3e0fd59e921da.jpg", 
+          "misprediction_results": "0.1465 - \"n03908714 pencil sharpener\"\n0.1139 - \"n03584254 iPod\"\n0.0964 - \"n04536866 violin, fiddle\"\n0.0802 - \"n04086273 revolver, six-gun, six-shooter\"\n0.0708 - \"n03793489 mouse, computer mouse\"\n"
+        }
+      ], 
+      "prediction": "0.1465 - \"n03908714 pencil sharpener\"\n0.1139 - \"n03584254 iPod\"\n0.0964 - \"n04536866 violin, fiddle\"\n0.0802 - \"n04086273 revolver, six-gun, six-shooter\"\n0.0708 - \"n03793489 mouse, computer mouse\"\n", 
+      "time": [
+        4886, 
+        5433, 
+        5426
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.791937, 
+          4.363321, 
+          4.325357
+        ], 
+        "execution_time_kernel_0": [
+          3.791937, 
+          4.363321, 
+          4.325357
+        ], 
+        "execution_time_kernel_1": [
+          0.211856, 
+          0.219751, 
+          0.216472
+        ], 
+        "execution_time_kernel_2": [
+          0.580671, 
+          0.560816, 
+          0.544892
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996pro", 
+    "cpu_uid": "463912cc4548cfa5", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.1.2", 
+    "os_uid": "1819afe0824167af", 
+    "plat_name": "GOOGLE PIXEL XL", 
+    "platform_uid": "45c88de5943b3db8"
+  }
+}

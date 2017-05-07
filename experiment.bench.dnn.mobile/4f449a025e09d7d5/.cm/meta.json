@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "e5074477839ac655", 
+      "cpu_freqs_after": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        2172, 
+        2273, 
+        2147, 
+        2086, 
+        2002, 
+        2220
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.170779, 
+          0.174481, 
+          0.176026, 
+          0.177985, 
+          0.162372, 
+          0.16323
+        ], 
+        "execution_time_kernel_0": [
+          0.170779, 
+          0.174481, 
+          0.176026, 
+          0.177985, 
+          0.162372, 
+          0.16323
+        ], 
+        "execution_time_kernel_1": [
+          1.071826, 
+          1.10687, 
+          1.080149, 
+          1.05713, 
+          1.064069, 
+          1.075426
+        ], 
+        "execution_time_kernel_2": [
+          0.752867, 
+          0.833198, 
+          0.752325, 
+          0.691482, 
+          0.629802, 
+          0.846808
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc APQ8016", 
+    "cpu_uid": "", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 306", 
+    "gpu_uid": "4e79a7ee92836d24", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "UNKNOWN MSM8916 FOR ARM64", 
+    "platform_uid": ""
+  }
+}

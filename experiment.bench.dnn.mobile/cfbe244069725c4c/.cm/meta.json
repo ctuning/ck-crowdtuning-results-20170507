@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "083ca4ec5feb357b", 
+      "cpu_freqs_after": [
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }, 
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }, 
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }
+      ], 
+      "image_height": 176, 
+      "image_width": 144, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482860281373.jpg ----------\n0.5990 - \"n03485407 hand-held computer, hand-held microcomputer\"\n0.1607 - \"n04149813 scoreboard\"\n0.1122 - \"n03777754 modem\"\n0.0340 - \"n03196217 digital clock\"\n0.0226 - \"n03197337 digital watch\"\n", 
+      "time": [
+        672, 
+        519, 
+        490, 
+        1130, 
+        699, 
+        597
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.046567, 
+          0.048203, 
+          0.04506, 
+          0.044245, 
+          0.045754, 
+          0.041491
+        ], 
+        "execution_time_kernel_0": [
+          0.046567, 
+          0.048203, 
+          0.04506, 
+          0.044245, 
+          0.045754, 
+          0.041491
+        ], 
+        "execution_time_kernel_1": [
+          0.002192, 
+          0.001316, 
+          0.001473, 
+          0.00131, 
+          0.001325, 
+          0.001487
+        ], 
+        "execution_time_kernel_2": [
+          0.538615, 
+          0.386437, 
+          0.357235, 
+          0.999596, 
+          0.572612, 
+          0.471601
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996pro", 
+    "cpu_uid": "", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "XIAOMI MIX", 
+    "platform_uid": ""
+  }
+}

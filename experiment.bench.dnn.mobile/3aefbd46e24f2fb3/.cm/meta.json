@@ -1,0 +1,354 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "a8c87cc9220feede", 
+      "cpu_freqs_after": [
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        840, 
+        936, 
+        775, 
+        1543, 
+        1485, 
+        1467
+      ], 
+      "user": "Vasilisa.sheromova@gmail.com \n", 
+      "xopenme": {
+        "execution_time": [
+          0.059861, 
+          0.061356, 
+          0.061858, 
+          0.060467, 
+          0.059146, 
+          0.060686
+        ], 
+        "execution_time_kernel_0": [
+          0.059861, 
+          0.061356, 
+          0.061858, 
+          0.060467, 
+          0.059146, 
+          0.060686
+        ], 
+        "execution_time_kernel_1": [
+          0.332068, 
+          0.320128, 
+          0.334598, 
+          0.347371, 
+          0.332952, 
+          0.331443
+        ], 
+        "execution_time_kernel_2": [
+          0.293711, 
+          0.303678, 
+          0.244882, 
+          0.982273, 
+          0.943908, 
+          0.929738
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "8f3b92edf74bf7b0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1363.2, 
+          "1": 1363.2, 
+          "2": 1804.8, 
+          "3": 1804.8
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 176, 
+      "image_width": 144, 
+      "mispredictions": [
+        {
+          "correct_answer": "Battery ", 
+          "mispredicted_image": "misprediction-image-07b44f44448c54f3.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482209020191.jpg ----------\n0.1665 - \"n03095699 container ship, containership, container vessel\"\n0.1562 - \"n02783161 ballpoint, ballpoint pen, ballpen, Biro\"\n0.0759 - \"n04376876 syringe\"\n0.0434 - \"n02690373 airliner\"\n0.0418 - \"n03777754 modem\"\n"
+        }, 
+        {
+          "correct_answer": "Headphones ", 
+          "mispredicted_image": "misprediction-image-4e0ebd245aea8a66.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482216028179.jpg ----------\n0.2605 - \"n03793489 mouse, computer mouse\"\n0.1515 - \"n04317175 stethoscope\"\n0.0699 - \"n03584829 iron, smoothing iron\"\n0.0415 - \"n03065424 coil, spiral, volute, whorl, helix\"\n0.0413 - \"n03868863 oxygen mask\"\n"
+        }, 
+        {
+          "correct_answer": "cd", 
+          "mispredicted_image": "misprediction-image-cc66cb05143cd8ea.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482763704561.jpg ----------\n0.1077 - \"n03920288 Petri dish\"\n0.0992 - \"n04447861 toilet seat\"\n0.0781 - \"n02815834 beaker\"\n0.0736 - \"n04254120 soap dispenser\"\n0.0440 - \"n03992509 potter's wheel\"\n"
+        }, 
+        {
+          "correct_answer": "ceiling fan", 
+          "mispredicted_image": "misprediction-image-94344917bb92f684.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482768956728.jpg ----------\n0.0838 - \"n01632777 axolotl, mud puppy, Ambystoma mexicanum\"\n0.0489 - \"n03920288 Petri dish\"\n0.0271 - \"n04447861 toilet seat\"\n0.0258 - \"n01630670 common newt, Triturus vulgaris\"\n0.0258 - \"n03970156 plunger, plumber's helper\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482209020191.jpg ----------\n0.1665 - \"n03095699 container ship, containership, container vessel\"\n0.1562 - \"n02783161 ballpoint, ballpoint pen, ballpen, Biro\"\n0.0759 - \"n04376876 syringe\"\n0.0434 - \"n02690373 airliner\"\n0.0418 - \"n03777754 modem\"\n", 
+      "time": [
+        944, 
+        682, 
+        597, 
+        1213, 
+        832, 
+        649, 
+        472, 
+        415, 
+        415, 
+        467, 
+        480, 
+        489, 
+        607, 
+        480, 
+        517, 
+        965, 
+        549, 
+        528
+      ], 
+      "user": "Vasilisa.sheromova@gmail.com \n", 
+      "xopenme": {
+        "execution_time": [
+          0.059167, 
+          0.062641, 
+          0.056072, 
+          0.057697, 
+          0.069444, 
+          0.057237, 
+          0.063289, 
+          0.060571, 
+          0.057038, 
+          0.05361, 
+          0.046598, 
+          0.053453, 
+          0.04734, 
+          0.045894, 
+          0.050634, 
+          0.050311, 
+          0.046412, 
+          0.047492
+        ], 
+        "execution_time_kernel_0": [
+          0.059167, 
+          0.062641, 
+          0.056072, 
+          0.057697, 
+          0.069444, 
+          0.057237, 
+          0.063289, 
+          0.060571, 
+          0.057038, 
+          0.05361, 
+          0.046598, 
+          0.053453, 
+          0.04734, 
+          0.045894, 
+          0.050634, 
+          0.050311, 
+          0.046412, 
+          0.047492
+        ], 
+        "execution_time_kernel_1": [
+          0.001577, 
+          0.001424, 
+          0.001072, 
+          0.001672, 
+          0.002378, 
+          0.001764, 
+          0.001329, 
+          0.002123, 
+          0.00144, 
+          0.001055, 
+          0.001426, 
+          0.001178, 
+          0.001254, 
+          0.001256, 
+          0.001219, 
+          0.001634, 
+          0.001147, 
+          0.001132
+        ], 
+        "execution_time_kernel_2": [
+          0.757161, 
+          0.483481, 
+          0.42655, 
+          0.999803, 
+          0.623911, 
+          0.47374, 
+          0.300907, 
+          0.246636, 
+          0.241839, 
+          0.328899, 
+          0.34402, 
+          0.346117, 
+          0.462618, 
+          0.345107, 
+          0.35185, 
+          0.820156, 
+          0.407364, 
+          0.384115
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "128c90c457f479b8", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3456, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /storage/emulated/0/DCIM/Camera/IMG_20161224_223003.jpg ----------\n0.0874 - \"n07613480 trifle\"\n0.0666 - \"n04522168 vase\"\n0.0662 - \"n02948072 candle, taper, wax light\"\n0.0627 - \"n04476259 tray\"\n0.0584 - \"n02877765 bottlecap\"\n", 
+      "time": [
+        1269, 
+        700, 
+        708
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.047616, 
+          0.048429, 
+          0.045765
+        ], 
+        "execution_time_kernel_0": [
+          0.047616, 
+          0.048429, 
+          0.045765
+        ], 
+        "execution_time_kernel_1": [
+          0.25569, 
+          0.262096, 
+          0.267857
+        ], 
+        "execution_time_kernel_2": [
+          0.838068, 
+          0.276195, 
+          0.279151
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "XIAOMI MI 5", 
+    "platform_uid": "1ae20e19f5448ae8"
+  }
+}

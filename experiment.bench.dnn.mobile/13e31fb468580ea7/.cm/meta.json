@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "abdae39b77b8b45c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9999 - \"n03793489 mouse, computer mouse\"\n0.0000 - \"n03637318 lampshade, lamp shade\"\n0.0000 - \"n04517823 vacuum, vacuum cleaner\"\n0.0000 - \"n04286575 spotlight, spot\"\n0.0000 - \"n03602883 joystick\"\n", 
+      "time": [
+        5755, 
+        6025, 
+        5658, 
+        5558, 
+        5518, 
+        5615
+      ], 
+      "user": "anton@dragonboard410", 
+      "xopenme": {
+        "execution_time": [
+          2.910427, 
+          2.846657, 
+          2.798463, 
+          2.841533, 
+          2.758404, 
+          2.794149
+        ], 
+        "execution_time_kernel_0": [
+          2.910427, 
+          2.846657, 
+          2.798463, 
+          2.841533, 
+          2.758404, 
+          2.794149
+        ], 
+        "execution_time_kernel_1": [
+          1.075448, 
+          1.120643, 
+          1.052746, 
+          1.082037, 
+          1.080099, 
+          1.063133
+        ], 
+        "execution_time_kernel_2": [
+          1.615415, 
+          1.90493, 
+          1.649444, 
+          1.480672, 
+          1.560369, 
+          1.634831
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc APQ8016", 
+    "cpu_uid": "bbe98b4cd1b48ce6", 
+    "crowd_uid": "947b0f4e546c6ae5", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 306", 
+    "gpu_uid": "4e79a7ee92836d24", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "UNKNOWN MSM8916 FOR ARM64", 
+    "platform_uid": "c744a0b02407016f"
+  }
+}

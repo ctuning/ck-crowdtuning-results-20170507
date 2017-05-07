@@ -1,0 +1,122 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 2901, 
+        "1": 2901, 
+        "2": 2901, 
+        "3": 2901, 
+        "4": 2901, 
+        "5": 2901, 
+        "6": 2901, 
+        "7": 2901
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i7-4910MQ CPU @ 2.90GHz", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "344b940b5170087e", 
+      "gpu_misc_uid": "b694c039bf0baea8", 
+      "gpu_name": "VMware SVGA II Adapter", 
+      "kernel_repetitions": 1014046573, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "VMware, Inc. None (VMware Virtual Platform)", 
+      "platform_uid": "460b379ad5e04682"
+    }, 
+    "iterations": 33, 
+    "last_touch_uid": "6a90173a50b7d75e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5360, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.000483, 
+          "##characteristics#run#repeat#min": 1014046573
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.84626865671642, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2493849773093
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-reorder-blocks-and-partition -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "e476e2d10dc0147036a88c33777289d8", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0052020174095266
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-fno-reorder-blocks-and-partition", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-reorder-blocks-and-partition", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-reorder-blocks-and-partition": {
+            "##characteristics#compile#obj_size#min_imp": 0.96264367816092, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0017540619574, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0055790203658003
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2384473197782, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.79941938731314, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.014253785333187
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-ipa-icf": "-fipa-icf", 
+          "##compiler_flags#bool-ipa-pure-const": "-fipa-pure-const", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fno-ira-hoist-pressure", 
+          "##compiler_flags#bool-predictive-commoning": "-fpredictive-commoning", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fno-prefetch-loop-arrays", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-schedule-fusion": "-fschedule-fusion", 
+          "##compiler_flags#bool-section-anchors": "-fno-section-anchors", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d01dc0796d84f68a", 
+    "touched": 5, 
+    "user": "83fe61e8410fa9dd", 
+    "validated": 1
+  }
+]

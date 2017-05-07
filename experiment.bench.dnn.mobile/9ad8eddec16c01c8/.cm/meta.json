@@ -1,0 +1,112 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "6bbd31310b8a4333", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "image_height": 4032, 
+      "image_width": 3024, 
+      "mispredictions": [
+        {
+          "correct_answer": "cordless telephone", 
+          "mispredicted_image": "misprediction-image-d64f9cb455851dd4.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488087863419.jpg ----------\n0.9199 - \"n04074963 remote control, remote\"\n0.0727 - \"n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone\"\n0.0031 - \"n03075370 combination lock\"\n0.0015 - \"n03485407 hand-held computer, hand-held microcomputer\"\n0.0010 - \"n02666196 abacus\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488087863419.jpg ----------\n0.9199 - \"n04074963 remote control, remote\"\n0.0727 - \"n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone\"\n0.0031 - \"n03075370 combination lock\"\n0.0015 - \"n03485407 hand-held computer, hand-held microcomputer\"\n0.0010 - \"n02666196 abacus\"\n", 
+      "time": [
+        3710, 
+        3339, 
+        4212, 
+        5054, 
+        4811, 
+        4663
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.008001, 
+          1.042171, 
+          0.993904, 
+          1.157231, 
+          1.262731, 
+          1.211542
+        ], 
+        "execution_time_kernel_0": [
+          1.008001, 
+          1.042171, 
+          0.993904, 
+          1.157231, 
+          1.262731, 
+          1.211542
+        ], 
+        "execution_time_kernel_1": [
+          0.78181, 
+          0.799853, 
+          0.784975, 
+          0.978615, 
+          0.953675, 
+          0.968258
+        ], 
+        "execution_time_kernel_2": [
+          1.76344, 
+          1.354461, 
+          2.31346, 
+          2.69334, 
+          2.380765, 
+          2.287218
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8992", 
+    "cpu_uid": "3459f0bbd4b47b1b", 
+    "crowd_uid": "2da50a2bbc874425", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 418", 
+    "gpu_uid": "04be7a8c8ccdb721", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 7.1.1", 
+    "os_uid": "4b528e7b666e5bcc", 
+    "plat_name": "LGE NEXUS 5X", 
+    "platform_uid": "50854d47868efc68"
+  }
+}

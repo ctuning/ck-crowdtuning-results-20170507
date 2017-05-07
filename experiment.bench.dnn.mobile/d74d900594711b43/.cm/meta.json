@@ -1,0 +1,77 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "58b851d521405f1b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "image_height": 5344, 
+      "image_width": 3006, 
+      "mispredictions": [
+        {
+          "correct_answer": "steering wheel", 
+          "mispredicted_image": "misprediction-image-e68b14de29c764eb.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488672393213.jpg ----------\n0.2612 - \"n02988304 CD player\"\n0.1920 - \"n02974003 car wheel\"\n0.0751 - \"n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system\"\n0.0631 - \"n02979186 cassette player\"\n0.0424 - \"n03793489 mouse, computer mouse\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488672393213.jpg ----------\n0.2612 - \"n02988304 CD player\"\n0.1920 - \"n02974003 car wheel\"\n0.0751 - \"n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system\"\n0.0631 - \"n02979186 cassette player\"\n0.0424 - \"n03793489 mouse, computer mouse\"\n", 
+      "time": [
+        1106, 
+        1590, 
+        1100
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.09616, 
+          0.115243, 
+          0.142568
+        ], 
+        "execution_time_kernel_0": [
+          0.09616, 
+          0.115243, 
+          0.142568
+        ], 
+        "execution_time_kernel_1": [
+          0.388206, 
+          0.391903, 
+          0.394686
+        ], 
+        "execution_time_kernel_2": [
+          0.565848, 
+          1.02057, 
+          0.5081
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8994", 
+    "cpu_uid": "95a13ab847eb8fda", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 430", 
+    "gpu_uid": "7ed6d5d0174571b2", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "MOTOROLA XT1585", 
+    "platform_uid": "d4b8fda4dc26a302"
+  }
+}

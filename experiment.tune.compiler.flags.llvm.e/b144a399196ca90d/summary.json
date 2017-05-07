@@ -1,0 +1,94 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6582", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "ec41549029ef6e2f", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "TCL A463BG", 
+      "platform_uid": "3618d9a4bc393182"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "7a3c55b6542cd975", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3168, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9040002822876, 
+          "##characteristics#run#repeat#min": 29446408
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1804529054840527
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-assume-sane-operator-new -fno-constant-cfstrings -fno-unroll-loops -fwrapv -msoft-float -mno-long-calls -mno-implicit-float", 
+          "##characteristics#compile#md5_sum#min": "dd55e6ea19f880a3eb12c424ace83cdc", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+          "##compiler_flags#fno-constant-cfstrings": "-fno-constant-cfstrings", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#fwrapv": "-fwrapv", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float", 
+          "##compiler_flags#mno-long-calls": "-mno-long-calls", 
+          "##compiler_flags#msoft-float": "-msoft-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-assume-sane-operator-new", 
+          "##compiler_flags#fno-constant-cfstrings", 
+          "##compiler_flags#fno-unroll-loops", 
+          "##compiler_flags#fwrapv", 
+          "##compiler_flags#mno-implicit-float", 
+          "##compiler_flags#mno-long-calls", 
+          "##compiler_flags#msoft-float"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "ce4488be8fdcce46", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

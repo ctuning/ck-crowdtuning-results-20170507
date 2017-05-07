@@ -1,0 +1,104 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "513467481085536c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 176, 
+      "image_width": 144, 
+      "mispredictions": [
+        {
+          "correct_answer": "foot", 
+          "mispredicted_image": "misprediction-image-a8f6727e0ffe19b0.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482782192809.jpg ----------\n0.0647 - \"n02441942 weasel\"\n0.0403 - \"n02777292 balance beam, beam\"\n0.0303 - \"n02808304 bath towel\"\n0.0255 - \"n04209239 shower curtain\"\n0.0241 - \"n04590129 window shade\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482782192809.jpg ----------\n0.0647 - \"n02441942 weasel\"\n0.0403 - \"n02777292 balance beam, beam\"\n0.0303 - \"n02808304 bath towel\"\n0.0255 - \"n04209239 shower curtain\"\n0.0241 - \"n04590129 window shade\"\n", 
+      "time": [
+        1205, 
+        1215, 
+        1145, 
+        1130, 
+        1162, 
+        1153
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.402152, 
+          0.380206, 
+          0.382254, 
+          0.387799, 
+          0.392124, 
+          0.395461
+        ], 
+        "execution_time_kernel_0": [
+          0.402152, 
+          0.380206, 
+          0.382254, 
+          0.387799, 
+          0.392124, 
+          0.395461
+        ], 
+        "execution_time_kernel_1": [
+          0.002556, 
+          0.00188, 
+          0.001478, 
+          0.001173, 
+          0.002242, 
+          0.001618
+        ], 
+        "execution_time_kernel_2": [
+          0.662202, 
+          0.706069, 
+          0.631778, 
+          0.615337, 
+          0.631548, 
+          0.621504
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "2da50a2bbc874425", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "XIAOMI MI 5", 
+    "platform_uid": "1ae20e19f5448ae8"
+  }
+}

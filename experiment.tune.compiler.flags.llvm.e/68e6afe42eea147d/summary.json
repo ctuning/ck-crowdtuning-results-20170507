@@ -1,0 +1,863 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-qsort1-src-qsort-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 524658145, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 194, 
+    "last_touch_uid": "09830364f5076d6d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3400, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.332499, 
+          "##characteristics#run#repeat#min": 524658145
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0658823529412, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.889714524915
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops", 
+          "##characteristics#compile#md5_sum#min": "01756dac7f9a32bf43a04868f543c580", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0097904973828236
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fno-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.93818984547461, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.50477175528285, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0014740448626499
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#ffinite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#flto": "-fno-lto", 
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#fno-constant-cfstrings": "-fno-constant-cfstrings"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b6a7116b79ee4af4", 
+    "touched": 160, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-psymodel-codelet-17-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 2861756, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 377, 
+    "last_touch_uid": "afcb12c4494e0f16", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12192, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.778529, 
+          "##characteristics#run#repeat#min": 2861756
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0460829493088, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0994105850782
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-builtin -fno-constant-cfstrings -fno-signed-char -fno-unroll-loops -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "61d38e652dd0ed971f597a875cd1a46c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0055729713681001
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#fno-constant-cfstrings": "-fno-constant-cfstrings", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-builtin", 
+          "##compiler_flags#fno-constant-cfstrings", 
+          "##compiler_flags#fno-signed-char", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#mstackrealign"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fno-builtin": {
+            "##characteristics#compile#obj_size#min_imp": 1.0013140604468, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97848148582453, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0012679818904016
+          }, 
+          "##compiler_flags#fno-constant-cfstrings": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97650962851899, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.002364842370371
+          }, 
+          "##compiler_flags#fno-signed-char": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98560264693674, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.013054898682308
+          }, 
+          "##compiler_flags#funroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.97629724535554, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94622021182867, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.068010002523592
+          }, 
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 0.98704663212435, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96938207323359, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0086384361950154
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fshort-enums": "-fshort-enums", 
+          "##compiler_flags#fvectorize": "-fvectorize", 
+          "##compiler_flags#msoft-float": "-msoft-float"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "11ba287a563d394b", 
+    "touched": 348, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 43313012, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 390, 
+    "last_touch_uid": "14c4d9f3005a2220", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4016, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.61242, 
+          "##characteristics#run#repeat#min": 43313012
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1097152940724
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math -mglobal-merge", 
+          "##characteristics#compile#md5_sum#min": "f180222d6d942f599d783bb7cd85b1f9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.011217547112362
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math", 
+          "##compiler_flags#mglobal-merge": "-mglobal-merge"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math", 
+          "##compiler_flags#mglobal-merge"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.88922636060997, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0053137492572399
+          }, 
+          "##compiler_flags#mglobal-merge": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97767983880733, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.025426229967144
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b20be91cf4338a2c", 
+    "touched": 362, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 74746571, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 355, 
+    "last_touch_uid": "744469b9a83d8f86", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4528, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.68045, 
+          "##characteristics#run#repeat#min": 74746571
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99467140319716, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3229573439725
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math -fno-signed-char -fshort-wchar -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "43fb9e36f3323c82c9675c6bdb992784", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.011556759427049
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math", 
+          "##compiler_flags#fno-signed-char", 
+          "##compiler_flags#fshort-wchar", 
+          "##compiler_flags#mstackrealign"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 1.0017793594306, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.76257016105931, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.030617968662292
+          }, 
+          "##compiler_flags#fno-signed-char": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96939055361532, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.020611099528664
+          }, 
+          "##compiler_flags#fshort-wchar": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98051332568415, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0062450305464134
+          }, 
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 1.0017793594306, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98581147831081, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0019736049544005
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#ffp-contract": "-ffp-contract=fast", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer ", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "7c62a0fd4b12a47f", 
+    "touched": 324, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 358604940, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 276, 
+    "last_touch_uid": "e9aa4db61fa2738f", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3728, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.322994, 
+          "##characteristics#run#repeat#min": 358604940
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.96995708154506, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5153867653429
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fslp-vectorize-aggressive", 
+          "##characteristics#compile#md5_sum#min": "20d5f15781b50dbf88aad4cfed56f38f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.015064200090851
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fslp-vectorize-aggressive"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fslp-vectorize-aggressive": {
+            "##characteristics#compile#obj_size#min_imp": 1.0309734513274, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.6871856867669, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010046538298014
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmerge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#ftree-slp-vectorize": "-ftree-slp-vectorize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "ee59d837edd4ac58", 
+    "touched": 242, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 52739305, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 164, 
+    "last_touch_uid": "6b1597d4159a9417", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3568, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.837907, 
+          "##characteristics#run#repeat#min": 52739305
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1322869955157, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3992663574907
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mno-implicit-float", 
+          "##characteristics#compile#md5_sum#min": "8aa559bb330dfd6a5216636fb60717d3", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0091698904933808
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mno-implicit-float"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#mno-implicit-float": {
+            "##characteristics#compile#obj_size#min_imp": 0.88316831683168, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.70306822556846, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.030856270995438
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "cd27646cc82f8a7e", 
+    "touched": 129, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 1056084419, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 275, 
+    "last_touch_uid": "2ba41c8ac5b38fdb", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3368, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.366055, 
+          "##characteristics#run#repeat#min": 1056084419
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0237529691211, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1515048208094
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fstrict-vtable-pointers -fno-unroll-loops -mno-implicit-float -mrelax-all", 
+          "##characteristics#compile#md5_sum#min": "e56a5529450fd06fcf1cafd8decead34", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0050300014248697
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float", 
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#mno-implicit-float", 
+          "##compiler_flags#mrelax-all"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fstrict-vtable-pointers": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95385388111549, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0033373722221116
+          }, 
+          "##compiler_flags#funroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.97004608294931, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.92265800589663, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0057935121089563
+          }, 
+          "##compiler_flags#mno-implicit-float": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95149221056581, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.022294760091735
+          }, 
+          "##compiler_flags#mrelax-all": {
+            "##characteristics#compile#obj_size#min_imp": 1.0047732696897, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90078084344372, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.073536561911821
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "3544faa9a84755a5", 
+    "touched": 241, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "edges", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-clean-gray-square-600-450-8", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 2397.143, 
+        "1": 2397.143, 
+        "2": 2397.143, 
+        "3": 2397.143
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "18390440ca967801", 
+      "gpu_misc_uid": "f7b787381104ec68", 
+      "gpu_name": "Microsoft Corporation Hyper-V virtual VGA", 
+      "kernel_repetitions": 1293, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.2 LTS", 
+      "os_uid": "e4644237b773ad31", 
+      "platform_name": "Microsoft Corporation 7.0 (Virtual Machine)", 
+      "platform_uid": "3717610ed32a4cf9"
+    }, 
+    "iterations": 79, 
+    "last_touch_uid": "6133c8c9cd479aa2", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 43920, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.837678, 
+          "##characteristics#run#repeat#min": 1293
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.95428051001821, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2444142297777
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fstrict-enums -fvectorize -fwrapv", 
+          "##characteristics#compile#md5_sum#min": "c5535a4d4adfaaea7efa9750a5f9411e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.033145848604145
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums", 
+          "##compiler_flags#fvectorize": "-fvectorize", 
+          "##compiler_flags#fwrapv": "-fwrapv"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fstrict-enums", 
+          "##compiler_flags#fvectorize", 
+          "##compiler_flags#fwrapv"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fstrict-enums": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0448026379138, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.077145558507968
+          }, 
+          "##compiler_flags#fvectorize": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.037097122283, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.05857304564382
+          }, 
+          "##compiler_flags#fwrapv": {
+            "##characteristics#compile#obj_size#min_imp": 1.0479099064707, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85064868453315, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.032331123513605
+          }
+        }, 
+        "pruned_inversed_flags": {}
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4602b04bfc9c942b", 
+    "touched": 43, 
+    "validated": 1
+  }
+]

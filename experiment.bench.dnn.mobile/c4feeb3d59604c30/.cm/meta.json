@@ -1,0 +1,408 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "782f45ad820cd7f0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9984 - \"mouse (511)\"\n0.0001 - \"spotlight (593)\"\n0.0001 - \"lampshade (814)\"\n0.0001 - \"mousetrap (599)\"\n0.0000 - \"crash helmet (778)\"\n", 
+      "time": [
+        7127, 
+        5738, 
+        5687
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.069977, 
+          3.35019, 
+          3.140778
+        ], 
+        "execution_time_kernel_0": [
+          4.069977, 
+          3.35019, 
+          3.140778
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.669983, 
+          2.092956, 
+          2.235138
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "73ff69d48704760b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 4128, 
+      "image_width": 3096, 
+      "mispredictions": [
+        {
+          "correct_answer": "matchbox car", 
+          "mispredicted_image": "misprediction-image-b39bce7485351e11.jpg", 
+          "misprediction_results": "0.9436 - \"mousetrap (599)\"\n0.0047 - \"pencil box (842)\"\n0.0023 - \"stretcher (957)\"\n0.0015 - \"wallet (928)\"\n0.0013 - \"lighter (546)\"\n"
+        }, 
+        {
+          "correct_answer": "matchbox car", 
+          "mispredicted_image": "misprediction-image-6674b4ca9810f4c5.jpg", 
+          "misprediction_results": "0.9436 - \"mousetrap (599)\"\n0.0047 - \"pencil box (842)\"\n0.0023 - \"stretcher (957)\"\n0.0015 - \"wallet (928)\"\n0.0013 - \"lighter (546)\"\n"
+        }, 
+        {
+          "correct_answer": "0.1088 - \"tiger cat (55)\"", 
+          "mispredicted_image": "misprediction-image-adf43c3a157eb94a.jpg", 
+          "misprediction_results": "0.6386 - \"tabby (174)\"\n0.1088 - \"tiger cat (55)\"\n0.0647 - \"Egyptian cat (8)\"\n0.0609 - \"sleeping bag (943)\"\n0.0303 - \"quilt (976)\"\n"
+        }, 
+        {
+          "correct_answer": "0.2153 - \"soap dispenser (960)\"", 
+          "mispredicted_image": "misprediction-image-a99e7e649578a410.jpg", 
+          "misprediction_results": "0.2864 - \"nipple (915)\"\n0.2153 - \"soap dispenser (960)\"\n0.1120 - \"lotion (894)\"\n0.0362 - \"hair spray (895)\"\n0.0300 - \"perfume (883)\"\n"
+        }
+      ], 
+      "prediction": "0.9436 - \"mousetrap (599)\"\n0.0047 - \"pencil box (842)\"\n0.0023 - \"stretcher (957)\"\n0.0015 - \"wallet (928)\"\n0.0013 - \"lighter (546)\"\n", 
+      "time": [
+        5504, 
+        5636, 
+        5365, 
+        8037, 
+        7527, 
+        7673, 
+        5953, 
+        5913, 
+        5905, 
+        6249, 
+        6297, 
+        5896, 
+        5843, 
+        5427, 
+        5511, 
+        6187, 
+        5472, 
+        5558, 
+        5835, 
+        5594, 
+        5604
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.095612, 
+          3.134521, 
+          2.950714, 
+          3.637756, 
+          4.754578, 
+          3.722473, 
+          3.459412, 
+          3.364257, 
+          3.374695, 
+          3.454071, 
+          3.234192, 
+          3.459137, 
+          3.03833, 
+          3.003295, 
+          3.037872, 
+          3.539062, 
+          3.046905, 
+          3.123016, 
+          3.211945, 
+          3.044922, 
+          3.069
+        ], 
+        "execution_time_kernel_0": [
+          3.095612, 
+          3.134521, 
+          2.950714, 
+          3.637756, 
+          4.754578, 
+          3.722473, 
+          3.459412, 
+          3.364257, 
+          3.374695, 
+          3.454071, 
+          3.234192, 
+          3.459137, 
+          3.03833, 
+          3.003295, 
+          3.037872, 
+          3.539062, 
+          3.046905, 
+          3.123016, 
+          3.211945, 
+          3.044922, 
+          3.069
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.102081, 
+          2.163818, 
+          2.112396, 
+          4.078247, 
+          2.46463, 
+          3.657257, 
+          2.163239, 
+          2.186127, 
+          2.204589, 
+          2.499878, 
+          2.711945, 
+          2.175263, 
+          2.410156, 
+          2.106537, 
+          2.150452, 
+          2.309326, 
+          2.13263, 
+          2.139984, 
+          2.303528, 
+          2.225159, 
+          2.178803
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "6014384a7fe7a02a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 2856, 
+      "image_width": 2448, 
+      "mispredictions": [
+        {
+          "correct_answer": "little sheep", 
+          "mispredicted_image": "misprediction-image-76c9d4ad1b53e49c.jpg", 
+          "misprediction_results": "0.2057 - \"teddy bear (786)\"\n0.1075 - \"wool (815)\"\n0.0381 - \"purse (939)\"\n0.0229 - \"acorn (327)\"\n0.0200 - \"thimble (758)\"\n"
+        }
+      ], 
+      "prediction": "0.2057 - \"teddy bear (786)\"\n0.1075 - \"wool (815)\"\n0.0381 - \"purse (939)\"\n0.0229 - \"acorn (327)\"\n0.0200 - \"thimble (758)\"\n", 
+      "time": [
+        5073, 
+        4790, 
+        5185
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.996735, 
+          2.012817, 
+          2.059173
+        ], 
+        "execution_time_kernel_0": [
+          1.996735, 
+          2.012817, 
+          2.059173
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.739898, 
+          2.443664, 
+          2.790039
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "92d313e4b40f9bd2", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 1080, 
+      "image_width": 1080, 
+      "prediction": "0.8079 - \"alp (361)\"\n0.1005 - \"valley (360)\"\n0.0057 - \"lakeside (366)\"\n0.0043 - \"mountain bike (255)\"\n0.0029 - \"cliff (359)\"\n", 
+      "time": [
+        4094, 
+        3670, 
+        4638
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.127655, 
+          0.909637, 
+          1.031403
+        ], 
+        "execution_time_kernel_0": [
+          1.127655, 
+          0.909637, 
+          1.031403
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.554199, 
+          2.440766, 
+          3.252502
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "SAMSUNG JF", 
+    "cpu_uid": "45d2a18eedf4b9d5", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 320", 
+    "gpu_uid": "2d0bb02c4824949f", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG GT-I9505", 
+    "platform_uid": "1a6c0b890473bb64"
+  }
+}

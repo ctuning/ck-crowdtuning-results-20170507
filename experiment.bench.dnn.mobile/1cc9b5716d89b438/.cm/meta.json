@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "d4091263d14c356c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 4048, 
+      "image_width": 3036, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1487532773795.jpg ----------\n0.1941 - \"n04277352 spindle\"\n0.0260 - \"n03876231 paintbrush\"\n0.0235 - \"n03250847 drumstick\"\n0.0200 - \"n12144580 corn\"\n0.0173 - \"n04599235 wool, woolen, woollen\"\n", 
+      "time": [
+        1144, 
+        1156, 
+        1165, 
+        1131, 
+        1093, 
+        1195
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.057749, 
+          0.054948, 
+          0.060288, 
+          0.050988, 
+          0.051653, 
+          0.05708
+        ], 
+        "execution_time_kernel_0": [
+          0.057749, 
+          0.054948, 
+          0.060288, 
+          0.050988, 
+          0.051653, 
+          0.05708
+        ], 
+        "execution_time_kernel_1": [
+          0.258014, 
+          0.247078, 
+          0.245992, 
+          0.231571, 
+          0.247904, 
+          0.23392
+        ], 
+        "execution_time_kernel_2": [
+          0.707373, 
+          0.711079, 
+          0.755434, 
+          0.716311, 
+          0.643141, 
+          0.752128
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996pro", 
+    "cpu_uid": "463912cc4548cfa5", 
+    "crowd_uid": "ce6c9a6d4cac89b0", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "DeepScale SqueezeNet 1.0", 
+    "os_name": "Android 7.1.1", 
+    "os_uid": "4b528e7b666e5bcc", 
+    "plat_name": "GOOGLE PIXEL", 
+    "platform_uid": "3f414d9da404f2b5"
+  }
+}

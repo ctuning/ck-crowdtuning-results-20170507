@@ -1,0 +1,168 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "614412e9158e58d8", 
+      "cpu_freqs_after": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }, 
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "image_height": 320, 
+      "image_width": 240, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.0648 - \"n07248320 book jacket, dust cover, dust jacket, dust wrapper\"", 
+          "mispredicted_image": "misprediction-image-048a7962bbf2a6a6.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488213796891.jpg ----------\n0.0982 - \"n03777754 modem\"\n0.0648 - \"n07248320 book jacket, dust cover, dust jacket, dust wrapper\"\n0.0555 - \"n03642806 laptop, laptop computer\"\n0.0353 - \"n03832673 notebook, notebook computer\"\n0.0306 - \"n02840245 binder, ring-binder\"\n"
+        }, 
+        {
+          "correct_answer": "0.0549 - \"n03895866 passenger car, coach, carriage\"", 
+          "mispredicted_image": "misprediction-image-0fe4127aeb89b47b.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488213926182.jpg ----------\n0.3121 - \"n04392985 tape player\"\n0.2282 - \"n02979186 cassette player\"\n0.1077 - \"n02988304 CD player\"\n0.0549 - \"n03895866 passenger car, coach, carriage\"\n0.0510 - \"n03207941 dishwasher, dish washer, dishwashing machine\"\n"
+        }, 
+        {
+          "correct_answer": "tyre", 
+          "mispredicted_image": "misprediction-image-477b96ef6902009a.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488214058869.jpg ----------\n0.1655 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n0.0542 - \"n03814639 neck brace\"\n0.0496 - \"n02708093 analog clock\"\n0.0483 - \"n04548280 wall clock\"\n0.0362 - \"n02939185 caldron, cauldron\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488213796891.jpg ----------\n0.0982 - \"n03777754 modem\"\n0.0648 - \"n07248320 book jacket, dust cover, dust jacket, dust wrapper\"\n0.0555 - \"n03642806 laptop, laptop computer\"\n0.0353 - \"n03832673 notebook, notebook computer\"\n0.0306 - \"n02840245 binder, ring-binder\"\n", 
+      "time": [
+        2786, 
+        3686, 
+        2288, 
+        2845, 
+        2246, 
+        2542, 
+        1618, 
+        1684, 
+        1615, 
+        1474, 
+        1561, 
+        1703
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.311539, 
+          0.179491, 
+          0.328556, 
+          0.211801, 
+          0.228353, 
+          0.277565, 
+          0.12913, 
+          0.142748, 
+          0.14991, 
+          0.144332, 
+          0.145299, 
+          0.143459
+        ], 
+        "execution_time_kernel_0": [
+          0.311539, 
+          0.179491, 
+          0.328556, 
+          0.211801, 
+          0.228353, 
+          0.277565, 
+          0.12913, 
+          0.142748, 
+          0.14991, 
+          0.144332, 
+          0.145299, 
+          0.143459
+        ], 
+        "execution_time_kernel_1": [
+          0.006811, 
+          0.007373, 
+          0.064303, 
+          0.023751, 
+          0.014681, 
+          0.007451, 
+          0.00633, 
+          0.006701, 
+          0.006783, 
+          0.006591, 
+          0.008693, 
+          0.009946
+        ], 
+        "execution_time_kernel_2": [
+          2.275814, 
+          1.915342, 
+          1.791062, 
+          2.504403, 
+          1.874623, 
+          2.093554, 
+          1.388643, 
+          1.429458, 
+          1.360571, 
+          1.215784, 
+          1.30893, 
+          1.440209
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8916", 
+    "cpu_uid": "bc0db4c4bbe612fe", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 306", 
+    "gpu_uid": "4e79a7ee92836d24", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0.2", 
+    "os_uid": "bb6cce787ea5e178", 
+    "plat_name": "VIVO Y51", 
+    "platform_uid": ""
+  }
+}

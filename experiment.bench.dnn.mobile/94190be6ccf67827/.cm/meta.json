@@ -1,0 +1,136 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "34289b039ca7cd50", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "image_height": 826, 
+      "image_width": 693, 
+      "prediction": "0.8063 - \"n03599486 jinrikisha, ricksha, rickshaw\"\n0.0205 - \"n03763968 military uniform\"\n0.0129 - \"n02797295 barrow, garden cart, lawn cart, wheelbarrow\"\n0.0128 - \"n03792782 mountain bike, all-terrain bike, off-roader\"\n0.0127 - \"n02488291 langur\"\n", 
+      "time": [
+        1178, 
+        1010, 
+        1005
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.06562, 
+          0.068305, 
+          0.063932
+        ], 
+        "execution_time_kernel_0": [
+          0.06562, 
+          0.068305, 
+          0.063932
+        ], 
+        "execution_time_kernel_1": [
+          0.013273, 
+          0.015073, 
+          0.013345
+        ], 
+        "execution_time_kernel_2": [
+          1.068483, 
+          0.897949, 
+          0.897843
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "46d8545aee6c5722", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "image_height": 759, 
+      "image_width": 693, 
+      "prediction": "0.5171 - \"n03599486 jinrikisha, ricksha, rickshaw\"\n0.1641 - \"n01616318 vulture\"\n0.0216 - \"n04458633 totem pole\"\n0.0199 - \"n03763968 military uniform\"\n0.0158 - \"n02488291 langur\"\n", 
+      "time": [
+        1104, 
+        1367, 
+        979
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.064147, 
+          0.063736, 
+          0.065001
+        ], 
+        "execution_time_kernel_0": [
+          0.064147, 
+          0.063736, 
+          0.065001
+        ], 
+        "execution_time_kernel_1": [
+          0.012355, 
+          0.012435, 
+          0.012274
+        ], 
+        "execution_time_kernel_2": [
+          0.997138, 
+          1.260785, 
+          0.868766
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7"
+  }
+}

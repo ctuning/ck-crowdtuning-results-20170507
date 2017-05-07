@@ -1,0 +1,171 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "3b7fa6a98af00525", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 2988, 
+      "image_width": 4150, 
+      "prediction": "0.0693 - \"n03594734 jean, blue jean, denim\"\n0.0658 - \"n03141823 crutch\"\n0.0570 - \"n02977058 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM\"\n0.0418 - \"n04141076 sax, saxophone\"\n0.0315 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n", 
+      "time": [
+        5693, 
+        5479, 
+        5655, 
+        4409, 
+        4193, 
+        4354
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.057199, 
+          3.911899, 
+          4.137198, 
+          3.001007, 
+          3.086564, 
+          3.196102
+        ], 
+        "execution_time_kernel_0": [
+          4.057199, 
+          3.911899, 
+          4.137198, 
+          3.001007, 
+          3.086564, 
+          3.196102
+        ], 
+        "execution_time_kernel_1": [
+          0.349032, 
+          0.333567, 
+          0.356919, 
+          0.309561, 
+          0.296687, 
+          0.297383
+        ], 
+        "execution_time_kernel_2": [
+          1.175981, 
+          1.128179, 
+          1.032627, 
+          0.925618, 
+          0.699182, 
+          0.755411
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "e14594b6be2f0af2", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 2988, 
+      "image_width": 3486, 
+      "prediction": "0.1055 - \"n03000247 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour\"\n0.0830 - \"n04584207 wig\"\n0.0558 - \"n04209133 shower cap\"\n0.0529 - \"n02869837 bonnet, poke bonnet\"\n0.0482 - \"n02808440 bathtub, bathing tub, bath, tub\"\n", 
+      "time": [
+        4093, 
+        3850, 
+        3959
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          2.977414, 
+          2.862982, 
+          2.978981
+        ], 
+        "execution_time_kernel_0": [
+          2.977414, 
+          2.862982, 
+          2.978981
+        ], 
+        "execution_time_kernel_1": [
+          0.24131, 
+          0.234722, 
+          0.235143
+        ], 
+        "execution_time_kernel_2": [
+          0.755623, 
+          0.663526, 
+          0.653022
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G920S", 
+    "platform_uid": ""
+  }
+}

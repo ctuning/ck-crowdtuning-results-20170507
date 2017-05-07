@@ -1,0 +1,66 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "937ff984330d46d5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        6936, 
+        6538, 
+        6882
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          5.85114, 
+          5.511877, 
+          5.802951
+        ], 
+        "execution_time_kernel_0": [
+          5.85114, 
+          5.511877, 
+          5.802951
+        ], 
+        "execution_time_kernel_1": [
+          0.344571, 
+          0.349891, 
+          0.35047
+        ], 
+        "execution_time_kernel_2": [
+          0.628046, 
+          0.567148, 
+          0.597373
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "HTC MSM8996 FOR ARM64", 
+    "platform_uid": "8431ab889b753b07"
+  }
+}

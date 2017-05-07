@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "db297459a84efc48", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 1920, 
+      "image_width": 2560, 
+      "prediction": "0.1236 - \"n03832673 notebook, notebook computer\"\n0.0650 - \"n03666591 lighter, light, igniter, ignitor\"\n0.0562 - \"n03637318 lampshade, lamp shade\"\n0.0511 - \"n04590129 window shade\"\n0.0449 - \"n03729826 matchstick\"\n", 
+      "time": [
+        344001, 
+        1194, 
+        1288
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.281285, 
+          0.292218, 
+          0.290856
+        ], 
+        "execution_time_kernel_0": [
+          0.281285, 
+          0.292218, 
+          0.290856
+        ], 
+        "execution_time_kernel_1": [
+          265.302655, 
+          0.368307, 
+          0.36617
+        ], 
+        "execution_time_kernel_2": [
+          78.325951, 
+          0.439303, 
+          0.536932
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT8161A", 
+    "cpu_uid": "", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "LENOVO TB3-X70F", 
+    "platform_uid": ""
+  }
+}

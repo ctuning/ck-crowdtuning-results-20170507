@@ -1,0 +1,271 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "44ec92f78a5c418f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "2": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "2": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 780, 
+      "image_width": 910, 
+      "mispredictions": [
+        {
+          "correct_answer": "class room", 
+          "mispredicted_image": "misprediction-image-738c7f0056a04d73.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/sdcard1/Pictures/IMG-20161027-WA0016.jpg ----------\n0.5590 - \"n03661043 library\"\n0.2382 - \"n04081281 restaurant, eating house, eating place, eatery\"\n0.0574 - \"n03982430 pool table, billiard table, snooker table\"\n0.0184 - \"n03899768 patio, terrace\"\n0.0156 - \"n03461385 grocery store, grocery, food market, market\"\n"
+        }, 
+        {
+          "correct_answer": "class room", 
+          "mispredicted_image": "misprediction-image-98fcb4fa9f49ae84.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/sdcard1/Pictures/IMG-20161027-WA0016.jpg ----------\n0.5590 - \"n03661043 library\"\n0.2382 - \"n04081281 restaurant, eating house, eating place, eatery\"\n0.0574 - \"n03982430 pool table, billiard table, snooker table\"\n0.0184 - \"n03899768 patio, terrace\"\n0.0156 - \"n03461385 grocery store, grocery, food market, market\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/sdcard1/Pictures/IMG-20161027-WA0016.jpg ----------\n0.5590 - \"n03661043 library\"\n0.2382 - \"n04081281 restaurant, eating house, eating place, eatery\"\n0.0574 - \"n03982430 pool table, billiard table, snooker table\"\n0.0184 - \"n03899768 patio, terrace\"\n0.0156 - \"n03461385 grocery store, grocery, food market, market\"\n", 
+      "time": [
+        10236, 
+        11688, 
+        9186, 
+        8050, 
+        7480, 
+        7843
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.260776, 
+          0.254761, 
+          0.263121, 
+          0.234798, 
+          0.216444, 
+          0.214298
+        ], 
+        "execution_time_kernel_0": [
+          0.260776, 
+          0.254761, 
+          0.263121, 
+          0.234798, 
+          0.216444, 
+          0.214298
+        ], 
+        "execution_time_kernel_1": [
+          0.093451, 
+          0.095398, 
+          0.117337, 
+          0.091856, 
+          0.086137, 
+          0.087251
+        ], 
+        "execution_time_kernel_2": [
+          9.690513, 
+          11.151592, 
+          8.592952, 
+          7.565113, 
+          7.050986, 
+          7.403715
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "42c94742ca93d399", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 2550, 
+      "image_width": 1836, 
+      "mispredictions": [
+        {
+          "correct_answer": "temple crowd", 
+          "mispredicted_image": "misprediction-image-b8420f4698947b05.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/DCIM/Camera/IMG_20170108_190011.jpg ----------\n0.4113 - \"n04532106 vestment\"\n0.0883 - \"n04462240 toyshop\"\n0.0396 - \"n04557648 water bottle\"\n0.0248 - \"n03089624 confectionery, confectionary, candy store\"\n0.0188 - \"n03791053 motor scooter, scooter\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/emulated/0/DCIM/Camera/IMG_20170108_190011.jpg ----------\n0.4113 - \"n04532106 vestment\"\n0.0883 - \"n04462240 toyshop\"\n0.0396 - \"n04557648 water bottle\"\n0.0248 - \"n03089624 confectionery, confectionary, candy store\"\n0.0188 - \"n03791053 motor scooter, scooter\"\n", 
+      "time": [
+        8919, 
+        8453, 
+        9028
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.224414, 
+          0.211827, 
+          0.232161
+        ], 
+        "execution_time_kernel_0": [
+          0.224414, 
+          0.211827, 
+          0.232161
+        ], 
+        "execution_time_kernel_1": [
+          0.58571, 
+          0.559439, 
+          0.575889
+        ], 
+        "execution_time_kernel_2": [
+          7.948874, 
+          7.534974, 
+          8.070524
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "c11cace4cbcb6a1a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 332, 
+      "image_width": 387, 
+      "mispredictions": [
+        {
+          "correct_answer": "political crowd", 
+          "mispredicted_image": "misprediction-image-6e95e99a5541a576.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/Download/unnamed.jpg ----------\n0.1986 - \"n04254680 soccer ball\"\n0.0951 - \"n04532106 vestment\"\n0.0815 - \"n03998194 prayer rug, prayer mat\"\n0.0690 - \"n04336792 stretcher\"\n0.0423 - \"n04509417 unicycle, monocycle\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/emulated/0/Download/unnamed.jpg ----------\n0.1986 - \"n04254680 soccer ball\"\n0.0951 - \"n04532106 vestment\"\n0.0815 - \"n03998194 prayer rug, prayer mat\"\n0.0690 - \"n04336792 stretcher\"\n0.0423 - \"n04509417 unicycle, monocycle\"\n", 
+      "time": [
+        11064, 
+        7900, 
+        7976
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.277244, 
+          0.247944, 
+          0.200309
+        ], 
+        "execution_time_kernel_0": [
+          0.277244, 
+          0.247944, 
+          0.200309
+        ], 
+        "execution_time_kernel_1": [
+          0.019286, 
+          0.019487, 
+          0.020257
+        ], 
+        "execution_time_kernel_2": [
+          10.588011, 
+          7.483664, 
+          7.624846
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "eab4c5592d19b50a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "2": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 160, 
+      "image_width": 120, 
+      "mispredictions": [
+        {
+          "correct_answer": "friend snapshot at room", 
+          "mispredicted_image": "misprediction-image-88949f76418f9537.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1484100399847.jpg ----------\n0.1483 - \"n03347037 fire screen, fireguard\"\n0.1086 - \"n03529860 home theater, home theatre\"\n0.0765 - \"n04201297 shoji\"\n0.0523 - \"n04265275 space heater\"\n0.0349 - \"n02817516 bearskin, busby, shako\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1484100399847.jpg ----------\n0.1483 - \"n03347037 fire screen, fireguard\"\n0.1086 - \"n03529860 home theater, home theatre\"\n0.0765 - \"n04201297 shoji\"\n0.0523 - \"n04265275 space heater\"\n0.0349 - \"n02817516 bearskin, busby, shako\"\n", 
+      "time": [
+        11475, 
+        8317, 
+        7538
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.211706, 
+          0.212428, 
+          0.214617
+        ], 
+        "execution_time_kernel_0": [
+          0.211706, 
+          0.212428, 
+          0.214617
+        ], 
+        "execution_time_kernel_1": [
+          0.004638, 
+          0.004735, 
+          0.003805
+        ], 
+        "execution_time_kernel_2": [
+          11.084086, 
+          7.894863, 
+          7.175178
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8909", 
+    "cpu_uid": "20657674ba29b92d", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 304", 
+    "gpu_uid": "8c922c304eb28756", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "LYF LS-5016", 
+    "platform_uid": "84d218910769b1f3"
+  }
+}

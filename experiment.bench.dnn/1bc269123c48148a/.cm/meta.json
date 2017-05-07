@@ -1,0 +1,96 @@
+{
+  "characteristics": {
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "time_gpu", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CAFFE_COMPUTE_DEVICE_ID": 0, 
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "", 
+      "CK_CAFFE_MODEL": "C:\\Users\\user\\CK\\ck-caffe\\program\\caffe\\tmp\\tmp-ehr6beof.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-ehr6beof.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "C:\\Users\\user\\CK-TOOLS\\caffemodel-bvlc-googlenet-fast-mirror\\bvlc_googlenet.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "C:\\Users\\user\\CK-TOOLS\\caffemodel-bvlc-googlenet-fast-mirror\\bvlc_googlenet.caffemodel", 
+      "CK_GPU_FREQUENCY": "max"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "", 
+    "no_state_check": "yes", 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "windows-64", 
+    "target_os_bits": "64"
+  }, 
+  "file_model_topology": "tmp-ehr6beof.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "choices": {
+      "env": {
+        "CK_CAFFE_BATCH_SIZE": "1"
+      }
+    }, 
+    "cmd_key": "time_gpu", 
+    "cpu_name": "AMD E1-2500 APU with Radeon(TM) HD Graphics", 
+    "cpu_uid": "9a7816f3088f6069", 
+    "dnn_engine_name": "BVLC Caffe framework (opencl,libdnn,clblast)", 
+    "dnn_engine_package_uoa": "6d40548fa5d00956", 
+    "dnn_type": "opencl", 
+    "gpgpu_name": "Kalindi", 
+    "gpgpu_uid": "0b290cf20b4c9f89", 
+    "gpu_name": "AMD Radeon HD 8200 / R3 Series", 
+    "nn_type": "bvlc, googlenet", 
+    "os_name": "Windows 10", 
+    "os_uid": "4e38effc5e1fe858", 
+    "plat_name": "Acer V1.06 (Aspire ES1-520)", 
+    "platform_uid": "5d6b9ed4468aaefd", 
+    "user": "444fb83dc0f39419", 
+    "xdeps": {
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (bvlc, googlenet)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "b96fc6a959de0ad1", 
+        "ver": "trunk"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (opencl,libdnn,clblast)", 
+        "name": "Caffe framework", 
+        "package_uoa": "6d40548fa5d00956", 
+        "ver": "trunk-880111e3"
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.7.2", 
+      "compiler": "19.10.25019", 
+      "lib-blas": "0.2.19-85636ff1", 
+      "lib-boost": "1.62.0", 
+      "lib-clblast": "development-c9f39ed", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-e56ed55", 
+      "lib-hdf5": "1.10.0", 
+      "lib-lmdb": "", 
+      "lib-opencl": "3.0", 
+      "lib-opencv": "3.2.0", 
+      "lib-protobuf": "", 
+      "lib-protobuf-host": "3.1.0", 
+      "lib-viennacl": "master-5494bef3"
+    }
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - failed to find the 'Total Time' string in Caffe output"
+  }, 
+  "user": "444fb83dc0f39419"
+}

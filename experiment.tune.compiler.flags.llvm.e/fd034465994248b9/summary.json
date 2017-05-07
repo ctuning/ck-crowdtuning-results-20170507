@@ -1,0 +1,87 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tiffdither-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "0x53-8-0x1-0x001-1", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "64309bc9f07cf7bc", 
+      "gpu_name": "ARM Mali-T880", 
+      "gpu_uid": "49d08a05c0436cb8", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 7.0", 
+      "os_uid": "de98569847a92092", 
+      "platform_name": "SAMSUNG SM-G935F", 
+      "platform_uid": "cae9334148b4d60a"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "e170dec134412691", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3704, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.9580001831055, 
+          "##characteristics#run#repeat#min": 3472222
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.029584334446122
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-autolink -fstrict-aliasing -trigraphs -mglobal-merge -mno-long-calls", 
+          "##characteristics#compile#md5_sum#min": "04bcf1779b1b6f1a474112ecc3601177", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-autolink": "-fno-autolink", 
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#mglobal-merge": "-mglobal-merge", 
+          "##compiler_flags#mno-long-calls": "-mno-long-calls", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-autolink", 
+          "##compiler_flags#fstrict-aliasing", 
+          "##compiler_flags#mglobal-merge", 
+          "##compiler_flags#mno-long-calls", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "c6c84a12bb60bb91", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

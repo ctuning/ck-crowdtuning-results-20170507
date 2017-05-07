@@ -1,0 +1,227 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4093b59fe1bd0be7", 
+      "cpu_freqs_after": [
+        {
+          "0": 1516.8, 
+          "3": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "1": 1516.8, 
+          "2": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        8928, 
+        8758, 
+        8415
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          6.870411, 
+          6.790148, 
+          6.43664
+        ], 
+        "execution_time_kernel_0": [
+          6.870411, 
+          6.790148, 
+          6.43664
+        ], 
+        "execution_time_kernel_1": [
+          0.860442, 
+          0.788317, 
+          0.787745
+        ], 
+        "execution_time_kernel_2": [
+          1.019787, 
+          1.007894, 
+          1.031498
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "e205a357a4488812", 
+      "cpu_freqs_after": [
+        {
+          "1": 1516.8, 
+          "2": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }, 
+        {
+          "1": 1516.8, 
+          "2": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "1": 1516.8, 
+          "2": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }, 
+        {
+          "1": 1516.8, 
+          "2": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "image_height": 2448, 
+      "image_width": 2856, 
+      "mispredictions": [
+        {
+          "correct_answer": "Statue", 
+          "mispredicted_image": "misprediction-image-067826c66177765f.jpg", 
+          "misprediction_results": "0.1591 - \"n02825657 bell cote, bell cot\"\n0.1213 - \"n02708093 analog clock\"\n0.0760 - \"n03781244 monastery\"\n0.0742 - \"n03393912 freight car\"\n0.0710 - \"n04606251 wreck\"\n"
+        }
+      ], 
+      "prediction": "0.3995 - \"n03344393 fireboat\"\n0.1288 - \"n03216828 dock, dockage, docking facility\"\n0.1157 - \"n02859443 boathouse\"\n0.0917 - \"n03874293 paddlewheel, paddle wheel\"\n0.0806 - \"n03662601 lifeboat\"\n", 
+      "time": [
+        8489, 
+        8015, 
+        8070, 
+        8304, 
+        8329, 
+        7943
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          6.86724, 
+          6.417768, 
+          6.487713, 
+          6.634202, 
+          6.660302, 
+          6.423933
+        ], 
+        "execution_time_kernel_0": [
+          6.86724, 
+          6.417768, 
+          6.487713, 
+          6.634202, 
+          6.660302, 
+          6.423933
+        ], 
+        "execution_time_kernel_1": [
+          0.389291, 
+          0.386309, 
+          0.397356, 
+          0.398616, 
+          0.372045, 
+          0.371205
+        ], 
+        "execution_time_kernel_2": [
+          1.033934, 
+          1.07034, 
+          1.029523, 
+          1.085421, 
+          1.124271, 
+          1.001964
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "d3d204c2b8780fb9", 
+      "cpu_freqs_after": [
+        {
+          "1": 1516.8, 
+          "3": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "1": 1516.8, 
+          "3": 1516.8, 
+          "4": 1209.6, 
+          "5": 1209.6, 
+          "6": 1209.6, 
+          "7": 1209.6
+        }
+      ], 
+      "image_height": 3456, 
+      "image_width": 4032, 
+      "mispredictions": [
+        {
+          "correct_answer": "Ring", 
+          "mispredicted_image": "misprediction-image-c65cd40ddb60a023.jpg", 
+          "misprediction_results": "0.2896 - \"n04548280 wall clock\"\n0.1818 - \"n04286575 spotlight, spot\"\n0.1140 - \"n04328186 stopwatch, stop watch\"\n0.0723 - \"n02708093 analog clock\"\n0.0690 - \"n03706229 magnetic compass\"\n"
+        }
+      ], 
+      "prediction": "0.2896 - \"n04548280 wall clock\"\n0.1818 - \"n04286575 spotlight, spot\"\n0.1140 - \"n04328186 stopwatch, stop watch\"\n0.0723 - \"n02708093 analog clock\"\n0.0690 - \"n03706229 magnetic compass\"\n", 
+      "time": [
+        8719, 
+        8311, 
+        8368
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          6.755489, 
+          6.432709, 
+          6.383018
+        ], 
+        "execution_time_kernel_0": [
+          6.755489, 
+          6.432709, 
+          6.383018
+        ], 
+        "execution_time_kernel_1": [
+          0.775525, 
+          0.729353, 
+          0.728738
+        ], 
+        "execution_time_kernel_2": [
+          1.016963, 
+          0.995656, 
+          1.085337
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8952", 
+    "cpu_uid": "1f1cb8b93485c984", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 405", 
+    "gpu_uid": "c5bebc57566d5cd2", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "ZTE B2017G", 
+    "platform_uid": ""
+  }
+}

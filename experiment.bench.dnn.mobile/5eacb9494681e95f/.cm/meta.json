@@ -1,0 +1,153 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "7d70940a6984a7c2", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        2189, 
+        1853, 
+        2198, 
+        1974, 
+        1929, 
+        1949
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.090388, 
+          0.071619, 
+          0.094148, 
+          0.093212, 
+          0.08681, 
+          0.059502
+        ], 
+        "execution_time_kernel_0": [
+          0.090388, 
+          0.071619, 
+          0.094148, 
+          0.093212, 
+          0.08681, 
+          0.059502
+        ], 
+        "execution_time_kernel_1": [
+          0.637418, 
+          0.552117, 
+          0.588504, 
+          0.527982, 
+          0.472689, 
+          0.445578
+        ], 
+        "execution_time_kernel_2": [
+          1.344741, 
+          1.117007, 
+          1.394169, 
+          1.236074, 
+          1.277526, 
+          1.348065
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "eef1b4ab463db699", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824
+        }
+      ], 
+      "image_height": 5344, 
+      "image_width": 4008, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1484012896258.jpg ----------\n0.1471 - \"n02909870 bucket, pail\"\n0.0933 - \"n03958227 plastic bag\"\n0.0891 - \"n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin\"\n0.0695 - \"n03259280 Dutch oven\"\n0.0636 - \"n04254680 soccer ball\"\n", 
+      "time": [
+        2277, 
+        2065, 
+        2153
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.085489, 
+          0.088334, 
+          0.08658
+        ], 
+        "execution_time_kernel_0": [
+          0.085489, 
+          0.088334, 
+          0.08658
+        ], 
+        "execution_time_kernel_1": [
+          0.812141, 
+          0.718723, 
+          0.720953
+        ], 
+        "execution_time_kernel_2": [
+          1.265404, 
+          1.154889, 
+          1.245495
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x41-8-0x1-0xd07-2", 
+    "cpu_uid": "c09438c4ac9cfda1", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 418", 
+    "gpu_uid": "04be7a8c8ccdb721", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "MOTOROLA XT1575", 
+    "platform_uid": ""
+  }
+}

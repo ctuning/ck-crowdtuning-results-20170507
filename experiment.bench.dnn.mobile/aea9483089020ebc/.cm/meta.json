@@ -1,0 +1,168 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "b8995b79c4b7c17b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "mispredictions": [
+        {
+          "correct_answer": "lamp", 
+          "mispredicted_image": "misprediction-image-e086bcdb43bb9f55.jpg", 
+          "misprediction_results": "0.4445 - \"n02871525 bookshop, bookstore, bookstall\"\n0.2457 - \"n03661043 library\"\n0.0535 - \"n02870880 bookcase\"\n0.0272 - \"n04443257 tobacco shop, tobacconist shop, tobacconist\"\n0.0204 - \"n02791270 barbershop\"\n"
+        }, 
+        {
+          "correct_answer": "0.1157 - \"n03793489 mouse, computer mouse\"", 
+          "mispredicted_image": "misprediction-image-9db204fa24ae094d.jpg", 
+          "misprediction_results": "0.1778 - \"n03602883 joystick\"\n0.1157 - \"n03793489 mouse, computer mouse\"\n0.0491 - \"n04370456 sweatshirt\"\n0.0324 - \"n04162706 seat belt, seatbelt\"\n0.0312 - \"n04019541 puck, hockey puck\"\n"
+        }, 
+        {
+          "correct_answer": "chair", 
+          "mispredicted_image": "misprediction-image-7a446fb01d96c52c.jpg", 
+          "misprediction_results": "0.5483 - \"n04204347 shopping cart\"\n0.1215 - \"n03891251 park bench\"\n0.0303 - \"n02892201 brass, memorial tablet, plaque\"\n0.0300 - \"n04090263 rifle\"\n0.0206 - \"n03967562 plow, plough\"\n"
+        }
+      ], 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        11695, 
+        12722, 
+        10507, 
+        11474, 
+        11701, 
+        10646, 
+        9549, 
+        9692, 
+        9565, 
+        9303, 
+        8874, 
+        8813
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          7.063607, 
+          7.361266, 
+          6.880908, 
+          6.769954, 
+          6.99882, 
+          6.656749, 
+          6.536157, 
+          6.591408, 
+          6.568419, 
+          6.704834, 
+          6.492116, 
+          6.449317
+        ], 
+        "execution_time_kernel_0": [
+          7.063607, 
+          7.361266, 
+          6.880908, 
+          6.769954, 
+          6.99882, 
+          6.656749, 
+          6.536157, 
+          6.591408, 
+          6.568419, 
+          6.704834, 
+          6.492116, 
+          6.449317
+        ], 
+        "execution_time_kernel_1": [
+          0.861413, 
+          0.949411, 
+          0.815977, 
+          0.753448, 
+          0.760947, 
+          0.723108, 
+          0.687268, 
+          0.769612, 
+          0.723361, 
+          0.798845, 
+          0.783362, 
+          0.769358
+        ], 
+        "execution_time_kernel_2": [
+          3.572534, 
+          4.228022, 
+          2.644341, 
+          3.755204, 
+          3.72388, 
+          3.051674, 
+          2.171764, 
+          2.167906, 
+          2.089063, 
+          1.519878, 
+          1.456533, 
+          1.447614
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8994", 
+    "cpu_uid": "95a13ab847eb8fda", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 430", 
+    "gpu_uid": "7ed6d5d0174571b2", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.1.1", 
+    "os_uid": "4b528e7b666e5bcc", 
+    "plat_name": "HUAWEI NEXUS 6P", 
+    "platform_uid": "22fd854818484a5f"
+  }
+}

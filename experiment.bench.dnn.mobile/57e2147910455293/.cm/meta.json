@@ -1,0 +1,161 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "79e1c26bdf30a3ae", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        12047, 
+        11374, 
+        10427
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          8.922193, 
+          8.165897, 
+          7.331088
+        ], 
+        "execution_time_kernel_0": [
+          8.922193, 
+          8.165897, 
+          7.331088
+        ], 
+        "execution_time_kernel_1": [
+          1.090295, 
+          0.885311, 
+          0.8759
+        ], 
+        "execution_time_kernel_2": [
+          1.757118, 
+          2.00501, 
+          1.966266
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "49449a0f46cf9a7f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 3528, 
+      "mispredictions": [
+        {
+          "correct_answer": "Cat in box", 
+          "mispredicted_image": "misprediction-image-c214de197896694a.jpg", 
+          "misprediction_results": "0.1385 - \"n02939185 caldron, cauldron\"\n0.0577 - \"n04026417 purse\"\n0.0549 - \"n02909870 bucket, pail\"\n0.0380 - \"n03786901 mortar\"\n0.0271 - \"n03133878 Crock Pot\"\n"
+        }, 
+        {
+          "correct_answer": "Ramekin", 
+          "mispredicted_image": "misprediction-image-b4c4c708829545b3.jpg", 
+          "misprediction_results": "0.2781 - \"n03775546 mixing bowl\"\n0.1976 - \"n07932039 eggnog\"\n0.0958 - \"n03937543 pill bottle\"\n0.0521 - \"n02909870 bucket, pail\"\n0.0391 - \"n02823750 beer glass\"\n"
+        }
+      ], 
+      "prediction": "0.1385 - \"n02939185 caldron, cauldron\"\n0.0577 - \"n04026417 purse\"\n0.0549 - \"n02909870 bucket, pail\"\n0.0380 - \"n03786901 mortar\"\n0.0271 - \"n03133878 Crock Pot\"\n", 
+      "time": [
+        11001, 
+        11573, 
+        12613, 
+        11032, 
+        10734, 
+        10160
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          8.470559, 
+          8.411882, 
+          9.177689, 
+          7.466859, 
+          7.777101, 
+          7.314649
+        ], 
+        "execution_time_kernel_0": [
+          8.470559, 
+          8.411882, 
+          9.177689, 
+          7.466859, 
+          7.777101, 
+          7.314649
+        ], 
+        "execution_time_kernel_1": [
+          0.821378, 
+          0.867485, 
+          0.764273, 
+          0.649241, 
+          0.639164, 
+          0.620933
+        ], 
+        "execution_time_kernel_2": [
+          1.454655, 
+          2.079098, 
+          2.487342, 
+          2.690344, 
+          2.126762, 
+          2.057125
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8992", 
+    "cpu_uid": "3459f0bbd4b47b1b", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 418", 
+    "gpu_uid": "04be7a8c8ccdb721", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.1.1", 
+    "os_uid": "4b528e7b666e5bcc", 
+    "plat_name": "LGE NEXUS 5X", 
+    "platform_uid": "50854d47868efc68"
+  }
+}

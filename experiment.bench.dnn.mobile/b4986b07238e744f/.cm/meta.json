@@ -1,0 +1,132 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "21f0b4081a402fa0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9580 - \"n03793489 mouse, computer mouse\"\n0.0145 - \"n03637318 lampshade, lamp shade\"\n0.0093 - \"n04254680 soccer ball\"\n0.0025 - \"n04286575 spotlight, spot\"\n0.0010 - \"n03127747 crash helmet\"\n", 
+      "time": [
+        8934, 
+        8829, 
+        9402
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.588489, 
+          1.610398, 
+          1.662201
+        ], 
+        "execution_time_kernel_0": [
+          1.588489, 
+          1.610398, 
+          1.662201
+        ], 
+        "execution_time_kernel_1": [
+          0.578499, 
+          0.581635, 
+          0.567143
+        ], 
+        "execution_time_kernel_2": [
+          6.164951, 
+          6.08698, 
+          6.53737
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "3324818bfe9b34f3", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "0.8777 - \"n07930864 cup\"\n0.1169 - \"n03063599 coffee mug\"\n0.0016 - \"n04263257 soup bowl\"\n0.0011 - \"n07920052 espresso\"\n0.0009 - \"n03950228 pitcher, ewer\"\n", 
+      "time": [
+        8769, 
+        8930, 
+        9186
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.623356, 
+          1.68005, 
+          1.608828
+        ], 
+        "execution_time_kernel_0": [
+          1.623356, 
+          1.68005, 
+          1.608828
+        ], 
+        "execution_time_kernel_1": [
+          0.631548, 
+          0.634483, 
+          0.620974
+        ], 
+        "execution_time_kernel_2": [
+          5.931567, 
+          6.074211, 
+          6.397734
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Samsung EXYNOS5433", 
+    "cpu_uid": "16270e7f2844ab79", 
+    "crowd_uid": "9dc1e8944f728b1a", 
+    "engine": "Caffe OpenCL", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG SM-N910C", 
+    "platform_uid": "1924152a7004ec09"
+  }
+}

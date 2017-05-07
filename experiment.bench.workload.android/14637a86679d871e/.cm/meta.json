@@ -1,0 +1,122 @@
+{
+  "characteristics": {
+    "run": {
+      "AndEMark Java": 729, 
+      "AndEMark Native": 10142, 
+      "execution_time": 99.592903852463, 
+      "execution_time_kernel_0": 99.592903852463, 
+      "execution_time_with_module": 120.61261582375, 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "total_execution_time": 99.592903852463
+    }
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-andebench", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "192.168.0.29:3155", 
+          "core_clusters": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+          ], 
+          "core_names": [
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3", 
+            "0x41-8-0x0-0xd03-3"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "192.168.0.29:3155", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/home/fursin/CK/local/wa-result/a49079116e8a7418/20170322-080415", 
+      "CK_WA_SCRIPTS_PATH": "/home/fursin/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "check_abi": false, 
+        "check_apk": true, 
+        "force_install": false, 
+        "install_timeout": 300, 
+        "uninstall_apk": false
+      }
+    }, 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "hikey", 
+    "target_os": "android24-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "meta": {
+    "apk_name": "com.eembc.coremark", 
+    "apk_version": "1383", 
+    "cpu_name": "unknown-arm64-v8a", 
+    "gpu_name": "ARM Mali-450 MP", 
+    "local_target_uid": "a199b99a45f39701", 
+    "local_target_uoa": "hikey", 
+    "os_name": "Android 7.0", 
+    "plat_name": "UNKNOWN HIKEY", 
+    "program_uid": "55ac934b35b25132", 
+    "program_uoa": "wa-andebench", 
+    "scenario": "-", 
+    "serial_number": "192.168.0.29:3155", 
+    "wa_version": "", 
+    "workload_name": "andebench"
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "5f780539ea4a803d"
+}

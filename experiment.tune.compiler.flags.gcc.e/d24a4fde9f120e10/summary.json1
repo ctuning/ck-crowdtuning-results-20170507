@@ -1,0 +1,2927 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnts-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 644336124, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 170, 
+    "last_touch_uid": "de59a4cef48669c3", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 11032, 
+          "##characteristics#run#execution_time_kernel_0#min": 1.07523, 
+          "##characteristics#run#repeat#min": 644336124
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.3125269048644, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 9.0005561818026
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "a2968519e13e55032ab8beb7c7009a51", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.024153915408282
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.7988980716253, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.11158985918335, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0024320939640527
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-ipa-pure-const": "-fno-ipa-pure-const", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-peephole2": "-fno-peephole2", 
+          "##compiler_flags#bool-reorder-functions": "-freorder-functions", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-strict-overflow": "-fno-strict-overflow", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-pta": "-fno-tree-pta", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc", 
+          "##compiler_flags#bool-use-linker-plugin": "-fno-use-linker-plugin", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b669e32307c658b1", 
+    "touched": 123, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 307216264, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 232, 
+    "last_touch_uid": "c75f4a68bdbc297a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 10756, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.149378, 
+          "##characteristics#run#repeat#min": 307216264
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.32691552062868, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6289497308972
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "6cc70787e46f8ecd6ae3d3ef664ca004", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.013518960773387
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.2203592814371, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.57190695992269, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0047002130851235
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fira-share-spill-slots", 
+          "##compiler_flags#bool-loop-strip-mine": "-floop-strip-mine", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-tracer": "-ftracer", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-vpt": "-fno-vpt", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fzero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b9528d7347de9c22", 
+    "touched": 195, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 155933017, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 228, 
+    "last_touch_uid": "4c3db1c2ba1560ae", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 10164, 
+          "##characteristics#run#execution_time_kernel_0#min": 1.561174, 
+          "##characteristics#run#repeat#min": 155933017
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.30788912579957, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 6.3498208266173
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline -flto", 
+          "##characteristics#compile#md5_sum#min": "07fd9f5d433dbee5be9f7c88d913b4a2", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0066593093983128
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-inline": {
+            "##characteristics#compile#obj_size#min_imp": 1.065463701217, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 4.0066344546099, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.093750400090132
+          }, 
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.516620498615, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.15773969798041, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0037413226174764
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-associative-math": "-fassociative-math", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-guess-branch-probability": "-fguess-branch-probability", 
+          "##compiler_flags#bool-inline-functions": "-fno-inline-functions", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-loop-block": "-floop-block", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer", 
+          "##compiler_flags#bool-reorder-blocks": "-fno-reorder-blocks", 
+          "##compiler_flags#bool-schedule-insns2": "-fno-schedule-insns2", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-tree-loop-distribution": "-fno-tree-loop-distribution", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-fno-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-tree-tail-merge": "-fno-tree-tail-merge", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f0542a47f19b56c6", 
+    "touched": 190, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 1378038, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 181, 
+    "last_touch_uid": "1d62e9cfd47a5908", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3732, 
+          "##characteristics#run#execution_time_kernel_0#min": 3.584938, 
+          "##characteristics#run#repeat#min": 1378038
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.77491961414791, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.7800527364968
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-if-conversion2 -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "849f25b664f643c6445847014d8d9c22", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.013310961625682
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-if-conversion2": "-fno-if-conversion2", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-if-conversion2", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-if-conversion2": {
+            "##characteristics#compile#obj_size#min_imp": 1.0152339499456, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.41532854310085, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0041642440900524
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2904564315353, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.41522217108667, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0036678590529247
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=off", 
+          "##compiler_flags#bool-conserve-stack": "-fno-conserve-stack", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fcx-fortran-rules", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-inline-functions": "-fno-inline-functions", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-keep-inline-functions": "-fno-keep-inline-functions", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fno-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-ftree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-loop-distribution": "-fno-tree-loop-distribution", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "501f4ba740bea202", 
+    "touched": 134, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 3000, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 130, 
+    "last_touch_uid": "0d0feb415085f8a6", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6092, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.998403, 
+          "##characteristics#run#repeat#min": 3000
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.98606502986065, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3572960555298
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fpeel-loops -ftracer", 
+          "##characteristics#compile#md5_sum#min": "c7cf4651772367f603f8fa05b0bed111", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.022048142416609
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-tracer": "-ftracer"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-peel-loops", 
+          "##compiler_flags#bool-tracer"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-peel-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.9960343688037, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98714754146331, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0076327211399998
+          }, 
+          "##compiler_flags#bool-tracer": {
+            "##characteristics#compile#obj_size#min_imp": 1.0223880597015, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.73863871409595, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.005284982255597
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-auto-inc-dec": "-fno-auto-inc-dec", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fno-cx-fortran-rules", 
+          "##compiler_flags#bool-ipa-reference": "-fipa-reference", 
+          "##compiler_flags#bool-ipa-sra": "-fipa-sra", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-lto": "-fno-lto", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-sched-spec-load": "-fsched-spec-load", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-forwprop": "-ftree-forwprop", 
+          "##compiler_flags#bool-tree-phiprop": "-fno-tree-phiprop", 
+          "##compiler_flags#bool-tree-reassoc": "-ftree-reassoc", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-funsafe-loop-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "99b9c25ad1975add", 
+    "touched": 81, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-security-sha", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-clean-gray-square-600-450-8", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 1872, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 166, 
+    "last_touch_uid": "7d326644425abb31", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 11816, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.336342, 
+          "##characteristics#run#repeat#min": 1872
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.69766619519095, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4399535658348
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -floop-nest-optimize -fno-sched-interblock -fno-tree-copy-prop -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "5f3e310700231311bd51efa83cf72321", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.010998969644085
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-sched-interblock": "-fno-sched-interblock", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-loop-nest-optimize", 
+          "##compiler_flags#bool-sched-interblock", 
+          "##compiler_flags#bool-tree-copy-prop", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-loop-nest-optimize": {
+            "##characteristics#compile#obj_size#min_imp": 1.0325061167424, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98374006533701, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.012530550006768
+          }, 
+          "##compiler_flags#bool-sched-interblock": {
+            "##characteristics#compile#obj_size#min_imp": 0.96693944353519, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8218385774404, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0060890089315104
+          }, 
+          "##compiler_flags#bool-tree-copy-prop": {
+            "##characteristics#compile#obj_size#min_imp": 0.99595414699933, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94878341776385, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0015355982836594
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.4866633115249, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.75003886545597, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010096427241821
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-combine-stack-adjustments": "-fcombine-stack-adjustments", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-dce": "-fno-dce", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-graphite-identity": "-fgraphite-identity", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fno-isolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-keep-static-consts": "-fkeep-static-consts", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-toplevel-reorder": "-fno-toplevel-reorder", 
+          "##compiler_flags#bool-tree-forwprop": "-ftree-forwprop", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "2ccbf6c1f0324486", 
+    "touched": 118, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-telecom-gsm", 
+      "dataset_file": "data.au", 
+      "dataset_uoa": "au-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 205, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 243, 
+    "last_touch_uid": "58d28c8a026c33d8", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 98384, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.901813, 
+          "##characteristics#run#repeat#min": 205
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.86549018013256, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1469861463184
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "17dd67fb4b5e779082a8298c1ebd5c80", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.011519224294412
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1560230166965, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86863972096328, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0052148592526346
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-associative-math": "-fassociative-math", 
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-ipa-pure-const": "-fipa-pure-const", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fno-isolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-keep-static-consts": "-fkeep-static-consts", 
+          "##compiler_flags#bool-merge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-dominator-opts": "-ftree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-ftree-loop-if-convert", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-tree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#bool-unroll-all-loops": "-fno-unroll-all-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "dfd7bb4c138d57af", 
+    "touched": 210, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 4871093, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 194, 
+    "last_touch_uid": "467c3af4ab6a0781", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3740, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.16427, 
+          "##characteristics#run#repeat#min": 4871093
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.81176470588235, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.394148706886
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -floop-strip-mine -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "e72c6ac7343a03ff8189f02035aa74d0", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0081094261428062
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-loop-strip-mine": "-floop-strip-mine", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-loop-strip-mine", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-loop-strip-mine": {
+            "##characteristics#compile#obj_size#min_imp": 0.97803347280335, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.93986304198337, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0016847551890539
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.231884057971, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.71658669461813, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0088647202995314
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=CB", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-fat-lto-objects": "-ffat-lto-objects", 
+          "##compiler_flags#bool-if-conversion": "-fif-conversion", 
+          "##compiler_flags#bool-if-conversion2": "-fno-if-conversion2", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fisolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-keep-inline-functions": "-fkeep-inline-functions", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-loop-interchange": "-floop-interchange", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-tree-copyrename": "-ftree-copyrename", 
+          "##compiler_flags#bool-tree-forwprop": "-ftree-forwprop", 
+          "##compiler_flags#bool-tree-sink": "-ftree-sink", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-whole-program": "-fno-whole-program"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b13457eb65c0b743", 
+    "touched": 150, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "encode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-consumer-jpeg-c", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 639, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 208, 
+    "last_touch_uid": "b7b47cb1433fb187", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 265956, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.335216, 
+          "##characteristics#run#repeat#min": 639
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.85910410172146, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1952818849571
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline -fno-merge-all-constants -fno-tree-ccp -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "3e6e522c0ed8acddcd2b06f72ba7c2f8", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.026656960723348
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-tree-ccp": "-fno-tree-ccp", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-merge-all-constants", 
+          "##compiler_flags#bool-tree-ccp", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-inline": {
+            "##characteristics#compile#obj_size#min_imp": 0.86727020612784, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94286209816207, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.01033063405954
+          }, 
+          "##compiler_flags#bool-merge-all-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.99763734830702, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98685399084382, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010654226915
+          }, 
+          "##compiler_flags#bool-tree-ccp": {
+            "##characteristics#compile#obj_size#min_imp": 1.0000609468087, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.005994493587, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.16084202819142
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2736251794932, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.91511790131193, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.025004761765425
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-gcse": "-fno-gcse", 
+          "##compiler_flags#bool-peel-loops": "-fno-peel-loops", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-toplevel-reorder": "-fno-toplevel-reorder", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-fno-tree-loop-if-convert", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize", 
+          "##compiler_flags#bool-whole-program": "-fno-whole-program"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b9a130514a0c890b", 
+    "touched": 166, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 45451508, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 245, 
+    "last_touch_uid": "cbe21f84eca91cf0", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4056, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.898136, 
+          "##characteristics#run#repeat#min": 45451508
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.80078895463511, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4143279497345
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-loop-if-convert -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "5d8e265995cac9c230f8ea47752ce55c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0092709990012612
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-fno-tree-loop-if-convert", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-loop-if-convert", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-loop-if-convert": {
+            "##characteristics#compile#obj_size#min_imp": 0.99509322865554, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8337191307649, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0046613663346706
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2518518518519, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80751230940145, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0041615478737848
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-probabilities": "-fbranch-probabilities", 
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-expensive-optimizations": "-fexpensive-optimizations", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-gcse-sm": "-fgcse-sm", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-live-range-shrinkage": "-flive-range-shrinkage", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-peephole2": "-fno-peephole2", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-frerun-cse-after-loop", 
+          "##compiler_flags#bool-tree-loop-distribute-patterns": "-ftree-loop-distribute-patterns", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-vect-cost-model": "-fno-vect-cost-model", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "30d874f89911c336", 
+    "touched": 214, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "decode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-telecom-adpcm-d", 
+      "dataset_file": "data.adpcm", 
+      "dataset_uoa": "adpcm-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 5611, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 222, 
+    "last_touch_uid": "0c2494cd4b08191c", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5008, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.794561, 
+          "##characteristics#run#repeat#min": 5611
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.77002379064235, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3391690517077
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-section-anchors -fselective-scheduling2 -fno-tree-forwprop -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "361a5010355421742bd7d7a18f5195ed", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0093421375419087
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-section-anchors": "-fno-section-anchors", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-tree-forwprop": "-fno-tree-forwprop", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-section-anchors", 
+          "##compiler_flags#bool-selective-scheduling2", 
+          "##compiler_flags#bool-tree-forwprop", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-section-anchors": {
+            "##characteristics#compile#obj_size#min_imp": 1.1071115013169, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.77627064827241, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0091943091068168
+          }, 
+          "##compiler_flags#bool-selective-scheduling2": {
+            "##characteristics#compile#obj_size#min_imp": 1.0152979066023, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.93628687052494, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0037564835252312
+          }, 
+          "##compiler_flags#bool-tree-forwprop": {
+            "##characteristics#compile#obj_size#min_imp": 1.0007936507937, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97859364526845, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0026143262733057
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2880490296221, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80472833825391, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0035184527711118
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fno-branch-count-reg", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fno-ira-share-spill-slots", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-peephole2": "-fno-peephole2", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-trapping-math": "-fno-trapping-math", 
+          "##compiler_flags#bool-tree-ccp": "-ftree-ccp", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "2367ded45bc915d8", 
+    "touched": 183, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 41284390, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 242, 
+    "last_touch_uid": "88634995997c68ae", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4640, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.00192, 
+          "##characteristics#run#repeat#min": 41284390
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.81073943661972, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.220538252221
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-ivopts -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "49bc663d61398ea525e3aaf7e7ee9619", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0092667391001979
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-ivopts", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-ivopts": {
+            "##characteristics#compile#obj_size#min_imp": 0.94745621351126, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98294968873793, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0040879174986602
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2334419109663, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86645395055298, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0070295943594315
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-expensive-optimizations": "-fno-expensive-optimizations", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-function-sections": "-ffunction-sections", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-ipa-sra": "-fno-ipa-sra", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-freorder-blocks-and-partition", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-frerun-cse-after-loop", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-toplevel-reorder": "-fno-toplevel-reorder", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-copyrename": "-fno-tree-copyrename", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fno-variable-expansion-in-unroller", 
+          "##compiler_flags#bool-vpt": "-fno-vpt", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "15989ae392f54913", 
+    "touched": 207, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 54712885, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 166, 
+    "last_touch_uid": "5587125a24e50a9f", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3888, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.602397, 
+          "##characteristics#run#repeat#min": 54712885
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.77263374485597, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5141851033962
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-ch -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "3d3a70a3b08faf7ab178056e243f57fb", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0017415320484151
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-ch", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-ch": {
+            "##characteristics#compile#obj_size#min_imp": 0.98181818181818, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85146550440373, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0082854094651083
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.296, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.56302673559762, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0056943445839768
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fno-ira-share-spill-slots", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-tree-loop-distribute-patterns": "-ftree-loop-distribute-patterns", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-funsafe-loop-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "94cc88432dac4d68", 
+    "touched": 119, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-d-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 416900, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 184, 
+    "last_touch_uid": "1991691ebd1fbd99", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3968, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.119824, 
+          "##characteristics#run#repeat#min": 416900
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.84056508577195, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.366840803283
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-move-loop-invariants -fno-tree-ch -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "90ebcc57b98e11745a76532a1aa256dd", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0082365849337867
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-move-loop-invariants": "-fno-move-loop-invariants", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-move-loop-invariants", 
+          "##compiler_flags#bool-tree-ch", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-move-loop-invariants": {
+            "##characteristics#compile#obj_size#min_imp": 0.98510427010924, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80020850396717, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0078636392148434
+          }, 
+          "##compiler_flags#bool-tree-ch": {
+            "##characteristics#compile#obj_size#min_imp": 1.0464135021097, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8848887067347, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0040552096242053
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.220172201722, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.88477850079343, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0046528052000448
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fno-ira-hoist-pressure", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fsched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-thread-jumps": "-fno-thread-jumps", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-ftree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-loop-distribute-patterns": "-ftree-loop-distribute-patterns", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-tree-pta": "-ftree-pta", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4ac69bb6998110ac", 
+    "touched": 138, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jfdctint-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 13300436, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 215, 
+    "last_touch_uid": "999421184233e761", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3152, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.674059, 
+          "##characteristics#run#repeat#min": 13300436
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0512163892446, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3977269357574
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fira-algorithm=priority -fno-ivopts", 
+          "##characteristics#compile#md5_sum#min": "bae04b697ee9ae3d9d40682066e8d443", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0060089972464317
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fira-algorithm=", 
+          "##compiler_flags#bool-ivopts"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool--fira-algorithm=": {
+            "##characteristics#compile#obj_size#min_imp": 1.0063856960409, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98760494661287, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0034247622948967
+          }, 
+          "##compiler_flags#bool-ivopts": {
+            "##characteristics#compile#obj_size#min_imp": 0.95012165450122, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.72281773796701, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.004853886422371
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=standard", 
+          "##compiler_flags#bool--fira-region=": "-fira-region=one", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-early-inlining": "-fearly-inlining", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-forward-propagate": "-fforward-propagate", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-ipa-pta": "-fno-ipa-pta", 
+          "##compiler_flags#bool-live-range-shrinkage": "-flive-range-shrinkage", 
+          "##compiler_flags#bool-loop-block": "-floop-block", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-freorder-blocks-and-partition", 
+          "##compiler_flags#bool-selective-scheduling": "-fselective-scheduling", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc", 
+          "##compiler_flags#bool-tree-tail-merge": "-fno-tree-tail-merge", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-unroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "df142a586c394a85", 
+    "touched": 174, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jfdctint-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 14262527, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 248, 
+    "last_touch_uid": "f1b7f05922547a69", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3196, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.267129, 
+          "##characteristics#run#repeat#min": 14262527
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0552699228792, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3933481122682
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-ivopts", 
+          "##characteristics#compile#md5_sum#min": "46495dc92d1e4eff43e9009adc22a03b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0062320383910081
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-ivopts"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-ivopts": {
+            "##characteristics#compile#obj_size#min_imp": 0.94893111638955, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.71855093141591, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.004956042312016
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-branch-probabilities": "-fno-branch-probabilities", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-function-sections": "-ffunction-sections", 
+          "##compiler_flags#bool-ipa-cp": "-fipa-cp", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fno-ira-share-spill-slots", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-fno-rerun-cse-after-loop", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fno-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "04e8098c30dcd57e", 
+    "touched": 220, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 3044, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 185, 
+    "last_touch_uid": "a3f2d45494686b11", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3056, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.265836, 
+          "##characteristics#run#repeat#min": 3044
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0121130551817, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3440377262292
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-sched-spec -fno-tree-ch", 
+          "##characteristics#compile#md5_sum#min": "055c45d5444c3ff4f9060b0940aca58b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.011507773851639
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-sched-spec", 
+          "##compiler_flags#bool-tree-ch"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-sched-spec": {
+            "##characteristics#compile#obj_size#min_imp": 1.0159574468085, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68339556733317, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0037882437966756
+          }, 
+          "##compiler_flags#bool-tree-ch": {
+            "##characteristics#compile#obj_size#min_imp": 1.0255033557047, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85138402848364, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0026998256702085
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fno-devirtualize-speculatively", 
+          "##compiler_flags#bool-function-cse": "-fno-function-cse", 
+          "##compiler_flags#bool-function-sections": "-ffunction-sections", 
+          "##compiler_flags#bool-inline-functions": "-finline-functions", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fira-share-spill-slots", 
+          "##compiler_flags#bool-live-range-shrinkage": "-flive-range-shrinkage", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-tree-loop-im": "-fno-tree-loop-im", 
+          "##compiler_flags#bool-tree-ter": "-fno-tree-ter"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "82e3849ef4bfcbe0", 
+    "touched": 140, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "corners", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-clean-gray-square-600-450-8", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 366, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 238, 
+    "last_touch_uid": "6d67c58161434e30", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 28276, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.316059, 
+          "##characteristics#run#repeat#min": 366
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0626653669405, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3429929500137
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-ivopts -fselective-scheduling -fwhole-program", 
+          "##characteristics#compile#md5_sum#min": "a29291fa74139e002ffe875a8c873f8f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.013786898030331
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts", 
+          "##compiler_flags#bool-selective-scheduling": "-fselective-scheduling", 
+          "##compiler_flags#bool-whole-program": "-fwhole-program"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-ivopts", 
+          "##compiler_flags#bool-selective-scheduling", 
+          "##compiler_flags#bool-whole-program"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-ivopts": {
+            "##characteristics#compile#obj_size#min_imp": 0.92756856055636, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80461053576504, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0068896304921103
+          }, 
+          "##compiler_flags#bool-selective-scheduling": {
+            "##characteristics#compile#obj_size#min_imp": 1.0097156736677, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95929304581504, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.003858687815429
+          }, 
+          "##compiler_flags#bool-whole-program": {
+            "##characteristics#compile#obj_size#min_imp": 0.99297456793593, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98926832341244, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0068994949950341
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-devirtualize": "-fno-devirtualize", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fisolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-pressure": "-fsched-pressure", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-tree-ccp": "-ftree-ccp", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-unit-at-a-time": "-fno-unit-at-a-time", 
+          "##compiler_flags#bool-unroll-loops": "-fno-unroll-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6d1b29c25d254c1e", 
+    "touched": 202, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 590281, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 143, 
+    "last_touch_uid": "6e509644ff9967df", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3148, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.263632, 
+          "##characteristics#run#repeat#min": 590281
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0012706480305, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1615453090216
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-omit-frame-pointer -fno-tree-loop-optimize", 
+          "##characteristics#compile#md5_sum#min": "751541cc221cd1d3238870a6a62072ff", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00047763894610124
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-omit-frame-pointer", 
+          "##compiler_flags#bool-tree-loop-optimize"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-omit-frame-pointer": {
+            "##characteristics#compile#obj_size#min_imp": 1.0025477707006, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95510428593828, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010663434343058
+          }, 
+          "##compiler_flags#bool-tree-loop-optimize": {
+            "##characteristics#compile#obj_size#min_imp": 0.99368686868687, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.84572621134614, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0027768453878731
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fno-ira-hoist-pressure", 
+          "##compiler_flags#bool-loop-block": "-fno-loop-block", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-reciprocal-math": "-fno-reciprocal-math", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-single-precision-constant": "-fno-single-precision-constant", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-pre": "-ftree-pre"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "3b8835387e3ef430", 
+    "touched": 94, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 345281, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 104, 
+    "last_touch_uid": "6cf0fbb013f74055", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3064, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.129216, 
+          "##characteristics#run#repeat#min": 345281
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.056135770235, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0952100950151
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-auto-inc-dec -ffinite-math-only", 
+          "##characteristics#compile#md5_sum#min": "5e4a1af8f942ae00d29eb515aab2cc44", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0055877971063992
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-auto-inc-dec": "-fno-auto-inc-dec", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-auto-inc-dec", 
+          "##compiler_flags#bool-finite-math-only"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-auto-inc-dec": {
+            "##characteristics#compile#obj_size#min_imp": 1.0026178010471, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98385504275358, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0045890548599573
+          }, 
+          "##compiler_flags#bool-finite-math-only": {
+            "##characteristics#compile#obj_size#min_imp": 0.94451294697904, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.93369374214649, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0052131763714258
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fno-btr-bb-exclusive", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-data-sections": "-fdata-sections", 
+          "##compiler_flags#bool-function-cse": "-fno-function-cse", 
+          "##compiler_flags#bool-graphite-identity": "-fgraphite-identity", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-if-conversion2": "-fif-conversion2", 
+          "##compiler_flags#bool-inline-small-functions": "-fno-inline-small-functions", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fira-share-spill-slots", 
+          "##compiler_flags#bool-loop-strip-mine": "-floop-strip-mine", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-peel-loops": "-fno-peel-loops", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-fno-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-tree-bit-ccp": "-ftree-bit-ccp", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-pre": "-ftree-pre", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "289b999fde018959", 
+    "touched": 54, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "encode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-telecom-adpcm-c", 
+      "dataset_file": "data.pcm", 
+      "dataset_uoa": "pcm-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 4670, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 244, 
+    "last_touch_uid": "3b7561c717c0499e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4436, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.466314, 
+          "##characteristics#run#repeat#min": 4670
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0600436681223, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2003117315529
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-guess-branch-probability -fira-loop-pressure -fno-toplevel-reorder", 
+          "##characteristics#compile#md5_sum#min": "53dd19c7dcd2d78d12c978cad50f57e9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0035885319566413
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-guess-branch-probability": "-fno-guess-branch-probability", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-toplevel-reorder": "-fno-toplevel-reorder"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-guess-branch-probability", 
+          "##compiler_flags#bool-ira-loop-pressure", 
+          "##compiler_flags#bool-toplevel-reorder"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-guess-branch-probability": {
+            "##characteristics#compile#obj_size#min_imp": 0.97654584221748, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90845588557654, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0065971270715288
+          }, 
+          "##compiler_flags#bool-ira-loop-pressure": {
+            "##characteristics#compile#obj_size#min_imp": 0.98141592920354, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96728274309536, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0044592898369373
+          }, 
+          "##compiler_flags#bool-toplevel-reorder": {
+            "##characteristics#compile#obj_size#min_imp": 0.98920086393089, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96247480936963, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0028347322967106
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-data-sections": "-fdata-sections", 
+          "##compiler_flags#bool-devirtualize": "-fno-devirtualize", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-inline": "-finline", 
+          "##compiler_flags#bool-ipa-pure-const": "-fno-ipa-pure-const", 
+          "##compiler_flags#bool-sched-dep-count-heuristic": "-fno-sched-dep-count-heuristic", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fsplit-ivs-in-unroller", 
+          "##compiler_flags#bool-trapping-math": "-ftrapping-math", 
+          "##compiler_flags#bool-tree-copyrename": "-ftree-copyrename", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "68c75f44b7aa20b4", 
+    "touched": 213, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 337459, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 201, 
+    "last_touch_uid": "5b4d34bdf2680a2d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3364, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.208138, 
+          "##characteristics#run#repeat#min": 337459
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0083135391924, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.19924221763
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fselective-scheduling2 -fno-tree-pre", 
+          "##characteristics#compile#md5_sum#min": "7eb2dfe46874fe345b032ba7208b51a2", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0018158710866978
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-selective-scheduling2", 
+          "##compiler_flags#bool-tree-pre"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-selective-scheduling2": {
+            "##characteristics#compile#obj_size#min_imp": 1.0011904761905, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90003903086601, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0072154387392218
+          }, 
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 0.98593200468933, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.89898234122398, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0031638873461728
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-if-conversion2": "-fif-conversion2", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-loop-block": "-floop-block", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-signed-zeros": "-fsigned-zeros", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b4147872aeb87292", 
+    "touched": 158, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "encode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "zlib", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-clean-gray-square-600-450-8", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 1105, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 226, 
+    "last_touch_uid": "9fbbda7be4f6d466", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 136852, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.370123, 
+          "##characteristics#run#repeat#min": 1105
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.85261626180436, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1851371003476
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fgcse-sm -fno-move-loop-invariants -fno-tree-forwprop -funroll-all-loops -fno-web", 
+          "##characteristics#compile#md5_sum#min": "1aacab30d0b36c4277d5676c25506357", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0066348994063254
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-gcse-sm": "-fgcse-sm", 
+          "##compiler_flags#bool-move-loop-invariants": "-fno-move-loop-invariants", 
+          "##compiler_flags#bool-tree-forwprop": "-fno-tree-forwprop", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops", 
+          "##compiler_flags#bool-web": "-fno-web"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-gcse-sm", 
+          "##compiler_flags#bool-move-loop-invariants", 
+          "##compiler_flags#bool-tree-forwprop", 
+          "##compiler_flags#bool-unroll-all-loops", 
+          "##compiler_flags#bool-web"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-gcse-sm": {
+            "##characteristics#compile#obj_size#min_imp": 1.0010690105713, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96583263683338, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0017347466510281
+          }, 
+          "##compiler_flags#bool-move-loop-invariants": {
+            "##characteristics#compile#obj_size#min_imp": 0.9767064549774, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.99808320516144, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0071925716985493
+          }, 
+          "##compiler_flags#bool-tree-forwprop": {
+            "##characteristics#compile#obj_size#min_imp": 0.97153689289715, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0033374398858, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.004419142602484
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2124874118832, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85711447615946, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0012508845284579
+          }, 
+          "##compiler_flags#bool-web": {
+            "##characteristics#compile#obj_size#min_imp": 1.0053380252289, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97994279677817, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.012754357736941
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fno-cse-skip-blocks", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-gcse": "-fgcse", 
+          "##compiler_flags#bool-gcse-after-reload": "-fno-gcse-after-reload", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-live-range-shrinkage": "-fno-live-range-shrinkage", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-freorder-blocks-and-partition", 
+          "##compiler_flags#bool-thread-jumps": "-fno-thread-jumps", 
+          "##compiler_flags#bool-tree-dce": "-ftree-dce", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-tree-phiprop": "-fno-tree-phiprop", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations", 
+          "##compiler_flags#bool-unswitch-loops": "-funswitch-loops", 
+          "##compiler_flags#param--falign-jumps=": "-falign-jumps=0", 
+          "##compiler_flags#param-graphite-max-nb-scop-params": "--param graphite-max-nb-scop-params=3", 
+          "##compiler_flags#param-ipa-sra-ptr-growth-factor": "--param ipa-sra-ptr-growth-factor=0", 
+          "##compiler_flags#param-large-stack-frame-growth": "--param large-stack-frame-growth=1512", 
+          "##compiler_flags#param-max-inline-insns-auto": "--param max-inline-insns-auto=39", 
+          "##compiler_flags#param-max-sched-region-insns": "--param max-sched-region-insns=193", 
+          "##compiler_flags#param-max-tail-merge-iterations": "--param max-tail-merge-iterations=3", 
+          "##compiler_flags#param-max-vartrack-reverse-op-size": "--param max-vartrack-reverse-op-size=75", 
+          "##compiler_flags#param-min-crossjump-insns": "--param min-crossjump-insns=5", 
+          "##compiler_flags#param-slp-max-insns-in-bb": "--param slp-max-insns-in-bb=697", 
+          "##compiler_flags#param-tm-max-aggregate-size": "--param tm-max-aggregate-size=13"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "5cc84565aa45fd16", 
+    "touched": 5, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200
+      }, 
+      "cpu_name": "BCM2709", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "9202d214011a58fd", 
+      "gpu_misc_uid": "4b10738fad4c788a", 
+      "gpu_name": "-", 
+      "kernel_repetitions": 8554217, 
+      "omit_probability": "", 
+      "os_name": "Linux 4.4.32", 
+      "os_uid": "4e0304046db9be3e", 
+      "platform_name": "Raspberry Pi 3", 
+      "platform_uid": "c4b8397bce9bc87f"
+    }, 
+    "iterations": 128, 
+    "last_touch_uid": "59670906f3646a95", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3668, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.507577, 
+          "##characteristics#run#repeat#min": 8554217
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0010881392818, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1752607868312
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-schedule-insns -fselective-scheduling2", 
+          "##characteristics#compile#md5_sum#min": "0ed44cc61937b3c75f79cbaa55528a28", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0035529329651457
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-schedule-insns": "-fno-schedule-insns", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-schedule-insns", 
+          "##compiler_flags#bool-selective-scheduling2"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-schedule-insns": {
+            "##characteristics#compile#obj_size#min_imp": 0.99673913043478, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85698994626059, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0038137061941298
+          }, 
+          "##compiler_flags#bool-selective-scheduling2": {
+            "##characteristics#compile#obj_size#min_imp": 0.99782372143634, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98918351584045, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0095077487576839
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=on", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fno-cse-skip-blocks", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-ipa-pta": "-fno-ipa-pta", 
+          "##compiler_flags#bool-ipa-sra": "-fno-ipa-sra", 
+          "##compiler_flags#bool-keep-inline-functions": "-fkeep-inline-functions", 
+          "##compiler_flags#bool-loop-block": "-floop-block", 
+          "##compiler_flags#bool-loop-strip-mine": "-floop-strip-mine", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-tree-phiprop": "-fno-tree-phiprop", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fno-variable-expansion-in-unroller", 
+          "##compiler_flags#bool-wpa": "-fno-wpa"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d899b4a94364aaa3", 
+    "touched": 78, 
+    "user": "fgg@raspberrypi", 
+    "validated": 1
+  }
+]

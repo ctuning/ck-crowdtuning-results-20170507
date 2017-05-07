@@ -1,0 +1,298 @@
+{
+  "22f0e6e7af6c4a93": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6296, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3450002670288, 
+          "##characteristics#run#repeat#min": 2407
+        }, 
+        "checked": [
+          "22f0e6e7af6c4a93"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9987293519695044, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1236022399706842
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9987293519695044, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1236022399706842
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "280fd92262475ab0": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3984, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.7799997329712, 
+          "##characteristics#run#repeat#min": 46403712
+        }, 
+        "checked": [
+          "280fd92262475ab0"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.7991967871485943, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.19311946688242
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.7991967871485943, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.19311946688242
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "4be4b87e362cb4ca": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3704, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3900003433228, 
+          "##characteristics#run#repeat#min": 575373952
+        }, 
+        "checked": [
+          "4be4b87e362cb4ca"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.826133909287257, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.135566608136045
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnts-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.826133909287257, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.135566608136045
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnts-codelet-1-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "532cb5ad38504f79": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 13956, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.2410001754761, 
+          "##characteristics#run#repeat#min": 10405827
+        }, 
+        "checked": [
+          "532cb5ad38504f79"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.2545141874462597, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5878006706034389
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.2545141874462597, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.5878006706034389
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-5-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "8a5342138bd393e8": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12284, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6709995269775, 
+          "##characteristics#run#repeat#min": 2425
+        }, 
+        "checked": [
+          "8a5342138bd393e8"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.2569195701725822, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2441785438363129
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.2569195701725822, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2441785438363129
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "8e16734423b9fbbb": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3108, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.4390001296997, 
+          "##characteristics#run#repeat#min": 9624639
+        }, 
+        "checked": [
+          "8e16734423b9fbbb"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9987129987129987, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1070842252358122
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9987129987129987, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1070842252358122
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "af98b441bafddfad": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4136, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.2360000610352, 
+          "##characteristics#run#repeat#min": 1788908
+        }, 
+        "checked": [
+          "af98b441bafddfad"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0087040618955512, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2306462252097188
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0087040618955512, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2306462252097188
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1"
+    }, 
+    "user": "gettodroid"
+  }, 
+  "b2ea32d4663b3a3f": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4260, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6079998016357, 
+          "##characteristics#run#repeat#min": 52301260
+        }, 
+        "checked": [
+          "b2ea32d4663b3a3f"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9089201877934272, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4624048022218028
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9089201877934272, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.4624048022218028
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+    }, 
+    "user": "gettodroid"
+  }
+}

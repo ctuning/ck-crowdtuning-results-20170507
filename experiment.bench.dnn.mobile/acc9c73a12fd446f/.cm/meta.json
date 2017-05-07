@@ -1,0 +1,74 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "480bb07907a532ae", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "image_height": 826, 
+      "image_width": 693, 
+      "prediction": "0.5844 - \"comic book (930)\"\n0.3067 - \"book jacket (774)\"\n0.0040 - \"window screen (912)\"\n0.0016 - \"bikini (985)\"\n0.0015 - \"pillow (888)\"\n", 
+      "time": [
+        1989, 
+        2107, 
+        2052
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.294266, 
+          0.253387, 
+          0.318508
+        ], 
+        "execution_time_kernel_0": [
+          0.294266, 
+          0.253387, 
+          0.318508
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          1.54484, 
+          1.701417, 
+          1.536463
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7"
+  }
+}

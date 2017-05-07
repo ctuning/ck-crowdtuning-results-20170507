@@ -1,0 +1,110 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "f9f26afb3d71f134", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440, 
+          "4": 1824, 
+          "5": 1824
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.8268 - \"n03793489 mouse, computer mouse\"\n0.0194 - \"n04317175 stethoscope\"\n0.0175 - \"n02988304 CD player\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0102 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        2294, 
+        2016, 
+        2124, 
+        1431, 
+        1445, 
+        1427, 
+        1395, 
+        1412, 
+        1411, 
+        1444, 
+        1383, 
+        1367
+      ], 
+      "user": "", 
+      "xopenme": {}
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8992", 
+    "cpu_uid": "3459f0bbd4b47b1b", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 418", 
+    "gpu_uid": "04be7a8c8ccdb721", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "LGE NEXUS 5X", 
+    "platform_uid": "50854d47868efc68"
+  }
+}

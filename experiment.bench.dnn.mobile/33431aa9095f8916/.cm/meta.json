@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "6a1eb3a8755977e1", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 4160, 
+      "image_width": 2336, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488134001466.jpg ----------\n0.2541 - \"n04347754 submarine, pigboat, sub, U-boat\"\n0.1529 - \"n02894605 breakwater, groin, groyne, mole, bulwark, seawall, jetty\"\n0.0500 - \"n03388183 fountain pen\"\n0.0425 - \"n01806143 peacock\"\n0.0391 - \"n02823428 beer bottle\"\n", 
+      "time": [
+        6804, 
+        6540, 
+        6582, 
+        6596, 
+        8069, 
+        6975
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.161866, 
+          0.151078, 
+          0.144937, 
+          0.189642, 
+          0.175532, 
+          0.206809
+        ], 
+        "execution_time_kernel_0": [
+          0.161866, 
+          0.151078, 
+          0.144937, 
+          0.189642, 
+          0.175532, 
+          0.206809
+        ], 
+        "execution_time_kernel_1": [
+          0.956779, 
+          0.931434, 
+          0.952605, 
+          0.975876, 
+          0.953804, 
+          1.090545
+        ], 
+        "execution_time_kernel_2": [
+          5.54115, 
+          5.31321, 
+          5.343136, 
+          5.278165, 
+          6.790251, 
+          5.542438
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "MT6735", 
+    "cpu_uid": "47b6a26c02a35c9b", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "LGE LG-K220", 
+    "platform_uid": ""
+  }
+}

@@ -1,0 +1,850 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1132.8, 
+        "1": 1132.8, 
+        "2": 1132.8, 
+        "3": 1132.8
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 161617467, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 53, 
+    "last_touch_uid": "49f28b8b8fc1282a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 11960, 
+          "##characteristics#run#execution_time_kernel_0#min": 4.67146, 
+          "##characteristics#run#repeat#min": 161617467
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.33513149022252, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.120760043459
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "0cedd5ca0182c1476eb82fc639f8f017", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0073984712281436
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.010060362173, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.47163726063512, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0023512440350612
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--flto-partition=": "-flto-partition=one", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-ipa-cp": "-fno-ipa-cp", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-sched-pressure": "-fsched-pressure", 
+          "##compiler_flags#bool-tree-dominator-opts": "-ftree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize", 
+          "##compiler_flags#bool-tree-reassoc": "-ftree-reassoc"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "e7aebe217d6bab62", 
+    "touched": 22, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-qsort1-src-qsort-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1224, 
+        "1": 1224, 
+        "2": 1224, 
+        "3": 1224
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 431989141, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 46, 
+    "last_touch_uid": "8f2122d5df407984", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 11896, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.240707, 
+          "##characteristics#run#repeat#min": 431989141
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.44835007173601, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.9035125299807
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "83dfae52744d5ff57337cd478383f4fe", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0061288923358993
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.3792, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.52649656683246, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0016237020848158
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-cse-follow-jumps": "-fno-cse-follow-jumps", 
+          "##compiler_flags#bool-devirtualize-at-ltrans": "-fno-devirtualize-at-ltrans", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-ivopts": "-fivopts", 
+          "##compiler_flags#bool-loop-block": "-fno-loop-block", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fomit-frame-pointer", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fsched-group-heuristic", 
+          "##compiler_flags#bool-sched-rank-heuristic": "-fsched-rank-heuristic", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-split-wide-types": "-fsplit-wide-types", 
+          "##compiler_flags#bool-use-linker-plugin": "-fuse-linker-plugin"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f3ce5a9d2224d528", 
+    "touched": 13, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1326, 
+        "1": 1326, 
+        "2": 1326, 
+        "3": 1326
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 9764118, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 53, 
+    "last_touch_uid": "fd4a54428186fe1b", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 16208, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.825107, 
+          "##characteristics#run#repeat#min": 9764118
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.87480438184664, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6972668939965
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-constants -fno-sched-interblock -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "f51a826d8197278db2800b8a2ac80a01", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0076024485719238
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-sched-interblock": "-fno-sched-interblock", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-merge-constants", 
+          "##compiler_flags#bool-sched-interblock", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-merge-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.94108983799705, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0007566439416, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010087212356835
+          }, 
+          "##compiler_flags#bool-sched-interblock": {
+            "##characteristics#compile#obj_size#min_imp": 1.0029702970297, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.93418309916028, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0064255282387173
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2288461538462, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.58923641399107, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0088848682714321
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-early-inlining": "-fearly-inlining", 
+          "##compiler_flags#bool-fast-math": "-ffast-math", 
+          "##compiler_flags#bool-fat-lto-objects": "-ffat-lto-objects", 
+          "##compiler_flags#bool-ipa-ra": "-fipa-ra", 
+          "##compiler_flags#bool-ipa-reference": "-fipa-reference", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-lra-remat": "-fno-lra-remat", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-modulo-sched": "-fmodulo-sched", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-predictive-commoning": "-fpredictive-commoning", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-semantic-interposition": "-fsemantic-interposition", 
+          "##compiler_flags#bool-signed-zeros": "-fsigned-zeros", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fsplit-ivs-in-unroller", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-ccp": "-fno-tree-ccp", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-funsafe-loop-optimizations", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fvariable-expansion-in-unroller"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f88ddabdce48c51f", 
+    "touched": 23, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1555.5, 
+        "1": 1555.5, 
+        "2": 1555.5, 
+        "3": 1555.5
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 24214710, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 53, 
+    "last_touch_uid": "731a054d814558bd", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5592, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.605035, 
+          "##characteristics#run#repeat#min": 24214710
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.75393419170243, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7496269440697
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-ssa-phiopt -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "45da76213cddfe92e53defcf8e5d8da5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0039565941505831
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-ssa-phiopt": "-fno-ssa-phiopt", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-ssa-phiopt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-ssa-phiopt": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97011398664386, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0327584095868
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.3238636363636, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.5135621706294, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0060533322527359
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=off", 
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=CB", 
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fno-branch-target-load-optimize", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-ipa-icf": "-fno-ipa-icf", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-ivopts": "-fivopts", 
+          "##compiler_flags#bool-loop-parallelize-all": "-fno-loop-parallelize-all", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-fno-reorder-blocks-and-partition", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-fno-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-tree-sink": "-fno-tree-sink", 
+          "##compiler_flags#bool-unroll-loops": "-fno-unroll-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8943d41ae143d4a0", 
+    "touched": 25, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1428, 
+        "1": 1428, 
+        "2": 1428, 
+        "3": 1428
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 5392911, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 44, 
+    "last_touch_uid": "4a883fc2d8cff4be", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4976, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.676428, 
+          "##characteristics#run#repeat#min": 5392911
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0048231511254, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4961296553094
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-fre", 
+          "##characteristics#compile#md5_sum#min": "db5e783b271ae8c796f4004884a1e54e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0059726106069424
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-fre"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-fre": {
+            "##characteristics#compile#obj_size#min_imp": 0.9952, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.66804261534052, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0021306467125868
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-associative-math": "-fassociative-math", 
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fbranch-target-load-optimize", 
+          "##compiler_flags#bool-dce": "-fno-dce", 
+          "##compiler_flags#bool-dse": "-fdse", 
+          "##compiler_flags#bool-gcse": "-fgcse", 
+          "##compiler_flags#bool-gcse-lm": "-fno-gcse-lm", 
+          "##compiler_flags#bool-graphite-identity": "-fgraphite-identity", 
+          "##compiler_flags#bool-ipa-reference": "-fipa-reference", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fomit-frame-pointer", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-schedule-fusion": "-fno-schedule-fusion", 
+          "##compiler_flags#bool-section-anchors": "-fsection-anchors", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-loop-distribution": "-fno-tree-loop-distribution", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-fno-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize", 
+          "##compiler_flags#bool-tree-slsr": "-ftree-slsr", 
+          "##compiler_flags#bool-use-linker-plugin": "-fuse-linker-plugin"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "dc85dbd7f277e7c0", 
+    "touched": 10, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "cbench-security-sha", 
+      "dataset_file": "cat.jpg", 
+      "dataset_uoa": "image-jpeg-dnn-cat", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1132.8, 
+        "1": 1132.8, 
+        "2": 1132.8, 
+        "3": 1132.8
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 5573, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 53, 
+    "last_touch_uid": "04bdf2640bb5d9a4", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 9064, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.91172, 
+          "##characteristics#run#repeat#min": 5573
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0067796610169, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2722020497114
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fmodulo-sched -fno-tree-loop-vectorize", 
+          "##characteristics#compile#md5_sum#min": "7f5d67761c499d5d7e4fb27e36ba0a57", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0090060788888531
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-modulo-sched": "-fmodulo-sched", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-modulo-sched", 
+          "##compiler_flags#bool-tree-loop-vectorize"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-modulo-sched": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98038465485682, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.005996301595652
+          }, 
+          "##compiler_flags#bool-tree-loop-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.79828602434089, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.01633014886957
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool--fira-region=": "-fira-region=mixed", 
+          "##compiler_flags#bool-branch-probabilities": "-fno-branch-probabilities", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fno-cx-fortran-rules", 
+          "##compiler_flags#bool-early-inlining": "-fearly-inlining", 
+          "##compiler_flags#bool-gcse": "-fgcse", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-ipa-ra": "-fno-ipa-ra", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-semantic-interposition": "-fno-semantic-interposition", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-tree-ccp": "-ftree-ccp", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "75bd3c407982dad3", 
+    "touched": 24, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1224, 
+        "1": 1224, 
+        "2": 1224, 
+        "3": 1224
+      }, 
+      "cpu_name": "jetson_tx1", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "ecd4a8042ea4d7b9", 
+      "gpu_misc_uid": "0cdac12182f24802", 
+      "gpu_name": "Tegra TX1", 
+      "kernel_repetitions": 528632, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "-", 
+      "platform_uid": "b83775c21179d60b"
+    }, 
+    "iterations": 36, 
+    "last_touch_uid": "aed74f9faa932a5e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4936, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.841184, 
+          "##characteristics#run#repeat#min": 528632
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0749542961609, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1221511381063
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-constants -fno-tree-pre", 
+          "##characteristics#compile#md5_sum#min": "b8e2645b4a03cc2413627c9960726661", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0048805523883118
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-merge-constants", 
+          "##compiler_flags#bool-tree-pre"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-merge-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.93344709897611, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.99464026967281, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0085279503001547
+          }, 
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 0.99635701275046, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.89813498723285, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0067837112105813
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fno-branch-count-reg", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+          "##compiler_flags#bool-conserve-stack": "-fno-conserve-stack", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fno-cx-fortran-rules", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fira-share-spill-slots", 
+          "##compiler_flags#bool-keep-inline-functions": "-fno-keep-inline-functions", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fno-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fno-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-schedule-fusion": "-fschedule-fusion", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-tree-slsr": "-ftree-slsr", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-use-linker-plugin": "-fno-use-linker-plugin"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d3ab52846b9bb1d4", 
+    "touched": 2, 
+    "user": "tegra_crowdtuning", 
+    "validated": 1
+  }
+]

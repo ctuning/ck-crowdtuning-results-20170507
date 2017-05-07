@@ -1,0 +1,78 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "f4c7352e4d809192", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9984 - \"mouse (511)\"\n0.0001 - \"spotlight (593)\"\n0.0001 - \"lampshade (814)\"\n0.0001 - \"mousetrap (599)\"\n0.0000 - \"crash helmet (778)\"\n", 
+      "time": [
+        2552, 
+        2694, 
+        2681
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.070696, 
+          1.184268, 
+          1.156862
+        ], 
+        "execution_time_kernel_0": [
+          1.070696, 
+          1.184268, 
+          1.156862
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          1.347844, 
+          1.370605, 
+          1.3692
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G920F", 
+    "platform_uid": "fb18fe26730049bd"
+  }
+}

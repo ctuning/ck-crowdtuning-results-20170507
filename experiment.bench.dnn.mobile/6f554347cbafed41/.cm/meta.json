@@ -1,0 +1,147 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "3936097fe4e6fa68", 
+      "cpu_freqs_after": [
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }
+      ], 
+      "image_height": 2856, 
+      "image_width": 2448, 
+      "prediction": "---------- Prediction for /storage/emulated/0/DCIM/Camera/IMG_20170107_151907.jpg ----------\n0.4178 - \"n03877472 pajama, pyjama, pj's, jammies\"\n0.2483 - \"n02834397 bib\"\n0.0959 - \"n03935335 piggy bank, penny bank\"\n0.0635 - \"n03825788 nipple\"\n0.0268 - \"n03131574 crib, cot\"\n", 
+      "time": [
+        1554, 
+        1446, 
+        1440
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.454845, 
+          0.415477, 
+          0.405629
+        ], 
+        "execution_time_kernel_0": [
+          0.454845, 
+          0.415477, 
+          0.405629
+        ], 
+        "execution_time_kernel_1": [
+          0.139418, 
+          0.133417, 
+          0.137131
+        ], 
+        "execution_time_kernel_2": [
+          0.826535, 
+          0.743608, 
+          0.75008
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "bca10d42419f8c5f", 
+      "cpu_freqs_after": [
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }, 
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }, 
+        {
+          "0": 2188.8, 
+          "1": 2188.8, 
+          "2": 2342.4, 
+          "3": 2342.4
+        }
+      ], 
+      "image_height": 160, 
+      "image_width": 120, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488024165380.jpg ----------\n0.1307 - \"n04372370 switch, electric switch, electrical switch\"\n0.0878 - \"n03692522 loupe, jeweler's loupe\"\n0.0716 - \"n03954731 plane, carpenter's plane, woodworking plane\"\n0.0589 - \"n03676483 lipstick, lip rouge\"\n0.0397 - \"n03314780 face powder\"\n", 
+      "time": [
+        1701, 
+        1403, 
+        1431, 
+        1888, 
+        1445, 
+        1464
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.408567, 
+          0.464986, 
+          0.399738, 
+          0.430609, 
+          0.422174, 
+          0.427938
+        ], 
+        "execution_time_kernel_0": [
+          0.408567, 
+          0.464986, 
+          0.399738, 
+          0.430609, 
+          0.422174, 
+          0.427938
+        ], 
+        "execution_time_kernel_1": [
+          0.001581, 
+          0.002117, 
+          0.001848, 
+          0.001988, 
+          0.001934, 
+          0.001093
+        ], 
+        "execution_time_kernel_2": [
+          1.14287, 
+          0.797456, 
+          0.893595, 
+          1.321613, 
+          0.883052, 
+          0.886559
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996pro", 
+    "cpu_uid": "463912cc4548cfa5", 
+    "crowd_uid": "2da50a2bbc874425", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "ZUK Z2151", 
+    "platform_uid": ""
+  }
+}

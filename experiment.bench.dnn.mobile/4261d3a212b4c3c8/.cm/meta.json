@@ -1,0 +1,66 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "dc344208e68f0224", 
+      "cpu_freqs_after": [
+        {
+          "0": 1001, 
+          "1": 1001
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1001, 
+          "1": 1001
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9984 - \"mouse (511)\"\n0.0001 - \"spotlight (593)\"\n0.0001 - \"lampshade (814)\"\n0.0001 - \"mousetrap (599)\"\n0.0000 - \"crash helmet (778)\"\n", 
+      "time": [
+        22590, 
+        28535, 
+        18101
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          7.341856, 
+          10.367473, 
+          7.099178
+        ], 
+        "execution_time_kernel_0": [
+          7.341856, 
+          10.367473, 
+          7.099178
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          14.705132, 
+          17.525776, 
+          10.562815
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "MT6572", 
+    "cpu_uid": "5a7b8d55ca672d3b", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-400 MP", 
+    "gpu_uid": "445a5b4fa3ff2cb0", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 4.2.2", 
+    "os_uid": "346e28b44c14ff43", 
+    "plat_name": "ENSPERT OZZY", 
+    "platform_uid": "5d8a06387345a917"
+  }
+}

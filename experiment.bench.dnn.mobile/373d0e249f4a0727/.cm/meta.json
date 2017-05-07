@@ -1,0 +1,131 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "feaf30c0d24984bb", 
+      "cpu_freqs_after": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }, 
+        {
+          "0": 1440, 
+          "1": 1440, 
+          "2": 1440, 
+          "3": 1440
+        }
+      ], 
+      "image_height": 4032, 
+      "image_width": 3024, 
+      "mispredictions": [
+        {
+          "correct_answer": "cordless telephone", 
+          "mispredicted_image": "misprediction-image-2e4d78be2b7bc265.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488087863419.jpg ----------\n0.8010 - \"n04074963 remote control, remote\"\n0.0851 - \"n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone\"\n0.0736 - \"n03075370 combination lock\"\n0.0308 - \"n03666591 lighter, light, igniter, ignitor\"\n0.0012 - \"n04116512 rubber eraser, rubber, pencil eraser\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488087863419.jpg ----------\n0.8010 - \"n04074963 remote control, remote\"\n0.0851 - \"n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone\"\n0.0736 - \"n03075370 combination lock\"\n0.0308 - \"n03666591 lighter, light, igniter, ignitor\"\n0.0012 - \"n04116512 rubber eraser, rubber, pencil eraser\"\n", 
+      "time": [
+        1840, 
+        1828, 
+        1851, 
+        2023, 
+        1939, 
+        1976, 
+        1899, 
+        1842, 
+        1837
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.103065, 
+          0.099119, 
+          0.097461, 
+          0.099545, 
+          0.092278, 
+          0.096813, 
+          0.095232, 
+          0.095266, 
+          0.101163
+        ], 
+        "execution_time_kernel_0": [
+          0.103065, 
+          0.099119, 
+          0.097461, 
+          0.099545, 
+          0.092278, 
+          0.096813, 
+          0.095232, 
+          0.095266, 
+          0.101163
+        ], 
+        "execution_time_kernel_1": [
+          0.792026, 
+          0.776434, 
+          0.821883, 
+          0.915879, 
+          0.892514, 
+          0.904945, 
+          0.79032, 
+          0.798518, 
+          0.793084
+        ], 
+        "execution_time_kernel_2": [
+          0.820902, 
+          0.838295, 
+          0.819293, 
+          0.883485, 
+          0.847456, 
+          0.861509, 
+          0.899621, 
+          0.838323, 
+          0.831642
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8992", 
+    "cpu_uid": "3459f0bbd4b47b1b", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 418", 
+    "gpu_uid": "04be7a8c8ccdb721", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 7.1.1", 
+    "os_uid": "4b528e7b666e5bcc", 
+    "plat_name": "LGE NEXUS 5X", 
+    "platform_uid": "50854d47868efc68"
+  }
+}

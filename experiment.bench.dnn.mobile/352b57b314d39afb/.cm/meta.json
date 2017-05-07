@@ -1,0 +1,136 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "d51817ad5e094de5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 3528, 
+      "image_width": 3024, 
+      "prediction": "---------- Prediction for /storage/emulated/0/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9397 - \"n03793489 mouse, computer mouse\"\n0.0329 - \"n04286575 spotlight, spot\"\n0.0040 - \"n01774384 black widow, Latrodectus mactans\"\n0.0022 - \"n03692522 loupe, jeweler's loupe\"\n0.0015 - \"n03271574 electric fan, blower\"\n", 
+      "time": [
+        5135, 
+        5165, 
+        5153
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.185949, 
+          0.185702, 
+          0.186945
+        ], 
+        "execution_time_kernel_0": [
+          0.185949, 
+          0.185702, 
+          0.186945
+        ], 
+        "execution_time_kernel_1": [
+          0.658081, 
+          0.659917, 
+          0.66393
+        ], 
+        "execution_time_kernel_2": [
+          4.192477, 
+          4.212249, 
+          4.211553
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "4117a1e5ba4d45b5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9728 - \"n03793489 mouse, computer mouse\"\n0.0059 - \"n04286575 spotlight, spot\"\n0.0028 - \"n01774384 black widow, Latrodectus mactans\"\n0.0020 - \"n04356056 sunglasses, dark glasses, shades\"\n0.0016 - \"n04517823 vacuum, vacuum cleaner\"\n", 
+      "time": [
+        5635, 
+        5443, 
+        5424
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.185448, 
+          0.186304, 
+          0.19123
+        ], 
+        "execution_time_kernel_0": [
+          0.185448, 
+          0.186304, 
+          0.19123
+        ], 
+        "execution_time_kernel_1": [
+          0.882497, 
+          0.889911, 
+          0.927594
+        ], 
+        "execution_time_kernel_2": [
+          4.475976, 
+          4.273657, 
+          4.212405
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "0x41-8-0x0-0xd03-4", 
+    "cpu_uid": "143de98987a30459", 
+    "crowd_uid": "0952cf7bb34139af", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T830", 
+    "gpu_uid": "cd4f4a81a14cb70f", 
+    "model": "DeepScale SqueezeNet 1.0", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-T580", 
+    "platform_uid": "430599e08ace483c"
+  }
+}

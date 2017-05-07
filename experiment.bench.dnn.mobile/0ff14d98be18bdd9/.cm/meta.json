@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "1806c9e65ed4d54b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        1923, 
+        1602, 
+        1921
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.115242, 
+          0.115194, 
+          0.117999
+        ], 
+        "execution_time_kernel_0": [
+          0.115242, 
+          0.115194, 
+          0.117999
+        ], 
+        "execution_time_kernel_1": [
+          0.928439, 
+          0.92674, 
+          0.933461
+        ], 
+        "execution_time_kernel_2": [
+          0.695181, 
+          0.42881, 
+          0.736453
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT8163", 
+    "cpu_uid": "4ff6a09d0ea92ac1", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "DeepScale Squeezenet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "ACER B1-780", 
+    "platform_uid": "598e2cb0c240450a"
+  }
+}

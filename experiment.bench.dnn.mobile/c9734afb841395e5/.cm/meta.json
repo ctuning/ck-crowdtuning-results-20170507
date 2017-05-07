@@ -1,0 +1,105 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "2029840049428af4", 
+      "cpu_freqs_after": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "5": 1958.4, 
+          "6": 1958.4
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "5": 1958.4, 
+          "6": 1958.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "5": 1958.4, 
+          "6": 1958.4
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "5": 1958.4, 
+          "6": 1958.4
+        }
+      ], 
+      "image_height": 5248, 
+      "image_width": 3936, 
+      "prediction": "0.9480 - \"mouse (511)\"\n0.0160 - \"computer keyboard (543)\"\n0.0039 - \"space bar (858)\"\n0.0035 - \"desktop computer (550)\"\n0.0033 - \"notebook (552)\"\n", 
+      "time": [
+        7517, 
+        7515, 
+        7447, 
+        7544, 
+        7502, 
+        7814
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.893613, 
+          4.903249, 
+          4.87952, 
+          4.908708, 
+          4.898534, 
+          5.103649
+        ], 
+        "execution_time_kernel_0": [
+          4.893613, 
+          4.903249, 
+          4.87952, 
+          4.908708, 
+          4.898534, 
+          5.103649
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0, 
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.356761, 
+          2.353913, 
+          2.322231, 
+          2.351682, 
+          2.348587, 
+          2.452464
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8994", 
+    "cpu_uid": "95a13ab847eb8fda", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 430", 
+    "gpu_uid": "7ed6d5d0174571b2", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 5.0.2", 
+    "os_uid": "bb6cce787ea5e178", 
+    "plat_name": "SONY 402SO", 
+    "platform_uid": ""
+  }
+}

@@ -1,0 +1,395 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-qsort1-src-qsort-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {
+        "access_type": "host"
+      }, 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "host", 
+      "target_os": "windows-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 70
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+      "cpu_num_proc": 4, 
+      "cpu_uid": "f6224bcc1776460f", 
+      "gpu_misc_uid": "f9855890a426badd", 
+      "gpu_name": "Intel(R) HD Graphics Family", 
+      "kernel_repetitions": 330469266, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+      "platform_uid": "09a35e87641079dc"
+    }, 
+    "iterations": 44, 
+    "last_touch_uid": "1afccc52b5d4343e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2958, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.302, 
+          "##characteristics#run#repeat#min": 330469266
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.079783637593, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.8908197959955
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops", 
+          "##characteristics#compile#md5_sum#min": "3fbba673143b82a5cc92c5d5afe3b5ea", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#funroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#funroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.9261114589856, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.52954635893355, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.13609231993633
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-signed-zeros": "-fno-signed-zeros"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "27396874293a1c0b", 
+    "touched": 15, 
+    "user": "fgg-lenovo2", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {
+        "access_type": "host"
+      }, 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "host", 
+      "target_os": "windows-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 70
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+      "cpu_num_proc": 4, 
+      "cpu_uid": "f6224bcc1776460f", 
+      "gpu_misc_uid": "f9855890a426badd", 
+      "gpu_name": "Intel(R) HD Graphics Family", 
+      "kernel_repetitions": 238663484, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+      "platform_uid": "09a35e87641079dc"
+    }, 
+    "iterations": 36, 
+    "last_touch_uid": "2bb8f8168302d4aa", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3364, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.984, 
+          "##characteristics#run#repeat#min": 238663484
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.97265160523187, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4148042704626
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fslp-vectorize-aggressive", 
+          "##characteristics#compile#md5_sum#min": "c7f55881447f701c1e50531bf7ad90f2", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0092526690391458
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fslp-vectorize-aggressive"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fslp-vectorize-aggressive": {
+            "##characteristics#compile#obj_size#min_imp": 1.0281173594132, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.70435132147523, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0019093558436338
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "901480394e1a413b", 
+    "touched": 5, 
+    "user": "fgg-lenovo2", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {
+        "access_type": "host"
+      }, 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "host", 
+      "target_os": "windows-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 70
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+      "cpu_num_proc": 4, 
+      "cpu_uid": "f6224bcc1776460f", 
+      "gpu_misc_uid": "f9855890a426badd", 
+      "gpu_name": "Intel(R) HD Graphics Family", 
+      "kernel_repetitions": 1538461538, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+      "platform_uid": "09a35e87641079dc"
+    }, 
+    "iterations": 47, 
+    "last_touch_uid": "71498a6a38019b03", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3267, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.496, 
+          "##characteristics#run#repeat#min": 1538461538
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.93082338536884, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1450094161959
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffinite-math-only -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "759b8382efd59149dea9f2cd30cd37d5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0036487758945385
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffinite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffinite-math-only", 
+          "##compiler_flags#mstackrealign"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffinite-math-only": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.93847862298723, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0049972237645752
+          }, 
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 1.0743176586649, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86721395587481, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0005130836326322
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-inline": "-fno-inline"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b914002535699544", 
+    "touched": 19, 
+    "user": "fgg-lenovo2", 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {
+        "access_type": "host"
+      }, 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "host", 
+      "target_os": "windows-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-4.0.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.0.0", 
+      "cpu_cur_freq": {
+        "0": 70
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+      "cpu_num_proc": 4, 
+      "cpu_uid": "f6224bcc1776460f", 
+      "gpu_misc_uid": "f9855890a426badd", 
+      "gpu_name": "Intel(R) HD Graphics Family", 
+      "kernel_repetitions": 36656891, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+      "platform_uid": "09a35e87641079dc"
+    }, 
+    "iterations": 41, 
+    "last_touch_uid": "4477a86d3a53a861", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3213, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.459, 
+          "##characteristics#run#repeat#min": 36656891
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1879863056334, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1764358307729
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mno-implicit-float", 
+          "##characteristics#compile#md5_sum#min": "842a22a90a6cad61ee8b596011407ab7", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0043724887733397
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mno-implicit-float"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#mno-implicit-float": {
+            "##characteristics#compile#obj_size#min_imp": 0.84176054493057, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85105955609119, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0033142512805061
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fsched-interblock": "-fsched-interblock", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "eea84cf6ba08094f", 
+    "touched": 11, 
+    "user": "fgg-lenovo2", 
+    "validated": 1
+  }
+]

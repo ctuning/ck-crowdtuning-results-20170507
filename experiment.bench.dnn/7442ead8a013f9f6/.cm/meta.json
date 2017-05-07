@@ -1,0 +1,96 @@
+{
+  "characteristics": {
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "time_gpu", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CAFFE_COMPUTE_DEVICE_ID": 0, 
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "", 
+      "CK_CAFFE_MODEL": "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-NhvzHP.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-NhvzHP.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "/home/fursin/CK-TOOLS/caffemodel-resnet152/ResNet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "/home/fursin/CK-TOOLS/caffemodel-resnet152/ResNet-152-model.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "/home/fursin/CK-TOOLS/caffemodel-resnet152/ResNet-152-model.caffemodel", 
+      "CK_GPU_FREQUENCY": "max"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "", 
+    "no_state_check": "yes", 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "file_model_topology": "tmp-NhvzHP.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "choices": {
+      "env": {
+        "CK_CAFFE_BATCH_SIZE": "1"
+      }
+    }, 
+    "cmd_key": "time_gpu", 
+    "cpu_name": "ODROID-XU3", 
+    "cpu_uid": "a10931014c04174b", 
+    "dnn_engine_name": "BVLC Caffe framework (opencl,clblast)", 
+    "dnn_engine_package_uoa": "df78a1afc47a1962", 
+    "dnn_type": "opencl", 
+    "gpgpu_name": "Mali-T628", 
+    "gpgpu_uid": "4685f21c4dec83c4", 
+    "gpu_name": "MALI-T628", 
+    "nn_type": "resnet, resnet152", 
+    "os_name": "Ubuntu 16.04.2 LTS", 
+    "os_uid": "e4644237b773ad31", 
+    "plat_name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+    "platform_uid": "d6bd40fe7496f776", 
+    "user": "my-odroid-xu3", 
+    "xdeps": {
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (resnet, resnet152)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "947db9bba222a3a5", 
+        "ver": "deploy"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (opencl,clblast)", 
+        "name": "Caffe framework", 
+        "package_uoa": "df78a1afc47a1962", 
+        "ver": "trunk-880111e"
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.5.1", 
+      "compiler": "6.2.0", 
+      "lib-blas": "0.2.19-85636ff", 
+      "lib-boost": "1.58.0", 
+      "lib-clblast": "development-a98c00a", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-e56ed55", 
+      "lib-hdf5": "1.8.16", 
+      "lib-lmdb": "0.0.0", 
+      "lib-opencl": "", 
+      "lib-opencv": "2.4.9", 
+      "lib-protobuf": "", 
+      "lib-protobuf-host": "3.1.0", 
+      "lib-viennacl": "master-5494bef"
+    }
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - failed to find the 'Total Time' string in Caffe output"
+  }, 
+  "user": "my-odroid-xu3"
+}

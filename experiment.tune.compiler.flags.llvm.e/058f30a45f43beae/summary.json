@@ -1,0 +1,87 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8992", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "3459f0bbd4b47b1b", 
+      "gpu_name": "Qualcomm Adreno (TM) 418", 
+      "gpu_uid": "04be7a8c8ccdb721", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 7.1.1", 
+      "os_uid": "4b528e7b666e5bcc", 
+      "platform_name": "LGE NEXUS 5X", 
+      "platform_uid": "50854d47868efc68"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "dcfdfe65f4aae991", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3408, 
+          "##characteristics#run#execution_time_kernel_0#min": 1.1870000362396, 
+          "##characteristics#run#repeat#min": 198329
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9976525821596244, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 3.2168023722325905
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-all-constants -fno-unroll-loops -fshort-wchar -mglobal-merge -ffp-contract=off", 
+          "##characteristics#compile#md5_sum#min": "d8e76624ff120a1045f714e038c2b73f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=off", 
+          "##compiler_flags#fno-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#mglobal-merge": "-mglobal-merge"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fno-merge-all-constants", 
+          "##compiler_flags#fshort-wchar", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#mglobal-merge"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4bd46587a98d4b30", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 22.892246961593628, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }
+        ], 
+        "workload": "andebench", 
+        "iteration": 1, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 23.06020498275757, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }
+        ], 
+        "workload": "andebench", 
+        "iteration": 2, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 22.613546133041382, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }
+        ], 
+        "workload": "andebench", 
+        "iteration": 3, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 22.658129930496216, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }
+        ], 
+        "workload": "andebench", 
+        "iteration": 4, 
+        "id": "1"
+    }
+]

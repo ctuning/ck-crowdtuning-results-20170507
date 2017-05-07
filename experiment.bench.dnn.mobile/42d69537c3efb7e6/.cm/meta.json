@@ -1,0 +1,107 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4abd9f253c2eca15", 
+      "cpu_freqs_after": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "4": 1958.4, 
+          "5": 1958.4
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "4": 1958.4, 
+          "5": 1958.4, 
+          "6": 1958.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "4": 1958.4, 
+          "5": 1958.4
+        }, 
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2, 
+          "4": 1958.4, 
+          "5": 1958.4, 
+          "6": 1958.4
+        }
+      ], 
+      "image_height": 3840, 
+      "image_width": 2160, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1484812235124.jpg ----------\n0.2951 - \"n04522168 vase\"\n0.1867 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n0.0909 - \"n03063599 coffee mug\"\n0.0493 - \"n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin\"\n0.0351 - \"n02823750 beer glass\"\n", 
+      "time": [
+        2209, 
+        2304, 
+        2206, 
+        2316, 
+        2214, 
+        2114
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.098488, 
+          0.098908, 
+          0.099308, 
+          0.109023, 
+          0.109493, 
+          0.10353
+        ], 
+        "execution_time_kernel_0": [
+          0.098488, 
+          0.098908, 
+          0.099308, 
+          0.109023, 
+          0.109493, 
+          0.10353
+        ], 
+        "execution_time_kernel_1": [
+          0.444068, 
+          0.439481, 
+          0.434003, 
+          0.437236, 
+          0.446858, 
+          0.438345
+        ], 
+        "execution_time_kernel_2": [
+          1.449817, 
+          1.573022, 
+          1.496731, 
+          1.560538, 
+          1.481582, 
+          1.376505
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x41-8-0x1-0xd07-1", 
+    "cpu_uid": "b5c63fcb1b343028", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 430", 
+    "gpu_uid": "7ed6d5d0174571b2", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "SONY E6653", 
+    "platform_uid": ""
+  }
+}

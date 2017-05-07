@@ -1,0 +1,78 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "bbd879d0e54df272", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "0.5499 - \"n03793489 mouse, computer mouse\"\n0.1155 - \"n03840681 ocarina, sweet potato\"\n0.0530 - \"n03657121 lens cap, lens cover\"\n0.0267 - \"n03908714 pencil sharpener\"\n0.0235 - \"n03929660 pick, plectrum, plectron\"\n", 
+      "time": [
+        3795, 
+        3673, 
+        3668
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.155042, 
+          0.144247, 
+          0.1528
+        ], 
+        "execution_time_kernel_0": [
+          0.155042, 
+          0.144247, 
+          0.1528
+        ], 
+        "execution_time_kernel_1": [
+          0.659758, 
+          0.652177, 
+          0.643776
+        ], 
+        "execution_time_kernel_2": [
+          2.835028, 
+          2.753101, 
+          2.735936
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Samsung EXYNOS5433", 
+    "cpu_uid": "16270e7f2844ab79", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "", 
+    "gpu_uid": "", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG SM-N910C", 
+    "platform_uid": "1924152a7004ec09"
+  }
+}

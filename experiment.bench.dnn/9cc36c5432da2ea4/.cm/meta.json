@@ -1,0 +1,165 @@
+{
+  "characteristics": {
+    "compile": {
+      "binary_size": 3846100, 
+      "compilation_success": "yes", 
+      "compilation_success_bool": true, 
+      "compilation_time": 65.98913693428, 
+      "compilation_time_with_module": 69.893282413483, 
+      "joined_compiler_flags": "", 
+      "md5_sum": "ae92b042dcc4462b1378cfea4c2d1a84", 
+      "obj_size": 152412, 
+      "obj_sizes": {
+        "caffe.o": 152412
+      }, 
+      "program_git_hash": "2eb07595f84a41a150aed199a31b1194f34b5d2d"
+    }, 
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe-time", 
+    "dataset_file": "", 
+    "device_id": "SWQ49TFIT8YLU4DE", 
+    "energy": "no", 
+    "env": {
+      "CK_ARMEABI_V7A": "ON", 
+      "CK_ARMEABI_V7A_HARD": "OFF", 
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "1", 
+      "CK_CAFFE_MODEL": "D:\\Work1\\CK\\ck-repos\\ck-caffe\\program\\caffe-time\\tmp\\tmp-bpefcnvv.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-bpefcnvv.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "squeezenet_v1.1.caffemodel", 
+      "CK_CPU_ARM_NEON": "OFF", 
+      "CK_CPU_ARM_VFPV3": "OFF", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "D:\\!FGG\\Installations\\caffemodel-deepscale-squeezenet-1.1\\squeezenet_v1.1.caffemodel", 
+      "CK_GPU_FREQUENCY": "max", 
+      "XCT_REPEAT_MAIN": "1"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "", 
+    "no_state_check": "yes", 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "android21-arm-v7a", 
+    "target_os_bits": "32"
+  }, 
+  "file_model_topology": "tmp-bpefcnvv.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "choices": {
+      "env": {
+        "CK_CAFFE_BATCH_SIZE": "1"
+      }
+    }, 
+    "cmd_key": "default", 
+    "cpu_name": "MT6572", 
+    "cpu_uid": "5a7b8d55ca672d3b", 
+    "dnn_engine_name": "BVLC Caffe framework (cpu)", 
+    "dnn_engine_package_uoa": "b39f40abfd34f10b", 
+    "dnn_type": "cpu", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-400 MP", 
+    "nn_type": "deepscale, squeezenet, 1.1", 
+    "os_name": "Android 4.2.2", 
+    "os_uid": "cc68387cc8944b91", 
+    "plat_name": "HUAWEI Y330-U01", 
+    "platform_uid": "04c4cb629321407a", 
+    "user": "-", 
+    "xdeps": {
+      "boost": {
+        "data_name": "Boost library", 
+        "name": "Boost C   libraries", 
+        "package_uoa": "44094af948731a1c", 
+        "ver": "1.62.0"
+      }, 
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (deepscale, squeezenet, 1.1)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "59414348b1bdedb5", 
+        "ver": "1.1"
+      }, 
+      "compiler": {
+        "data_name": "Android NDK GCC compiler", 
+        "name": "C   compiler", 
+        "package_uoa": "", 
+        "ver": "4.9.x"
+      }, 
+      "lib-blas": {
+        "data_name": "OpenBLAS library", 
+        "name": "BLAS library", 
+        "package_uoa": "3becaf2cd0422880", 
+        "ver": "0.2.19-85636ff"
+      }, 
+      "lib-boost": {
+        "data_name": "Boost library", 
+        "name": "Boost library", 
+        "package_uoa": "44094af948731a1c", 
+        "ver": "1.62.0"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (cpu)", 
+        "name": "Caffe library", 
+        "package_uoa": "b39f40abfd34f10b", 
+        "ver": "trunk-c61d487"
+      }, 
+      "lib-gflags": {
+        "data_name": "GFlags library", 
+        "name": "GFlags library", 
+        "package_uoa": "160d8d49aa9f0225", 
+        "ver": "2.2.0"
+      }, 
+      "lib-glog": {
+        "data_name": "GLog library", 
+        "name": "GLog library", 
+        "package_uoa": "6f3b024855a80beb", 
+        "ver": "development-e56ed55"
+      }, 
+      "lib-opencv": {
+        "data_name": "OpenCV library", 
+        "name": "OpenCV library", 
+        "package_uoa": "b5073a464ad381b6", 
+        "ver": "3.2.0"
+      }, 
+      "lib-protobuf": {
+        "data_name": "ProtoBuf library", 
+        "name": "ProtoBuf library", 
+        "package_uoa": "4fbad3749d3a42da", 
+        "ver": "3.1.0"
+      }, 
+      "lib-protobuf-host": {
+        "data_name": "", 
+        "name": "ProtoBuf HOST library", 
+        "package_uoa": "", 
+        "ver": ""
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.7.2", 
+      "compiler": "4.9.x", 
+      "lib-blas": "0.2.19-85636ff", 
+      "lib-boost": "1.62.0", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-e56ed55", 
+      "lib-hdf5": "", 
+      "lib-lmdb": "", 
+      "lib-opencv": "3.2.0", 
+      "lib-protobuf": "3.1.0", 
+      "lib-protobuf-host": "3.1.0"
+    }
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - failed to find the 'Total Time' string in Caffe output"
+  }, 
+  "user": "-"
+}

@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "164a4b6a4cd3bbbe", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        964, 
+        1187, 
+        1203
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.120203, 
+          0.132586, 
+          0.122424
+        ], 
+        "execution_time_kernel_0": [
+          0.120203, 
+          0.132586, 
+          0.122424
+        ], 
+        "execution_time_kernel_1": [
+          0.275502, 
+          0.285621, 
+          0.292614
+        ], 
+        "execution_time_kernel_2": [
+          0.523655, 
+          0.727631, 
+          0.747867
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G935A", 
+    "platform_uid": "01e51c6a29c34346"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "0f7442a138843b49", 
+      "cpu_freqs_after": [
+        {
+          "0": 1807, 
+          "4": 1807, 
+          "5": 1807
+        }, 
+        {
+          "0": 1807, 
+          "4": 1807, 
+          "5": 1807, 
+          "6": 1807
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1807, 
+          "4": 1807, 
+          "5": 1807
+        }, 
+        {
+          "0": 1807, 
+          "4": 1807, 
+          "5": 1807, 
+          "6": 1807
+        }
+      ], 
+      "image_height": 2560, 
+      "image_width": 1920, 
+      "mispredictions": [
+        {
+          "correct_answer": "chair", 
+          "mispredicted_image": "misprediction-image-794dfc9e2b6a35b7.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1486244054031.jpg ----------\n0.3667 - \"n03887697 paper towel\"\n0.3135 - \"n15075141 toilet tissue, toilet paper, bathroom tissue\"\n0.1677 - \"n04344873 studio couch, day bed\"\n0.0201 - \"n02808304 bath towel\"\n0.0170 - \"n04033995 quilt, comforter, comfort, puff\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1481540946923.jpg ----------\n0.3109 - \"n02790996 barbell\"\n0.1035 - \"n03141823 crutch\"\n0.0419 - \"n02804610 bassoon\"\n0.0407 - \"n03452741 grand piano, grand\"\n0.0352 - \"n04336792 stretcher\"\n", 
+      "time": [
+        1733, 
+        1741, 
+        1912, 
+        1742, 
+        1704, 
+        1681
+      ], 
+      "user": "dsavenko@xored.com", 
+      "xopenme": {}
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT6755M", 
+    "cpu_uid": "b2b739294c514b95", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "", 
+    "gpu_uid": "", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1", 
+    "os_uid": "4a7a7aa243109ec2", 
+    "plat_name": "MEIZU M3 NOTE", 
+    "platform_uid": "9be481d1fab9c2ab"
+  }
+}

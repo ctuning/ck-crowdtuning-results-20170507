@@ -1,0 +1,181 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "42cea7c81ee3a377", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 160, 
+      "image_width": 120, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.0220 - \"n03196217 digital clock\"", 
+          "mispredicted_image": "misprediction-image-71994d612f41409a.jpg", 
+          "misprediction_results": "0.0293 - \"n04201297 shoji\"\n0.0220 - \"n03196217 digital clock\"\n0.0207 - \"n04286575 spotlight, spot\"\n0.0201 - \"n04418357 theater curtain, theatre curtain\"\n0.0192 - \"n04589890 window screen\"\n"
+        }
+      ], 
+      "prediction": "0.0293 - \"n04201297 shoji\"\n0.0220 - \"n03196217 digital clock\"\n0.0207 - \"n04286575 spotlight, spot\"\n0.0201 - \"n04418357 theater curtain, theatre curtain\"\n0.0192 - \"n04589890 window screen\"\n", 
+      "time": [
+        12900, 
+        12933, 
+        13084, 
+        31872, 
+        35011, 
+        19207, 
+        14580, 
+        13083, 
+        13066
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.325347, 
+          0.309988, 
+          0.338319, 
+          0.310981, 
+          0.311851, 
+          0.392071, 
+          0.309211, 
+          0.33063, 
+          0.316208
+        ], 
+        "execution_time_kernel_0": [
+          0.325347, 
+          0.309988, 
+          0.338319, 
+          0.310981, 
+          0.311851, 
+          0.392071, 
+          0.309211, 
+          0.33063, 
+          0.316208
+        ], 
+        "execution_time_kernel_1": [
+          0.00336, 
+          0.005309, 
+          0.003469, 
+          0.003525, 
+          0.003213, 
+          0.0036, 
+          0.00475, 
+          0.003359, 
+          0.006959
+        ], 
+        "execution_time_kernel_2": [
+          12.429919, 
+          12.48654, 
+          12.578432, 
+          31.396602, 
+          34.566736, 
+          18.690305, 
+          14.120711, 
+          12.594945, 
+          12.6007
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "a3c407bf46629736", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9728 - \"n03793489 mouse, computer mouse\"\n0.0059 - \"n04286575 spotlight, spot\"\n0.0028 - \"n01774384 black widow, Latrodectus mactans\"\n0.0020 - \"n04356056 sunglasses, dark glasses, shades\"\n0.0016 - \"n04517823 vacuum, vacuum cleaner\"\n", 
+      "time": [
+        16615, 
+        16651, 
+        16860
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.321485, 
+          0.327374, 
+          0.323557
+        ], 
+        "execution_time_kernel_0": [
+          0.321485, 
+          0.327374, 
+          0.323557
+        ], 
+        "execution_time_kernel_1": [
+          1.533271, 
+          1.525051, 
+          1.512777
+        ], 
+        "execution_time_kernel_2": [
+          14.58526, 
+          14.637498, 
+          14.873915
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8909", 
+    "cpu_uid": "20657674ba29b92d", 
+    "crowd_uid": "0952cf7bb34139af", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 304", 
+    "gpu_uid": "8c922c304eb28756", 
+    "model": "DeepScale SqueezeNet 1.0", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "LGE VS500PP", 
+    "platform_uid": ""
+  }
+}

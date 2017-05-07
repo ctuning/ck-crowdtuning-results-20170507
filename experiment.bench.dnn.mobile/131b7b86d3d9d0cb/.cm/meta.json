@@ -1,0 +1,112 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "8129e110ac08b90c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1401.6, 
+          "1": 1401.6, 
+          "2": 1401.6, 
+          "3": 1401.6, 
+          "5": 1804.8, 
+          "6": 1804.8
+        }, 
+        {
+          "0": 1401.6, 
+          "1": 1401.6, 
+          "2": 1401.6, 
+          "3": 1401.6, 
+          "4": 1804.8, 
+          "5": 1804.8
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1401.6, 
+          "1": 1401.6, 
+          "2": 1401.6, 
+          "3": 1401.6, 
+          "5": 1804.8, 
+          "6": 1804.8
+        }, 
+        {
+          "0": 1401.6, 
+          "1": 1401.6, 
+          "2": 1401.6, 
+          "3": 1401.6, 
+          "4": 1804.8, 
+          "5": 1804.8
+        }
+      ], 
+      "image_height": 2268, 
+      "image_width": 1944, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.0376 - \"n03000247 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour\"", 
+          "mispredicted_image": "misprediction-image-4ca497f4526d7d66.jpg", 
+          "misprediction_results": "0.4207 - \"n03404251 fur coat\"\n0.0906 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0513 - \"n02963159 cardigan\"\n0.0376 - \"n03000247 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour\"\n0.0341 - \"n02102973 Irish water spaniel\"\n"
+        }
+      ], 
+      "prediction": "0.4207 - \"n03404251 fur coat\"\n0.0906 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0513 - \"n02963159 cardigan\"\n0.0376 - \"n03000247 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour\"\n0.0341 - \"n02102973 Irish water spaniel\"\n", 
+      "time": [
+        4995, 
+        4093, 
+        4583, 
+        4711, 
+        4112, 
+        4230
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.70402, 
+          2.997409, 
+          3.267984, 
+          3.239932, 
+          2.899648, 
+          2.972868
+        ], 
+        "execution_time_kernel_0": [
+          3.70402, 
+          2.997409, 
+          3.267984, 
+          3.239932, 
+          2.899648, 
+          2.972868
+        ], 
+        "execution_time_kernel_1": [
+          0.161397, 
+          0.123196, 
+          0.135194, 
+          0.125953, 
+          0.125097, 
+          0.12722
+        ], 
+        "execution_time_kernel_2": [
+          1.003404, 
+          0.850115, 
+          1.079205, 
+          1.223197, 
+          0.988266, 
+          1.021665
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc APQ8076", 
+    "cpu_uid": "", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 510", 
+    "gpu_uid": "5c8c45d1b25600fb", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "LENOVO YT-X703F", 
+    "platform_uid": ""
+  }
+}

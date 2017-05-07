@@ -1,0 +1,159 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "5df88d6246efb4c4", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        5649, 
+        5414, 
+        5653
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.677455, 
+          4.547518, 
+          4.756585
+        ], 
+        "execution_time_kernel_0": [
+          4.677455, 
+          4.547518, 
+          4.756585
+        ], 
+        "execution_time_kernel_1": [
+          0.257175, 
+          0.258278, 
+          0.259306
+        ], 
+        "execution_time_kernel_2": [
+          0.525534, 
+          0.489589, 
+          0.512564
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "3c8fde3ba4a7e836", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 1920, 
+      "image_width": 1080, 
+      "mispredictions": [
+        {
+          "correct_answer": "man", 
+          "mispredicted_image": "misprediction-image-0a64fab8457ecbac.jpg", 
+          "misprediction_results": "0.1060 - \"n03787032 mortarboard\"\n0.0854 - \"n03891251 park bench\"\n0.0622 - \"n02807133 bathing cap, swimming cap\"\n0.0533 - \"n04501370 turnstile\"\n0.0346 - \"n02883205 bow tie, bow-tie, bowtie\"\n"
+        }, 
+        {
+          "correct_answer": "face", 
+          "mispredicted_image": "misprediction-image-d8ff735fefe3f1f2.jpg", 
+          "misprediction_results": "0.3810 - \"n02669723 academic gown, academic robe, judge's robe\"\n0.1310 - \"n03787032 mortarboard\"\n0.0819 - \"n04591157 Windsor tie\"\n0.0678 - \"n03763968 military uniform\"\n0.0585 - \"n04350905 suit, suit of clothes\"\n"
+        }
+      ], 
+      "prediction": "0.1060 - \"n03787032 mortarboard\"\n0.0854 - \"n03891251 park bench\"\n0.0622 - \"n02807133 bathing cap, swimming cap\"\n0.0533 - \"n04501370 turnstile\"\n0.0346 - \"n02883205 bow tie, bow-tie, bowtie\"\n", 
+      "time": [
+        4303, 
+        5004, 
+        4378, 
+        5438, 
+        5375, 
+        5234
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.62342, 
+          4.331658, 
+          3.689875, 
+          4.794646, 
+          4.739454, 
+          4.588573
+        ], 
+        "execution_time_kernel_0": [
+          3.62342, 
+          4.331658, 
+          3.689875, 
+          4.794646, 
+          4.739454, 
+          4.588573
+        ], 
+        "execution_time_kernel_1": [
+          0.036552, 
+          0.036263, 
+          0.03653, 
+          0.0372, 
+          0.036135, 
+          0.035796
+        ], 
+        "execution_time_kernel_2": [
+          0.503991, 
+          0.486607, 
+          0.506626, 
+          0.484599, 
+          0.491024, 
+          0.497192
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G935V", 
+    "platform_uid": "c51258b44bb3a9a6"
+  }
+}

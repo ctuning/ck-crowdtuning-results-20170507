@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "7162447c394137b5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 1200, 
+      "image_width": 1600, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482220264669.jpg ----------\n0.8284 - \"table lamp\n (304)\"\n0.0961 - \"lampshade\n (814)\"\n0.0387 - \"spotlight\n (593)\"\n0.0012 - \"hook\n (562)\"\n0.0011 - \"punching bag\n (846)\"\n", 
+      "time": [
+        7516, 
+        7457, 
+        9829
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          2.67829, 
+          2.69182, 
+          3.193423
+        ], 
+        "execution_time_kernel_0": [
+          2.67829, 
+          2.69182, 
+          3.193423
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          3.846157, 
+          4.17921, 
+          4.679268
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT8163", 
+    "cpu_uid": "4ff6a09d0ea92ac1", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "ACER B1-780", 
+    "platform_uid": "598e2cb0c240450a"
+  }
+}

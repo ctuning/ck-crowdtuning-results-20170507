@@ -1,0 +1,186 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "8017d5155bf425f8", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "image_height": 826, 
+      "image_width": 693, 
+      "prediction": "0.0917 - \"n04355933 sunglass\"\n0.0868 - \"n04127249 safety pin\"\n0.0612 - \"n04356056 sunglasses, dark glasses, shades\"\n0.0589 - \"n03724870 mask\"\n0.0300 - \"n06596364 comic book\"\n", 
+      "time": [
+        2577, 
+        2418, 
+        2256
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.502678, 
+          0.501815, 
+          0.509768
+        ], 
+        "execution_time_kernel_0": [
+          0.502678, 
+          0.501815, 
+          0.509768
+        ], 
+        "execution_time_kernel_1": [
+          0.012343, 
+          0.012372, 
+          0.012387
+        ], 
+        "execution_time_kernel_2": [
+          2.021077, 
+          1.863413, 
+          1.693693
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "44142aaf98d77889", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "image_height": 1251, 
+      "image_width": 1002, 
+      "prediction": "0.2753 - \"n01532829 house finch, linnet, Carpodacus mexicanus\"\n0.1170 - \"n01828970 bee eater\"\n0.0972 - \"n01824575 coucal\"\n0.0624 - \"n01807496 partridge\"\n0.0448 - \"n01806567 quail\"\n", 
+      "time": [
+        2757, 
+        2328, 
+        2477
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.499828, 
+          0.501221, 
+          0.500088
+        ], 
+        "execution_time_kernel_0": [
+          0.499828, 
+          0.501221, 
+          0.500088
+        ], 
+        "execution_time_kernel_1": [
+          0.023264, 
+          0.023382, 
+          0.023129
+        ], 
+        "execution_time_kernel_2": [
+          2.19012, 
+          1.762006, 
+          1.912162
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "9e7a9b8b429090ca", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "image_height": 1365, 
+      "image_width": 1383, 
+      "prediction": "0.2406 - \"n02786058 Band Aid\"\n0.1743 - \"n04584207 wig\"\n0.1051 - \"n04357314 sunscreen, sunblock, sun blocker\"\n0.0534 - \"n03676483 lipstick, lip rouge\"\n0.0519 - \"n04209133 shower cap\"\n", 
+      "time": [
+        2506, 
+        2519, 
+        2586
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.518426, 
+          0.503017, 
+          0.503883
+        ], 
+        "execution_time_kernel_0": [
+          0.518426, 
+          0.503017, 
+          0.503883
+        ], 
+        "execution_time_kernel_1": [
+          0.032327, 
+          0.032377, 
+          0.032258
+        ], 
+        "execution_time_kernel_2": [
+          1.912281, 
+          1.942351, 
+          2.00687
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "947b0f4e546c6ae5", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7"
+  }
+}

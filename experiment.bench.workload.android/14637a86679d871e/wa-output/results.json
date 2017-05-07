@@ -1,0 +1,36 @@
+[
+    {
+        "metrics": [
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "AndEMark Java", 
+                "value": 729, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "AndEMark Native", 
+                "value": 10142, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }, 
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 99.59290385246277, 
+                "classifiers": {
+                    "apk_version": "1383"
+                }
+            }
+        ], 
+        "workload": "andebench", 
+        "iteration": 1, 
+        "id": "1"
+    }
+]

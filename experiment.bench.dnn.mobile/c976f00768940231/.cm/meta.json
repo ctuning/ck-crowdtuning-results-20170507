@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "2f0f27f5d7431dad", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        5454, 
+        4916, 
+        5430
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.251313, 
+          0.265442, 
+          0.230133
+        ], 
+        "execution_time_kernel_0": [
+          0.251313, 
+          0.265442, 
+          0.230133
+        ], 
+        "execution_time_kernel_1": [
+          0.789337, 
+          0.894836, 
+          1.065735
+        ], 
+        "execution_time_kernel_2": [
+          4.268188, 
+          3.608277, 
+          3.996917
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "SAMSUNG JF", 
+    "cpu_uid": "45d2a18eedf4b9d5", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 320", 
+    "gpu_uid": "2d0bb02c4824949f", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG GT-I9505", 
+    "platform_uid": "1a6c0b890473bb64"
+  }
+}

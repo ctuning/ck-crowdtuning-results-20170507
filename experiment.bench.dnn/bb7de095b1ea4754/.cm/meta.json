@@ -1,0 +1,4041 @@
+{
+  "characteristics": {
+    "run": {
+      "REAL_ENV_CK_CAFFE_BATCH_SIZE": "1", 
+      "REAL_ENV_CK_CAFFE_ITERATIONS": "", 
+      "REAL_ENV_CK_CAFFE_MODEL": "D:\\Work1\\CK\\ck-repos\\ck-caffe\\program\\caffe\\tmp\\tmp-jjwui646.prototxt", 
+      "execution_time": 0.796, 
+      "execution_time_with_module": 5.1569240093231, 
+      "memory_bytes": 231829312, 
+      "memory_kbytes": 231829.312, 
+      "memory_mbytes": 231.829312, 
+      "per_layer_info": [
+        {
+          "direction": "forward", 
+          "index": 0, 
+          "label": "00: input", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 0, 
+          "label": "00: input", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 1, 
+          "label": "01: conv1", 
+          "time_ms": 15.628, 
+          "time_s": 0.015628, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 1, 
+          "label": "01: conv1", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 2, 
+          "label": "02: bn_conv1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 2, 
+          "label": "02: bn_conv1", 
+          "time_ms": 15.61, 
+          "time_s": 0.01561, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 3, 
+          "label": "03: scale_conv1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 3, 
+          "label": "03: scale_conv1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 4, 
+          "label": "04: conv1_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 4, 
+          "label": "04: conv1_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 5, 
+          "label": "05: pool1", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 5, 
+          "label": "05: pool1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 6, 
+          "label": "06: pool1_pool1_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 6, 
+          "label": "06: pool1_pool1_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 7, 
+          "label": "07: res2a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 7, 
+          "label": "07: res2a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 8, 
+          "label": "08: bn2a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 8, 
+          "label": "08: bn2a_branch1", 
+          "time_ms": 15.642, 
+          "time_s": 0.015642, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 9, 
+          "label": "09: scale2a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 9, 
+          "label": "09: scale2a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 10, 
+          "label": "10: res2a_branch2a", 
+          "time_ms": 15.627, 
+          "time_s": 0.015627, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 10, 
+          "label": "10: res2a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 11, 
+          "label": "11: bn2a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 11, 
+          "label": "11: bn2a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 12, 
+          "label": "12: scale2a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 12, 
+          "label": "12: scale2a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 13, 
+          "label": "13: res2a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 13, 
+          "label": "13: res2a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 14, 
+          "label": "14: res2a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 14, 
+          "label": "14: res2a_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 15, 
+          "label": "15: bn2a_branch2b", 
+          "time_ms": 15.629, 
+          "time_s": 0.015629, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 15, 
+          "label": "15: bn2a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 16, 
+          "label": "16: scale2a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 16, 
+          "label": "16: scale2a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 17, 
+          "label": "17: res2a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 17, 
+          "label": "17: res2a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 18, 
+          "label": "18: res2a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 18, 
+          "label": "18: res2a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 19, 
+          "label": "19: bn2a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 19, 
+          "label": "19: bn2a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 20, 
+          "label": "20: scale2a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 20, 
+          "label": "20: scale2a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 21, 
+          "label": "21: res2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 21, 
+          "label": "21: res2a", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 22, 
+          "label": "22: res2a_relu", 
+          "time_ms": 15.622, 
+          "time_s": 0.015622, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 22, 
+          "label": "22: res2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 23, 
+          "label": "23: res2a_res2a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 23, 
+          "label": "23: res2a_res2a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 24, 
+          "label": "24: res2b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 24, 
+          "label": "24: res2b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 25, 
+          "label": "25: bn2b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 25, 
+          "label": "25: bn2b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 26, 
+          "label": "26: scale2b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 26, 
+          "label": "26: scale2b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 27, 
+          "label": "27: res2b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 27, 
+          "label": "27: res2b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 28, 
+          "label": "28: res2b_branch2b", 
+          "time_ms": 15.623, 
+          "time_s": 0.015623, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 28, 
+          "label": "28: res2b_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 29, 
+          "label": "29: bn2b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 29, 
+          "label": "29: bn2b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 30, 
+          "label": "30: scale2b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 30, 
+          "label": "30: scale2b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 31, 
+          "label": "31: res2b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 31, 
+          "label": "31: res2b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 32, 
+          "label": "32: res2b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 32, 
+          "label": "32: res2b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 33, 
+          "label": "33: bn2b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 33, 
+          "label": "33: bn2b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 34, 
+          "label": "34: scale2b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 34, 
+          "label": "34: scale2b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 35, 
+          "label": "35: res2b", 
+          "time_ms": 15.633, 
+          "time_s": 0.015633, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 35, 
+          "label": "35: res2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 36, 
+          "label": "36: res2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 36, 
+          "label": "36: res2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 37, 
+          "label": "37: res2b_res2b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 37, 
+          "label": "37: res2b_res2b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 38, 
+          "label": "38: res2c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 38, 
+          "label": "38: res2c_branch2a", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 39, 
+          "label": "39: bn2c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 39, 
+          "label": "39: bn2c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 40, 
+          "label": "40: scale2c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 40, 
+          "label": "40: scale2c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 41, 
+          "label": "41: res2c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 41, 
+          "label": "41: res2c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 42, 
+          "label": "42: res2c_branch2b", 
+          "time_ms": 15.618, 
+          "time_s": 0.015618, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 42, 
+          "label": "42: res2c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 43, 
+          "label": "43: bn2c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 43, 
+          "label": "43: bn2c_branch2b", 
+          "time_ms": 15.62, 
+          "time_s": 0.01562, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 44, 
+          "label": "44: scale2c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 44, 
+          "label": "44: scale2c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 45, 
+          "label": "45: res2c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 45, 
+          "label": "45: res2c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 46, 
+          "label": "46: res2c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 46, 
+          "label": "46: res2c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 47, 
+          "label": "47: bn2c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 47, 
+          "label": "47: bn2c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 48, 
+          "label": "48: scale2c_branch2c", 
+          "time_ms": 15.637, 
+          "time_s": 0.015637, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 48, 
+          "label": "48: scale2c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 49, 
+          "label": "49: res2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 49, 
+          "label": "49: res2c", 
+          "time_ms": 15.63, 
+          "time_s": 0.01563, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 50, 
+          "label": "50: res2c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 50, 
+          "label": "50: res2c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 51, 
+          "label": "51: res2c_res2c_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 51, 
+          "label": "51: res2c_res2c_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 52, 
+          "label": "52: res3a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 52, 
+          "label": "52: res3a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 53, 
+          "label": "53: bn3a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 53, 
+          "label": "53: bn3a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 54, 
+          "label": "54: scale3a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 54, 
+          "label": "54: scale3a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 55, 
+          "label": "55: res3a_branch2a", 
+          "time_ms": 15.611, 
+          "time_s": 0.015611, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 55, 
+          "label": "55: res3a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 56, 
+          "label": "56: bn3a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 56, 
+          "label": "56: bn3a_branch2a", 
+          "time_ms": 15.608, 
+          "time_s": 0.015608, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 57, 
+          "label": "57: scale3a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 57, 
+          "label": "57: scale3a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 58, 
+          "label": "58: res3a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 58, 
+          "label": "58: res3a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 59, 
+          "label": "59: res3a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 59, 
+          "label": "59: res3a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 60, 
+          "label": "60: bn3a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 60, 
+          "label": "60: bn3a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 61, 
+          "label": "61: scale3a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 61, 
+          "label": "61: scale3a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 62, 
+          "label": "62: res3a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 62, 
+          "label": "62: res3a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 63, 
+          "label": "63: res3a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 63, 
+          "label": "63: res3a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 64, 
+          "label": "64: bn3a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 64, 
+          "label": "64: bn3a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 65, 
+          "label": "65: scale3a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 65, 
+          "label": "65: scale3a_branch2c", 
+          "time_ms": 15.643, 
+          "time_s": 0.015643, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 66, 
+          "label": "66: res3a", 
+          "time_ms": 15.633, 
+          "time_s": 0.015633, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 66, 
+          "label": "66: res3a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 67, 
+          "label": "67: res3a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 67, 
+          "label": "67: res3a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 68, 
+          "label": "68: res3a_res3a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 68, 
+          "label": "68: res3a_res3a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 69, 
+          "label": "69: res3b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 69, 
+          "label": "69: res3b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 70, 
+          "label": "70: bn3b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 70, 
+          "label": "70: bn3b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 71, 
+          "label": "71: scale3b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 71, 
+          "label": "71: scale3b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 72, 
+          "label": "72: res3b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 72, 
+          "label": "72: res3b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 73, 
+          "label": "73: res3b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 73, 
+          "label": "73: res3b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 74, 
+          "label": "74: bn3b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 74, 
+          "label": "74: bn3b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 75, 
+          "label": "75: scale3b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 75, 
+          "label": "75: scale3b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 76, 
+          "label": "76: res3b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 76, 
+          "label": "76: res3b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 77, 
+          "label": "77: res3b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 77, 
+          "label": "77: res3b_branch2c", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 78, 
+          "label": "78: bn3b_branch2c", 
+          "time_ms": 15.618, 
+          "time_s": 0.015618, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 78, 
+          "label": "78: bn3b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 79, 
+          "label": "79: scale3b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 79, 
+          "label": "79: scale3b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 80, 
+          "label": "80: res3b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 80, 
+          "label": "80: res3b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 81, 
+          "label": "81: res3b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 81, 
+          "label": "81: res3b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 82, 
+          "label": "82: res3b_res3b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 82, 
+          "label": "82: res3b_res3b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 83, 
+          "label": "83: res3c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 83, 
+          "label": "83: res3c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 84, 
+          "label": "84: bn3c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 84, 
+          "label": "84: bn3c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 85, 
+          "label": "85: scale3c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 85, 
+          "label": "85: scale3c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 86, 
+          "label": "86: res3c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 86, 
+          "label": "86: res3c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 87, 
+          "label": "87: res3c_branch2b", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 87, 
+          "label": "87: res3c_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 88, 
+          "label": "88: bn3c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 88, 
+          "label": "88: bn3c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 89, 
+          "label": "89: scale3c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 89, 
+          "label": "89: scale3c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 90, 
+          "label": "90: res3c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 90, 
+          "label": "90: res3c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 91, 
+          "label": "91: res3c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 91, 
+          "label": "91: res3c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 92, 
+          "label": "92: bn3c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 92, 
+          "label": "92: bn3c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 93, 
+          "label": "93: scale3c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 93, 
+          "label": "93: scale3c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 94, 
+          "label": "94: res3c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 94, 
+          "label": "94: res3c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 95, 
+          "label": "95: res3c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 95, 
+          "label": "95: res3c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 96, 
+          "label": "96: res3c_res3c_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 96, 
+          "label": "96: res3c_res3c_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 97, 
+          "label": "97: res3d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 97, 
+          "label": "97: res3d_branch2a", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 98, 
+          "label": "98: bn3d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 98, 
+          "label": "98: bn3d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 99, 
+          "label": "99: scale3d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 99, 
+          "label": "99: scale3d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 100, 
+          "label": "100: res3d_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 100, 
+          "label": "100: res3d_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 101, 
+          "label": "101: res3d_branch2b", 
+          "time_ms": 15.627, 
+          "time_s": 0.015627, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 101, 
+          "label": "101: res3d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 102, 
+          "label": "102: bn3d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 102, 
+          "label": "102: bn3d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 103, 
+          "label": "103: scale3d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 103, 
+          "label": "103: scale3d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 104, 
+          "label": "104: res3d_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 104, 
+          "label": "104: res3d_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 105, 
+          "label": "105: res3d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 105, 
+          "label": "105: res3d_branch2c", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 106, 
+          "label": "106: bn3d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 106, 
+          "label": "106: bn3d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 107, 
+          "label": "107: scale3d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 107, 
+          "label": "107: scale3d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 108, 
+          "label": "108: res3d", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 108, 
+          "label": "108: res3d", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 109, 
+          "label": "109: res3d_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 109, 
+          "label": "109: res3d_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 110, 
+          "label": "110: res3d_res3d_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 110, 
+          "label": "110: res3d_res3d_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 111, 
+          "label": "111: res4a_branch1", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 111, 
+          "label": "111: res4a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 112, 
+          "label": "112: bn4a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 112, 
+          "label": "112: bn4a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 113, 
+          "label": "113: scale4a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 113, 
+          "label": "113: scale4a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 114, 
+          "label": "114: res4a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 114, 
+          "label": "114: res4a_branch2a", 
+          "time_ms": 15.628, 
+          "time_s": 0.015628, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 115, 
+          "label": "115: bn4a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 115, 
+          "label": "115: bn4a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 116, 
+          "label": "116: scale4a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 116, 
+          "label": "116: scale4a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 117, 
+          "label": "117: res4a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 117, 
+          "label": "117: res4a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 118, 
+          "label": "118: res4a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 118, 
+          "label": "118: res4a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 119, 
+          "label": "119: bn4a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 119, 
+          "label": "119: bn4a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 120, 
+          "label": "120: scale4a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 120, 
+          "label": "120: scale4a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 121, 
+          "label": "121: res4a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 121, 
+          "label": "121: res4a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 122, 
+          "label": "122: res4a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 122, 
+          "label": "122: res4a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 123, 
+          "label": "123: bn4a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 123, 
+          "label": "123: bn4a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 124, 
+          "label": "124: scale4a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 124, 
+          "label": "124: scale4a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 125, 
+          "label": "125: res4a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 125, 
+          "label": "125: res4a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 126, 
+          "label": "126: res4a_relu", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 126, 
+          "label": "126: res4a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 127, 
+          "label": "127: res4a_res4a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 127, 
+          "label": "127: res4a_res4a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 128, 
+          "label": "128: res4b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 128, 
+          "label": "128: res4b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 129, 
+          "label": "129: bn4b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 129, 
+          "label": "129: bn4b_branch2a", 
+          "time_ms": 15.623, 
+          "time_s": 0.015623, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 130, 
+          "label": "130: scale4b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 130, 
+          "label": "130: scale4b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 131, 
+          "label": "131: res4b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 131, 
+          "label": "131: res4b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 132, 
+          "label": "132: res4b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 132, 
+          "label": "132: res4b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 133, 
+          "label": "133: bn4b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 133, 
+          "label": "133: bn4b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 134, 
+          "label": "134: scale4b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 134, 
+          "label": "134: scale4b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 135, 
+          "label": "135: res4b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 135, 
+          "label": "135: res4b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 136, 
+          "label": "136: res4b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 136, 
+          "label": "136: res4b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 137, 
+          "label": "137: bn4b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 137, 
+          "label": "137: bn4b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 138, 
+          "label": "138: scale4b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 138, 
+          "label": "138: scale4b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 139, 
+          "label": "139: res4b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 139, 
+          "label": "139: res4b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 140, 
+          "label": "140: res4b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 140, 
+          "label": "140: res4b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 141, 
+          "label": "141: res4b_res4b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 141, 
+          "label": "141: res4b_res4b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 142, 
+          "label": "142: res4c_branch2a", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 142, 
+          "label": "142: res4c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 143, 
+          "label": "143: bn4c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 143, 
+          "label": "143: bn4c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 144, 
+          "label": "144: scale4c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 144, 
+          "label": "144: scale4c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 145, 
+          "label": "145: res4c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 145, 
+          "label": "145: res4c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 146, 
+          "label": "146: res4c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 146, 
+          "label": "146: res4c_branch2b", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 147, 
+          "label": "147: bn4c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 147, 
+          "label": "147: bn4c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 148, 
+          "label": "148: scale4c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 148, 
+          "label": "148: scale4c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 149, 
+          "label": "149: res4c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 149, 
+          "label": "149: res4c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 150, 
+          "label": "150: res4c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 150, 
+          "label": "150: res4c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 151, 
+          "label": "151: bn4c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 151, 
+          "label": "151: bn4c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 152, 
+          "label": "152: scale4c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 152, 
+          "label": "152: scale4c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 153, 
+          "label": "153: res4c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 153, 
+          "label": "153: res4c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 154, 
+          "label": "154: res4c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 154, 
+          "label": "154: res4c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 155, 
+          "label": "155: res4c_res4c_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 155, 
+          "label": "155: res4c_res4c_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 156, 
+          "label": "156: res4d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 156, 
+          "label": "156: res4d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 157, 
+          "label": "157: bn4d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 157, 
+          "label": "157: bn4d_branch2a", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 158, 
+          "label": "158: scale4d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 158, 
+          "label": "158: scale4d_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 159, 
+          "label": "159: res4d_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 159, 
+          "label": "159: res4d_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 160, 
+          "label": "160: res4d_branch2b", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 160, 
+          "label": "160: res4d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 161, 
+          "label": "161: bn4d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 161, 
+          "label": "161: bn4d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 162, 
+          "label": "162: scale4d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 162, 
+          "label": "162: scale4d_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 163, 
+          "label": "163: res4d_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 163, 
+          "label": "163: res4d_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 164, 
+          "label": "164: res4d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 164, 
+          "label": "164: res4d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 165, 
+          "label": "165: bn4d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 165, 
+          "label": "165: bn4d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 166, 
+          "label": "166: scale4d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 166, 
+          "label": "166: scale4d_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 167, 
+          "label": "167: res4d", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 167, 
+          "label": "167: res4d", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 168, 
+          "label": "168: res4d_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 168, 
+          "label": "168: res4d_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 169, 
+          "label": "169: res4d_res4d_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 169, 
+          "label": "169: res4d_res4d_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 170, 
+          "label": "170: res4e_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 170, 
+          "label": "170: res4e_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 171, 
+          "label": "171: bn4e_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 171, 
+          "label": "171: bn4e_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 172, 
+          "label": "172: scale4e_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 172, 
+          "label": "172: scale4e_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 173, 
+          "label": "173: res4e_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 173, 
+          "label": "173: res4e_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 174, 
+          "label": "174: res4e_branch2b", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 174, 
+          "label": "174: res4e_branch2b", 
+          "time_ms": 15.625, 
+          "time_s": 0.015625, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 175, 
+          "label": "175: bn4e_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 175, 
+          "label": "175: bn4e_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 176, 
+          "label": "176: scale4e_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 176, 
+          "label": "176: scale4e_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 177, 
+          "label": "177: res4e_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 177, 
+          "label": "177: res4e_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 178, 
+          "label": "178: res4e_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 178, 
+          "label": "178: res4e_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 179, 
+          "label": "179: bn4e_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 179, 
+          "label": "179: bn4e_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 180, 
+          "label": "180: scale4e_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 180, 
+          "label": "180: scale4e_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 181, 
+          "label": "181: res4e", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 181, 
+          "label": "181: res4e", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 182, 
+          "label": "182: res4e_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 182, 
+          "label": "182: res4e_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 183, 
+          "label": "183: res4e_res4e_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 183, 
+          "label": "183: res4e_res4e_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 184, 
+          "label": "184: res4f_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 184, 
+          "label": "184: res4f_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 185, 
+          "label": "185: bn4f_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 185, 
+          "label": "185: bn4f_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 186, 
+          "label": "186: scale4f_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 186, 
+          "label": "186: scale4f_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 187, 
+          "label": "187: res4f_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 187, 
+          "label": "187: res4f_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 188, 
+          "label": "188: res4f_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 188, 
+          "label": "188: res4f_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 189, 
+          "label": "189: bn4f_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 189, 
+          "label": "189: bn4f_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 190, 
+          "label": "190: scale4f_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 190, 
+          "label": "190: scale4f_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 191, 
+          "label": "191: res4f_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 191, 
+          "label": "191: res4f_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 192, 
+          "label": "192: res4f_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 192, 
+          "label": "192: res4f_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 193, 
+          "label": "193: bn4f_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 193, 
+          "label": "193: bn4f_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 194, 
+          "label": "194: scale4f_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 194, 
+          "label": "194: scale4f_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 195, 
+          "label": "195: res4f", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 195, 
+          "label": "195: res4f", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 196, 
+          "label": "196: res4f_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 196, 
+          "label": "196: res4f_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 197, 
+          "label": "197: res4f_res4f_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 197, 
+          "label": "197: res4f_res4f_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 198, 
+          "label": "198: res5a_branch1", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 198, 
+          "label": "198: res5a_branch1", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 199, 
+          "label": "199: bn5a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 199, 
+          "label": "199: bn5a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 200, 
+          "label": "200: scale5a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 200, 
+          "label": "200: scale5a_branch1", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 201, 
+          "label": "201: res5a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 201, 
+          "label": "201: res5a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 202, 
+          "label": "202: bn5a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 202, 
+          "label": "202: bn5a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 203, 
+          "label": "203: scale5a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 203, 
+          "label": "203: scale5a_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 204, 
+          "label": "204: res5a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 204, 
+          "label": "204: res5a_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 205, 
+          "label": "205: res5a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 205, 
+          "label": "205: res5a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 206, 
+          "label": "206: bn5a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 206, 
+          "label": "206: bn5a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 207, 
+          "label": "207: scale5a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 207, 
+          "label": "207: scale5a_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 208, 
+          "label": "208: res5a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 208, 
+          "label": "208: res5a_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 209, 
+          "label": "209: res5a_branch2c", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 209, 
+          "label": "209: res5a_branch2c", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 210, 
+          "label": "210: bn5a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 210, 
+          "label": "210: bn5a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 211, 
+          "label": "211: scale5a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 211, 
+          "label": "211: scale5a_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 212, 
+          "label": "212: res5a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 212, 
+          "label": "212: res5a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 213, 
+          "label": "213: res5a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 213, 
+          "label": "213: res5a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 214, 
+          "label": "214: res5a_res5a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 214, 
+          "label": "214: res5a_res5a_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 215, 
+          "label": "215: res5b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 215, 
+          "label": "215: res5b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 216, 
+          "label": "216: bn5b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 216, 
+          "label": "216: bn5b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 217, 
+          "label": "217: scale5b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 217, 
+          "label": "217: scale5b_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 218, 
+          "label": "218: res5b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 218, 
+          "label": "218: res5b_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 219, 
+          "label": "219: res5b_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 219, 
+          "label": "219: res5b_branch2b", 
+          "time_ms": 15.626, 
+          "time_s": 0.015626, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 220, 
+          "label": "220: bn5b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 220, 
+          "label": "220: bn5b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 221, 
+          "label": "221: scale5b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 221, 
+          "label": "221: scale5b_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 222, 
+          "label": "222: res5b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 222, 
+          "label": "222: res5b_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 223, 
+          "label": "223: res5b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 223, 
+          "label": "223: res5b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 224, 
+          "label": "224: bn5b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 224, 
+          "label": "224: bn5b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 225, 
+          "label": "225: scale5b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 225, 
+          "label": "225: scale5b_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 226, 
+          "label": "226: res5b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 226, 
+          "label": "226: res5b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 227, 
+          "label": "227: res5b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 227, 
+          "label": "227: res5b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 228, 
+          "label": "228: res5b_res5b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 228, 
+          "label": "228: res5b_res5b_relu_0_split", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 229, 
+          "label": "229: res5c_branch2a", 
+          "time_ms": 15.624, 
+          "time_s": 0.015624, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 229, 
+          "label": "229: res5c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 230, 
+          "label": "230: bn5c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 230, 
+          "label": "230: bn5c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 231, 
+          "label": "231: scale5c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 231, 
+          "label": "231: scale5c_branch2a", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 232, 
+          "label": "232: res5c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 232, 
+          "label": "232: res5c_branch2a_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 233, 
+          "label": "233: res5c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 233, 
+          "label": "233: res5c_branch2b", 
+          "time_ms": 15.618, 
+          "time_s": 0.015618, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 234, 
+          "label": "234: bn5c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 234, 
+          "label": "234: bn5c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 235, 
+          "label": "235: scale5c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 235, 
+          "label": "235: scale5c_branch2b", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 236, 
+          "label": "236: res5c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 236, 
+          "label": "236: res5c_branch2b_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 237, 
+          "label": "237: res5c_branch2c", 
+          "time_ms": 15.627, 
+          "time_s": 0.015627, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 237, 
+          "label": "237: res5c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 238, 
+          "label": "238: bn5c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 238, 
+          "label": "238: bn5c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 239, 
+          "label": "239: scale5c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 239, 
+          "label": "239: scale5c_branch2c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 240, 
+          "label": "240: res5c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 240, 
+          "label": "240: res5c", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 241, 
+          "label": "241: res5c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 241, 
+          "label": "241: res5c_relu", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 242, 
+          "label": "242: pool5", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 242, 
+          "label": "242: pool5", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 243, 
+          "label": "243: fc1000", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 243, 
+          "label": "243: fc1000", 
+          "time_ms": 15.632, 
+          "time_s": 0.015632, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 244, 
+          "label": "244: prob", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 244, 
+          "label": "244: prob", 
+          "time_ms": 0, 
+          "time_s": 0, 
+          "timestamp": "0424 08:22:33.859856"
+        }
+      ], 
+      "post_processed": "yes", 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "time_bw_ms": 406.254, 
+      "time_bw_s": 0.406254, 
+      "time_fw_ms": 390.632, 
+      "time_fw_s": 0.390632, 
+      "time_fwbw_ms": 796, 
+      "time_fwbw_s": 0.796, 
+      "time_total_ms": 796, 
+      "time_total_ms_kernel_0": 796, 
+      "time_total_s": 0.796, 
+      "time_total_s_kernel_0": 0.796, 
+      "total_execution_time": 0.796
+    }
+  }, 
+  "choices": {
+    "cmd_key": "time_cpu", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CAFFE_COMPUTE_DEVICE_ID": 0, 
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "", 
+      "CK_CAFFE_MODEL": "D:\\Work1\\CK\\ck-repos\\ck-caffe\\program\\caffe\\tmp\\tmp-jjwui646.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-jjwui646.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "D:\\!FGG\\Installations\\caffemodel-resnet50\\ResNet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "D:\\!FGG\\Installations\\caffemodel-resnet50\\ResNet-50-model.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "D:\\!FGG\\Installations\\caffemodel-resnet50\\ResNet-50-model.caffemodel", 
+      "CK_GPU_FREQUENCY": "max"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "windows-64", 
+    "target_os_bits": "64"
+  }, 
+  "file_model_topology": "tmp-jjwui646.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "choices": {
+      "env": {
+        "CK_CAFFE_BATCH_SIZE": "1"
+      }
+    }, 
+    "cmd_key": "time_cpu", 
+    "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "cpu_uid": "f6224bcc1776460f", 
+    "dnn_engine_name": "BVLC Caffe framework (cpu)", 
+    "dnn_engine_package_uoa": "b39f40abfd34f10b", 
+    "dnn_type": "cpu", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Intel(R) HD Graphics Family", 
+    "nn_type": "resnet, resnet50", 
+    "os_name": "Windows 10", 
+    "os_uid": "4e38effc5e1fe858", 
+    "plat_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "platform_uid": "09a35e87641079dc", 
+    "user": "win-caffe", 
+    "xdeps": {
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (resnet, resnet50)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "4b439b412770d1a6", 
+        "ver": "deploy"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (cpu)", 
+        "name": "Caffe framework", 
+        "package_uoa": "b39f40abfd34f10b", 
+        "ver": "trunk-90e8abc"
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.7.2", 
+      "compiler": "19.00.23918", 
+      "lib-blas": "0.2.19-85636ff", 
+      "lib-boost": "1.62.0", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-da816ea", 
+      "lib-hdf5": "1.10.0", 
+      "lib-lmdb": "", 
+      "lib-opencv": "3.2.0", 
+      "lib-protobuf": "", 
+      "lib-protobuf-host": "3.1.0"
+    }
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "win-caffe"
+}

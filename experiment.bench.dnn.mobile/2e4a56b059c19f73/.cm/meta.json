@@ -1,0 +1,77 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "ea0a67c9f374e5e5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 2560, 
+      "image_width": 1920, 
+      "mispredictions": [
+        {
+          "correct_answer": "keys", 
+          "mispredicted_image": "misprediction-image-a8e24849aaabd7cb.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482209088625.jpg ----------\n0.6855 - \"n03476684 hair slide\"\n0.0603 - \"n02865351 bolo tie, bolo, bola tie, bola\"\n0.0467 - \"n04153751 screw\"\n0.0465 - \"n03109150 corkscrew, bottle screw\"\n0.0463 - \"n03658185 letter opener, paper knife, paperknife\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482209088625.jpg ----------\n0.6855 - \"n03476684 hair slide\"\n0.0603 - \"n02865351 bolo tie, bolo, bola tie, bola\"\n0.0467 - \"n04153751 screw\"\n0.0465 - \"n03109150 corkscrew, bottle screw\"\n0.0463 - \"n03658185 letter opener, paper knife, paperknife\"\n", 
+      "time": [
+        9842, 
+        8584, 
+        7971
+      ], 
+      "user": "f540689058054a11", 
+      "xopenme": {
+        "execution_time": [
+          0.201055, 
+          0.207144, 
+          0.24491
+        ], 
+        "execution_time_kernel_0": [
+          0.201055, 
+          0.207144, 
+          0.24491
+        ], 
+        "execution_time_kernel_1": [
+          0.508456, 
+          0.509224, 
+          0.68005
+        ], 
+        "execution_time_kernel_2": [
+          8.982147, 
+          7.733082, 
+          6.903347
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "MT6580", 
+    "cpu_uid": "267343fcb7aedc4a", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-400 MP", 
+    "gpu_uid": "445a5b4fa3ff2cb0", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1", 
+    "os_uid": "4a7a7aa243109ec2", 
+    "plat_name": "MICROMAX Q392", 
+    "platform_uid": "c46970a7ee67cf30"
+  }
+}

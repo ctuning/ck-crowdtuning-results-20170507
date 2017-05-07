@@ -1,0 +1,74 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "db542a0bf865fb9b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /storage/emulated/0/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9772 - \"n03793489 mouse, computer mouse\"\n0.0066 - \"n04548280 wall clock\"\n0.0026 - \"n04317175 stethoscope\"\n0.0023 - \"n02988304 CD player\"\n0.0017 - \"n02708093 analog clock\"\n", 
+      "time": [
+        2462, 
+        2481, 
+        2449
+      ], 
+      "user": "grigori.fursin@ctuning.org", 
+      "xopenme": {
+        "execution_time": [
+          1.431681, 
+          1.430464, 
+          1.401287
+        ], 
+        "execution_time_kernel_0": [
+          1.431681, 
+          1.430464, 
+          1.401287
+        ], 
+        "execution_time_kernel_1": [
+          0.281603, 
+          0.281459, 
+          0.283055
+        ], 
+        "execution_time_kernel_2": [
+          0.603527, 
+          0.634166, 
+          0.615525
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "BVLC CaffeNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7"
+  }
+}

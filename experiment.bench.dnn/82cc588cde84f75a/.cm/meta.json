@@ -1,0 +1,2554 @@
+{
+  "characteristics": {
+    "run": {
+      "REAL_ENV_CK_CAFFE_BATCH_SIZE": "100", 
+      "REAL_ENV_CK_CAFFE_ITERATIONS": "", 
+      "REAL_ENV_CK_CAFFE_MODEL": "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-pk2hDC.prototxt", 
+      "execution_time": 0.225668, 
+      "execution_time_with_module": 3.3331789970398, 
+      "memory_bytes": 5515334400, 
+      "memory_kbytes": 5515334.4, 
+      "memory_mbytes": 5515.3344, 
+      "per_layer_info": [
+        {
+          "direction": "forward", 
+          "index": 0, 
+          "label": "00: input", 
+          "time_ms": 0.002176, 
+          "time_s": 2.176e-06, 
+          "timestamp": "0424 11:32:47.361263"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 0, 
+          "label": "00: input", 
+          "time_ms": 0.00128, 
+          "time_s": 1.28e-06, 
+          "timestamp": "0424 11:32:47.361268"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 1, 
+          "label": "01: conv1/7x7_s2", 
+          "time_ms": 6.88032, 
+          "time_s": 0.00688032, 
+          "timestamp": "0424 11:32:47.361271"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 1, 
+          "label": "01: conv1/7x7_s2", 
+          "time_ms": 14.3928, 
+          "time_s": 0.0143928, 
+          "timestamp": "0424 11:32:47.361274"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 2, 
+          "label": "02: conv1/relu_7x7", 
+          "time_ms": 2.82317, 
+          "time_s": 0.00282317, 
+          "timestamp": "0424 11:32:47.361277"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 2, 
+          "label": "02: conv1/relu_7x7", 
+          "time_ms": 0.001632, 
+          "time_s": 1.632e-06, 
+          "timestamp": "0424 11:32:47.361280"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 3, 
+          "label": "03: pool1/3x3_s2", 
+          "time_ms": 2.50739, 
+          "time_s": 0.00250739, 
+          "timestamp": "0424 11:32:47.361284"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 3, 
+          "label": "03: pool1/3x3_s2", 
+          "time_ms": 0.001248, 
+          "time_s": 1.248e-06, 
+          "timestamp": "0424 11:32:47.361286"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 4, 
+          "label": "04: pool1/norm1", 
+          "time_ms": 0.702432, 
+          "time_s": 0.000702432, 
+          "timestamp": "0424 11:32:47.361289"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 4, 
+          "label": "04: pool1/norm1", 
+          "time_ms": 1.99469, 
+          "time_s": 0.00199469, 
+          "timestamp": "0424 11:32:47.361291"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 5, 
+          "label": "05: conv2/3x3_reduce", 
+          "time_ms": 1.47456, 
+          "time_s": 0.00147456, 
+          "timestamp": "0424 11:32:47.361294"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 5, 
+          "label": "05: conv2/3x3_reduce", 
+          "time_ms": 3.92294, 
+          "time_s": 0.00392294, 
+          "timestamp": "0424 11:32:47.361297"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 6, 
+          "label": "06: conv2/relu_3x3_reduce", 
+          "time_ms": 0.713184, 
+          "time_s": 0.000713184, 
+          "timestamp": "0424 11:32:47.361300"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 6, 
+          "label": "06: conv2/relu_3x3_reduce", 
+          "time_ms": 0.001824, 
+          "time_s": 1.824e-06, 
+          "timestamp": "0424 11:32:47.361304"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 7, 
+          "label": "07: conv2/3x3", 
+          "time_ms": 8.57408, 
+          "time_s": 0.00857408, 
+          "timestamp": "0424 11:32:47.361306"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 7, 
+          "label": "07: conv2/3x3", 
+          "time_ms": 12.9198, 
+          "time_s": 0.0129198, 
+          "timestamp": "0424 11:32:47.361310"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 8, 
+          "label": "08: conv2/relu_3x3", 
+          "time_ms": 2.1207, 
+          "time_s": 0.0021207, 
+          "timestamp": "0424 11:32:47.361312"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 8, 
+          "label": "08: conv2/relu_3x3", 
+          "time_ms": 0.00176, 
+          "time_s": 1.76e-06, 
+          "timestamp": "0424 11:32:47.361315"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 9, 
+          "label": "09: conv2/norm2", 
+          "time_ms": 2.1409, 
+          "time_s": 0.0021409, 
+          "timestamp": "0424 11:32:47.361317"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 9, 
+          "label": "09: conv2/norm2", 
+          "time_ms": 5.54701, 
+          "time_s": 0.00554701, 
+          "timestamp": "0424 11:32:47.361320"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 10, 
+          "label": "10: pool2/3x3_s2", 
+          "time_ms": 2.02304, 
+          "time_s": 0.00202304, 
+          "timestamp": "0424 11:32:47.361323"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 10, 
+          "label": "10: pool2/3x3_s2", 
+          "time_ms": 0.001248, 
+          "time_s": 1.248e-06, 
+          "timestamp": "0424 11:32:47.361326"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 11, 
+          "label": "11: pool2/3x3_s2_pool2/3x3_s2_0_split", 
+          "time_ms": 0.002048, 
+          "time_s": 2.048e-06, 
+          "timestamp": "0424 11:32:47.361333"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 11, 
+          "label": "11: pool2/3x3_s2_pool2/3x3_s2_0_split", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361340"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 12, 
+          "label": "12: inception_3a/1x1", 
+          "time_ms": 0.615168, 
+          "time_s": 0.000615168, 
+          "timestamp": "0424 11:32:47.361344"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 12, 
+          "label": "12: inception_3a/1x1", 
+          "time_ms": 2.0224, 
+          "time_s": 0.0020224, 
+          "timestamp": "0424 11:32:47.361346"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 13, 
+          "label": "13: inception_3a/relu_1x1", 
+          "time_ms": 0.188416, 
+          "time_s": 0.000188416, 
+          "timestamp": "0424 11:32:47.361349"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 13, 
+          "label": "13: inception_3a/relu_1x1", 
+          "time_ms": 0.00144, 
+          "time_s": 1.44e-06, 
+          "timestamp": "0424 11:32:47.361352"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 14, 
+          "label": "14: inception_3a/3x3_reduce", 
+          "time_ms": 1.24106, 
+          "time_s": 0.00124106, 
+          "timestamp": "0424 11:32:47.361356"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 14, 
+          "label": "14: inception_3a/3x3_reduce", 
+          "time_ms": 2.39376, 
+          "time_s": 0.00239376, 
+          "timestamp": "0424 11:32:47.361358"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 15, 
+          "label": "15: inception_3a/relu_3x3_reduce", 
+          "time_ms": 0.27424, 
+          "time_s": 0.00027424, 
+          "timestamp": "0424 11:32:47.361361"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 15, 
+          "label": "15: inception_3a/relu_3x3_reduce", 
+          "time_ms": 0.001248, 
+          "time_s": 1.248e-06, 
+          "timestamp": "0424 11:32:47.361364"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 16, 
+          "label": "16: inception_3a/3x3", 
+          "time_ms": 1.90122, 
+          "time_s": 0.00190122, 
+          "timestamp": "0424 11:32:47.361367"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 16, 
+          "label": "16: inception_3a/3x3", 
+          "time_ms": 3.09766, 
+          "time_s": 0.00309766, 
+          "timestamp": "0424 11:32:47.361369"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 17, 
+          "label": "17: inception_3a/relu_3x3", 
+          "time_ms": 0.36352, 
+          "time_s": 0.00036352, 
+          "timestamp": "0424 11:32:47.361372"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 17, 
+          "label": "17: inception_3a/relu_3x3", 
+          "time_ms": 0.00144, 
+          "time_s": 1.44e-06, 
+          "timestamp": "0424 11:32:47.361376"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 18, 
+          "label": "18: inception_3a/5x5_reduce", 
+          "time_ms": 0.374176, 
+          "time_s": 0.000374176, 
+          "timestamp": "0424 11:32:47.361378"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 18, 
+          "label": "18: inception_3a/5x5_reduce", 
+          "time_ms": 1.29085, 
+          "time_s": 0.00129085, 
+          "timestamp": "0424 11:32:47.361382"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 19, 
+          "label": "19: inception_3a/relu_5x5_reduce", 
+          "time_ms": 0.051392, 
+          "time_s": 5.1392e-05, 
+          "timestamp": "0424 11:32:47.361384"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 19, 
+          "label": "19: inception_3a/relu_5x5_reduce", 
+          "time_ms": 0.001088, 
+          "time_s": 1.088e-06, 
+          "timestamp": "0424 11:32:47.361387"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 20, 
+          "label": "20: inception_3a/5x5", 
+          "time_ms": 0.497664, 
+          "time_s": 0.000497664, 
+          "timestamp": "0424 11:32:47.361389"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 20, 
+          "label": "20: inception_3a/5x5", 
+          "time_ms": 1.05574, 
+          "time_s": 0.00105574, 
+          "timestamp": "0424 11:32:47.361392"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 21, 
+          "label": "21: inception_3a/relu_5x5", 
+          "time_ms": 0.099616, 
+          "time_s": 9.9616e-05, 
+          "timestamp": "0424 11:32:47.361395"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 21, 
+          "label": "21: inception_3a/relu_5x5", 
+          "time_ms": 0.001856, 
+          "time_s": 1.856e-06, 
+          "timestamp": "0424 11:32:47.361398"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 22, 
+          "label": "22: inception_3a/pool", 
+          "time_ms": 1.32198, 
+          "time_s": 0.00132198, 
+          "timestamp": "0424 11:32:47.361402"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 22, 
+          "label": "22: inception_3a/pool", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361403"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 23, 
+          "label": "23: inception_3a/pool_proj", 
+          "time_ms": 0.441024, 
+          "time_s": 0.000441024, 
+          "timestamp": "0424 11:32:47.361407"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 23, 
+          "label": "23: inception_3a/pool_proj", 
+          "time_ms": 1.59027, 
+          "time_s": 0.00159027, 
+          "timestamp": "0424 11:32:47.361409"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 24, 
+          "label": "24: inception_3a/relu_pool_proj", 
+          "time_ms": 0.096256, 
+          "time_s": 9.6256e-05, 
+          "timestamp": "0424 11:32:47.361413"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 24, 
+          "label": "24: inception_3a/relu_pool_proj", 
+          "time_ms": 0.00192, 
+          "time_s": 1.92e-06, 
+          "timestamp": "0424 11:32:47.361415"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 25, 
+          "label": "25: inception_3a/output", 
+          "time_ms": 0.679936, 
+          "time_s": 0.000679936, 
+          "timestamp": "0424 11:32:47.361418"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 25, 
+          "label": "25: inception_3a/output", 
+          "time_ms": 2.28259, 
+          "time_s": 0.00228259, 
+          "timestamp": "0424 11:32:47.361421"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 26, 
+          "label": "26: inception_3a/output_inception_3a/output_0_split", 
+          "time_ms": 0.002048, 
+          "time_s": 2.048e-06, 
+          "timestamp": "0424 11:32:47.361423"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 26, 
+          "label": "26: inception_3a/output_inception_3a/output_0_split", 
+          "time_ms": 0.001856, 
+          "time_s": 1.856e-06, 
+          "timestamp": "0424 11:32:47.361426"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 27, 
+          "label": "27: inception_3b/1x1", 
+          "time_ms": 1.18374, 
+          "time_s": 0.00118374, 
+          "timestamp": "0424 11:32:47.361429"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 27, 
+          "label": "27: inception_3b/1x1", 
+          "time_ms": 2.97376, 
+          "time_s": 0.00297376, 
+          "timestamp": "0424 11:32:47.361433"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 28, 
+          "label": "28: inception_3b/relu_1x1", 
+          "time_ms": 0.364416, 
+          "time_s": 0.000364416, 
+          "timestamp": "0424 11:32:47.361435"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 28, 
+          "label": "28: inception_3b/relu_1x1", 
+          "time_ms": 0.001696, 
+          "time_s": 1.696e-06, 
+          "timestamp": "0424 11:32:47.361438"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 29, 
+          "label": "29: inception_3b/3x3_reduce", 
+          "time_ms": 1.16634, 
+          "time_s": 0.00116634, 
+          "timestamp": "0424 11:32:47.361440"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 29, 
+          "label": "29: inception_3b/3x3_reduce", 
+          "time_ms": 3.9375, 
+          "time_s": 0.0039375, 
+          "timestamp": "0424 11:32:47.361443"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 30, 
+          "label": "30: inception_3b/relu_3x3_reduce", 
+          "time_ms": 0.362144, 
+          "time_s": 0.000362144, 
+          "timestamp": "0424 11:32:47.361446"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 30, 
+          "label": "30: inception_3b/relu_3x3_reduce", 
+          "time_ms": 0.002048, 
+          "time_s": 2.048e-06, 
+          "timestamp": "0424 11:32:47.361449"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 31, 
+          "label": "31: inception_3b/3x3", 
+          "time_ms": 3.41504, 
+          "time_s": 0.00341504, 
+          "timestamp": "0424 11:32:47.361452"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 31, 
+          "label": "31: inception_3b/3x3", 
+          "time_ms": 6.4215, 
+          "time_s": 0.0064215, 
+          "timestamp": "0424 11:32:47.361454"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 32, 
+          "label": "32: inception_3b/relu_3x3", 
+          "time_ms": 0.539328, 
+          "time_s": 0.000539328, 
+          "timestamp": "0424 11:32:47.361457"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 32, 
+          "label": "32: inception_3b/relu_3x3", 
+          "time_ms": 0.001664, 
+          "time_s": 1.664e-06, 
+          "timestamp": "0424 11:32:47.361460"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 33, 
+          "label": "33: inception_3b/5x5_reduce", 
+          "time_ms": 0.526016, 
+          "time_s": 0.000526016, 
+          "timestamp": "0424 11:32:47.361464"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 33, 
+          "label": "33: inception_3b/5x5_reduce", 
+          "time_ms": 1.66938, 
+          "time_s": 0.00166938, 
+          "timestamp": "0424 11:32:47.361466"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 34, 
+          "label": "34: inception_3b/relu_5x5_reduce", 
+          "time_ms": 0.098304, 
+          "time_s": 9.8304e-05, 
+          "timestamp": "0424 11:32:47.361470"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 34, 
+          "label": "34: inception_3b/relu_5x5_reduce", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361476"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 35, 
+          "label": "35: inception_3b/5x5", 
+          "time_ms": 2.40291, 
+          "time_s": 0.00240291, 
+          "timestamp": "0424 11:32:47.361479"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 35, 
+          "label": "35: inception_3b/5x5", 
+          "time_ms": 3.08224, 
+          "time_s": 0.00308224, 
+          "timestamp": "0424 11:32:47.361482"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 36, 
+          "label": "36: inception_3b/relu_5x5", 
+          "time_ms": 0.27456, 
+          "time_s": 0.00027456, 
+          "timestamp": "0424 11:32:47.361485"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 36, 
+          "label": "36: inception_3b/relu_5x5", 
+          "time_ms": 0.00128, 
+          "time_s": 1.28e-06, 
+          "timestamp": "0424 11:32:47.361488"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 37, 
+          "label": "37: inception_3b/pool", 
+          "time_ms": 1.76333, 
+          "time_s": 0.00176333, 
+          "timestamp": "0424 11:32:47.361491"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 37, 
+          "label": "37: inception_3b/pool", 
+          "time_ms": 0.001248, 
+          "time_s": 1.248e-06, 
+          "timestamp": "0424 11:32:47.361493"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 38, 
+          "label": "38: inception_3b/pool_proj", 
+          "time_ms": 0.710656, 
+          "time_s": 0.000710656, 
+          "timestamp": "0424 11:32:47.361496"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 38, 
+          "label": "38: inception_3b/pool_proj", 
+          "time_ms": 2.12275, 
+          "time_s": 0.00212275, 
+          "timestamp": "0424 11:32:47.361500"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 39, 
+          "label": "39: inception_3b/relu_pool_proj", 
+          "time_ms": 0.186944, 
+          "time_s": 0.000186944, 
+          "timestamp": "0424 11:32:47.361502"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 39, 
+          "label": "39: inception_3b/relu_pool_proj", 
+          "time_ms": 0.001408, 
+          "time_s": 1.408e-06, 
+          "timestamp": "0424 11:32:47.361505"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 40, 
+          "label": "40: inception_3b/output", 
+          "time_ms": 1.26451, 
+          "time_s": 0.00126451, 
+          "timestamp": "0424 11:32:47.361508"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 40, 
+          "label": "40: inception_3b/output", 
+          "time_ms": 2.7863, 
+          "time_s": 0.0027863, 
+          "timestamp": "0424 11:32:47.361510"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 41, 
+          "label": "41: pool3/3x3_s2", 
+          "time_ms": 1.31174, 
+          "time_s": 0.00131174, 
+          "timestamp": "0424 11:32:47.361513"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 41, 
+          "label": "41: pool3/3x3_s2", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361516"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 42, 
+          "label": "42: pool3/3x3_s2_pool3/3x3_s2_0_split", 
+          "time_ms": 0.002048, 
+          "time_s": 2.048e-06, 
+          "timestamp": "0424 11:32:47.361519"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 42, 
+          "label": "42: pool3/3x3_s2_pool3/3x3_s2_0_split", 
+          "time_ms": 0.001696, 
+          "time_s": 1.696e-06, 
+          "timestamp": "0424 11:32:47.361521"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 43, 
+          "label": "43: inception_4a/1x1", 
+          "time_ms": 0.857472, 
+          "time_s": 0.000857472, 
+          "timestamp": "0424 11:32:47.361524"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 43, 
+          "label": "43: inception_4a/1x1", 
+          "time_ms": 2.57741, 
+          "time_s": 0.00257741, 
+          "timestamp": "0424 11:32:47.361527"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 44, 
+          "label": "44: inception_4a/relu_1x1", 
+          "time_ms": 0.142784, 
+          "time_s": 0.000142784, 
+          "timestamp": "0424 11:32:47.361531"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 44, 
+          "label": "44: inception_4a/relu_1x1", 
+          "time_ms": 0.001216, 
+          "time_s": 1.216e-06, 
+          "timestamp": "0424 11:32:47.361533"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 45, 
+          "label": "45: inception_4a/3x3_reduce", 
+          "time_ms": 0.671136, 
+          "time_s": 0.000671136, 
+          "timestamp": "0424 11:32:47.361536"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 45, 
+          "label": "45: inception_4a/3x3_reduce", 
+          "time_ms": 1.15059, 
+          "time_s": 0.00115059, 
+          "timestamp": "0424 11:32:47.361538"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 46, 
+          "label": "46: inception_4a/relu_3x3_reduce", 
+          "time_ms": 0.075776, 
+          "time_s": 7.5776e-05, 
+          "timestamp": "0424 11:32:47.361541"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 46, 
+          "label": "46: inception_4a/relu_3x3_reduce", 
+          "time_ms": 0.00128, 
+          "time_s": 1.28e-06, 
+          "timestamp": "0424 11:32:47.361544"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 47, 
+          "label": "47: inception_4a/3x3", 
+          "time_ms": 0.837856, 
+          "time_s": 0.000837856, 
+          "timestamp": "0424 11:32:47.361547"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 47, 
+          "label": "47: inception_4a/3x3", 
+          "time_ms": 1.62826, 
+          "time_s": 0.00162826, 
+          "timestamp": "0424 11:32:47.361551"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 48, 
+          "label": "48: inception_4a/relu_3x3", 
+          "time_ms": 0.167136, 
+          "time_s": 0.000167136, 
+          "timestamp": "0424 11:32:47.361552"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 48, 
+          "label": "48: inception_4a/relu_3x3", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361555"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 49, 
+          "label": "49: inception_4a/5x5_reduce", 
+          "time_ms": 0.239936, 
+          "time_s": 0.000239936, 
+          "timestamp": "0424 11:32:47.361558"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 49, 
+          "label": "49: inception_4a/5x5_reduce", 
+          "time_ms": 0.62864, 
+          "time_s": 0.00062864, 
+          "timestamp": "0424 11:32:47.361562"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 50, 
+          "label": "50: inception_4a/relu_5x5_reduce", 
+          "time_ms": 0.010208, 
+          "time_s": 1.0208e-05, 
+          "timestamp": "0424 11:32:47.361564"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 50, 
+          "label": "50: inception_4a/relu_5x5_reduce", 
+          "time_ms": 0.001632, 
+          "time_s": 1.632e-06, 
+          "timestamp": "0424 11:32:47.361567"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 51, 
+          "label": "51: inception_4a/5x5", 
+          "time_ms": 0.220064, 
+          "time_s": 0.000220064, 
+          "timestamp": "0424 11:32:47.361569"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 51, 
+          "label": "51: inception_4a/5x5", 
+          "time_ms": 0.567328, 
+          "time_s": 0.000567328, 
+          "timestamp": "0424 11:32:47.361572"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 52, 
+          "label": "52: inception_4a/relu_5x5", 
+          "time_ms": 0.040544, 
+          "time_s": 4.0544e-05, 
+          "timestamp": "0424 11:32:47.361575"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 52, 
+          "label": "52: inception_4a/relu_5x5", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361578"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 53, 
+          "label": "53: inception_4a/pool", 
+          "time_ms": 0.83968, 
+          "time_s": 0.00083968, 
+          "timestamp": "0424 11:32:47.361582"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 53, 
+          "label": "53: inception_4a/pool", 
+          "time_ms": 0.001344, 
+          "time_s": 1.344e-06, 
+          "timestamp": "0424 11:32:47.361583"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 54, 
+          "label": "54: inception_4a/pool_proj", 
+          "time_ms": 0.302208, 
+          "time_s": 0.000302208, 
+          "timestamp": "0424 11:32:47.361587"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 54, 
+          "label": "54: inception_4a/pool_proj", 
+          "time_ms": 1.17018, 
+          "time_s": 0.00117018, 
+          "timestamp": "0424 11:32:47.361589"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 55, 
+          "label": "55: inception_4a/relu_pool_proj", 
+          "time_ms": 0.0504, 
+          "time_s": 5.04e-05, 
+          "timestamp": "0424 11:32:47.361593"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 55, 
+          "label": "55: inception_4a/relu_pool_proj", 
+          "time_ms": 0.001056, 
+          "time_s": 1.056e-06, 
+          "timestamp": "0424 11:32:47.361595"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 56, 
+          "label": "56: inception_4a/output", 
+          "time_ms": 0.346784, 
+          "time_s": 0.000346784, 
+          "timestamp": "0424 11:32:47.361598"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 56, 
+          "label": "56: inception_4a/output", 
+          "time_ms": 0.41632, 
+          "time_s": 0.00041632, 
+          "timestamp": "0424 11:32:47.361600"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 57, 
+          "label": "57: inception_4a/output_inception_4a/output_0_split", 
+          "time_ms": 0.002624, 
+          "time_s": 2.624e-06, 
+          "timestamp": "0424 11:32:47.361603"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 57, 
+          "label": "57: inception_4a/output_inception_4a/output_0_split", 
+          "time_ms": 0.001344, 
+          "time_s": 1.344e-06, 
+          "timestamp": "0424 11:32:47.361611"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 58, 
+          "label": "58: inception_4b/1x1", 
+          "time_ms": 0.86016, 
+          "time_s": 0.00086016, 
+          "timestamp": "0424 11:32:47.361614"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 58, 
+          "label": "58: inception_4b/1x1", 
+          "time_ms": 1.65376, 
+          "time_s": 0.00165376, 
+          "timestamp": "0424 11:32:47.361618"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 59, 
+          "label": "59: inception_4b/relu_1x1", 
+          "time_ms": 0.1184, 
+          "time_s": 0.0001184, 
+          "timestamp": "0424 11:32:47.361620"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 59, 
+          "label": "59: inception_4b/relu_1x1", 
+          "time_ms": 0.001984, 
+          "time_s": 1.984e-06, 
+          "timestamp": "0424 11:32:47.361623"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 60, 
+          "label": "60: inception_4b/3x3_reduce", 
+          "time_ms": 0.48032, 
+          "time_s": 0.00048032, 
+          "timestamp": "0424 11:32:47.361625"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 60, 
+          "label": "60: inception_4b/3x3_reduce", 
+          "time_ms": 1.01558, 
+          "time_s": 0.00101558, 
+          "timestamp": "0424 11:32:47.361629"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 61, 
+          "label": "61: inception_4b/relu_3x3_reduce", 
+          "time_ms": 0.090112, 
+          "time_s": 9.0112e-05, 
+          "timestamp": "0424 11:32:47.361631"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 61, 
+          "label": "61: inception_4b/relu_3x3_reduce", 
+          "time_ms": 0.00112, 
+          "time_s": 1.12e-06, 
+          "timestamp": "0424 11:32:47.361634"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 62, 
+          "label": "62: inception_4b/3x3", 
+          "time_ms": 0.946912, 
+          "time_s": 0.000946912, 
+          "timestamp": "0424 11:32:47.361637"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 62, 
+          "label": "62: inception_4b/3x3", 
+          "time_ms": 1.86154, 
+          "time_s": 0.00186154, 
+          "timestamp": "0424 11:32:47.361639"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 63, 
+          "label": "63: inception_4b/relu_3x3", 
+          "time_ms": 0.171008, 
+          "time_s": 0.000171008, 
+          "timestamp": "0424 11:32:47.361642"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 63, 
+          "label": "63: inception_4b/relu_3x3", 
+          "time_ms": 0.00112, 
+          "time_s": 1.12e-06, 
+          "timestamp": "0424 11:32:47.361645"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 64, 
+          "label": "64: inception_4b/5x5_reduce", 
+          "time_ms": 0.26304, 
+          "time_s": 0.00026304, 
+          "timestamp": "0424 11:32:47.361649"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 64, 
+          "label": "64: inception_4b/5x5_reduce", 
+          "time_ms": 0.969312, 
+          "time_s": 0.000969312, 
+          "timestamp": "0424 11:32:47.361651"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 65, 
+          "label": "65: inception_4b/relu_5x5_reduce", 
+          "time_ms": 0.012512, 
+          "time_s": 1.2512e-05, 
+          "timestamp": "0424 11:32:47.361654"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 65, 
+          "label": "65: inception_4b/relu_5x5_reduce", 
+          "time_ms": 0.001248, 
+          "time_s": 1.248e-06, 
+          "timestamp": "0424 11:32:47.361657"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 66, 
+          "label": "66: inception_4b/5x5", 
+          "time_ms": 0.308192, 
+          "time_s": 0.000308192, 
+          "timestamp": "0424 11:32:47.361660"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 66, 
+          "label": "66: inception_4b/5x5", 
+          "time_ms": 0.65024, 
+          "time_s": 0.00065024, 
+          "timestamp": "0424 11:32:47.361662"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 67, 
+          "label": "67: inception_4b/relu_5x5", 
+          "time_ms": 0.050016, 
+          "time_s": 5.0016e-05, 
+          "timestamp": "0424 11:32:47.361665"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 67, 
+          "label": "67: inception_4b/relu_5x5", 
+          "time_ms": 0.001408, 
+          "time_s": 1.408e-06, 
+          "timestamp": "0424 11:32:47.361668"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 68, 
+          "label": "68: inception_4b/pool", 
+          "time_ms": 0.904256, 
+          "time_s": 0.000904256, 
+          "timestamp": "0424 11:32:47.361671"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 68, 
+          "label": "68: inception_4b/pool", 
+          "time_ms": 0.001792, 
+          "time_s": 1.792e-06, 
+          "timestamp": "0424 11:32:47.361675"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 69, 
+          "label": "69: inception_4b/pool_proj", 
+          "time_ms": 0.315552, 
+          "time_s": 0.000315552, 
+          "timestamp": "0424 11:32:47.361677"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 69, 
+          "label": "69: inception_4b/pool_proj", 
+          "time_ms": 0.992448, 
+          "time_s": 0.000992448, 
+          "timestamp": "0424 11:32:47.361680"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 70, 
+          "label": "70: inception_4b/relu_pool_proj", 
+          "time_ms": 0.050176, 
+          "time_s": 5.0176e-05, 
+          "timestamp": "0424 11:32:47.361682"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 70, 
+          "label": "70: inception_4b/relu_pool_proj", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361685"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 71, 
+          "label": "71: inception_4b/output", 
+          "time_ms": 0.346336, 
+          "time_s": 0.000346336, 
+          "timestamp": "0424 11:32:47.361688"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 71, 
+          "label": "71: inception_4b/output", 
+          "time_ms": 0.41936, 
+          "time_s": 0.00041936, 
+          "timestamp": "0424 11:32:47.361691"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 72, 
+          "label": "72: inception_4b/output_inception_4b/output_0_split", 
+          "time_ms": 0.001408, 
+          "time_s": 1.408e-06, 
+          "timestamp": "0424 11:32:47.361693"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 72, 
+          "label": "72: inception_4b/output_inception_4b/output_0_split", 
+          "time_ms": 0.001216, 
+          "time_s": 1.216e-06, 
+          "timestamp": "0424 11:32:47.361696"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 73, 
+          "label": "73: inception_4c/1x1", 
+          "time_ms": 0.498688, 
+          "time_s": 0.000498688, 
+          "timestamp": "0424 11:32:47.361699"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 73, 
+          "label": "73: inception_4c/1x1", 
+          "time_ms": 1.03936, 
+          "time_s": 0.00103936, 
+          "timestamp": "0424 11:32:47.361702"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 74, 
+          "label": "74: inception_4c/relu_1x1", 
+          "time_ms": 0.098368, 
+          "time_s": 9.8368e-05, 
+          "timestamp": "0424 11:32:47.361706"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 74, 
+          "label": "74: inception_4c/relu_1x1", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361708"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 75, 
+          "label": "75: inception_4c/3x3_reduce", 
+          "time_ms": 0.499712, 
+          "time_s": 0.000499712, 
+          "timestamp": "0424 11:32:47.361711"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 75, 
+          "label": "75: inception_4c/3x3_reduce", 
+          "time_ms": 1.77789, 
+          "time_s": 0.00177789, 
+          "timestamp": "0424 11:32:47.361713"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 76, 
+          "label": "76: inception_4c/relu_3x3_reduce", 
+          "time_ms": 0.098304, 
+          "time_s": 9.8304e-05, 
+          "timestamp": "0424 11:32:47.361716"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 76, 
+          "label": "76: inception_4c/relu_3x3_reduce", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361719"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 77, 
+          "label": "77: inception_4c/3x3", 
+          "time_ms": 1.17248, 
+          "time_s": 0.00117248, 
+          "timestamp": "0424 11:32:47.361722"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 77, 
+          "label": "77: inception_4c/3x3", 
+          "time_ms": 2.02138, 
+          "time_s": 0.00202138, 
+          "timestamp": "0424 11:32:47.361726"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 78, 
+          "label": "78: inception_4c/relu_3x3", 
+          "time_ms": 0.18624, 
+          "time_s": 0.00018624, 
+          "timestamp": "0424 11:32:47.361727"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 78, 
+          "label": "78: inception_4c/relu_3x3", 
+          "time_ms": 0.001792, 
+          "time_s": 1.792e-06, 
+          "timestamp": "0424 11:32:47.361730"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 79, 
+          "label": "79: inception_4c/5x5_reduce", 
+          "time_ms": 0.263168, 
+          "time_s": 0.000263168, 
+          "timestamp": "0424 11:32:47.361733"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 79, 
+          "label": "79: inception_4c/5x5_reduce", 
+          "time_ms": 0.928864, 
+          "time_s": 0.000928864, 
+          "timestamp": "0424 11:32:47.361737"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 80, 
+          "label": "80: inception_4c/relu_5x5_reduce", 
+          "time_ms": 0.012288, 
+          "time_s": 1.2288e-05, 
+          "timestamp": "0424 11:32:47.361739"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 80, 
+          "label": "80: inception_4c/relu_5x5_reduce", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361747"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 81, 
+          "label": "81: inception_4c/5x5", 
+          "time_ms": 0.30784, 
+          "time_s": 0.00030784, 
+          "timestamp": "0424 11:32:47.361749"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 81, 
+          "label": "81: inception_4c/5x5", 
+          "time_ms": 0.650304, 
+          "time_s": 0.000650304, 
+          "timestamp": "0424 11:32:47.361752"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 82, 
+          "label": "82: inception_4c/relu_5x5", 
+          "time_ms": 0.050176, 
+          "time_s": 5.0176e-05, 
+          "timestamp": "0424 11:32:47.361755"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 82, 
+          "label": "82: inception_4c/relu_5x5", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361758"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 83, 
+          "label": "83: inception_4c/pool", 
+          "time_ms": 0.89616, 
+          "time_s": 0.00089616, 
+          "timestamp": "0424 11:32:47.361762"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 83, 
+          "label": "83: inception_4c/pool", 
+          "time_ms": 0.001344, 
+          "time_s": 1.344e-06, 
+          "timestamp": "0424 11:32:47.361764"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 84, 
+          "label": "84: inception_4c/pool_proj", 
+          "time_ms": 0.31744, 
+          "time_s": 0.00031744, 
+          "timestamp": "0424 11:32:47.361766"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 84, 
+          "label": "84: inception_4c/pool_proj", 
+          "time_ms": 1.03834, 
+          "time_s": 0.00103834, 
+          "timestamp": "0424 11:32:47.361769"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 85, 
+          "label": "85: inception_4c/relu_pool_proj", 
+          "time_ms": 0.049984, 
+          "time_s": 4.9984e-05, 
+          "timestamp": "0424 11:32:47.361773"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 85, 
+          "label": "85: inception_4c/relu_pool_proj", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361775"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 86, 
+          "label": "86: inception_4c/output", 
+          "time_ms": 0.348096, 
+          "time_s": 0.000348096, 
+          "timestamp": "0424 11:32:47.361778"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 86, 
+          "label": "86: inception_4c/output", 
+          "time_ms": 0.409568, 
+          "time_s": 0.000409568, 
+          "timestamp": "0424 11:32:47.361781"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 87, 
+          "label": "87: inception_4c/output_inception_4c/output_0_split", 
+          "time_ms": 0.001376, 
+          "time_s": 1.376e-06, 
+          "timestamp": "0424 11:32:47.361784"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 87, 
+          "label": "87: inception_4c/output_inception_4c/output_0_split", 
+          "time_ms": 0.001056, 
+          "time_s": 1.056e-06, 
+          "timestamp": "0424 11:32:47.361786"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 88, 
+          "label": "88: inception_4d/1x1", 
+          "time_ms": 0.479232, 
+          "time_s": 0.000479232, 
+          "timestamp": "0424 11:32:47.361789"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 88, 
+          "label": "88: inception_4d/1x1", 
+          "time_ms": 1.24502, 
+          "time_s": 0.00124502, 
+          "timestamp": "0424 11:32:47.361793"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 89, 
+          "label": "89: inception_4d/relu_1x1", 
+          "time_ms": 0.090144, 
+          "time_s": 9.0144e-05, 
+          "timestamp": "0424 11:32:47.361795"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 89, 
+          "label": "89: inception_4d/relu_1x1", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361799"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 90, 
+          "label": "90: inception_4d/3x3_reduce", 
+          "time_ms": 0.84992, 
+          "time_s": 0.00084992, 
+          "timestamp": "0424 11:32:47.361801"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 90, 
+          "label": "90: inception_4d/3x3_reduce", 
+          "time_ms": 1.61587, 
+          "time_s": 0.00161587, 
+          "timestamp": "0424 11:32:47.361804"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 91, 
+          "label": "91: inception_4d/relu_3x3_reduce", 
+          "time_ms": 0.107136, 
+          "time_s": 0.000107136, 
+          "timestamp": "0424 11:32:47.361806"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 91, 
+          "label": "91: inception_4d/relu_3x3_reduce", 
+          "time_ms": 0.00192, 
+          "time_s": 1.92e-06, 
+          "timestamp": "0424 11:32:47.361809"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 92, 
+          "label": "92: inception_4d/3x3", 
+          "time_ms": 1.44253, 
+          "time_s": 0.00144253, 
+          "timestamp": "0424 11:32:47.361812"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 92, 
+          "label": "92: inception_4d/3x3", 
+          "time_ms": 3.29069, 
+          "time_s": 0.00329069, 
+          "timestamp": "0424 11:32:47.361815"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 93, 
+          "label": "93: inception_4d/relu_3x3", 
+          "time_ms": 0.207904, 
+          "time_s": 0.000207904, 
+          "timestamp": "0424 11:32:47.361817"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 93, 
+          "label": "93: inception_4d/relu_3x3", 
+          "time_ms": 0.001376, 
+          "time_s": 1.376e-06, 
+          "timestamp": "0424 11:32:47.361820"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 94, 
+          "label": "94: inception_4d/5x5_reduce", 
+          "time_ms": 0.272064, 
+          "time_s": 0.000272064, 
+          "timestamp": "0424 11:32:47.361824"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 94, 
+          "label": "94: inception_4d/5x5_reduce", 
+          "time_ms": 0.953344, 
+          "time_s": 0.000953344, 
+          "timestamp": "0424 11:32:47.361826"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 95, 
+          "label": "95: inception_4d/relu_5x5_reduce", 
+          "time_ms": 0.02416, 
+          "time_s": 2.416e-05, 
+          "timestamp": "0424 11:32:47.361829"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 95, 
+          "label": "95: inception_4d/relu_5x5_reduce", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361831"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 96, 
+          "label": "96: inception_4d/5x5", 
+          "time_ms": 0.37536, 
+          "time_s": 0.00037536, 
+          "timestamp": "0424 11:32:47.361835"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 96, 
+          "label": "96: inception_4d/5x5", 
+          "time_ms": 0.796672, 
+          "time_s": 0.000796672, 
+          "timestamp": "0424 11:32:47.361837"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 97, 
+          "label": "97: inception_4d/relu_5x5", 
+          "time_ms": 0.050176, 
+          "time_s": 5.0176e-05, 
+          "timestamp": "0424 11:32:47.361840"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 97, 
+          "label": "97: inception_4d/relu_5x5", 
+          "time_ms": 0.001888, 
+          "time_s": 1.888e-06, 
+          "timestamp": "0424 11:32:47.361843"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 98, 
+          "label": "98: inception_4d/pool", 
+          "time_ms": 0.897024, 
+          "time_s": 0.000897024, 
+          "timestamp": "0424 11:32:47.361846"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 98, 
+          "label": "98: inception_4d/pool", 
+          "time_ms": 0.001664, 
+          "time_s": 1.664e-06, 
+          "timestamp": "0424 11:32:47.361848"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 99, 
+          "label": "99: inception_4d/pool_proj", 
+          "time_ms": 0.31632, 
+          "time_s": 0.00031632, 
+          "timestamp": "0424 11:32:47.361851"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 99, 
+          "label": "99: inception_4d/pool_proj", 
+          "time_ms": 0.953344, 
+          "time_s": 0.000953344, 
+          "timestamp": "0424 11:32:47.361855"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 100, 
+          "label": "100: inception_4d/relu_pool_proj", 
+          "time_ms": 0.050176, 
+          "time_s": 5.0176e-05, 
+          "timestamp": "0424 11:32:47.361857"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 100, 
+          "label": "100: inception_4d/relu_pool_proj", 
+          "time_ms": 0.001792, 
+          "time_s": 1.792e-06, 
+          "timestamp": "0424 11:32:47.361860"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 101, 
+          "label": "101: inception_4d/output", 
+          "time_ms": 0.356928, 
+          "time_s": 0.000356928, 
+          "timestamp": "0424 11:32:47.361862"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 101, 
+          "label": "101: inception_4d/output", 
+          "time_ms": 0.415872, 
+          "time_s": 0.000415872, 
+          "timestamp": "0424 11:32:47.361865"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 102, 
+          "label": "102: inception_4d/output_inception_4d/output_0_split", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361868"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 102, 
+          "label": "102: inception_4d/output_inception_4d/output_0_split", 
+          "time_ms": 0.001024, 
+          "time_s": 1.024e-06, 
+          "timestamp": "0424 11:32:47.361871"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 103, 
+          "label": "103: inception_4e/1x1", 
+          "time_ms": 0.982304, 
+          "time_s": 0.000982304, 
+          "timestamp": "0424 11:32:47.361877"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 103, 
+          "label": "103: inception_4e/1x1", 
+          "time_ms": 2.70246, 
+          "time_s": 0.00270246, 
+          "timestamp": "0424 11:32:47.361883"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 104, 
+          "label": "104: inception_4e/relu_1x1", 
+          "time_ms": 0.187392, 
+          "time_s": 0.000187392, 
+          "timestamp": "0424 11:32:47.361886"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 104, 
+          "label": "104: inception_4e/relu_1x1", 
+          "time_ms": 0.001728, 
+          "time_s": 1.728e-06, 
+          "timestamp": "0424 11:32:47.361888"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 105, 
+          "label": "105: inception_4e/3x3_reduce", 
+          "time_ms": 0.888832, 
+          "time_s": 0.000888832, 
+          "timestamp": "0424 11:32:47.361891"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 105, 
+          "label": "105: inception_4e/3x3_reduce", 
+          "time_ms": 2.46784, 
+          "time_s": 0.00246784, 
+          "timestamp": "0424 11:32:47.361894"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 106, 
+          "label": "106: inception_4e/relu_3x3_reduce", 
+          "time_ms": 0.117856, 
+          "time_s": 0.000117856, 
+          "timestamp": "0424 11:32:47.361897"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 106, 
+          "label": "106: inception_4e/relu_3x3_reduce", 
+          "time_ms": 0.00176, 
+          "time_s": 1.76e-06, 
+          "timestamp": "0424 11:32:47.361901"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 107, 
+          "label": "107: inception_4e/3x3", 
+          "time_ms": 1.7304, 
+          "time_s": 0.0017304, 
+          "timestamp": "0424 11:32:47.361902"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 107, 
+          "label": "107: inception_4e/3x3", 
+          "time_ms": 3.77344, 
+          "time_s": 0.00377344, 
+          "timestamp": "0424 11:32:47.361906"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 108, 
+          "label": "108: inception_4e/relu_3x3", 
+          "time_ms": 0.231456, 
+          "time_s": 0.000231456, 
+          "timestamp": "0424 11:32:47.361908"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 108, 
+          "label": "108: inception_4e/relu_3x3", 
+          "time_ms": 0.001376, 
+          "time_s": 1.376e-06, 
+          "timestamp": "0424 11:32:47.361912"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 109, 
+          "label": "109: inception_4e/5x5_reduce", 
+          "time_ms": 0.274432, 
+          "time_s": 0.000274432, 
+          "timestamp": "0424 11:32:47.361914"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 109, 
+          "label": "109: inception_4e/5x5_reduce", 
+          "time_ms": 1.01043, 
+          "time_s": 0.00101043, 
+          "timestamp": "0424 11:32:47.361917"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 110, 
+          "label": "110: inception_4e/relu_5x5_reduce", 
+          "time_ms": 0.023552, 
+          "time_s": 2.3552e-05, 
+          "timestamp": "0424 11:32:47.361919"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 110, 
+          "label": "110: inception_4e/relu_5x5_reduce", 
+          "time_ms": 0.00112, 
+          "time_s": 1.12e-06, 
+          "timestamp": "0424 11:32:47.361922"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 111, 
+          "label": "111: inception_4e/5x5", 
+          "time_ms": 0.667392, 
+          "time_s": 0.000667392, 
+          "timestamp": "0424 11:32:47.361925"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 111, 
+          "label": "111: inception_4e/5x5", 
+          "time_ms": 0.974464, 
+          "time_s": 0.000974464, 
+          "timestamp": "0424 11:32:47.361928"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 112, 
+          "label": "112: inception_4e/relu_5x5", 
+          "time_ms": 0.096544, 
+          "time_s": 9.6544e-05, 
+          "timestamp": "0424 11:32:47.361932"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 112, 
+          "label": "112: inception_4e/relu_5x5", 
+          "time_ms": 0.001248, 
+          "time_s": 1.248e-06, 
+          "timestamp": "0424 11:32:47.361933"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 113, 
+          "label": "113: inception_4e/pool", 
+          "time_ms": 0.925696, 
+          "time_s": 0.000925696, 
+          "timestamp": "0424 11:32:47.361937"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 113, 
+          "label": "113: inception_4e/pool", 
+          "time_ms": 0.00192, 
+          "time_s": 1.92e-06, 
+          "timestamp": "0424 11:32:47.361939"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 114, 
+          "label": "114: inception_4e/pool_proj", 
+          "time_ms": 0.505856, 
+          "time_s": 0.000505856, 
+          "timestamp": "0424 11:32:47.361943"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 114, 
+          "label": "114: inception_4e/pool_proj", 
+          "time_ms": 1.38035, 
+          "time_s": 0.00138035, 
+          "timestamp": "0424 11:32:47.361945"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 115, 
+          "label": "115: inception_4e/relu_pool_proj", 
+          "time_ms": 0.098368, 
+          "time_s": 9.8368e-05, 
+          "timestamp": "0424 11:32:47.361948"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 115, 
+          "label": "115: inception_4e/relu_pool_proj", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.361950"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 116, 
+          "label": "116: inception_4e/output", 
+          "time_ms": 0.553984, 
+          "time_s": 0.000553984, 
+          "timestamp": "0424 11:32:47.361953"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 116, 
+          "label": "116: inception_4e/output", 
+          "time_ms": 0.51712, 
+          "time_s": 0.00051712, 
+          "timestamp": "0424 11:32:47.361956"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 117, 
+          "label": "117: pool4/3x3_s2", 
+          "time_ms": 0.596864, 
+          "time_s": 0.000596864, 
+          "timestamp": "0424 11:32:47.361958"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 117, 
+          "label": "117: pool4/3x3_s2", 
+          "time_ms": 0.001664, 
+          "time_s": 1.664e-06, 
+          "timestamp": "0424 11:32:47.361961"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 118, 
+          "label": "118: pool4/3x3_s2_pool4/3x3_s2_0_split", 
+          "time_ms": 0.001984, 
+          "time_s": 1.984e-06, 
+          "timestamp": "0424 11:32:47.361964"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 118, 
+          "label": "118: pool4/3x3_s2_pool4/3x3_s2_0_split", 
+          "time_ms": 0.001696, 
+          "time_s": 1.696e-06, 
+          "timestamp": "0424 11:32:47.361968"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 119, 
+          "label": "119: inception_5a/1x1", 
+          "time_ms": 0.395168, 
+          "time_s": 0.000395168, 
+          "timestamp": "0424 11:32:47.361970"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 119, 
+          "label": "119: inception_5a/1x1", 
+          "time_ms": 1.01786, 
+          "time_s": 0.00101786, 
+          "timestamp": "0424 11:32:47.361973"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 120, 
+          "label": "120: inception_5a/relu_1x1", 
+          "time_ms": 0.050144, 
+          "time_s": 5.0144e-05, 
+          "timestamp": "0424 11:32:47.361975"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 120, 
+          "label": "120: inception_5a/relu_1x1", 
+          "time_ms": 0.001088, 
+          "time_s": 1.088e-06, 
+          "timestamp": "0424 11:32:47.361979"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 121, 
+          "label": "121: inception_5a/3x3_reduce", 
+          "time_ms": 0.38864, 
+          "time_s": 0.00038864, 
+          "timestamp": "0424 11:32:47.361981"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 121, 
+          "label": "121: inception_5a/3x3_reduce", 
+          "time_ms": 0.827392, 
+          "time_s": 0.000827392, 
+          "timestamp": "0424 11:32:47.361984"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 122, 
+          "label": "122: inception_5a/relu_3x3_reduce", 
+          "time_ms": 0.029536, 
+          "time_s": 2.9536e-05, 
+          "timestamp": "0424 11:32:47.361986"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 122, 
+          "label": "122: inception_5a/relu_3x3_reduce", 
+          "time_ms": 0.001408, 
+          "time_s": 1.408e-06, 
+          "timestamp": "0424 11:32:47.361989"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 123, 
+          "label": "123: inception_5a/3x3", 
+          "time_ms": 0.980928, 
+          "time_s": 0.000980928, 
+          "timestamp": "0424 11:32:47.361992"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 123, 
+          "label": "123: inception_5a/3x3", 
+          "time_ms": 1.43702, 
+          "time_s": 0.00143702, 
+          "timestamp": "0424 11:32:47.361995"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 124, 
+          "label": "124: inception_5a/relu_3x3", 
+          "time_ms": 0.061504, 
+          "time_s": 6.1504e-05, 
+          "timestamp": "0424 11:32:47.361997"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 124, 
+          "label": "124: inception_5a/relu_3x3", 
+          "time_ms": 0.001952, 
+          "time_s": 1.952e-06, 
+          "timestamp": "0424 11:32:47.362000"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 125, 
+          "label": "125: inception_5a/5x5_reduce", 
+          "time_ms": 0.151232, 
+          "time_s": 0.000151232, 
+          "timestamp": "0424 11:32:47.362004"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 125, 
+          "label": "125: inception_5a/5x5_reduce", 
+          "time_ms": 0.227264, 
+          "time_s": 0.000227264, 
+          "timestamp": "0424 11:32:47.362006"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 126, 
+          "label": "126: inception_5a/relu_5x5_reduce", 
+          "time_ms": 0.009024, 
+          "time_s": 9.024e-06, 
+          "timestamp": "0424 11:32:47.362010"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 126, 
+          "label": "126: inception_5a/relu_5x5_reduce", 
+          "time_ms": 0.001152, 
+          "time_s": 1.152e-06, 
+          "timestamp": "0424 11:32:47.362013"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 127, 
+          "label": "127: inception_5a/5x5", 
+          "time_ms": 0.193696, 
+          "time_s": 0.000193696, 
+          "timestamp": "0424 11:32:47.362020"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 127, 
+          "label": "127: inception_5a/5x5", 
+          "time_ms": 0.51712, 
+          "time_s": 0.00051712, 
+          "timestamp": "0424 11:32:47.362022"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 128, 
+          "label": "128: inception_5a/relu_5x5", 
+          "time_ms": 0.024576, 
+          "time_s": 2.4576e-05, 
+          "timestamp": "0424 11:32:47.362025"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 128, 
+          "label": "128: inception_5a/relu_5x5", 
+          "time_ms": 0.00176, 
+          "time_s": 1.76e-06, 
+          "timestamp": "0424 11:32:47.362027"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 129, 
+          "label": "129: inception_5a/pool", 
+          "time_ms": 0.36336, 
+          "time_s": 0.00036336, 
+          "timestamp": "0424 11:32:47.362030"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 129, 
+          "label": "129: inception_5a/pool", 
+          "time_ms": 0.001664, 
+          "time_s": 1.664e-06, 
+          "timestamp": "0424 11:32:47.362033"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 130, 
+          "label": "130: inception_5a/pool_proj", 
+          "time_ms": 0.203776, 
+          "time_s": 0.000203776, 
+          "timestamp": "0424 11:32:47.362036"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 130, 
+          "label": "130: inception_5a/pool_proj", 
+          "time_ms": 0.637952, 
+          "time_s": 0.000637952, 
+          "timestamp": "0424 11:32:47.362040"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 131, 
+          "label": "131: inception_5a/relu_pool_proj", 
+          "time_ms": 0.025344, 
+          "time_s": 2.5344e-05, 
+          "timestamp": "0424 11:32:47.362041"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 131, 
+          "label": "131: inception_5a/relu_pool_proj", 
+          "time_ms": 0.001792, 
+          "time_s": 1.792e-06, 
+          "timestamp": "0424 11:32:47.362045"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 132, 
+          "label": "132: inception_5a/output", 
+          "time_ms": 0.14832, 
+          "time_s": 0.00014832, 
+          "timestamp": "0424 11:32:47.362047"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 132, 
+          "label": "132: inception_5a/output", 
+          "time_ms": 0.307488, 
+          "time_s": 0.000307488, 
+          "timestamp": "0424 11:32:47.362051"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 133, 
+          "label": "133: inception_5a/output_inception_5a/output_0_split", 
+          "time_ms": 0.001856, 
+          "time_s": 1.856e-06, 
+          "timestamp": "0424 11:32:47.362053"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 133, 
+          "label": "133: inception_5a/output_inception_5a/output_0_split", 
+          "time_ms": 0.001312, 
+          "time_s": 1.312e-06, 
+          "timestamp": "0424 11:32:47.362056"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 134, 
+          "label": "134: inception_5b/1x1", 
+          "time_ms": 0.568, 
+          "time_s": 0.000568, 
+          "timestamp": "0424 11:32:47.362058"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 134, 
+          "label": "134: inception_5b/1x1", 
+          "time_ms": 1.44896, 
+          "time_s": 0.00144896, 
+          "timestamp": "0424 11:32:47.362061"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 135, 
+          "label": "135: inception_5b/relu_1x1", 
+          "time_ms": 0.072896, 
+          "time_s": 7.2896e-05, 
+          "timestamp": "0424 11:32:47.362064"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 135, 
+          "label": "135: inception_5b/relu_1x1", 
+          "time_ms": 0.001152, 
+          "time_s": 1.152e-06, 
+          "timestamp": "0424 11:32:47.362066"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 136, 
+          "label": "136: inception_5b/3x3_reduce", 
+          "time_ms": 0.405568, 
+          "time_s": 0.000405568, 
+          "timestamp": "0424 11:32:47.362069"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 136, 
+          "label": "136: inception_5b/3x3_reduce", 
+          "time_ms": 1.12803, 
+          "time_s": 0.00112803, 
+          "timestamp": "0424 11:32:47.362072"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 137, 
+          "label": "137: inception_5b/relu_3x3_reduce", 
+          "time_ms": 0.039936, 
+          "time_s": 3.9936e-05, 
+          "timestamp": "0424 11:32:47.362076"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 137, 
+          "label": "137: inception_5b/relu_3x3_reduce", 
+          "time_ms": 0.001376, 
+          "time_s": 1.376e-06, 
+          "timestamp": "0424 11:32:47.362077"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 138, 
+          "label": "138: inception_5b/3x3", 
+          "time_ms": 1.37434, 
+          "time_s": 0.00137434, 
+          "timestamp": "0424 11:32:47.362081"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 138, 
+          "label": "138: inception_5b/3x3", 
+          "time_ms": 1.56525, 
+          "time_s": 0.00156525, 
+          "timestamp": "0424 11:32:47.362083"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 139, 
+          "label": "139: inception_5b/relu_3x3", 
+          "time_ms": 0.07216, 
+          "time_s": 7.216e-05, 
+          "timestamp": "0424 11:32:47.362087"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 139, 
+          "label": "139: inception_5b/relu_3x3", 
+          "time_ms": 0.00112, 
+          "time_s": 1.12e-06, 
+          "timestamp": "0424 11:32:47.362088"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 140, 
+          "label": "140: inception_5b/5x5_reduce", 
+          "time_ms": 0.182304, 
+          "time_s": 0.000182304, 
+          "timestamp": "0424 11:32:47.362092"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 140, 
+          "label": "140: inception_5b/5x5_reduce", 
+          "time_ms": 0.270208, 
+          "time_s": 0.000270208, 
+          "timestamp": "0424 11:32:47.362094"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 141, 
+          "label": "141: inception_5b/relu_5x5_reduce", 
+          "time_ms": 0.009216, 
+          "time_s": 9.216e-06, 
+          "timestamp": "0424 11:32:47.362097"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 141, 
+          "label": "141: inception_5b/relu_5x5_reduce", 
+          "time_ms": 0.001632, 
+          "time_s": 1.632e-06, 
+          "timestamp": "0424 11:32:47.362099"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 142, 
+          "label": "142: inception_5b/5x5", 
+          "time_ms": 0.256384, 
+          "time_s": 0.000256384, 
+          "timestamp": "0424 11:32:47.362102"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 142, 
+          "label": "142: inception_5b/5x5", 
+          "time_ms": 0.595072, 
+          "time_s": 0.000595072, 
+          "timestamp": "0424 11:32:47.362105"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 143, 
+          "label": "143: inception_5b/relu_5x5", 
+          "time_ms": 0.024864, 
+          "time_s": 2.4864e-05, 
+          "timestamp": "0424 11:32:47.362108"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 143, 
+          "label": "143: inception_5b/relu_5x5", 
+          "time_ms": 0.00112, 
+          "time_s": 1.12e-06, 
+          "timestamp": "0424 11:32:47.362110"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 144, 
+          "label": "144: inception_5b/pool", 
+          "time_ms": 0.364064, 
+          "time_s": 0.000364064, 
+          "timestamp": "0424 11:32:47.362113"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 144, 
+          "label": "144: inception_5b/pool", 
+          "time_ms": 0.001344, 
+          "time_s": 1.344e-06, 
+          "timestamp": "0424 11:32:47.362116"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 145, 
+          "label": "145: inception_5b/pool_proj", 
+          "time_ms": 0.203648, 
+          "time_s": 0.000203648, 
+          "timestamp": "0424 11:32:47.362119"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 145, 
+          "label": "145: inception_5b/pool_proj", 
+          "time_ms": 0.672448, 
+          "time_s": 0.000672448, 
+          "timestamp": "0424 11:32:47.362123"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 146, 
+          "label": "146: inception_5b/relu_pool_proj", 
+          "time_ms": 0.025024, 
+          "time_s": 2.5024e-05, 
+          "timestamp": "0424 11:32:47.362124"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 146, 
+          "label": "146: inception_5b/relu_pool_proj", 
+          "time_ms": 0.001728, 
+          "time_s": 1.728e-06, 
+          "timestamp": "0424 11:32:47.362128"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 147, 
+          "label": "147: inception_5b/output", 
+          "time_ms": 0.179264, 
+          "time_s": 0.000179264, 
+          "timestamp": "0424 11:32:47.362130"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 147, 
+          "label": "147: inception_5b/output", 
+          "time_ms": 0.327072, 
+          "time_s": 0.000327072, 
+          "timestamp": "0424 11:32:47.362133"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 148, 
+          "label": "148: pool5/7x7_s1", 
+          "time_ms": 0.253728, 
+          "time_s": 0.000253728, 
+          "timestamp": "0424 11:32:47.362135"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 148, 
+          "label": "148: pool5/7x7_s1", 
+          "time_ms": 0.001408, 
+          "time_s": 1.408e-06, 
+          "timestamp": "0424 11:32:47.362138"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 149, 
+          "label": "149: pool5/drop_7x7_s1", 
+          "time_ms": 0.01664, 
+          "time_s": 1.664e-05, 
+          "timestamp": "0424 11:32:47.362141"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 149, 
+          "label": "149: pool5/drop_7x7_s1", 
+          "time_ms": 0.001472, 
+          "time_s": 1.472e-06, 
+          "timestamp": "0424 11:32:47.362145"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 150, 
+          "label": "150: loss3/classifier", 
+          "time_ms": 0.109792, 
+          "time_s": 0.000109792, 
+          "timestamp": "0424 11:32:47.362151"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 150, 
+          "label": "150: loss3/classifier", 
+          "time_ms": 1.86502, 
+          "time_s": 0.00186502, 
+          "timestamp": "0424 11:32:47.362154"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 151, 
+          "label": "151: prob", 
+          "time_ms": 0.014336, 
+          "time_s": 1.4336e-05, 
+          "timestamp": "0424 11:32:47.362157"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 151, 
+          "label": "151: prob", 
+          "time_ms": 0.002048, 
+          "time_s": 2.048e-06, 
+          "timestamp": "0424 11:32:47.362159"
+        }
+      ], 
+      "post_processed": "yes", 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "time_bw_ms": 135.038, 
+      "time_bw_s": 0.135038, 
+      "time_fw_ms": 89.6738, 
+      "time_fw_s": 0.0896738, 
+      "time_fwbw_ms": 225.668, 
+      "time_fwbw_s": 0.225668, 
+      "time_total_ms": 225.668, 
+      "time_total_ms_kernel_0": 225.668, 
+      "time_total_s": 0.225668, 
+      "time_total_s_kernel_0": 0.225668, 
+      "total_execution_time": 0.225668
+    }
+  }, 
+  "choices": {
+    "cmd_key": "time_gpu", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CAFFE_COMPUTE_DEVICE_ID": 0, 
+      "CK_CAFFE_BATCH_SIZE": "100", 
+      "CK_CAFFE_ITERATIONS": "", 
+      "CK_CAFFE_MODEL": "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-pk2hDC.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-pk2hDC.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "/home/fursin/CK/local/env/024233bc97cc3354/bvlc_googlenet.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "/home/fursin/CK/local/env/024233bc97cc3354/bvlc_googlenet.caffemodel", 
+      "CK_GPU_FREQUENCY": "max"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "file_model_topology": "tmp-pk2hDC.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "choices": {
+      "env": {
+        "CK_CAFFE_BATCH_SIZE": "100"
+      }
+    }, 
+    "cmd_key": "time_gpu", 
+    "cpu_name": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz", 
+    "cpu_uid": "ae8cdb5ec1d405b8", 
+    "dnn_engine_name": "BVLC Caffe framework (cudnn)", 
+    "dnn_engine_package_uoa": "c9f484014ba7d5b0", 
+    "dnn_type": "cuda", 
+    "gpgpu_name": "GeForce GTX 1080", 
+    "gpgpu_uid": "b4294b1645caf40c", 
+    "gpu_name": "NVIDIA Corporation Device 1b80 (rev a1)", 
+    "nn_type": "bvlc, googlenet", 
+    "os_name": "Ubuntu 16.04.2 LTS", 
+    "os_uid": "e4644237b773ad31", 
+    "plat_name": "Hewlett-Packard (HP Z640 Workstation)", 
+    "platform_uid": "14f8b04c038e5233", 
+    "user": "nvidia@home", 
+    "xdeps": {
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (bvlc, googlenet)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "b96fc6a959de0ad1", 
+        "ver": "trunk"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (cudnn)", 
+        "name": "Caffe framework", 
+        "package_uoa": "c9f484014ba7d5b0", 
+        "ver": "trunk-eeebdab"
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.5.1", 
+      "compiler": "5.4.1", 
+      "compiler-cuda": "8.0.61", 
+      "lib-blas": "0.2.19-85636ff", 
+      "lib-boost": "1.58.0", 
+      "lib-cudnn": "api-5.1.5", 
+      "lib-gflags": "2", 
+      "lib-glog": "0.0.0", 
+      "lib-hdf5": "1.8.16", 
+      "lib-lmdb": "0.0.0", 
+      "lib-opencv": "2.4.9", 
+      "lib-protobuf-host": "3.1.0"
+    }
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "nvidia@home"
+}

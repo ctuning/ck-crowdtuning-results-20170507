@@ -1,0 +1,912 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-d-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1612.8, 
+        "1": 1612.8, 
+        "2": 1612.8, 
+        "3": 1612.8, 
+        "4": 1612.8, 
+        "5": 1612.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b43ad78883420e86", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3200, 
+          "##characteristics#run#execution_time_kernel_0#min": 4.7579998970032, 
+          "##characteristics#run#repeat#min": 10000000
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 3.665639427894582
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-loops -freroll-loops -trigraphs -fstrict-vtable-pointers -mlong-calls -fmax-type-align=13", 
+          "##characteristics#compile#md5_sum#min": "bc34edb168a5aba7771fa526e35ba20e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=13", 
+          "##compiler_flags#freroll-loops": "-freroll-loops", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#funroll-loops": "-funroll-loops", 
+          "##compiler_flags#mlong-calls": "-mlong-calls", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#mlong-calls", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f437daf6bab0ab1a", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "f762eb75c3451689", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3256, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.5310001373291, 
+          "##characteristics#run#repeat#min": 681663296
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6601637077181757
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops -fstrict-aliasing -mstack-alignment=8", 
+          "##characteristics#compile#md5_sum#min": "15f7141ab65ce6b181dbc7eda6a11917", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=8"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-unroll-loops", 
+          "##compiler_flags#fstrict-aliasing", 
+          "##compiler_flags#mstack-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "33d324ea6b524113", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-d-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "417fa031320f6dda", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3768, 
+          "##characteristics#run#execution_time_kernel_0#min": 3.058000087738, 
+          "##characteristics#run#repeat#min": 163934
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4751568525158563
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math -fno-diagnostics-fixit-info", 
+          "##characteristics#compile#md5_sum#min": "259839ca1a4e435f596c8379aabe126b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math", 
+          "##compiler_flags#fno-diagnostics-fixit-info": "-fno-diagnostics-fixit-info"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math", 
+          "##compiler_flags#fno-diagnostics-fixit-info"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "724e459ee0b44417", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "e02b049cd9bfb27a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3992, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.6940002441406, 
+          "##characteristics#run#repeat#min": 119331744
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.254509018036072, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3410458908153986
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline -fno-vectorize -mstrict-align -fstrict-vtable-pointers", 
+          "##characteristics#compile#md5_sum#min": "7b0f4860024be1b8c7158dc707e39cbb", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-inline": "-fno-inline", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#fvectorize": "-fno-vectorize", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-inline", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#fvectorize", 
+          "##compiler_flags#mstrict-align"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "5c195b402ebe7c15", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "8657ce6c4bd8be52", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3656, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.7589998245239, 
+          "##characteristics#run#repeat#min": 1953124992
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0021881838074398, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3319646502411215
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math -fno-elide-constructors -fno-signed-char -ftree-vectorize -msoft-float", 
+          "##characteristics#compile#md5_sum#min": "c1cef457fa6637aab1afc6474fa56a51", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math", 
+          "##compiler_flags#fno-elide-constructors": "-fno-elide-constructors", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#ftree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#msoft-float": "-msoft-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math", 
+          "##compiler_flags#fno-elide-constructors", 
+          "##compiler_flags#fno-signed-char", 
+          "##compiler_flags#ftree-vectorize", 
+          "##compiler_flags#msoft-float"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b455c83e564fe43e", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "dc3c1389612406db", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3408, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.0749998092651, 
+          "##characteristics#run#repeat#min": 149925040
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9953051643192489, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2428101550772015
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-builtin -fno-unroll-loops -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "c43b27ff2400d69ee3d925f2ece3b632", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-builtin", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#mstackrealign"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "bcad4d22a4c823d1", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "300ab23530df00fe", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3376, 
+          "##characteristics#run#execution_time_kernel_0#min": 0.98199999332428, 
+          "##characteristics#run#repeat#min": 1000000
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2108508089107441
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline -fno-rtti -trigraphs -fno-lto -fwrapv -fslp-vectorize -fmodules-prune-interval=104", 
+          "##characteristics#compile#md5_sum#min": "1ded1d67b487a9dae39bc44d07738906", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#flto": "-fno-lto", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=104", 
+          "##compiler_flags#fno-inline": "-fno-inline", 
+          "##compiler_flags#fno-rtti": "-fno-rtti", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fwrapv": "-fwrapv", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#flto", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#fno-inline", 
+          "##compiler_flags#fno-rtti", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fwrapv", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "0b09c2a6429794b8", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-fft-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "ee59b06d5f8d5988", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4184, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8170003890991, 
+          "##characteristics#run#repeat#min": 266524
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.011472275334608, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1578016609386992
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math -fno-signed-zeros -fvisibility-inlines-hidden -fslp-vectorize-aggressive -fslp-vectorize -mlong-calls -fmodules-prune-after=67 -fmax-type-align=25 -ffp-contract=fast", 
+          "##characteristics#compile#md5_sum#min": "d5ee209eae391582a12cbfe5eb3b38c7", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=fast", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=25", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=67", 
+          "##compiler_flags#fno-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#fvisibility-inlines-hidden": "-fvisibility-inlines-hidden", 
+          "##compiler_flags#mlong-calls": "-mlong-calls"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fmodules-prune-after", 
+          "##compiler_flags#fno-signed-zeros", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fslp-vectorize-aggressive", 
+          "##compiler_flags#fvisibility-inlines-hidden", 
+          "##compiler_flags#mlong-calls"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "5a0c9e7a61e2403e", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "84d5d9ff05cba993", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6040, 
+          "##characteristics#run#execution_time_kernel_0#min": 0.8870000243187, 
+          "##characteristics#run#repeat#min": 815093
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1371795600688062
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fomit-frame-pointer  -fno-vectorize -ftemplate-backtrace-limit=324", 
+          "##characteristics#compile#md5_sum#min": "e30d2d0bdf81215dc754c717098da62e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer ", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=324", 
+          "##compiler_flags#fvectorize": "-fno-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fomit-frame-pointer ", 
+          "##compiler_flags#ftemplate-backtrace-limit", 
+          "##compiler_flags#fvectorize"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a309c93948818499", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1804.8, 
+        "1": 1804.8, 
+        "2": 1804.8, 
+        "3": 1804.8, 
+        "4": 1804.8, 
+        "5": 1804.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8956", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "74d39ab487fb8521", 
+      "gpu_name": "Qualcomm Adreno (TM) 510", 
+      "gpu_uid": "5c8c45d1b25600fb", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "XIAOMI MI MAX", 
+      "platform_uid": "3b07de64d690c6fb"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "4d6ba16f6986efd5", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3832, 
+          "##characteristics#run#execution_time_kernel_0#min": 1.0620000362396, 
+          "##characteristics#run#repeat#min": 6104773
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1167193101253914
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ftree-vectorize -mstrict-align -ftemplate-backtrace-limit=210", 
+          "##characteristics#compile#md5_sum#min": "06cd728ce0711be29c582c92fe42f59f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=210", 
+          "##compiler_flags#ftree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ftemplate-backtrace-limit", 
+          "##compiler_flags#ftree-vectorize", 
+          "##compiler_flags#mstrict-align"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4d02825e48398bc5", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

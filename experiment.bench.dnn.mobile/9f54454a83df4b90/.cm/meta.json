@@ -1,0 +1,218 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "f17982671dc54d0b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        8286, 
+        8104, 
+        7131
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          7.008399, 
+          7.03478, 
+          5.574402
+        ], 
+        "execution_time_kernel_0": [
+          7.008399, 
+          7.03478, 
+          5.574402
+        ], 
+        "execution_time_kernel_1": [
+          0.304837, 
+          0.292217, 
+          0.579905
+        ], 
+        "execution_time_kernel_2": [
+          0.577689, 
+          0.503692, 
+          0.701754
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "404988fe279dd66f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 1920, 
+      "image_width": 1080, 
+      "mispredictions": [
+        {
+          "correct_answer": "Ceiling Fan", 
+          "mispredicted_image": "misprediction-image-e9b536355c0a391c.jpg", 
+          "misprediction_results": "0.0633 - \"n03637318 lampshade, lamp shade\"\n0.0454 - \"n04380533 table lamp\"\n0.0413 - \"n04507155 umbrella\"\n0.0346 - \"n04044716 radio telescope, radio reflector\"\n0.0335 - \"n03271574 electric fan, blower\"\n"
+        }, 
+        {
+          "correct_answer": "0.0521 - \"n03196217 digital clock\"", 
+          "mispredicted_image": "misprediction-image-460e83cb01a3352e.jpg", 
+          "misprediction_results": "0.1356 - \"n03452741 grand piano, grand\"\n0.0640 - \"n04515003 upright, upright piano\"\n0.0521 - \"n03196217 digital clock\"\n0.0504 - \"n03179701 desk\"\n0.0487 - \"n03443371 goblet\"\n"
+        }, 
+        {
+          "correct_answer": "Trashcan ", 
+          "mispredicted_image": "misprediction-image-c3eb3f533ee41682.jpg", 
+          "misprediction_results": "0.2854 - \"n02233338 cockroach, roach\"\n0.0912 - \"n03047690 clog, geta, patten, sabot\"\n0.0626 - \"n07768694 pomegranate\"\n0.0453 - \"n04133789 sandal\"\n0.0362 - \"n03794056 mousetrap\"\n"
+        }
+      ], 
+      "prediction": "0.0633 - \"n03637318 lampshade, lamp shade\"\n0.0454 - \"n04380533 table lamp\"\n0.0413 - \"n04507155 umbrella\"\n0.0346 - \"n04044716 radio telescope, radio reflector\"\n0.0335 - \"n03271574 electric fan, blower\"\n", 
+      "time": [
+        7557, 
+        8032, 
+        7362, 
+        13429, 
+        9373, 
+        7331, 
+        11763, 
+        6784, 
+        8115, 
+        15892, 
+        10195, 
+        12400
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          6.491332, 
+          6.839658, 
+          6.504822, 
+          12.138925, 
+          8.460014, 
+          6.235024, 
+          10.615693, 
+          5.898553, 
+          7.084496, 
+          14.423987, 
+          9.117566, 
+          11.008052
+        ], 
+        "execution_time_kernel_0": [
+          6.491332, 
+          6.839658, 
+          6.504822, 
+          12.138925, 
+          8.460014, 
+          6.235024, 
+          10.615693, 
+          5.898553, 
+          7.084496, 
+          14.423987, 
+          9.117566, 
+          11.008052
+        ], 
+        "execution_time_kernel_1": [
+          0.041948, 
+          0.042226, 
+          0.048637, 
+          0.077417, 
+          0.049388, 
+          0.072443, 
+          0.049263, 
+          0.039853, 
+          0.047724, 
+          0.066944, 
+          0.087848, 
+          0.123021
+        ], 
+        "execution_time_kernel_2": [
+          0.674796, 
+          0.851107, 
+          0.520827, 
+          0.85376, 
+          0.539513, 
+          0.699257, 
+          0.700208, 
+          0.532974, 
+          0.665125, 
+          1.057183, 
+          0.669955, 
+          0.83715
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G935U", 
+    "platform_uid": ""
+  }
+}

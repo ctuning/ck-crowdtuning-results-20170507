@@ -1,0 +1,74 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "bf9f707d3ca73ce4", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }
+      ], 
+      "image_height": 4032, 
+      "image_width": 3024, 
+      "prediction": "0.3795 - \"n03832673 notebook, notebook computer\"\n0.2916 - \"n03642806 laptop, laptop computer\"\n0.1067 - \"n03085013 computer keyboard, keypad\"\n0.0871 - \"n04264628 space bar\"\n0.0380 - \"n04505470 typewriter keyboard\"\n", 
+      "time": [
+        5079, 
+        5088, 
+        5094
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          2.129716, 
+          2.055892, 
+          2.040215
+        ], 
+        "execution_time_kernel_0": [
+          2.129716, 
+          2.055892, 
+          2.040215
+        ], 
+        "execution_time_kernel_1": [
+          0.213766, 
+          0.216248, 
+          0.214559
+        ], 
+        "execution_time_kernel_2": [
+          2.228726, 
+          2.240784, 
+          2.286242
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "8aed648b899e2f85", 
+    "engine": "Caffe OpenCL", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G935F", 
+    "platform_uid": "cae9334148b4d60a"
+  }
+}

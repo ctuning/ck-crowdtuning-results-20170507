@@ -1,0 +1,248 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "17250d4dc04a4051", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        1400, 
+        1242, 
+        1439
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.048056, 
+          0.048802, 
+          0.053186
+        ], 
+        "execution_time_kernel_0": [
+          0.048056, 
+          0.048802, 
+          0.053186
+        ], 
+        "execution_time_kernel_1": [
+          0.343079, 
+          0.336443, 
+          0.338877
+        ], 
+        "execution_time_kernel_2": [
+          0.921002, 
+          0.768629, 
+          0.948459
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "54d2a4ae1b20cc9c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "mispredictions": [
+        {
+          "correct_answer": "earplugs", 
+          "mispredicted_image": "misprediction-image-4efb9edf63dfbd02.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482215305793.jpg ----------\n0.1382 - \"n04553703 washbasin, handbasin, washbowl, lavabo, wash-hand basin\"\n0.0624 - \"n03584829 iron, smoothing iron\"\n0.0465 - \"n15075141 toilet tissue, toilet paper, bathroom tissue\"\n0.0359 - \"n04033901 quill, quill pen\"\n0.0311 - \"n03916031 perfume, essence\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482215237497.jpg ----------\n0.0522 - \"n03854065 organ, pipe organ\"\n0.0508 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0475 - \"n04589890 window screen\"\n0.0445 - \"n01773549 barn spider, Araneus cavaticus\"\n0.0412 - \"n01774750 tarantula\"\n", 
+      "time": [
+        1459, 
+        1451, 
+        1376, 
+        1378, 
+        1282, 
+        1325, 
+        1671, 
+        2250, 
+        1500, 
+        1799, 
+        1473, 
+        1451
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.048448, 
+          0.048154, 
+          0.047975, 
+          0.047753, 
+          0.048203, 
+          0.049144, 
+          0.049196, 
+          0.050277, 
+          0.07584, 
+          0.048087, 
+          0.048531, 
+          0.051747
+        ], 
+        "execution_time_kernel_0": [
+          0.048448, 
+          0.048154, 
+          0.047975, 
+          0.047753, 
+          0.048203, 
+          0.049144, 
+          0.049196, 
+          0.050277, 
+          0.07584, 
+          0.048087, 
+          0.048531, 
+          0.051747
+        ], 
+        "execution_time_kernel_1": [
+          0.435528, 
+          0.436632, 
+          0.437932, 
+          0.345154, 
+          0.347113, 
+          0.358748, 
+          0.358011, 
+          0.368154, 
+          0.356746, 
+          0.343299, 
+          0.339562, 
+          0.350642
+        ], 
+        "execution_time_kernel_2": [
+          0.880935, 
+          0.877037, 
+          0.801815, 
+          0.88745, 
+          0.794792, 
+          0.828202, 
+          1.168863, 
+          0.845347, 
+          0.933113, 
+          1.307556, 
+          0.990427, 
+          0.950457
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G925F", 
+    "platform_uid": "9f0949f39bafaae4"
+  }
+}

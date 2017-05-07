@@ -1,0 +1,216 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4809f544b4396999", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        5490, 
+        5173, 
+        5257
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.137238, 
+          0.143738, 
+          0.158112
+        ], 
+        "execution_time_kernel_0": [
+          0.137238, 
+          0.143738, 
+          0.158112
+        ], 
+        "execution_time_kernel_1": [
+          0.858063, 
+          0.854217, 
+          0.855835
+        ], 
+        "execution_time_kernel_2": [
+          4.316315, 
+          4.016174, 
+          4.09259
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "1d4764a643f6b7cd", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 3612, 
+      "image_width": 3096, 
+      "mispredictions": [
+        {
+          "correct_answer": "plastic cup", 
+          "mispredicted_image": "misprediction-image-bce24c6c8366c5cc.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/openscience/tmp/1488730225393.jpg ----------\n0.3218 - \"n03775546 mixing bowl\"\n0.3166 - \"n04332243 strainer\"\n0.0710 - \"n07930864 cup\"\n0.0679 - \"n03733805 measuring cup\"\n0.0400 - \"n04263257 soup bowl\"\n"
+        }, 
+        {
+          "correct_answer": "0.0710 - \"n07930864 cup\"", 
+          "mispredicted_image": "misprediction-image-91423805682467da.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/openscience/tmp/1488730225393.jpg ----------\n0.3218 - \"n03775546 mixing bowl\"\n0.3166 - \"n04332243 strainer\"\n0.0710 - \"n07930864 cup\"\n0.0679 - \"n03733805 measuring cup\"\n0.0400 - \"n04263257 soup bowl\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/emulated/0/openscience/tmp/1488730225393.jpg ----------\n0.3218 - \"n03775546 mixing bowl\"\n0.3166 - \"n04332243 strainer\"\n0.0710 - \"n07930864 cup\"\n0.0679 - \"n03733805 measuring cup\"\n0.0400 - \"n04263257 soup bowl\"\n", 
+      "time": [
+        9687, 
+        7543, 
+        5159, 
+        4966, 
+        4800, 
+        4747
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.166474, 
+          0.132934, 
+          0.174865, 
+          0.156739, 
+          0.127014, 
+          0.116882
+        ], 
+        "execution_time_kernel_0": [
+          0.166474, 
+          0.132934, 
+          0.174865, 
+          0.156739, 
+          0.127014, 
+          0.116882
+        ], 
+        "execution_time_kernel_1": [
+          0.759857, 
+          0.775848, 
+          0.699219, 
+          0.643188, 
+          0.669068, 
+          0.658417
+        ], 
+        "execution_time_kernel_2": [
+          8.588684, 
+          6.454621, 
+          4.097778, 
+          3.98584, 
+          3.859039, 
+          3.830689
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "ba033a03294b18fa", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890, 
+          "2": 1890, 
+          "3": 1890
+        }
+      ], 
+      "image_height": 4128, 
+      "image_width": 3096, 
+      "mispredictions": [
+        {
+          "correct_answer": "lipglos", 
+          "mispredicted_image": "misprediction-image-4a9422f08f0746dd.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1489319436125.jpg ----------\n0.4916 - \"n02909870 bucket, pail\"\n0.0867 - \"n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin\"\n0.0554 - \"n03887697 paper towel\"\n0.0423 - \"n02948072 candle, taper, wax light\"\n0.0272 - \"n04254120 soap dispenser\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1489319436125.jpg ----------\n0.4916 - \"n02909870 bucket, pail\"\n0.0867 - \"n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin\"\n0.0554 - \"n03887697 paper towel\"\n0.0423 - \"n02948072 candle, taper, wax light\"\n0.0272 - \"n04254120 soap dispenser\"\n", 
+      "time": [
+        4984, 
+        5235, 
+        5249
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.157684, 
+          0.163696, 
+          0.151855
+        ], 
+        "execution_time_kernel_0": [
+          0.157684, 
+          0.163696, 
+          0.151855
+        ], 
+        "execution_time_kernel_1": [
+          0.803375, 
+          0.884644, 
+          0.844879
+        ], 
+        "execution_time_kernel_2": [
+          3.850311, 
+          4.022552, 
+          4.080292
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "SAMSUNG JF", 
+    "cpu_uid": "45d2a18eedf4b9d5", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 320", 
+    "gpu_uid": "2d0bb02c4824949f", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG GT-I9505", 
+    "platform_uid": "1a6c0b890473bb64"
+  }
+}

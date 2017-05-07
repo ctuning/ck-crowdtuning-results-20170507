@@ -1,0 +1,68 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "97cb014c5e89cd13", 
+      "cpu_freqs_after": [
+        {
+          "0": 1846, 
+          "4": 1846, 
+          "5": 1846
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1846, 
+          "4": 1846, 
+          "5": 1846
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9984 - \"mouse (511)\"\n0.0001 - \"spotlight (593)\"\n0.0001 - \"lampshade (814)\"\n0.0001 - \"mousetrap (599)\"\n0.0000 - \"crash helmet (778)\"\n", 
+      "time": [
+        6447, 
+        6687, 
+        6086
+      ], 
+      "user": "anton@x20", 
+      "xopenme": {
+        "execution_time": [
+          3.484091, 
+          3.800868, 
+          3.445745
+        ], 
+        "execution_time_kernel_0": [
+          3.484091, 
+          3.800868, 
+          3.445745
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.674485, 
+          2.598653, 
+          2.358071
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT6797", 
+    "cpu_uid": "72db560448c99abb", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "ALPS AMT6797_64_OPEN", 
+    "platform_uid": "4cb387a446383822"
+  }
+}

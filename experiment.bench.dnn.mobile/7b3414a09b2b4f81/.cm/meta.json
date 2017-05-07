@@ -1,0 +1,123 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "40f1e03823c4329a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1950, 
+          "1": 1950, 
+          "2": 1950, 
+          "3": 1950, 
+          "4": 1950, 
+          "5": 1950, 
+          "6": 1950
+        }, 
+        {
+          "0": 1950, 
+          "1": 1950, 
+          "2": 1950, 
+          "3": 1950, 
+          "4": 1950, 
+          "5": 1950, 
+          "6": 1950, 
+          "7": 1950
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1950, 
+          "1": 1950, 
+          "2": 1950, 
+          "3": 1950, 
+          "4": 1950, 
+          "5": 1950, 
+          "6": 1950
+        }, 
+        {
+          "0": 1950, 
+          "1": 1950, 
+          "2": 1950, 
+          "3": 1950, 
+          "4": 1950, 
+          "5": 1950, 
+          "6": 1950, 
+          "7": 1950
+        }
+      ], 
+      "image_height": 2560, 
+      "image_width": 1920, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.0273 - \"n04118538 rugby ball\"", 
+          "mispredicted_image": "misprediction-image-8db1c064e2185f41.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482215229272.jpg ----------\n0.7448 - \"n04409515 tennis ball\"\n0.1002 - \"n02877765 bottlecap\"\n0.0405 - \"n07716906 spaghetti squash\"\n0.0273 - \"n04118538 rugby ball\"\n0.0138 - \"n07749582 lemon\"\n"
+        }, 
+        {
+          "correct_answer": "0.0956 - \"n03773504 missile\"", 
+          "mispredicted_image": "misprediction-image-ddb8104b31e3dd83.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482215286483.jpg ----------\n0.6889 - \"n04376876 syringe\"\n0.0956 - \"n03773504 missile\"\n0.0481 - \"n04008634 projectile, missile\"\n0.0264 - \"n02687172 aircraft carrier, carrier, flattop, attack aircraft carrier\"\n0.0186 - \"n03388183 fountain pen\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482215229272.jpg ----------\n0.7448 - \"n04409515 tennis ball\"\n0.1002 - \"n02877765 bottlecap\"\n0.0405 - \"n07716906 spaghetti squash\"\n0.0273 - \"n04118538 rugby ball\"\n0.0138 - \"n07749582 lemon\"\n", 
+      "time": [
+        1806, 
+        1809, 
+        2138, 
+        1923, 
+        1412, 
+        1776
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.131915, 
+          0.131549, 
+          0.119155, 
+          0.11808, 
+          0.12786, 
+          0.105695
+        ], 
+        "execution_time_kernel_0": [
+          0.131915, 
+          0.131549, 
+          0.119155, 
+          0.11808, 
+          0.12786, 
+          0.105695
+        ], 
+        "execution_time_kernel_1": [
+          0.28047, 
+          0.265752, 
+          0.24043, 
+          0.28556, 
+          0.323839, 
+          0.23104
+        ], 
+        "execution_time_kernel_2": [
+          1.266668, 
+          1.292227, 
+          1.665082, 
+          1.36843, 
+          0.847376, 
+          1.327474
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT6795M", 
+    "cpu_uid": "1a04a25ae21182de", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Imagination Technologies PowerVR Rogue G6200", 
+    "gpu_uid": "47048f3d4c361d56", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0.2", 
+    "os_uid": "bb6cce787ea5e178", 
+    "plat_name": "XIAOMI REDMI NOTE 2", 
+    "platform_uid": "4a271def0d841fd9"
+  }
+}

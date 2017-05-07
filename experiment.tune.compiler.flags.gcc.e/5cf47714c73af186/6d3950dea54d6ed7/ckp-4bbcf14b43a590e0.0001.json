@@ -1,0 +1,350 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 9616,
+        "compilation_success": "yes",
+        "compilation_success_bool": true,
+        "compilation_time": 0.09461164474487305,
+        "compilation_time_with_module": 1.2905926704406738,
+        "joined_compiler_flags": "-O3 -fno-reorder-functions -ftracer",
+        "md5_sum": "642fd9d3366eb1dd7cbb9d96fe6b02f4",
+        "obj_size": 4440,
+        "obj_sizes": {
+          "tiffmedian.codelet__4.o": 1448,
+          "tiffmedian.codelet__4.wrapper.o": 2992
+        },
+        "program_git_hash": "540987ceb20f9153dee31b7b45f428c8b3117198"
+      },
+      "run": {
+        "execution_time": 4.255309424273523e-07,
+        "execution_time_kernel_0": 7.140919,
+        "execution_time_with_module": 7.667858123779297,
+        "output_check_failed": "no",
+        "output_check_failed_bool": false,
+        "repeat": 16781198,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 7.140919
+      }
+    },
+    {
+      "run": {
+        "execution_time": 4.2534150422395347e-07,
+        "execution_time_kernel_0": 7.13774,
+        "execution_time_with_module": 7.6653172969818115,
+        "output_check_failed": "no",
+        "output_check_failed_bool": false,
+        "repeat": 16781198,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 7.13774
+      }
+    },
+    {
+      "run": {
+        "execution_time": 4.2552122917565237e-07,
+        "execution_time_kernel_0": 7.140756,
+        "execution_time_with_module": 7.667137145996094,
+        "output_check_failed": "no",
+        "output_check_failed_bool": false,
+        "repeat": 16781198,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 7.140756
+      }
+    },
+    {
+      "run": {
+        "execution_time": 4.2536849872100906e-07,
+        "execution_time_kernel_0": 7.138193,
+        "execution_time_with_module": 7.663194417953491,
+        "output_check_failed": "no",
+        "output_check_failed_bool": false,
+        "repeat": 16781198,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 7.138193
+      }
+    }
+  ],
+  "choices": {
+    "calibration_time": 10.0,
+    "cmd_key": "default",
+    "compile_type": "dynamic",
+    "compiler_description_uoa": "gcc-4.9.0-auto",
+    "compiler_flags": {
+      "base_opt": "-O3",
+      "bool-reorder-functions": "-fno-reorder-functions",
+      "bool-tracer": "-ftracer"
+    },
+    "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-4-1",
+    "dataset_file": "",
+    "dataset_uoa": "",
+    "device_cfg": {},
+    "device_id": "",
+    "host_os": "linux-64",
+    "module_uoa": "b0ac08fe1d3c2615",
+    "no_state_check": "yes",
+    "program_tags": "",
+    "repeat": 16781198,
+    "target": "",
+    "target_os": "linux-64",
+    "target_os_bits": "64"
+  },
+  "choices_order": [
+    "##compiler_flags#base_opt",
+    "##compiler_flags#bool-reorder-functions",
+    "##compiler_flags#bool-tracer"
+  ],
+  "features": {
+    "compiler_version": {
+      "list": [
+        4,
+        9,
+        2
+      ],
+      "raw": [
+        "gcc-4.9 (Debian 4.9.2-10) 4.9.2",
+        "Copyright (C) 2014 Free Software Foundation, Inc.",
+        "This is free software; see the source for copying conditions.  There is NO",
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "",
+        ""
+      ],
+      "str": "4.9.2"
+    },
+    "number_of_selected_compiler_flags": 3,
+    "platform": {
+      "cpu": {
+        "all_freqs": {},
+        "cpu_abi": "",
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+        "current_freq": {
+          "0": 2485.625,
+          "1": 2256.75,
+          "2": 1626.375,
+          "3": 2163.25
+        },
+        "max_freq": {
+          "0": 3600.0,
+          "1": 3600.0,
+          "2": 3600.0,
+          "3": 3600.0
+        },
+        "name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+        "num_proc": "4",
+        "sub_name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "core_names": [
+              "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+              "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+              "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+              "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz"
+            ]
+          }
+        }
+      },
+      "cpu_misc": {
+        "0": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "6385.14",
+          "cache size": "6144 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2485.625",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "cpuid level": "13",
+          "cur_freq": 2485.625,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "max_freq": 3600.0,
+          "microcode": "0x17",
+          "model": "58",
+          "model name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "0",
+          "siblings": "4",
+          "stepping": "9",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "1": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "2",
+          "bogomips": "6385.14",
+          "cache size": "6144 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "clflush size": "64",
+          "core id": "1",
+          "cpu MHz": "2256.750",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "cpuid level": "13",
+          "cur_freq": 2256.75,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "2",
+          "max_freq": 3600.0,
+          "microcode": "0x17",
+          "model": "58",
+          "model name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "1",
+          "siblings": "4",
+          "stepping": "9",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "2": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "4",
+          "bogomips": "6385.14",
+          "cache size": "6144 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "clflush size": "64",
+          "core id": "2",
+          "cpu MHz": "1626.375",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "cpuid level": "13",
+          "cur_freq": 1626.375,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "4",
+          "max_freq": 3600.0,
+          "microcode": "0x17",
+          "model": "58",
+          "model name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "2",
+          "siblings": "4",
+          "stepping": "9",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "3": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "6",
+          "bogomips": "6385.14",
+          "cache size": "6144 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "clflush size": "64",
+          "core id": "3",
+          "cpu MHz": "2163.250",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "cpuid level": "13",
+          "cur_freq": 2163.25,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "6",
+          "max_freq": 3600.0,
+          "microcode": "0x17",
+          "model": "58",
+          "model name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "3",
+          "siblings": "4",
+          "stepping": "9",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      },
+      "cpu_new_format": "",
+      "cpu_unique": [
+        {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "6385.14",
+          "cache size": "6144 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2485.625",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "cpuid level": "13",
+          "cur_freq": 2485.625,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "max_freq": 3600.0,
+          "microcode": "0x17",
+          "model": "58",
+          "model name": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "0",
+          "siblings": "4",
+          "stepping": "9",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      ],
+      "gpu": {
+        "name": "Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller (rev 09)",
+        "vendor": "Intel"
+      },
+      "gpu_misc": {},
+      "os": {
+        "abi": "x86_64",
+        "bits": "64",
+        "ck_os_base_uoa": "",
+        "ck_os_uoa": "linux-64",
+        "name": "Debian GNU/Linux 8 (jessie)",
+        "name_long": "Linux-3.16.0-4-amd64-x86_64-with-debian-8.5",
+        "name_short": "Linux 3.16.0",
+        "serial_number": ""
+      },
+      "os_misc": {},
+      "platform": {
+        "model": "OptiPlex 7010",
+        "name": "Dell Inc. 01 (OptiPlex 7010)",
+        "vendor": "Dell Inc."
+      },
+      "platform_misc": {}
+    },
+    "solution_uid": "6d3950dea54d6ed7",
+    "statistical_repetitions": 4
+  }
+}

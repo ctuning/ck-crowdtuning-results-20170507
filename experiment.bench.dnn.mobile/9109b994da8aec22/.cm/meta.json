@@ -1,0 +1,68 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "2adf4274aa6c20ed", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2
+        }
+      ], 
+      "image_height": 160, 
+      "image_width": 120, 
+      "prediction": "0.1384 - \"n02815834 beaker\"\n0.1094 - \"n04254120 soap dispenser\"\n0.0999 - \"n03920288 Petri dish\"\n0.0832 - \"n03937543 pill bottle\"\n0.0594 - \"n03764736 milk can\"\n", 
+      "time": [
+        27627, 
+        27831, 
+        27578
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          13.559366, 
+          13.506127, 
+          13.88214
+        ], 
+        "execution_time_kernel_0": [
+          13.559366, 
+          13.506127, 
+          13.88214
+        ], 
+        "execution_time_kernel_1": [
+          0.003975, 
+          0.004762, 
+          0.006229
+        ], 
+        "execution_time_kernel_2": [
+          13.840544, 
+          14.148523, 
+          13.498067
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc APQ8009", 
+    "cpu_uid": "", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 304", 
+    "gpu_uid": "8c922c304eb28756", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "LENOVO YT3-X50F", 
+    "platform_uid": ""
+  }
+}

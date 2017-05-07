@@ -1,0 +1,557 @@
+{
+  "characteristics": {
+    "run": {
+      "REAL_ENV_CK_CAFFE_BATCH_SIZE": "1", 
+      "REAL_ENV_CK_CAFFE_ITERATIONS": "1", 
+      "REAL_ENV_CK_CAFFE_MODEL": "D:\\Work1\\CK\\ck-repos\\ck-caffe\\program\\caffe-time\\tmp\\tmp-exvb09rv.prototxt", 
+      "execution_time": 1.048, 
+      "execution_time_with_module": 3.4377474784851, 
+      "memory_bytes": 8323244, 
+      "memory_kbytes": 8323.244, 
+      "memory_mbytes": 8.323244, 
+      "per_layer_info": [
+        {
+          "direction": "forward", 
+          "index": 0, 
+          "label": "00: input", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.692389"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 0, 
+          "label": "00: input", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.692412"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 1, 
+          "label": "01: conv1", 
+          "time_ms": 64.423, 
+          "time_s": 0.064423, 
+          "timestamp": "0423 22:15:54.692435"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 1, 
+          "label": "01: conv1", 
+          "time_ms": 58.427, 
+          "time_s": 0.058427, 
+          "timestamp": "0423 22:15:54.692456"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 2, 
+          "label": "02: relu1", 
+          "time_ms": 1.09, 
+          "time_s": 0.00109, 
+          "timestamp": "0423 22:15:54.692478"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 2, 
+          "label": "02: relu1", 
+          "time_ms": 0.003, 
+          "time_s": 3e-06, 
+          "timestamp": "0423 22:15:54.692500"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 3, 
+          "label": "03: norm1", 
+          "time_ms": 4.952, 
+          "time_s": 0.004952, 
+          "timestamp": "0423 22:15:54.692520"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 3, 
+          "label": "03: norm1", 
+          "time_ms": 8.19, 
+          "time_s": 0.00819, 
+          "timestamp": "0423 22:15:54.692544"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 4, 
+          "label": "04: pool1", 
+          "time_ms": 1.944, 
+          "time_s": 0.001944, 
+          "timestamp": "0423 22:15:54.692566"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 4, 
+          "label": "04: pool1", 
+          "time_ms": 0.004, 
+          "time_s": 4e-06, 
+          "timestamp": "0423 22:15:54.692589"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 5, 
+          "label": "05: conv2", 
+          "time_ms": 36.032, 
+          "time_s": 0.036032, 
+          "timestamp": "0423 22:15:54.692610"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 5, 
+          "label": "05: conv2", 
+          "time_ms": 131.263, 
+          "time_s": 0.131263, 
+          "timestamp": "0423 22:15:54.692632"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 6, 
+          "label": "06: relu2", 
+          "time_ms": 0.395, 
+          "time_s": 0.000395, 
+          "timestamp": "0423 22:15:54.692652"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 6, 
+          "label": "06: relu2", 
+          "time_ms": 0.003, 
+          "time_s": 3e-06, 
+          "timestamp": "0423 22:15:54.692680"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 7, 
+          "label": "07: norm2", 
+          "time_ms": 3.253, 
+          "time_s": 0.003253, 
+          "timestamp": "0423 22:15:54.692706"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 7, 
+          "label": "07: norm2", 
+          "time_ms": 5.082, 
+          "time_s": 0.005082, 
+          "timestamp": "0423 22:15:54.692729"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 8, 
+          "label": "08: pool2", 
+          "time_ms": 1.227, 
+          "time_s": 0.001227, 
+          "timestamp": "0423 22:15:54.692751"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 8, 
+          "label": "08: pool2", 
+          "time_ms": 0.004, 
+          "time_s": 4e-06, 
+          "timestamp": "0423 22:15:54.692770"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 9, 
+          "label": "09: conv3", 
+          "time_ms": 54.008, 
+          "time_s": 0.054008, 
+          "timestamp": "0423 22:15:54.692792"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 9, 
+          "label": "09: conv3", 
+          "time_ms": 31.526, 
+          "time_s": 0.031526, 
+          "timestamp": "0423 22:15:54.692814"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 10, 
+          "label": "10: relu3", 
+          "time_ms": 0.143, 
+          "time_s": 0.000143, 
+          "timestamp": "0423 22:15:54.692836"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 10, 
+          "label": "10: relu3", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.692857"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 11, 
+          "label": "11: conv4", 
+          "time_ms": 47.879, 
+          "time_s": 0.047879, 
+          "timestamp": "0423 22:15:54.692879"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 11, 
+          "label": "11: conv4", 
+          "time_ms": 24.232, 
+          "time_s": 0.024232, 
+          "timestamp": "0423 22:15:54.692901"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 12, 
+          "label": "12: relu4", 
+          "time_ms": 0.143, 
+          "time_s": 0.000143, 
+          "timestamp": "0423 22:15:54.692922"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 12, 
+          "label": "12: relu4", 
+          "time_ms": 0.003, 
+          "time_s": 3e-06, 
+          "timestamp": "0423 22:15:54.692942"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 13, 
+          "label": "13: conv5", 
+          "time_ms": 48.614, 
+          "time_s": 0.048614, 
+          "timestamp": "0423 22:15:54.692963"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 13, 
+          "label": "13: conv5", 
+          "time_ms": 58.294, 
+          "time_s": 0.058294, 
+          "timestamp": "0423 22:15:54.692988"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 14, 
+          "label": "14: relu5", 
+          "time_ms": 0.248, 
+          "time_s": 0.000248, 
+          "timestamp": "0423 22:15:54.693009"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 14, 
+          "label": "14: relu5", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.693030"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 15, 
+          "label": "15: pool5", 
+          "time_ms": 0.353, 
+          "time_s": 0.000353, 
+          "timestamp": "0423 22:15:54.693051"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 15, 
+          "label": "15: pool5", 
+          "time_ms": 0.004, 
+          "time_s": 4e-06, 
+          "timestamp": "0423 22:15:54.693073"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 16, 
+          "label": "16: fc6", 
+          "time_ms": 126.168, 
+          "time_s": 0.126168, 
+          "timestamp": "0423 22:15:54.693097"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 16, 
+          "label": "16: fc6", 
+          "time_ms": 166.02, 
+          "time_s": 0.16602, 
+          "timestamp": "0423 22:15:54.693120"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 17, 
+          "label": "17: relu6", 
+          "time_ms": 0.011, 
+          "time_s": 1.1e-05, 
+          "timestamp": "0423 22:15:54.693141"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 17, 
+          "label": "17: relu6", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.693163"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 18, 
+          "label": "18: drop6", 
+          "time_ms": 0.003, 
+          "time_s": 3e-06, 
+          "timestamp": "0423 22:15:54.693186"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 18, 
+          "label": "18: drop6", 
+          "time_ms": 0.003, 
+          "time_s": 3e-06, 
+          "timestamp": "0423 22:15:54.693208"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 19, 
+          "label": "19: fc7", 
+          "time_ms": 50.157, 
+          "time_s": 0.050157, 
+          "timestamp": "0423 22:15:54.693229"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 19, 
+          "label": "19: fc7", 
+          "time_ms": 77.299, 
+          "time_s": 0.077299, 
+          "timestamp": "0423 22:15:54.693251"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 20, 
+          "label": "20: relu7", 
+          "time_ms": 0.011, 
+          "time_s": 1.1e-05, 
+          "timestamp": "0423 22:15:54.693271"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 20, 
+          "label": "20: relu7", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.693292"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 21, 
+          "label": "21: drop7", 
+          "time_ms": 0.003, 
+          "time_s": 3e-06, 
+          "timestamp": "0423 22:15:54.693316"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 21, 
+          "label": "21: drop7", 
+          "time_ms": 0.002, 
+          "time_s": 2e-06, 
+          "timestamp": "0423 22:15:54.693338"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 22, 
+          "label": "22: fc8", 
+          "time_ms": 11.718, 
+          "time_s": 0.011718, 
+          "timestamp": "0423 22:15:54.693359"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 22, 
+          "label": "22: fc8", 
+          "time_ms": 33.176, 
+          "time_s": 0.033176, 
+          "timestamp": "0423 22:15:54.693380"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 23, 
+          "label": "23: prob", 
+          "time_ms": 0.048, 
+          "time_s": 4.8e-05, 
+          "timestamp": "0423 22:15:54.693403"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 23, 
+          "label": "23: prob", 
+          "time_ms": 0.033, 
+          "time_s": 3.3e-05, 
+          "timestamp": "0423 22:15:54.693426"
+        }
+      ], 
+      "post_processed": "yes", 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "time_bw_ms": 593.703, 
+      "time_bw_s": 0.593703, 
+      "time_fw_ms": 452.94, 
+      "time_fw_s": 0.45294, 
+      "time_fwbw_ms": 1048, 
+      "time_fwbw_s": 1.048, 
+      "time_total_ms": 1048, 
+      "time_total_ms_kernel_0": 1048, 
+      "time_total_s": 1.048, 
+      "time_total_s_kernel_0": 1.048, 
+      "total_execution_time": 1.048
+    }
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe-time", 
+    "dataset_file": "", 
+    "device_id": "9886674d3359493432", 
+    "energy": "no", 
+    "env": {
+      "CK_CAFFE_BATCH_SIZE": "1", 
+      "CK_CAFFE_ITERATIONS": "1", 
+      "CK_CAFFE_MODEL": "D:\\Work1\\CK\\ck-repos\\ck-caffe\\program\\caffe-time\\tmp\\tmp-exvb09rv.prototxt", 
+      "CK_CAFFE_MODEL_FILE": "tmp-exvb09rv.prototxt", 
+      "CK_CAFFE_MODEL_MEAN_BIN": "imagenet_mean.binaryproto", 
+      "CK_CAFFE_MODEL_WEIGHTS": "bvlc_alexnet.caffemodel", 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_MODEL_CAFFE_WEIGHTS": "D:\\!FGG\\Installations\\caffemodel-bvlc-alexnet-fast-mirror\\bvlc_alexnet.caffemodel", 
+      "CK_GPU_FREQUENCY": "max", 
+      "XCT_REPEAT_MAIN": "1"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "yes", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target_os": "android21-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "file_model_topology": "tmp-exvb09rv.prototxt", 
+  "file_stat": "ck-stat-flat-characteristics.json", 
+  "meta": {
+    "dnn_type": "cpu", 
+    "choices": {
+      "env": {}
+    }, 
+    "cmd_key": "default", 
+    "cpu_name": "ARM Cortex-A53 ; Samsung Exynos M1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "dnn_engine_name": "BVLC Caffe framework (cpu)", 
+    "dnn_engine_package_uoa": "b39f40abfd34f10b", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "nn_type": "bvlc, alexnet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7", 
+    "user": "Samsung S7", 
+    "xdeps": {
+      "boost": {
+        "data_name": "Boost library", 
+        "name": "Boost C   libraries", 
+        "package_uoa": "44094af948731a1c", 
+        "ver": "1.62.0"
+      }, 
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (bvlc, alexnet)", 
+        "name": "Caffe model (net and weights)", 
+        "package_uoa": "29043e1b6a95bed6", 
+        "ver": "trunk"
+      }, 
+      "compiler": {
+        "data_name": "Android NDK GCC compiler", 
+        "name": "C   compiler", 
+        "package_uoa": "", 
+        "ver": "4.9.x"
+      }, 
+      "lib-blas": {
+        "data_name": "OpenBLAS library", 
+        "name": "BLAS library", 
+        "package_uoa": "3becaf2cd0422880", 
+        "ver": "0.2.19-85636ff"
+      }, 
+      "lib-boost": {
+        "data_name": "Boost library", 
+        "name": "Boost library", 
+        "package_uoa": "44094af948731a1c", 
+        "ver": "1.62.0"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (cpu)", 
+        "name": "Caffe library", 
+        "package_uoa": "b39f40abfd34f10b", 
+        "ver": "trunk-c61d487"
+      }, 
+      "lib-gflags": {
+        "data_name": "GFlags library", 
+        "name": "GFlags library", 
+        "package_uoa": "160d8d49aa9f0225", 
+        "ver": "2.2.0"
+      }, 
+      "lib-glog": {
+        "data_name": "GLog library", 
+        "name": "GLog library", 
+        "package_uoa": "6f3b024855a80beb", 
+        "ver": "development-da816ea"
+      }, 
+      "lib-opencv": {
+        "data_name": "OpenCV library", 
+        "name": "OpenCV library", 
+        "package_uoa": "b5073a464ad381b6", 
+        "ver": "3.2.0"
+      }, 
+      "lib-protobuf": {
+        "data_name": "ProtoBuf library", 
+        "name": "ProtoBuf library", 
+        "package_uoa": "4fbad3749d3a42da", 
+        "ver": "3.1.0"
+      }, 
+      "lib-protobuf-host": {
+        "data_name": "", 
+        "name": "ProtoBuf HOST library", 
+        "package_uoa": "", 
+        "ver": ""
+      }
+    }, 
+    "xversions": {
+      "cmake": "3.7.2", 
+      "compiler": "4.9.x", 
+      "lib-blas": "0.2.19-85636ff", 
+      "lib-boost": "1.62.0", 
+      "lib-gflags": "2.2.0", 
+      "lib-glog": "development-da816ea", 
+      "lib-hdf5": "", 
+      "lib-lmdb": "", 
+      "lib-opencv": "3.2.0", 
+      "lib-protobuf": "3.1.0", 
+      "lib-protobuf-host": "3.1.0"
+    }
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "Samsung S7"
+}

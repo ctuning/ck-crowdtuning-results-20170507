@@ -1,0 +1,178 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "35dc2a25441ebe57", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        6616, 
+        6514, 
+        5044, 
+        5974, 
+        5188, 
+        4026
+      ], 
+      "user": "daniil.ol.versiin", 
+      "xopenme": {
+        "execution_time": [
+          0.107507, 
+          0.218698, 
+          0.153827, 
+          0.068557, 
+          0.101973, 
+          0.101255
+        ], 
+        "execution_time_kernel_0": [
+          0.107507, 
+          0.218698, 
+          0.153827, 
+          0.068557, 
+          0.101973, 
+          0.101255
+        ], 
+        "execution_time_kernel_1": [
+          0.80816, 
+          0.757239, 
+          0.71478, 
+          0.509065, 
+          0.515698, 
+          0.535743
+        ], 
+        "execution_time_kernel_2": [
+          5.519626, 
+          5.335828, 
+          4.007409, 
+          4.416751, 
+          4.405259, 
+          3.232926
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "0d6d2afadd38465c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "mispredictions": [
+        {
+          "correct_answer": "headphones", 
+          "mispredicted_image": "misprediction-image-c468cb8d4e0c96db.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482123475257.jpg ----------\n0.2448 - \"n04162706 seat belt, seatbelt\"\n0.1343 - \"n03483316 hand blower, blow dryer, blow drier, hair dryer, hair drier\"\n0.0524 - \"n03459775 grille, radiator grille\"\n0.0472 - \"n04517823 vacuum, vacuum cleaner\"\n0.0412 - \"n04009552 projector\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482123475257.jpg ----------\n0.2448 - \"n04162706 seat belt, seatbelt\"\n0.1343 - \"n03483316 hand blower, blow dryer, blow drier, hair dryer, hair drier\"\n0.0524 - \"n03459775 grille, radiator grille\"\n0.0472 - \"n04517823 vacuum, vacuum cleaner\"\n0.0412 - \"n04009552 projector\"\n", 
+      "time": [
+        4773, 
+        7898, 
+        6426
+      ], 
+      "user": "daniil.ol.versiin", 
+      "xopenme": {
+        "execution_time": [
+          0.069728, 
+          0.094089, 
+          0.080105
+        ], 
+        "execution_time_kernel_0": [
+          0.069728, 
+          0.094089, 
+          0.080105
+        ], 
+        "execution_time_kernel_1": [
+          0.635925, 
+          0.635995, 
+          0.6341
+        ], 
+        "execution_time_kernel_2": [
+          3.922757, 
+          6.96997, 
+          5.497193
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Samsung EXYNOS5433", 
+    "cpu_uid": "16270e7f2844ab79", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "DeepScale Squeezenet 1.1", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG SM-N910C", 
+    "platform_uid": "1924152a7004ec09"
+  }
+}

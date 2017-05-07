@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "69d134d2d66bc35f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1555.2, 
+          "1": 1555.2, 
+          "2": 1555.2, 
+          "3": 1555.2
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        10340, 
+        11019, 
+        11082
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          7.915829, 
+          8.642747, 
+          8.85347
+        ], 
+        "execution_time_kernel_0": [
+          7.915829, 
+          8.642747, 
+          8.85347
+        ], 
+        "execution_time_kernel_1": [
+          0.894826, 
+          0.873571, 
+          0.871966
+        ], 
+        "execution_time_kernel_2": [
+          1.280011, 
+          1.330178, 
+          1.156434
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8994", 
+    "cpu_uid": "95a13ab847eb8fda", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 430", 
+    "gpu_uid": "7ed6d5d0174571b2", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "HUAWEI NEXUS 6P", 
+    "platform_uid": "22fd854818484a5f"
+  }
+}

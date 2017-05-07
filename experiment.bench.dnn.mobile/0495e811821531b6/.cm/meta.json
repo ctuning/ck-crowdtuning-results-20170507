@@ -1,0 +1,254 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "81e4ae3899654fe7", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        1032, 
+        1012, 
+        959
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.062821, 
+          0.065044, 
+          0.056328
+        ], 
+        "execution_time_kernel_0": [
+          0.062821, 
+          0.065044, 
+          0.056328
+        ], 
+        "execution_time_kernel_1": [
+          0.380156, 
+          0.372693, 
+          0.303186
+        ], 
+        "execution_time_kernel_2": [
+          0.489842, 
+          0.477687, 
+          0.492838
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "b0b704ae9741638a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }, 
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "image_height": 3120, 
+      "image_width": 4160, 
+      "mispredictions": [
+        {
+          "correct_answer": "USB drive", 
+          "mispredicted_image": "misprediction-image-3869159f75463db5.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1486145636525.jpg ----------\n0.2279 - \"n03908618 pencil box, pencil case\"\n0.1236 - \"n03666591 lighter, light, igniter, ignitor\"\n0.1108 - \"n04548362 wallet, billfold, notecase, pocketbook\"\n0.0831 - \"n04026417 purse\"\n0.0609 - \"n03584254 iPod\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1486145636525.jpg ----------\n0.2279 - \"n03908618 pencil box, pencil case\"\n0.1236 - \"n03666591 lighter, light, igniter, ignitor\"\n0.1108 - \"n04548362 wallet, billfold, notecase, pocketbook\"\n0.0831 - \"n04026417 purse\"\n0.0609 - \"n03584254 iPod\"\n", 
+      "time": [
+        1013, 
+        1089, 
+        1019, 
+        630, 
+        666, 
+        641
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.054413, 
+          0.085621, 
+          0.056251, 
+          0.053072, 
+          0.051303, 
+          0.051378
+        ], 
+        "execution_time_kernel_0": [
+          0.054413, 
+          0.085621, 
+          0.056251, 
+          0.053072, 
+          0.051303, 
+          0.051378
+        ], 
+        "execution_time_kernel_1": [
+          0.309262, 
+          0.297915, 
+          0.301714, 
+          0.287121, 
+          0.303572, 
+          0.306719
+        ], 
+        "execution_time_kernel_2": [
+          0.527276, 
+          0.601428, 
+          0.545616, 
+          0.207886, 
+          0.217117, 
+          0.198527
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "b430bbb48009ba58", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "image_height": 2592, 
+      "image_width": 1944, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1493451027087.jpg ----------\n0.5185 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0985 - \"n02099849 Chesapeake Bay retriever\"\n0.0678 - \"n04209133 shower cap\"\n0.0201 - \"n03970156 plunger, plumber's helper\"\n0.0199 - \"n04005630 prison, prison house\"\n", 
+      "time": [
+        480, 
+        460, 
+        459
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.049816, 
+          0.052488, 
+          0.053389
+        ], 
+        "execution_time_kernel_0": [
+          0.049816, 
+          0.052488, 
+          0.053389
+        ], 
+        "execution_time_kernel_1": [
+          0.111504, 
+          0.113291, 
+          0.103996
+        ], 
+        "execution_time_kernel_2": [
+          0.217408, 
+          0.199133, 
+          0.208969
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "58970e814e75920c", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 1824, 
+          "3": 1824
+        }
+      ], 
+      "image_height": 3120, 
+      "image_width": 3640, 
+      "prediction": "---------- Prediction for /storage/emulated/0/DCIM/cameraT/capture/JPEG_2017_04_19_20_41_00_892.jpg ----------\n0.2320 - \"n04286575 spotlight, spot\"\n0.1017 - \"n04553703 washbasin, handbasin, washbowl, lavabo, wash-hand basin\"\n0.0982 - \"n03773504 missile\"\n0.0668 - \"n04008634 projectile, missile\"\n0.0567 - \"n03529860 home theater, home theatre\"\n", 
+      "time": [
+        560, 
+        574, 
+        639
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.049135, 
+          0.050383, 
+          0.053004
+        ], 
+        "execution_time_kernel_0": [
+          0.049135, 
+          0.050383, 
+          0.053004
+        ], 
+        "execution_time_kernel_1": [
+          0.228734, 
+          0.22491, 
+          0.249037
+        ], 
+        "execution_time_kernel_2": [
+          0.202666, 
+          0.204968, 
+          0.239321
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "MOTOROLA XT1650", 
+    "platform_uid": ""
+  }
+}

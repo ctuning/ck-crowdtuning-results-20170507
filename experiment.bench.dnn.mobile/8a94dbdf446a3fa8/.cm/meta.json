@@ -1,0 +1,171 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "40078767e3cd886e", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 4150, 
+      "image_width": 2988, 
+      "prediction": "0.2273 - \"n06785654 crossword puzzle, crossword\"\n0.0860 - \"n02672831 accordion, piano accordion, squeeze box\"\n0.0804 - \"n02110341 dalmatian, coach dog, carriage dog\"\n0.0772 - \"n04200800 shoe shop, shoe-shop, shoe store\"\n0.0600 - \"n03877472 pajama, pyjama, pj's, jammies\"\n", 
+      "time": [
+        4935, 
+        5095, 
+        4355
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.313893, 
+          3.424094, 
+          3.259448
+        ], 
+        "execution_time_kernel_0": [
+          3.313893, 
+          3.424094, 
+          3.259448
+        ], 
+        "execution_time_kernel_1": [
+          0.304269, 
+          0.295073, 
+          0.299188
+        ], 
+        "execution_time_kernel_2": [
+          1.219463, 
+          1.266859, 
+          0.690965
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "5d1dcb4057423b9a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "0.9602 - \"n04074963 remote control, remote\"\n0.0096 - \"n02666196 abacus\"\n0.0094 - \"n03485407 hand-held computer, hand-held microcomputer\"\n0.0054 - \"n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone\"\n0.0026 - \"n02978881 cassette\"\n", 
+      "time": [
+        4838, 
+        4929, 
+        5009, 
+        5365, 
+        4956, 
+        4856
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.327606, 
+          3.103785, 
+          3.272218, 
+          3.51846, 
+          3.43587, 
+          3.505773
+        ], 
+        "execution_time_kernel_0": [
+          3.327606, 
+          3.103785, 
+          3.272218, 
+          3.51846, 
+          3.43587, 
+          3.505773
+        ], 
+        "execution_time_kernel_1": [
+          0.403299, 
+          0.399174, 
+          0.389277, 
+          0.425781, 
+          0.454928, 
+          0.414935
+        ], 
+        "execution_time_kernel_2": [
+          0.977471, 
+          1.325561, 
+          1.255051, 
+          1.30077, 
+          0.97009, 
+          0.828985
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G928A", 
+    "platform_uid": ""
+  }
+}

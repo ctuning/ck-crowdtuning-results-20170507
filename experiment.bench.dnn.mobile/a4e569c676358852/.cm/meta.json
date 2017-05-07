@@ -1,0 +1,127 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "00880f47d5a988e3", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        999, 
+        821, 
+        558
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.15974, 
+          0.117048, 
+          0.13045
+        ], 
+        "execution_time_kernel_0": [
+          0.15974, 
+          0.117048, 
+          0.13045
+        ], 
+        "execution_time_kernel_1": [
+          0.342027, 
+          0.358179, 
+          0.283043
+        ], 
+        "execution_time_kernel_2": [
+          0.447026, 
+          0.29586, 
+          0.105731
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "dce096280774315a", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 4048, 
+      "image_width": 3036, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.1155 - \"n02870880 bookcase\"", 
+          "mispredicted_image": "misprediction-image-aa464f908a0406f8.jpg", 
+          "misprediction_results": "0.5346 - \"n03482405 hamper\"\n0.1155 - \"n02870880 bookcase\"\n0.0675 - \"n04265275 space heater\"\n0.0321 - \"n03938244 pillow\"\n0.0267 - \"n04517823 vacuum, vacuum cleaner\"\n"
+        }
+      ], 
+      "prediction": "0.5346 - \"n03482405 hamper\"\n0.1155 - \"n02870880 bookcase\"\n0.0675 - \"n04265275 space heater\"\n0.0321 - \"n03938244 pillow\"\n0.0267 - \"n04517823 vacuum, vacuum cleaner\"\n", 
+      "time": [
+        856, 
+        925, 
+        829
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.135536, 
+          0.162825, 
+          0.143844
+        ], 
+        "execution_time_kernel_0": [
+          0.135536, 
+          0.162825, 
+          0.143844
+        ], 
+        "execution_time_kernel_1": [
+          0.249653, 
+          0.248972, 
+          0.244886
+        ], 
+        "execution_time_kernel_2": [
+          0.412308, 
+          0.466904, 
+          0.393467
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996pro", 
+    "cpu_uid": "463912cc4548cfa5", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 7.1.2", 
+    "os_uid": "1819afe0824167af", 
+    "plat_name": "GOOGLE PIXEL", 
+    "platform_uid": "3f414d9da404f2b5"
+  }
+}

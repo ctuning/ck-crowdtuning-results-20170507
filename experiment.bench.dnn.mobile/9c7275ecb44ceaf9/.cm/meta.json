@@ -1,0 +1,70 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4661a2ea8fa675e0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        19236, 
+        13931, 
+        15141
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          12.663698, 
+          8.054343, 
+          9.28629
+        ], 
+        "execution_time_kernel_0": [
+          12.663698, 
+          8.054343, 
+          9.28629
+        ], 
+        "execution_time_kernel_1": [
+          0.529248, 
+          0.352912, 
+          0.48778
+        ], 
+        "execution_time_kernel_2": [
+          5.002929, 
+          4.75386, 
+          4.443984
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "8aed648b899e2f85", 
+    "engine": "Caffe OpenCL", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G935U", 
+    "platform_uid": ""
+  }
+}

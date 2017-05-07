@@ -1,0 +1,113 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "d868d4e452805c9a", 
+      "cpu_freqs_after": [
+        {
+          "4": 1846, 
+          "5": 1846
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "4": 1846, 
+          "5": 1846
+        }
+      ], 
+      "image_height": 2560, 
+      "image_width": 1920, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1485460420460.jpg ----------\n0.1927 - \"n03602883 joystick\"\n0.0986 - \"n04517823 vacuum, vacuum cleaner\"\n0.0744 - \"n03982430 pool table, billiard table, snooker table\"\n0.0689 - \"n02783161 ballpoint, ballpoint pen, ballpen, Biro\"\n0.0597 - \"n03908618 pencil box, pencil case\"\n", 
+      "time": [
+        1471, 
+        1621, 
+        1528
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.100778, 
+          0.132425, 
+          0.095233
+        ], 
+        "execution_time_kernel_0": [
+          0.100778, 
+          0.132425, 
+          0.095233
+        ], 
+        "execution_time_kernel_1": [
+          0.124728, 
+          0.147961, 
+          0.1548
+        ], 
+        "execution_time_kernel_2": [
+          1.09001, 
+          1.157609, 
+          1.088864
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "59a6ce842428da52", 
+      "cpu_freqs_after": [
+        {
+          "4": 1846, 
+          "5": 1846
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "4": 1846, 
+          "5": 1846, 
+          "6": 1846
+        }
+      ], 
+      "image_height": 1024, 
+      "image_width": 1024, 
+      "prediction": "---------- Prediction for /storage/E855-230A/DCIM/Camera/Alpha.jpg ----------\n0.1862 - \"n01943899 conch\"\n0.1289 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0559 - \"n03724870 mask\"\n0.0525 - \"n03929660 pick, plectrum, plectron\"\n0.0435 - \"n04254680 soccer ball\"\n", 
+      "time": [
+        1282, 
+        1458, 
+        1563
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.077053, 
+          0.097889, 
+          0.093942
+        ], 
+        "execution_time_kernel_0": [
+          0.077053, 
+          0.097889, 
+          0.093942
+        ], 
+        "execution_time_kernel_1": [
+          0.045491, 
+          0.059213, 
+          0.030301
+        ], 
+        "execution_time_kernel_2": [
+          1.016363, 
+          1.052014, 
+          1.273489
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT6797M", 
+    "cpu_uid": "", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "XIAOMI REDMI PRO", 
+    "platform_uid": ""
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "fabc4fb7b4ad3652", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 2560, 
+      "image_width": 1440, 
+      "mispredictions": [
+        {
+          "correct_answer": "cellphone", 
+          "mispredicted_image": "misprediction-image-b34c5050452ebfed.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400019368.jpg ----------\n0.2158 - \"n03666591 lighter, light, igniter, ignitor\"\n0.1348 - \"n04423845 thimble\"\n0.0872 - \"n04372370 switch, electric switch, electrical switch\"\n0.0437 - \"n03843555 oil filter\"\n0.0426 - \"n03584254 iPod\"\n"
+        }, 
+        {
+          "correct_answer": "shoe", 
+          "mispredicted_image": "misprediction-image-b497e9794d0669d1.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400189403.jpg ----------\n0.5386 - \"n04209133 shower cap\"\n0.0367 - \"n04277352 spindle\"\n0.0243 - \"n01986214 hermit crab\"\n0.0163 - \"n02877765 bottlecap\"\n0.0158 - \"n01968897 chambered nautilus, pearly nautilus, nautilus\"\n"
+        }, 
+        {
+          "correct_answer": "0.1245 - \"n04254777 sock\"", 
+          "mispredicted_image": "misprediction-image-b4a3704b6bb44e8a.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400307526.jpg ----------\n0.4558 - \"n02786058 Band Aid\"\n0.1245 - \"n04254777 sock\"\n0.0245 - \"n03775071 mitten\"\n0.0202 - \"n02113023 Pembroke, Pembroke Welsh corgi\"\n0.0182 - \"n04277352 spindle\"\n"
+        }, 
+        {
+          "correct_answer": "0.0254 - \"n04404412 television, television system\"", 
+          "mispredicted_image": "misprediction-image-6362a53d4081898b.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400374328.jpg ----------\n0.3200 - \"n02977058 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM\"\n0.1248 - \"n03196217 digital clock\"\n0.0538 - \"n03902125 pay-phone, pay-station\"\n0.0302 - \"n04074963 remote control, remote\"\n0.0254 - \"n04404412 television, television system\"\n"
+        }, 
+        {
+          "correct_answer": "book", 
+          "mispredicted_image": "misprediction-image-93f824b489ddb335.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400735390.jpg ----------\n0.0534 - \"n03871628 packet\"\n0.0269 - \"n04409515 tennis ball\"\n0.0217 - \"n03786901 mortar\"\n0.0206 - \"n04270147 spatula\"\n0.0203 - \"n07718472 cucumber, cuke\"\n"
+        }, 
+        {
+          "correct_answer": "book", 
+          "mispredicted_image": "misprediction-image-dad2f418086ad236.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400827812.jpg ----------\n0.1285 - \"n03871628 packet\"\n0.0491 - \"n07248320 book jacket, dust cover, dust jacket, dust wrapper\"\n0.0402 - \"n03642806 laptop, laptop computer\"\n0.0242 - \"n03014705 chest\"\n0.0240 - \"n03794056 mousetrap\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488400019368.jpg ----------\n0.2158 - \"n03666591 lighter, light, igniter, ignitor\"\n0.1348 - \"n04423845 thimble\"\n0.0872 - \"n04372370 switch, electric switch, electrical switch\"\n0.0437 - \"n03843555 oil filter\"\n0.0426 - \"n03584254 iPod\"\n", 
+      "time": [
+        3203, 
+        2573, 
+        2627, 
+        3562, 
+        3064, 
+        2852, 
+        3489, 
+        3436, 
+        3503, 
+        3819, 
+        4297, 
+        4300, 
+        3921, 
+        3662, 
+        3935, 
+        4136, 
+        3624, 
+        4038, 
+        3939, 
+        3847, 
+        3618, 
+        4347, 
+        3973, 
+        4397, 
+        4190, 
+        3819, 
+        3681
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.143533, 
+          0.137734, 
+          0.151896, 
+          0.14447, 
+          0.145535, 
+          0.135907, 
+          0.14928, 
+          0.148982, 
+          0.151498, 
+          0.152654, 
+          0.141731, 
+          0.151131, 
+          0.151721, 
+          0.136917, 
+          0.136769, 
+          0.16213, 
+          0.154997, 
+          0.141841, 
+          0.172849, 
+          0.136586, 
+          0.140462, 
+          0.204079, 
+          0.189028, 
+          0.156698, 
+          0.205522, 
+          0.153278, 
+          0.137641
+        ], 
+        "execution_time_kernel_0": [
+          0.143533, 
+          0.137734, 
+          0.151896, 
+          0.14447, 
+          0.145535, 
+          0.135907, 
+          0.14928, 
+          0.148982, 
+          0.151498, 
+          0.152654, 
+          0.141731, 
+          0.151131, 
+          0.151721, 
+          0.136917, 
+          0.136769, 
+          0.16213, 
+          0.154997, 
+          0.141841, 
+          0.172849, 
+          0.136586, 
+          0.140462, 
+          0.204079, 
+          0.189028, 
+          0.156698, 
+          0.205522, 
+          0.153278, 
+          0.137641
+        ], 
+        "execution_time_kernel_1": [
+          0.295712, 
+          0.297813, 
+          0.291041, 
+          0.276678, 
+          0.302677, 
+          0.311484, 
+          0.290052, 
+          0.304972, 
+          0.305577, 
+          0.276148, 
+          0.307399, 
+          0.305396, 
+          0.300361, 
+          0.287078, 
+          0.282171, 
+          0.260051, 
+          0.274455, 
+          0.259687, 
+          0.313129, 
+          0.275393, 
+          0.300959, 
+          0.302511, 
+          0.291263, 
+          0.282675, 
+          0.315084, 
+          0.29077, 
+          0.295128
+        ], 
+        "execution_time_kernel_2": [
+          2.635076, 
+          2.015755, 
+          2.075964, 
+          3.009699, 
+          2.486914, 
+          2.277852, 
+          2.905861, 
+          2.856639, 
+          2.916303, 
+          3.249709, 
+          3.70074, 
+          3.692501, 
+          3.32323, 
+          3.093984, 
+          3.375518, 
+          3.550888, 
+          3.055453, 
+          3.488316, 
+          3.282358, 
+          3.286637, 
+          3.032119, 
+          3.667137, 
+          3.333181, 
+          3.810233, 
+          3.479366, 
+          3.230422, 
+          3.092881
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "4b7587f51800e6e5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 2560, 
+      "image_width": 1920, 
+      "mispredictions": [
+        {
+          "correct_answer": "human face", 
+          "mispredicted_image": "misprediction-image-44c432ebd147e5d2.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1488400964438.jpg ----------\n0.2257 - \"n04209133 shower cap\"\n0.1435 - \"n03814639 neck brace\"\n0.0681 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0453 - \"n04357314 sunscreen, sunblock, sun blocker\"\n0.0303 - \"n03724870 mask\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1488400964438.jpg ----------\n0.2257 - \"n04209133 shower cap\"\n0.1435 - \"n03814639 neck brace\"\n0.0681 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0453 - \"n04357314 sunscreen, sunblock, sun blocker\"\n0.0303 - \"n03724870 mask\"\n", 
+      "time": [
+        5731, 
+        5384, 
+        4693
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.251376, 
+          0.291413, 
+          0.178384
+        ], 
+        "execution_time_kernel_0": [
+          0.251376, 
+          0.291413, 
+          0.178384
+        ], 
+        "execution_time_kernel_1": [
+          0.511156, 
+          0.610738, 
+          0.461771
+        ], 
+        "execution_time_kernel_2": [
+          4.730959, 
+          4.162733, 
+          3.861534
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT6753", 
+    "cpu_uid": "59bcd494d4abdd12", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1", 
+    "os_uid": "4a7a7aa243109ec2", 
+    "plat_name": "MEIZU M2 NOTE", 
+    "platform_uid": ""
+  }
+}

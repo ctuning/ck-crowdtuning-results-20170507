@@ -1,0 +1,184 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "372b402a853400f1", 
+      "cpu_freqs_after": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6, 
+          "3": 2649.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6, 
+          "3": 2649.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        3553, 
+        3722, 
+        3809
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.091928, 
+          0.10081, 
+          0.09497
+        ], 
+        "execution_time_kernel_0": [
+          0.091928, 
+          0.10081, 
+          0.09497
+        ], 
+        "execution_time_kernel_1": [
+          0.577546, 
+          0.58494, 
+          0.61276
+        ], 
+        "execution_time_kernel_2": [
+          2.706782, 
+          2.890857, 
+          2.937991
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "0849ca83127bf5c5", 
+      "cpu_freqs_after": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6, 
+          "3": 2649.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6, 
+          "3": 2649.6
+        }
+      ], 
+      "image_height": 2856, 
+      "image_width": 2448, 
+      "mispredictions": [
+        {
+          "correct_answer": "Cat", 
+          "mispredicted_image": "misprediction-image-bd03db34f95434eb.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/Download/streuner-katze-tuerkei-jessica-frank.jpg ----------\n0.1904 - \"n02110185 Siberian husky\"\n0.1859 - \"n02110063 malamute, malemute, Alaskan malamute\"\n0.0944 - \"n03325584 feather boa, boa\"\n0.0869 - \"n02109961 Eskimo dog, husky\"\n0.0645 - \"n02115641 dingo, warrigal, warragal, Canis dingo\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/emulated/0/Download/streuner-katze-tuerkei-jessica-frank.jpg ----------\n0.1904 - \"n02110185 Siberian husky\"\n0.1859 - \"n02110063 malamute, malemute, Alaskan malamute\"\n0.0944 - \"n03325584 feather boa, boa\"\n0.0869 - \"n02109961 Eskimo dog, husky\"\n0.0645 - \"n02115641 dingo, warrigal, warragal, Canis dingo\"\n", 
+      "time": [
+        3624, 
+        3640, 
+        3663
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.092738, 
+          0.110492, 
+          0.092683
+        ], 
+        "execution_time_kernel_0": [
+          0.092738, 
+          0.110492, 
+          0.092683
+        ], 
+        "execution_time_kernel_1": [
+          0.312785, 
+          0.302229, 
+          0.293381
+        ], 
+        "execution_time_kernel_2": [
+          3.053625, 
+          3.074936, 
+          3.105817
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "31d5e0a7432dbc40", 
+      "cpu_freqs_after": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6, 
+          "3": 2649.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6, 
+          "3": 2649.6
+        }
+      ], 
+      "image_height": 2988, 
+      "image_width": 5312, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.4381 - \"n03791053 motor scooter, scooter\"", 
+          "mispredicted_image": "misprediction-image-ba6e89bd2b416ba8.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/558D-8DFD/DCIM/Camera/20161210_125732.jpg ----------\n0.4387 - \"n03785016 moped\"\n0.4381 - \"n03791053 motor scooter, scooter\"\n0.0656 - \"n02797295 barrow, garden cart, lawn cart, wheelbarrow\"\n0.0179 - \"n03891251 park bench\"\n0.0079 - \"n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/558D-8DFD/DCIM/Camera/20161210_125732.jpg ----------\n0.4387 - \"n03785016 moped\"\n0.4381 - \"n03791053 motor scooter, scooter\"\n0.0656 - \"n02797295 barrow, garden cart, lawn cart, wheelbarrow\"\n0.0179 - \"n03891251 park bench\"\n0.0079 - \"n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin\"\n", 
+      "time": [
+        4106, 
+        4267, 
+        4566
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.095829, 
+          0.12932, 
+          0.107652
+        ], 
+        "execution_time_kernel_0": [
+          0.095829, 
+          0.12932, 
+          0.107652
+        ], 
+        "execution_time_kernel_1": [
+          0.946104, 
+          0.976847, 
+          1.003593
+        ], 
+        "execution_time_kernel_2": [
+          2.912306, 
+          3.01298, 
+          3.299835
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm APQ8084", 
+    "cpu_uid": "89d2384b64b9a8cb", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 420", 
+    "gpu_uid": "9b34e7c9af6a0ca3", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-N915FY", 
+    "platform_uid": ""
+  }
+}

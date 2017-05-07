@@ -1,0 +1,2136 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "c713afd4da691529", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3824, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.7019996643066, 
+          "##characteristics#run#repeat#min": 1848428
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.006276150627615, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.9438988826284922
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-branch-probabilities -fno-cprop-registers -fno-data-sections -fipa-sra -fno-gcse-after-reload -fno-gcse-las -fhoist-adjacent-loads -fno-inline-functions -fno-isolate-erroneous-paths-dereference -fno-live-range-shrinkage -fmodulo-sched-allow-regmoves -fno-tree-copy-prop -fno-tree-pre -fno-tree-sink -funsafe-math-optimizations -fno-vect-cost-model -fno-wpa --param max-inline-insns-recursive=168 --param comdat-sharing-probability=10 --param min-vect-loop-bound=2 --param gcse-after-reload-critical-fraction=10 --param gcse-cost-distance-ratio=15 --param max-unswitch-insns=75 --param omega-max-keys=218 --param max-cselib-memory-locations=507 --param max-pipeline-region-blocks=2 --param selsched-max-sched-times=2 --param ssp-buffer-size=1 --param graphite-max-nb-scop-params=14 --param tm-max-aggregate-size=7 --param sched-pressure-algorithm=2", 
+          "##characteristics#compile#md5_sum#min": "1b13bcf5f8bb0282f00eaf539eb97d57", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-probabilities": "-fno-branch-probabilities", 
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-gcse-after-reload": "-fno-gcse-after-reload", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-inline-functions": "-fno-inline-functions", 
+          "##compiler_flags#bool-ipa-sra": "-fipa-sra", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference": "-fno-isolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-live-range-shrinkage": "-fno-live-range-shrinkage", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fmodulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-sink": "-fno-tree-sink", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations", 
+          "##compiler_flags#bool-vect-cost-model": "-fno-vect-cost-model", 
+          "##compiler_flags#bool-wpa": "-fno-wpa", 
+          "##compiler_flags#param-comdat-sharing-probability": "--param comdat-sharing-probability=10", 
+          "##compiler_flags#param-gcse-after-reload-critical-fraction": "--param gcse-after-reload-critical-fraction=10", 
+          "##compiler_flags#param-gcse-cost-distance-ratio": "--param gcse-cost-distance-ratio=15", 
+          "##compiler_flags#param-graphite-max-nb-scop-params": "--param graphite-max-nb-scop-params=14", 
+          "##compiler_flags#param-max-cselib-memory-locations": "--param max-cselib-memory-locations=507", 
+          "##compiler_flags#param-max-inline-insns-recursive": "--param max-inline-insns-recursive=168", 
+          "##compiler_flags#param-max-pipeline-region-blocks": "--param max-pipeline-region-blocks=2", 
+          "##compiler_flags#param-max-unswitch-insns": "--param max-unswitch-insns=75", 
+          "##compiler_flags#param-min-vect-loop-bound": "--param min-vect-loop-bound=2", 
+          "##compiler_flags#param-omega-max-keys": "--param omega-max-keys=218", 
+          "##compiler_flags#param-sched-pressure-algorithm": "--param sched-pressure-algorithm=2", 
+          "##compiler_flags#param-selsched-max-sched-times": "--param selsched-max-sched-times=2", 
+          "##compiler_flags#param-ssp-buffer-size": "--param ssp-buffer-size=1", 
+          "##compiler_flags#param-tm-max-aggregate-size": "--param tm-max-aggregate-size=7"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-probabilities", 
+          "##compiler_flags#bool-cprop-registers", 
+          "##compiler_flags#bool-data-sections", 
+          "##compiler_flags#bool-gcse-after-reload", 
+          "##compiler_flags#bool-gcse-las", 
+          "##compiler_flags#bool-hoist-adjacent-loads", 
+          "##compiler_flags#bool-inline-functions", 
+          "##compiler_flags#bool-ipa-sra", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-live-range-shrinkage", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-tree-copy-prop", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-tree-sink", 
+          "##compiler_flags#bool-unsafe-math-optimizations", 
+          "##compiler_flags#bool-vect-cost-model", 
+          "##compiler_flags#bool-wpa", 
+          "##compiler_flags#param-comdat-sharing-probability", 
+          "##compiler_flags#param-gcse-after-reload-critical-fraction", 
+          "##compiler_flags#param-gcse-cost-distance-ratio", 
+          "##compiler_flags#param-graphite-max-nb-scop-params", 
+          "##compiler_flags#param-max-cselib-memory-locations", 
+          "##compiler_flags#param-max-inline-insns-recursive", 
+          "##compiler_flags#param-max-pipeline-region-blocks", 
+          "##compiler_flags#param-max-unswitch-insns", 
+          "##compiler_flags#param-min-vect-loop-bound", 
+          "##compiler_flags#param-omega-max-keys", 
+          "##compiler_flags#param-sched-pressure-algorithm", 
+          "##compiler_flags#param-selsched-max-sched-times", 
+          "##compiler_flags#param-ssp-buffer-size", 
+          "##compiler_flags#param-tm-max-aggregate-size"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d92bd23e88162c5f", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1", 
+      "dataset_file": "data.au", 
+      "dataset_uoa": "au-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "7439eab2acfa2507"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "e24544f3c9bb4362", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4100, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.1520004272461, 
+          "##characteristics#run#repeat#min": 1663893
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0175609756097561, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6857617598901256
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fdevirtualize-speculatively -ffast-math -fno-gcse-sm -fif-conversion2 -fno-inline-small-functions -fipa-cp-clone -fno-defer-pop -fno-inline -free -fselective-scheduling2 -fstrict-overflow -fno-tree-bit-ccp -ftree-coalesce-vars -fno-tree-copy-prop -ftree-loop-if-convert -funit-at-a-time -falign-labels=0 -ffp-contract=off -fsched-stalled-insns=0 --param max-inline-insns-auto=28 --param min-vect-loop-bound=2 --param inline-unit-growth=32 --param gcse-cost-distance-ratio=17 --param max-unswitch-level=1 --param sms-min-sc=3 --param tracer-min-branch-probability-feedback=53 --param scev-max-expr-complexity=4 --param max-pipeline-region-blocks=10 --param l1-cache-line-size=48 --param lra-max-considered-reload-pseudos=88 --param max-vartrack-expr-depth=6 --param max-tail-merge-iterations=2", 
+          "##characteristics#compile#md5_sum#min": "b4135fe289be3bbe6e846ccd7ecdcc41", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=off", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fdevirtualize-speculatively", 
+          "##compiler_flags#bool-fast-math": "-ffast-math", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-if-conversion2": "-fif-conversion2", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-inline-small-functions": "-fno-inline-small-functions", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fipa-cp-clone", 
+          "##compiler_flags#bool-ree": "-free", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-tree-bit-ccp": "-fno-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-ftree-coalesce-vars", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-ftree-loop-if-convert", 
+          "##compiler_flags#bool-unit-at-a-time": "-funit-at-a-time", 
+          "##compiler_flags#param--falign-labels=": "-falign-labels=0", 
+          "##compiler_flags#param--fsched-stalled-insns=": "-fsched-stalled-insns=0", 
+          "##compiler_flags#param-gcse-cost-distance-ratio": "--param gcse-cost-distance-ratio=17", 
+          "##compiler_flags#param-inline-unit-growth": "--param inline-unit-growth=32", 
+          "##compiler_flags#param-l1-cache-line-size": "--param l1-cache-line-size=48", 
+          "##compiler_flags#param-lra-max-considered-reload-pseudos": "--param lra-max-considered-reload-pseudos=88", 
+          "##compiler_flags#param-max-inline-insns-auto": "--param max-inline-insns-auto=28", 
+          "##compiler_flags#param-max-pipeline-region-blocks": "--param max-pipeline-region-blocks=10", 
+          "##compiler_flags#param-max-tail-merge-iterations": "--param max-tail-merge-iterations=2", 
+          "##compiler_flags#param-max-unswitch-level": "--param max-unswitch-level=1", 
+          "##compiler_flags#param-max-vartrack-expr-depth": "--param max-vartrack-expr-depth=6", 
+          "##compiler_flags#param-min-vect-loop-bound": "--param min-vect-loop-bound=2", 
+          "##compiler_flags#param-scev-max-expr-complexity": "--param scev-max-expr-complexity=4", 
+          "##compiler_flags#param-sms-min-sc": "--param sms-min-sc=3", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback": "--param tracer-min-branch-probability-feedback=53"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--ffp-contract=", 
+          "##compiler_flags#bool-defer-pop", 
+          "##compiler_flags#bool-devirtualize-speculatively", 
+          "##compiler_flags#bool-fast-math", 
+          "##compiler_flags#bool-gcse-sm", 
+          "##compiler_flags#bool-if-conversion2", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-inline-small-functions", 
+          "##compiler_flags#bool-ipa-cp-clone", 
+          "##compiler_flags#bool-ree", 
+          "##compiler_flags#bool-selective-scheduling2", 
+          "##compiler_flags#bool-strict-overflow", 
+          "##compiler_flags#bool-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-copy-prop", 
+          "##compiler_flags#bool-tree-loop-if-convert", 
+          "##compiler_flags#bool-unit-at-a-time", 
+          "##compiler_flags#param--falign-labels=", 
+          "##compiler_flags#param--fsched-stalled-insns=", 
+          "##compiler_flags#param-gcse-cost-distance-ratio", 
+          "##compiler_flags#param-inline-unit-growth", 
+          "##compiler_flags#param-l1-cache-line-size", 
+          "##compiler_flags#param-lra-max-considered-reload-pseudos", 
+          "##compiler_flags#param-max-inline-insns-auto", 
+          "##compiler_flags#param-max-pipeline-region-blocks", 
+          "##compiler_flags#param-max-tail-merge-iterations", 
+          "##compiler_flags#param-max-unswitch-level", 
+          "##compiler_flags#param-max-vartrack-expr-depth", 
+          "##compiler_flags#param-min-vect-loop-bound", 
+          "##compiler_flags#param-scev-max-expr-complexity", 
+          "##compiler_flags#param-sms-min-sc", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "840b0f654720563a", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "2c54c649e2f645d5", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4168, 
+          "##characteristics#run#execution_time_kernel_0#min": 3.5150001049042, 
+          "##characteristics#run#repeat#min": 14539580
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9289827255278311, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4682539793195162
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffloat-store -fno-ipa-cp -fira-hoist-pressure -fmerge-constants -ftoplevel-reorder -fpredictive-commoning -fno-reciprocal-math -fno-reorder-blocks -fsingle-precision-constant -fno-tree-loop-if-convert -funroll-all-loops --param partial-inlining-entry-probability=3 --param max-variable-expansions-in-unroller=1 --param large-stack-frame-growth=1625 --param max-unrolled-insns=280 --param builtin-expect-probability=28 --param max-cse-path-length=17 --param omega-max-keys=204 --param omega-eliminate-redundant-constraints=0 --param max-pipeline-region-insns=21 --param min-spec-prob=66 --param ipa-cp-array-index-hint-bonus=17", 
+          "##characteristics#compile#md5_sum#min": "f8d40a7615fe56838aaae585600579b0", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-ipa-cp": "-fno-ipa-cp", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-predictive-commoning": "-fpredictive-commoning", 
+          "##compiler_flags#bool-reciprocal-math": "-fno-reciprocal-math", 
+          "##compiler_flags#bool-reorder-blocks": "-fno-reorder-blocks", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-fno-tree-loop-if-convert", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops", 
+          "##compiler_flags#param-builtin-expect-probability": "--param builtin-expect-probability=28", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus": "--param ipa-cp-array-index-hint-bonus=17", 
+          "##compiler_flags#param-large-stack-frame-growth": "--param large-stack-frame-growth=1625", 
+          "##compiler_flags#param-max-cse-path-length": "--param max-cse-path-length=17", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=21", 
+          "##compiler_flags#param-max-unrolled-insns": "--param max-unrolled-insns=280", 
+          "##compiler_flags#param-max-variable-expansions-in-unroller": "--param max-variable-expansions-in-unroller=1", 
+          "##compiler_flags#param-min-spec-prob": "--param min-spec-prob=66", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints": "--param omega-eliminate-redundant-constraints=0", 
+          "##compiler_flags#param-omega-max-keys": "--param omega-max-keys=204", 
+          "##compiler_flags#param-partial-inlining-entry-probability": "--param partial-inlining-entry-probability=3"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-float-store", 
+          "##compiler_flags#bool-ipa-cp", 
+          "##compiler_flags#bool-ira-hoist-pressure", 
+          "##compiler_flags#bool-merge-constants", 
+          "##compiler_flags#bool-predictive-commoning", 
+          "##compiler_flags#bool-reciprocal-math", 
+          "##compiler_flags#bool-reorder-blocks", 
+          "##compiler_flags#bool-single-precision-constant", 
+          "##compiler_flags#bool-toplevel-reorder", 
+          "##compiler_flags#bool-tree-loop-if-convert", 
+          "##compiler_flags#bool-unroll-all-loops", 
+          "##compiler_flags#param-builtin-expect-probability", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus", 
+          "##compiler_flags#param-large-stack-frame-growth", 
+          "##compiler_flags#param-max-cse-path-length", 
+          "##compiler_flags#param-max-pipeline-region-insns", 
+          "##compiler_flags#param-max-unrolled-insns", 
+          "##compiler_flags#param-max-variable-expansions-in-unroller", 
+          "##compiler_flags#param-min-spec-prob", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints", 
+          "##compiler_flags#param-omega-max-keys", 
+          "##compiler_flags#param-partial-inlining-entry-probability"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "1528113be18a9aa6", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "encode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-consumer-jpeg-c", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "e24f34991d433038", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 272992, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.4229998588562, 
+          "##characteristics#run#repeat#min": 264
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.864801898956746, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4017896484080148
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-combine-stack-adjustments -findirect-inlining -fno-inline-functions-called-once -fno-inline-small-functions -floop-block -fpeephole2 -freciprocal-math -fno-reschedule-modulo-scheduled-loops -fno-sched-last-insn-heuristic -fno-sel-sched-pipelining -fthread-jumps -fno-tree-pre -ftree-tail-merge -funroll-all-loops --param max-unrolled-insns=200 --param max-unroll-times=7 --param max-iterations-to-track=1505 --param sms-loop-average-count-threshold=0 --param omega-max-keys=93 --param vect-max-version-for-alignment-checks=10 --param sched-spec-prob-cutoff=92 --param sccvn-max-scc-size=18783 --param max-vartrack-size=22258051 --param max-vartrack-expr-depth=11", 
+          "##characteristics#compile#md5_sum#min": "ce66257585ca500c26848c45d8f2058d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-combine-stack-adjustments": "-fno-combine-stack-adjustments", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-inline-small-functions": "-fno-inline-small-functions", 
+          "##compiler_flags#bool-loop-block": "-floop-block", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-fno-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops", 
+          "##compiler_flags#param-max-iterations-to-track": "--param max-iterations-to-track=1505", 
+          "##compiler_flags#param-max-unroll-times": "--param max-unroll-times=7", 
+          "##compiler_flags#param-max-unrolled-insns": "--param max-unrolled-insns=200", 
+          "##compiler_flags#param-max-vartrack-expr-depth": "--param max-vartrack-expr-depth=11", 
+          "##compiler_flags#param-max-vartrack-size": "--param max-vartrack-size=22258051", 
+          "##compiler_flags#param-omega-max-keys": "--param omega-max-keys=93", 
+          "##compiler_flags#param-sccvn-max-scc-size": "--param sccvn-max-scc-size=18783", 
+          "##compiler_flags#param-sched-spec-prob-cutoff": "--param sched-spec-prob-cutoff=92", 
+          "##compiler_flags#param-sms-loop-average-count-threshold": "--param sms-loop-average-count-threshold=0", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=10"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-combine-stack-adjustments", 
+          "##compiler_flags#bool-indirect-inlining", 
+          "##compiler_flags#bool-inline-functions-called-once", 
+          "##compiler_flags#bool-inline-small-functions", 
+          "##compiler_flags#bool-loop-block", 
+          "##compiler_flags#bool-peephole2", 
+          "##compiler_flags#bool-reciprocal-math", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining", 
+          "##compiler_flags#bool-thread-jumps", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-tree-tail-merge", 
+          "##compiler_flags#bool-unroll-all-loops", 
+          "##compiler_flags#param-max-iterations-to-track", 
+          "##compiler_flags#param-max-unroll-times", 
+          "##compiler_flags#param-max-unrolled-insns", 
+          "##compiler_flags#param-max-vartrack-expr-depth", 
+          "##compiler_flags#param-max-vartrack-size", 
+          "##compiler_flags#param-omega-max-keys", 
+          "##compiler_flags#param-sccvn-max-scc-size", 
+          "##compiler_flags#param-sched-spec-prob-cutoff", 
+          "##compiler_flags#param-sms-loop-average-count-threshold", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "353890f57ff4a338", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "SWQ49TFIT8YLU4DE", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001.0, 
+        "1": 1001.0
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_misc_uid": "445a5b4fa3ff2cb0", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "kernel_repetitions": 19990204, 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "04c4cb629321407a"
+    }, 
+    "iterations": 26, 
+    "last_touch_uid": "b8a74c66a2a50e44", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.7920039244542556, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2795125294943874
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "a133f5018ee34079ccc0db1795aaeb31", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0006961122361675823
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.26385877980799, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.7829505982544046, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0012499256670266393
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=fast", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-function-cse": "-fno-function-cse", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fsched-group-heuristic", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-sched-spec-load": "-fsched-spec-load", 
+          "##compiler_flags#bool-signaling-nans": "-fsignaling-nans", 
+          "##compiler_flags#bool-single-precision-constant": "-fno-single-precision-constant", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "1b4ef3a165551a69", 
+    "touched": 6, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "SWQ49TFIT8YLU4DE", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001.0, 
+        "1": 1001.0
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_misc_uid": "445a5b4fa3ff2cb0", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "kernel_repetitions": 6481360, 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "04c4cb629321407a"
+    }, 
+    "iterations": 26, 
+    "last_touch_uid": "fc3658fb4b648cc3", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8201581027667985, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0903355897585416
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-forward-propagate -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "3f8e85abe0c6100dc3abf1dcf7977bd0", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.006181994368185109
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-forward-propagate": "-fno-forward-propagate", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-forward-propagate", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-forward-propagate": {
+            "##characteristics#compile#obj_size#min_imp": 0.9931305201177625, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9282271723625451, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0022269557109461636
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.219277108433735, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9038796570869744, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.06367866494211182
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-gcse-after-reload": "-fno-gcse-after-reload", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-inline-small-functions": "-fno-inline-small-functions", 
+          "##compiler_flags#bool-loop-block": "-fno-loop-block", 
+          "##compiler_flags#bool-math-errno": "-fno-math-errno", 
+          "##compiler_flags#bool-partial-inlining": "-fno-partial-inlining", 
+          "##compiler_flags#bool-reciprocal-math": "-fno-reciprocal-math", 
+          "##compiler_flags#bool-sched-interblock": "-fno-sched-interblock", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-tree-bit-ccp": "-ftree-bit-ccp", 
+          "##compiler_flags#bool-tree-dominator-opts": "-ftree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-unswitch-loops": "-fno-unswitch-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8b1c09405bb036b5", 
+    "touched": 7, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "SWQ49TFIT8YLU4DE", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001.0, 
+        "1": 1001.0
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_misc_uid": "445a5b4fa3ff2cb0", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "kernel_repetitions": 344343131, 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "04c4cb629321407a"
+    }, 
+    "iterations": 24, 
+    "last_touch_uid": "d9880f4fab24012a", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.3026389146998699, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2627021935692553
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "6faac174c8499d33033db530f6c1ad5f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0005047045721170373
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.461467608228431, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.7930793002877589, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00042896610078903166
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fcx-fortran-rules", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-reciprocal-math": "-fno-reciprocal-math", 
+          "##compiler_flags#bool-reorder-blocks": "-fno-reorder-blocks", 
+          "##compiler_flags#bool-rounding-math": "-fno-rounding-math", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-wpa": "-fno-wpa"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "94e58bda289db8c4", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "VODAFONE VF685", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "183b6115b1eeb74f", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12636, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.7979998588562, 
+          "##characteristics#run#repeat#min": 1325
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.24976258309591642, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1989544333867463
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fbranch-target-load-optimize2 -fbtr-bb-exclusive -fcheck-data-deps -fcrossjumping -fno-cx-limited-range -fdevirtualize -fira-hoist-pressure -fno-keep-static-consts -flto -fbranch-count-reg -fguess-branch-probability -fno-omit-frame-pointer -fsched-spec-load -fno-schedule-insns -fno-section-anchors -fsignaling-nans -fno-tree-loop-linear -fno-tree-partial-pre -fno-unit-at-a-time --param predictable-branch-outcome=1 --param max-inline-insns-auto=37 --param max-inline-insns-recursive-auto=690 --param max-average-unrolled-insns=150 --param unlikely-bb-count-fraction=8082 --param tracer-max-code-growth=189 --param tracer-min-branch-ratio=9 --param tracer-min-branch-probability-feedback=59 --param vect-max-peeling-for-alignment=42 --param max-pipeline-region-insns=3 --param sched-state-edge-prob-cutoff=38 --param selsched-max-sched-times=3 --param sched-mem-true-dep-cost=2 --param switch-conversion-max-branch-ratio=13 --param max-vartrack-reverse-op-size=46 --param ipa-cp-eval-threshold=32 --param ipa-cp-array-index-hint-bonus=62 --param max-tail-merge-comparisons=7", 
+          "##characteristics#compile#md5_sum#min": "38c929459ecd3aeba8c6caa68a27b60c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+          "##compiler_flags#bool-check-data-deps": "-fcheck-data-deps", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-devirtualize": "-fdevirtualize", 
+          "##compiler_flags#bool-guess-branch-probability": "-fguess-branch-probability", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer", 
+          "##compiler_flags#bool-sched-spec-load": "-fsched-spec-load", 
+          "##compiler_flags#bool-schedule-insns": "-fno-schedule-insns", 
+          "##compiler_flags#bool-section-anchors": "-fno-section-anchors", 
+          "##compiler_flags#bool-signaling-nans": "-fsignaling-nans", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-partial-pre": "-fno-tree-partial-pre", 
+          "##compiler_flags#bool-unit-at-a-time": "-fno-unit-at-a-time", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus": "--param ipa-cp-array-index-hint-bonus=62", 
+          "##compiler_flags#param-ipa-cp-eval-threshold": "--param ipa-cp-eval-threshold=32", 
+          "##compiler_flags#param-max-average-unrolled-insns": "--param max-average-unrolled-insns=150", 
+          "##compiler_flags#param-max-inline-insns-auto": "--param max-inline-insns-auto=37", 
+          "##compiler_flags#param-max-inline-insns-recursive-auto": "--param max-inline-insns-recursive-auto=690", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=3", 
+          "##compiler_flags#param-max-tail-merge-comparisons": "--param max-tail-merge-comparisons=7", 
+          "##compiler_flags#param-max-vartrack-reverse-op-size": "--param max-vartrack-reverse-op-size=46", 
+          "##compiler_flags#param-predictable-branch-outcome": "--param predictable-branch-outcome=1", 
+          "##compiler_flags#param-sched-mem-true-dep-cost": "--param sched-mem-true-dep-cost=2", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff": "--param sched-state-edge-prob-cutoff=38", 
+          "##compiler_flags#param-selsched-max-sched-times": "--param selsched-max-sched-times=3", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio": "--param switch-conversion-max-branch-ratio=13", 
+          "##compiler_flags#param-tracer-max-code-growth": "--param tracer-max-code-growth=189", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback": "--param tracer-min-branch-probability-feedback=59", 
+          "##compiler_flags#param-tracer-min-branch-ratio": "--param tracer-min-branch-ratio=9", 
+          "##compiler_flags#param-unlikely-bb-count-fraction": "--param unlikely-bb-count-fraction=8082", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment": "--param vect-max-peeling-for-alignment=42"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-count-reg", 
+          "##compiler_flags#bool-branch-target-load-optimize2", 
+          "##compiler_flags#bool-btr-bb-exclusive", 
+          "##compiler_flags#bool-check-data-deps", 
+          "##compiler_flags#bool-crossjumping", 
+          "##compiler_flags#bool-cx-limited-range", 
+          "##compiler_flags#bool-devirtualize", 
+          "##compiler_flags#bool-guess-branch-probability", 
+          "##compiler_flags#bool-ira-hoist-pressure", 
+          "##compiler_flags#bool-keep-static-consts", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-omit-frame-pointer", 
+          "##compiler_flags#bool-sched-spec-load", 
+          "##compiler_flags#bool-schedule-insns", 
+          "##compiler_flags#bool-section-anchors", 
+          "##compiler_flags#bool-signaling-nans", 
+          "##compiler_flags#bool-tree-loop-linear", 
+          "##compiler_flags#bool-tree-partial-pre", 
+          "##compiler_flags#bool-unit-at-a-time", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus", 
+          "##compiler_flags#param-ipa-cp-eval-threshold", 
+          "##compiler_flags#param-max-average-unrolled-insns", 
+          "##compiler_flags#param-max-inline-insns-auto", 
+          "##compiler_flags#param-max-inline-insns-recursive-auto", 
+          "##compiler_flags#param-max-pipeline-region-insns", 
+          "##compiler_flags#param-max-tail-merge-comparisons", 
+          "##compiler_flags#param-max-vartrack-reverse-op-size", 
+          "##compiler_flags#param-predictable-branch-outcome", 
+          "##compiler_flags#param-sched-mem-true-dep-cost", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff", 
+          "##compiler_flags#param-selsched-max-sched-times", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio", 
+          "##compiler_flags#param-tracer-max-code-growth", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback", 
+          "##compiler_flags#param-tracer-min-branch-ratio", 
+          "##compiler_flags#param-unlikely-bb-count-fraction", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "0a023dde7dd4f30b", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "encode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-security-rijndael", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-clean-gray-square-600-450-8", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "7e52bc0b1034894a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 43940, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.9970002174377, 
+          "##characteristics#run#repeat#min": 210
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9636777423759673, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.194842944202398
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fassociative-math -fcheck-data-deps -fdelete-null-pointer-checks -fno-devirtualize-speculatively -ffast-math -ffinite-math-only -fgcse-sm -finline-small-functions -fipa-reference -fira-hoist-pressure -fno-isolate-erroneous-paths-attribute -fdefer-pop -fpartial-inlining -freciprocal-math -fno-rename-registers -fno-sched2-use-superblocks -ftree-ch -ftree-coalesce-vars -ftree-dominator-opts -fno-tree-slsr -funroll-loops --param max-modulo-backtrack-attempts=2 --param max-peel-branches=30 --param unlikely-bb-count-fraction=8669 --param max-pipeline-region-insns=289 --param sched-state-edge-prob-cutoff=41 --param min-size-for-stack-sharing=28 --param ira-max-loops-num=52 --param ira-max-conflict-table-size=1213 --param min-insn-to-prefetch-ratio=7 --param ipa-sra-ptr-growth-factor=3 --param asan-stack=1", 
+          "##characteristics#compile#md5_sum#min": "1ca555b003c68f57de4a4d1b73edb450", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-associative-math": "-fassociative-math", 
+          "##compiler_flags#bool-check-data-deps": "-fcheck-data-deps", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fno-devirtualize-speculatively", 
+          "##compiler_flags#bool-fast-math": "-ffast-math", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-gcse-sm": "-fgcse-sm", 
+          "##compiler_flags#bool-inline-small-functions": "-finline-small-functions", 
+          "##compiler_flags#bool-ipa-reference": "-fipa-reference", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fno-isolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-rename-registers": "-fno-rename-registers", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-ftree-coalesce-vars", 
+          "##compiler_flags#bool-tree-dominator-opts": "-ftree-dominator-opts", 
+          "##compiler_flags#bool-tree-slsr": "-fno-tree-slsr", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops", 
+          "##compiler_flags#param-asan-stack": "--param asan-stack=1", 
+          "##compiler_flags#param-ipa-sra-ptr-growth-factor": "--param ipa-sra-ptr-growth-factor=3", 
+          "##compiler_flags#param-ira-max-conflict-table-size": "--param ira-max-conflict-table-size=1213", 
+          "##compiler_flags#param-ira-max-loops-num": "--param ira-max-loops-num=52", 
+          "##compiler_flags#param-max-modulo-backtrack-attempts": "--param max-modulo-backtrack-attempts=2", 
+          "##compiler_flags#param-max-peel-branches": "--param max-peel-branches=30", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=289", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio": "--param min-insn-to-prefetch-ratio=7", 
+          "##compiler_flags#param-min-size-for-stack-sharing": "--param min-size-for-stack-sharing=28", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff": "--param sched-state-edge-prob-cutoff=41", 
+          "##compiler_flags#param-unlikely-bb-count-fraction": "--param unlikely-bb-count-fraction=8669"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-associative-math", 
+          "##compiler_flags#bool-check-data-deps", 
+          "##compiler_flags#bool-defer-pop", 
+          "##compiler_flags#bool-delete-null-pointer-checks", 
+          "##compiler_flags#bool-devirtualize-speculatively", 
+          "##compiler_flags#bool-fast-math", 
+          "##compiler_flags#bool-finite-math-only", 
+          "##compiler_flags#bool-gcse-sm", 
+          "##compiler_flags#bool-inline-small-functions", 
+          "##compiler_flags#bool-ipa-reference", 
+          "##compiler_flags#bool-ira-hoist-pressure", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-partial-inlining", 
+          "##compiler_flags#bool-reciprocal-math", 
+          "##compiler_flags#bool-rename-registers", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-tree-ch", 
+          "##compiler_flags#bool-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-slsr", 
+          "##compiler_flags#bool-unroll-loops", 
+          "##compiler_flags#param-asan-stack", 
+          "##compiler_flags#param-ipa-sra-ptr-growth-factor", 
+          "##compiler_flags#param-ira-max-conflict-table-size", 
+          "##compiler_flags#param-ira-max-loops-num", 
+          "##compiler_flags#param-max-modulo-backtrack-attempts", 
+          "##compiler_flags#param-max-peel-branches", 
+          "##compiler_flags#param-max-pipeline-region-insns", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio", 
+          "##compiler_flags#param-min-size-for-stack-sharing", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff", 
+          "##compiler_flags#param-unlikely-bb-count-fraction"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "0d18363243f39395", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "4d4abf99a6d973ab", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3600, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.6630001068115, 
+          "##characteristics#run#repeat#min": 167224
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1746440822795254
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-caller-saves -fcrossjumping -fcse-follow-jumps -fno-data-sections -fdelayed-branch -fno-if-conversion2 -findirect-inlining -fno-ipa-pure-const -fisolate-erroneous-paths-attribute -fbranch-count-reg -frounding-math -fno-sched2-use-superblocks -fno-sched-spec-load -fno-selective-scheduling -fno-tree-builtin-call-dce -fno-tree-fre -ftree-loop-if-convert -fno-tree-loop-if-convert-stores -fno-tree-pre -fno-tree-tail-merge -fno-unsafe-math-optimizations -fno-use-linker-plugin --param inline-min-speedup=3 --param max-inline-insns-auto=68 --param large-function-insns=4308 --param max-unroll-times=3 --param max-peel-times=25 --param max-unswitch-insns=61 --param iv-consider-all-candidates-bound=45 --param omega-max-geqs=357 --param ssp-buffer-size=9 --param switch-conversion-max-branch-ratio=15 --param slp-max-insns-in-bb=531 --param ipa-max-agg-items=12 --param lto-min-partition=1192 --param max-tail-merge-iterations=4", 
+          "##characteristics#compile#md5_sum#min": "a23bbb5781cde51326fec966119fa3a7", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-caller-saves": "-fno-caller-saves", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-if-conversion2": "-fno-if-conversion2", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-ipa-pure-const": "-fno-ipa-pure-const", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fisolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-ftree-loop-if-convert", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-fno-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-tail-merge": "-fno-tree-tail-merge", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-use-linker-plugin": "-fno-use-linker-plugin", 
+          "##compiler_flags#param-inline-min-speedup": "--param inline-min-speedup=3", 
+          "##compiler_flags#param-ipa-max-agg-items": "--param ipa-max-agg-items=12", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=45", 
+          "##compiler_flags#param-large-function-insns": "--param large-function-insns=4308", 
+          "##compiler_flags#param-lto-min-partition": "--param lto-min-partition=1192", 
+          "##compiler_flags#param-max-inline-insns-auto": "--param max-inline-insns-auto=68", 
+          "##compiler_flags#param-max-peel-times": "--param max-peel-times=25", 
+          "##compiler_flags#param-max-tail-merge-iterations": "--param max-tail-merge-iterations=4", 
+          "##compiler_flags#param-max-unroll-times": "--param max-unroll-times=3", 
+          "##compiler_flags#param-max-unswitch-insns": "--param max-unswitch-insns=61", 
+          "##compiler_flags#param-omega-max-geqs": "--param omega-max-geqs=357", 
+          "##compiler_flags#param-slp-max-insns-in-bb": "--param slp-max-insns-in-bb=531", 
+          "##compiler_flags#param-ssp-buffer-size": "--param ssp-buffer-size=9", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio": "--param switch-conversion-max-branch-ratio=15"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-count-reg", 
+          "##compiler_flags#bool-caller-saves", 
+          "##compiler_flags#bool-crossjumping", 
+          "##compiler_flags#bool-cse-follow-jumps", 
+          "##compiler_flags#bool-data-sections", 
+          "##compiler_flags#bool-delayed-branch", 
+          "##compiler_flags#bool-if-conversion2", 
+          "##compiler_flags#bool-indirect-inlining", 
+          "##compiler_flags#bool-ipa-pure-const", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-rounding-math", 
+          "##compiler_flags#bool-sched-spec-load", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-selective-scheduling", 
+          "##compiler_flags#bool-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-fre", 
+          "##compiler_flags#bool-tree-loop-if-convert", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-tree-tail-merge", 
+          "##compiler_flags#bool-unsafe-math-optimizations", 
+          "##compiler_flags#bool-use-linker-plugin", 
+          "##compiler_flags#param-inline-min-speedup", 
+          "##compiler_flags#param-ipa-max-agg-items", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-large-function-insns", 
+          "##compiler_flags#param-lto-min-partition", 
+          "##compiler_flags#param-max-inline-insns-auto", 
+          "##compiler_flags#param-max-peel-times", 
+          "##compiler_flags#param-max-tail-merge-iterations", 
+          "##compiler_flags#param-max-unroll-times", 
+          "##compiler_flags#param-max-unswitch-insns", 
+          "##compiler_flags#param-omega-max-geqs", 
+          "##compiler_flags#param-slp-max-insns-in-bb", 
+          "##compiler_flags#param-ssp-buffer-size", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "2a3cf86fd42f5a93", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "f69b14ed79a866a1", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3848, 
+          "##characteristics#run#execution_time_kernel_0#min": 10.517999649048, 
+          "##characteristics#run#repeat#min": 33912408
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.003118503118503, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1568411394876812
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fcaller-saves -fno-check-data-deps -fcse-follow-jumps -fno-delete-null-pointer-checks -fno-dse -floop-parallelize-all -fno-optimize-sibling-calls -fno-sched-spec-load -fno-selective-scheduling -fsel-sched-pipelining -ftree-dse -ftree-loop-im -ftree-loop-linear -ftree-ter -falign-labels=0 --param max-inline-insns-recursive-auto=242 --param min-inline-recursive-probability=7 --param max-early-inliner-iterations=1 --param min-vect-loop-bound=2 --param large-stack-frame=161 --param align-loop-iterations=6 --param omega-eliminate-redundant-constraints=1 --param vect-max-version-for-alignment-checks=4 --param max-sched-insn-conflict-delay=4 --param sched-spec-prob-cutoff=49 --param selsched-insns-to-rename=4 --param prefetch-latency=314 --param ira-max-conflict-table-size=1247 --param prefetch-min-insn-to-mem-ratio=0 --param asan-instrument-writes=0 --param asan-instrument-reads=1 --param asan-use-after-return=0", 
+          "##characteristics#compile#md5_sum#min": "f987ea1876a52b68713b23a641457f3d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-loop-parallelize-all": "-floop-parallelize-all", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-fno-optimize-sibling-calls", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-loop-im": "-ftree-loop-im", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter", 
+          "##compiler_flags#param--falign-labels=": "-falign-labels=0", 
+          "##compiler_flags#param-align-loop-iterations": "--param align-loop-iterations=6", 
+          "##compiler_flags#param-asan-instrument-reads": "--param asan-instrument-reads=1", 
+          "##compiler_flags#param-asan-instrument-writes": "--param asan-instrument-writes=0", 
+          "##compiler_flags#param-asan-use-after-return": "--param asan-use-after-return=0", 
+          "##compiler_flags#param-ira-max-conflict-table-size": "--param ira-max-conflict-table-size=1247", 
+          "##compiler_flags#param-large-stack-frame": "--param large-stack-frame=161", 
+          "##compiler_flags#param-max-early-inliner-iterations": "--param max-early-inliner-iterations=1", 
+          "##compiler_flags#param-max-inline-insns-recursive-auto": "--param max-inline-insns-recursive-auto=242", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay": "--param max-sched-insn-conflict-delay=4", 
+          "##compiler_flags#param-min-inline-recursive-probability": "--param min-inline-recursive-probability=7", 
+          "##compiler_flags#param-min-vect-loop-bound": "--param min-vect-loop-bound=2", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints": "--param omega-eliminate-redundant-constraints=1", 
+          "##compiler_flags#param-prefetch-latency": "--param prefetch-latency=314", 
+          "##compiler_flags#param-prefetch-min-insn-to-mem-ratio": "--param prefetch-min-insn-to-mem-ratio=0", 
+          "##compiler_flags#param-sched-spec-prob-cutoff": "--param sched-spec-prob-cutoff=49", 
+          "##compiler_flags#param-selsched-insns-to-rename": "--param selsched-insns-to-rename=4", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=4"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-caller-saves", 
+          "##compiler_flags#bool-check-data-deps", 
+          "##compiler_flags#bool-cse-follow-jumps", 
+          "##compiler_flags#bool-delete-null-pointer-checks", 
+          "##compiler_flags#bool-dse", 
+          "##compiler_flags#bool-loop-parallelize-all", 
+          "##compiler_flags#bool-optimize-sibling-calls", 
+          "##compiler_flags#bool-sched-spec-load", 
+          "##compiler_flags#bool-sel-sched-pipelining", 
+          "##compiler_flags#bool-selective-scheduling", 
+          "##compiler_flags#bool-tree-dse", 
+          "##compiler_flags#bool-tree-loop-im", 
+          "##compiler_flags#bool-tree-loop-linear", 
+          "##compiler_flags#bool-tree-ter", 
+          "##compiler_flags#param--falign-labels=", 
+          "##compiler_flags#param-align-loop-iterations", 
+          "##compiler_flags#param-asan-instrument-reads", 
+          "##compiler_flags#param-asan-instrument-writes", 
+          "##compiler_flags#param-asan-use-after-return", 
+          "##compiler_flags#param-ira-max-conflict-table-size", 
+          "##compiler_flags#param-large-stack-frame", 
+          "##compiler_flags#param-max-early-inliner-iterations", 
+          "##compiler_flags#param-max-inline-insns-recursive-auto", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay", 
+          "##compiler_flags#param-min-inline-recursive-probability", 
+          "##compiler_flags#param-min-vect-loop-bound", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints", 
+          "##compiler_flags#param-prefetch-latency", 
+          "##compiler_flags#param-prefetch-min-insn-to-mem-ratio", 
+          "##compiler_flags#param-sched-spec-prob-cutoff", 
+          "##compiler_flags#param-selsched-insns-to-rename", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "684fb7b23e3235c2", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-network-dijkstra", 
+      "dataset_file": "data.txt", 
+      "dataset_uoa": "cdataset-dijkstra-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "40ae69b5bceacfd7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 19496, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8870000839233, 
+          "##characteristics#run#repeat#min": 453103
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.2948297086581863, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.136175645291883
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fearly-inlining -fno-inline-functions-called-once -fno-ipa-cp -fno-ipa-cp-clone -fno-isolate-erroneous-paths-dereference -fkeep-static-consts -fno-loop-parallelize-all -flto -fno-math-errno -frename-registers -fsched-group-heuristic -fsel-sched-pipelining-outer-loops -fno-signaling-nans -ftree-reassoc -fvariable-expansion-in-unroller -fvpt -falign-jumps=0 -finline-limit=0 --param max-inline-insns-recursive=203 --param max-delay-slot-live-search=208 --param max-unrolled-insns=299 --param sms-dfa-history=0 --param tracer-max-code-growth=199 --param max-cse-insns=151 --param iv-always-prune-cand-set-bound=9 --param scev-max-expr-size=86 --param omega-hash-table-size=351 --param max-sched-insn-conflict-delay=9 --param integer-share-limit=448 --param ssp-buffer-size=7 --param sccvn-max-alias-queries-per-access=1287 --param min-insn-to-prefetch-ratio=12 --param ipa-cp-loop-hint-bonus=24 --param max-tail-merge-comparisons=20 --param sched-pressure-algorithm=2", 
+          "##characteristics#compile#md5_sum#min": "86a4b823d44e1616e5dfc2e6b0fdab5d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-early-inlining": "-fearly-inlining", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-ipa-cp": "-fno-ipa-cp", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference": "-fno-isolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-keep-static-consts": "-fkeep-static-consts", 
+          "##compiler_flags#bool-loop-parallelize-all": "-fno-loop-parallelize-all", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-math-errno": "-fno-math-errno", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fsched-group-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-tree-reassoc": "-ftree-reassoc", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fvariable-expansion-in-unroller", 
+          "##compiler_flags#bool-vpt": "-fvpt", 
+          "##compiler_flags#param--falign-jumps=": "-falign-jumps=0", 
+          "##compiler_flags#param--finline-limit=": "-finline-limit=0", 
+          "##compiler_flags#param-integer-share-limit": "--param integer-share-limit=448", 
+          "##compiler_flags#param-ipa-cp-loop-hint-bonus": "--param ipa-cp-loop-hint-bonus=24", 
+          "##compiler_flags#param-iv-always-prune-cand-set-bound": "--param iv-always-prune-cand-set-bound=9", 
+          "##compiler_flags#param-max-cse-insns": "--param max-cse-insns=151", 
+          "##compiler_flags#param-max-delay-slot-live-search": "--param max-delay-slot-live-search=208", 
+          "##compiler_flags#param-max-inline-insns-recursive": "--param max-inline-insns-recursive=203", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay": "--param max-sched-insn-conflict-delay=9", 
+          "##compiler_flags#param-max-tail-merge-comparisons": "--param max-tail-merge-comparisons=20", 
+          "##compiler_flags#param-max-unrolled-insns": "--param max-unrolled-insns=299", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio": "--param min-insn-to-prefetch-ratio=12", 
+          "##compiler_flags#param-omega-hash-table-size": "--param omega-hash-table-size=351", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access": "--param sccvn-max-alias-queries-per-access=1287", 
+          "##compiler_flags#param-scev-max-expr-size": "--param scev-max-expr-size=86", 
+          "##compiler_flags#param-sched-pressure-algorithm": "--param sched-pressure-algorithm=2", 
+          "##compiler_flags#param-sms-dfa-history": "--param sms-dfa-history=0", 
+          "##compiler_flags#param-ssp-buffer-size": "--param ssp-buffer-size=7", 
+          "##compiler_flags#param-tracer-max-code-growth": "--param tracer-max-code-growth=199"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-early-inlining", 
+          "##compiler_flags#bool-inline-functions-called-once", 
+          "##compiler_flags#bool-ipa-cp", 
+          "##compiler_flags#bool-ipa-cp-clone", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-keep-static-consts", 
+          "##compiler_flags#bool-loop-parallelize-all", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-math-errno", 
+          "##compiler_flags#bool-rename-registers", 
+          "##compiler_flags#bool-sched-group-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-signaling-nans", 
+          "##compiler_flags#bool-tree-reassoc", 
+          "##compiler_flags#bool-variable-expansion-in-unroller", 
+          "##compiler_flags#bool-vpt", 
+          "##compiler_flags#param--falign-jumps=", 
+          "##compiler_flags#param--finline-limit=", 
+          "##compiler_flags#param-integer-share-limit", 
+          "##compiler_flags#param-ipa-cp-loop-hint-bonus", 
+          "##compiler_flags#param-iv-always-prune-cand-set-bound", 
+          "##compiler_flags#param-max-cse-insns", 
+          "##compiler_flags#param-max-delay-slot-live-search", 
+          "##compiler_flags#param-max-inline-insns-recursive", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay", 
+          "##compiler_flags#param-max-tail-merge-comparisons", 
+          "##compiler_flags#param-max-unrolled-insns", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio", 
+          "##compiler_flags#param-omega-hash-table-size", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access", 
+          "##compiler_flags#param-scev-max-expr-size", 
+          "##compiler_flags#param-sched-pressure-algorithm", 
+          "##compiler_flags#param-sms-dfa-history", 
+          "##compiler_flags#param-ssp-buffer-size", 
+          "##compiler_flags#param-tracer-max-code-growth"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "999867f9d003df6e", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "smoothing", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "dbe9de66cc6e36d5", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 38664, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.1470003128052, 
+          "##characteristics#run#repeat#min": 12
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8610593834057522, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1243445380855515
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fcompare-elim -fcx-limited-range -fdelayed-branch -fno-early-inlining -fno-gcse-sm -fira-share-save-slots -fkeep-static-consts -fno-loop-parallelize-all -fno-modulo-sched -fno-inline -fno-ree -freorder-blocks -frerun-cse-after-loop -fno-reschedule-modulo-scheduled-loops -frounding-math -fno-sched2-use-superblocks -fno-sched-pressure -fno-sched-spec-load-dangerous -fno-selective-scheduling2 -fsel-sched-pipelining -ftree-ccp -ftree-loop-linear -fno-tree-reassoc -ftree-vectorize -funroll-loops -falign-labels=0 -fira-region=one --param inline-min-speedup=9 --param large-function-growth=168 --param max-completely-peel-times=24 --param sms-loop-average-count-threshold=0 --param builtin-expect-probability=25 --param tracer-min-branch-ratio=97 --param tracer-min-branch-probability=54 --param omega-hash-table-size=354 --param max-pipeline-region-blocks=0 --param min-spec-prob=64 --param sched-spec-prob-cutoff=44 --param sched-mem-true-dep-cost=0 --param cxx-max-namespaces-for-diagnostic-help=1242", 
+          "##characteristics#compile#md5_sum#min": "dfa6db7af61e1ed3cb35a5bb30ca071b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fira-region=": "-fira-region=one", 
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-keep-static-consts": "-fkeep-static-consts", 
+          "##compiler_flags#bool-loop-parallelize-all": "-fno-loop-parallelize-all", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-frerun-cse-after-loop", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-fno-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fno-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-selective-scheduling2": "-fno-selective-scheduling2", 
+          "##compiler_flags#bool-tree-ccp": "-ftree-ccp", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc", 
+          "##compiler_flags#bool-tree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops", 
+          "##compiler_flags#param--falign-labels=": "-falign-labels=0", 
+          "##compiler_flags#param-builtin-expect-probability": "--param builtin-expect-probability=25", 
+          "##compiler_flags#param-cxx-max-namespaces-for-diagnostic-help": "--param cxx-max-namespaces-for-diagnostic-help=1242", 
+          "##compiler_flags#param-inline-min-speedup": "--param inline-min-speedup=9", 
+          "##compiler_flags#param-large-function-growth": "--param large-function-growth=168", 
+          "##compiler_flags#param-max-completely-peel-times": "--param max-completely-peel-times=24", 
+          "##compiler_flags#param-max-pipeline-region-blocks": "--param max-pipeline-region-blocks=0", 
+          "##compiler_flags#param-min-spec-prob": "--param min-spec-prob=64", 
+          "##compiler_flags#param-omega-hash-table-size": "--param omega-hash-table-size=354", 
+          "##compiler_flags#param-sched-mem-true-dep-cost": "--param sched-mem-true-dep-cost=0", 
+          "##compiler_flags#param-sched-spec-prob-cutoff": "--param sched-spec-prob-cutoff=44", 
+          "##compiler_flags#param-sms-loop-average-count-threshold": "--param sms-loop-average-count-threshold=0", 
+          "##compiler_flags#param-tracer-min-branch-probability": "--param tracer-min-branch-probability=54", 
+          "##compiler_flags#param-tracer-min-branch-ratio": "--param tracer-min-branch-ratio=97"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fira-region=", 
+          "##compiler_flags#bool-compare-elim", 
+          "##compiler_flags#bool-cx-limited-range", 
+          "##compiler_flags#bool-delayed-branch", 
+          "##compiler_flags#bool-early-inlining", 
+          "##compiler_flags#bool-gcse-sm", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-ira-share-save-slots", 
+          "##compiler_flags#bool-keep-static-consts", 
+          "##compiler_flags#bool-loop-parallelize-all", 
+          "##compiler_flags#bool-modulo-sched", 
+          "##compiler_flags#bool-ree", 
+          "##compiler_flags#bool-reorder-blocks", 
+          "##compiler_flags#bool-rerun-cse-after-loop", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-rounding-math", 
+          "##compiler_flags#bool-sched-pressure", 
+          "##compiler_flags#bool-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-sel-sched-pipelining", 
+          "##compiler_flags#bool-selective-scheduling2", 
+          "##compiler_flags#bool-tree-ccp", 
+          "##compiler_flags#bool-tree-loop-linear", 
+          "##compiler_flags#bool-tree-reassoc", 
+          "##compiler_flags#bool-tree-vectorize", 
+          "##compiler_flags#bool-unroll-loops", 
+          "##compiler_flags#param--falign-labels=", 
+          "##compiler_flags#param-builtin-expect-probability", 
+          "##compiler_flags#param-cxx-max-namespaces-for-diagnostic-help", 
+          "##compiler_flags#param-inline-min-speedup", 
+          "##compiler_flags#param-large-function-growth", 
+          "##compiler_flags#param-max-completely-peel-times", 
+          "##compiler_flags#param-max-pipeline-region-blocks", 
+          "##compiler_flags#param-min-spec-prob", 
+          "##compiler_flags#param-omega-hash-table-size", 
+          "##compiler_flags#param-sched-mem-true-dep-cost", 
+          "##compiler_flags#param-sched-spec-prob-cutoff", 
+          "##compiler_flags#param-sms-loop-average-count-threshold", 
+          "##compiler_flags#param-tracer-min-branch-probability", 
+          "##compiler_flags#param-tracer-min-branch-ratio"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4eb688661bf9f0be", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+      "dataset_file": "data_orig.jpg", 
+      "dataset_uoa": "image-jpg-fgg-office-night-gray", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "7439eab2acfa2507"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "a69b7bccda71ead0", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3008, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6619997024536, 
+          "##characteristics#run#repeat#min": 5324813
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1795212765957446, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1009571191037688
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fassociative-math -fbranch-target-load-optimize -fno-caller-saves -fno-data-sections -fdevirtualize-speculatively -fexpensive-optimizations -finline-small-functions -fira-hoist-pressure -fno-merge-all-constants -ffunction-cse -fno-peephole -fno-omit-frame-pointer -fno-partial-inlining -fno-sched-spec-load-dangerous -fschedule-insns2 -fno-shrink-wrap -fsignaling-nans -fno-split-ivs-in-unroller -fno-strict-aliasing -fno-thread-jumps -fno-tree-dse -fno-tree-loop-optimize -fno-unroll-all-loops -funsafe-math-optimizations -fvect-cost-model -falign-functions=0 -fexcess-precision=standard -finline-limit=0 -ftree-parallelize-loops=0 --param predictable-branch-outcome=18 --param max-early-inliner-iterations=2 --param min-vect-loop-bound=1 --param max-once-peeled-insns=550 --param max-unswitch-insns=65 --param iv-consider-all-candidates-bound=8 --param omega-max-eqs=167 --param omega-max-wild-cards=35 --param omega-eliminate-redundant-constraints=0 --param max-cselib-memory-locations=987 --param max-pipeline-region-insns=38 --param sched-state-edge-prob-cutoff=48 --param max-fields-for-field-sensitive=0 --param max-partial-antic-length=112 --param ira-max-loops-num=49 --param ira-max-conflict-table-size=574 --param ira-loop-reserved-regs=0 --param loop-max-datarefs-for-datadeps=958 --param prefetch-min-insn-to-mem-ratio=5 --param lto-min-partition=288 --param allow-load-data-races=1 --param max-tail-merge-iterations=1 --param asan-memintrin=0", 
+          "##characteristics#compile#md5_sum#min": "7b3482e70f100c369c36dd3eddb5c395", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=standard", 
+          "##compiler_flags#bool-associative-math": "-fassociative-math", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fbranch-target-load-optimize", 
+          "##compiler_flags#bool-caller-saves": "-fno-caller-saves", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fdevirtualize-speculatively", 
+          "##compiler_flags#bool-expensive-optimizations": "-fexpensive-optimizations", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-inline-small-functions": "-finline-small-functions", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer", 
+          "##compiler_flags#bool-partial-inlining": "-fno-partial-inlining", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fno-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-signaling-nans": "-fsignaling-nans", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-thread-jumps": "-fno-thread-jumps", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize", 
+          "##compiler_flags#bool-unroll-all-loops": "-fno-unroll-all-loops", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model", 
+          "##compiler_flags#param--falign-functions=": "-falign-functions=0", 
+          "##compiler_flags#param--finline-limit=": "-finline-limit=0", 
+          "##compiler_flags#param--ftree-parallelize-loops=": "-ftree-parallelize-loops=0", 
+          "##compiler_flags#param-allow-load-data-races": "--param allow-load-data-races=1", 
+          "##compiler_flags#param-asan-memintrin": "--param asan-memintrin=0", 
+          "##compiler_flags#param-ira-loop-reserved-regs": "--param ira-loop-reserved-regs=0", 
+          "##compiler_flags#param-ira-max-conflict-table-size": "--param ira-max-conflict-table-size=574", 
+          "##compiler_flags#param-ira-max-loops-num": "--param ira-max-loops-num=49", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=8", 
+          "##compiler_flags#param-loop-max-datarefs-for-datadeps": "--param loop-max-datarefs-for-datadeps=958", 
+          "##compiler_flags#param-lto-min-partition": "--param lto-min-partition=288", 
+          "##compiler_flags#param-max-cselib-memory-locations": "--param max-cselib-memory-locations=987", 
+          "##compiler_flags#param-max-early-inliner-iterations": "--param max-early-inliner-iterations=2", 
+          "##compiler_flags#param-max-fields-for-field-sensitive": "--param max-fields-for-field-sensitive=0", 
+          "##compiler_flags#param-max-once-peeled-insns": "--param max-once-peeled-insns=550", 
+          "##compiler_flags#param-max-partial-antic-length": "--param max-partial-antic-length=112", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=38", 
+          "##compiler_flags#param-max-tail-merge-iterations": "--param max-tail-merge-iterations=1", 
+          "##compiler_flags#param-max-unswitch-insns": "--param max-unswitch-insns=65", 
+          "##compiler_flags#param-min-vect-loop-bound": "--param min-vect-loop-bound=1", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints": "--param omega-eliminate-redundant-constraints=0", 
+          "##compiler_flags#param-omega-max-eqs": "--param omega-max-eqs=167", 
+          "##compiler_flags#param-omega-max-wild-cards": "--param omega-max-wild-cards=35", 
+          "##compiler_flags#param-predictable-branch-outcome": "--param predictable-branch-outcome=18", 
+          "##compiler_flags#param-prefetch-min-insn-to-mem-ratio": "--param prefetch-min-insn-to-mem-ratio=5", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff": "--param sched-state-edge-prob-cutoff=48"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fexcess-precision=", 
+          "##compiler_flags#bool-associative-math", 
+          "##compiler_flags#bool-branch-target-load-optimize", 
+          "##compiler_flags#bool-caller-saves", 
+          "##compiler_flags#bool-data-sections", 
+          "##compiler_flags#bool-devirtualize-speculatively", 
+          "##compiler_flags#bool-expensive-optimizations", 
+          "##compiler_flags#bool-function-cse", 
+          "##compiler_flags#bool-inline-small-functions", 
+          "##compiler_flags#bool-ira-hoist-pressure", 
+          "##compiler_flags#bool-merge-all-constants", 
+          "##compiler_flags#bool-omit-frame-pointer", 
+          "##compiler_flags#bool-partial-inlining", 
+          "##compiler_flags#bool-peephole", 
+          "##compiler_flags#bool-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-schedule-insns2", 
+          "##compiler_flags#bool-shrink-wrap", 
+          "##compiler_flags#bool-signaling-nans", 
+          "##compiler_flags#bool-split-ivs-in-unroller", 
+          "##compiler_flags#bool-strict-aliasing", 
+          "##compiler_flags#bool-thread-jumps", 
+          "##compiler_flags#bool-tree-dse", 
+          "##compiler_flags#bool-tree-loop-optimize", 
+          "##compiler_flags#bool-unroll-all-loops", 
+          "##compiler_flags#bool-unsafe-math-optimizations", 
+          "##compiler_flags#bool-vect-cost-model", 
+          "##compiler_flags#param--falign-functions=", 
+          "##compiler_flags#param--finline-limit=", 
+          "##compiler_flags#param--ftree-parallelize-loops=", 
+          "##compiler_flags#param-allow-load-data-races", 
+          "##compiler_flags#param-asan-memintrin", 
+          "##compiler_flags#param-ira-loop-reserved-regs", 
+          "##compiler_flags#param-ira-max-conflict-table-size", 
+          "##compiler_flags#param-ira-max-loops-num", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-loop-max-datarefs-for-datadeps", 
+          "##compiler_flags#param-lto-min-partition", 
+          "##compiler_flags#param-max-cselib-memory-locations", 
+          "##compiler_flags#param-max-early-inliner-iterations", 
+          "##compiler_flags#param-max-fields-for-field-sensitive", 
+          "##compiler_flags#param-max-once-peeled-insns", 
+          "##compiler_flags#param-max-partial-antic-length", 
+          "##compiler_flags#param-max-pipeline-region-insns", 
+          "##compiler_flags#param-max-tail-merge-iterations", 
+          "##compiler_flags#param-max-unswitch-insns", 
+          "##compiler_flags#param-min-vect-loop-bound", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints", 
+          "##compiler_flags#param-omega-max-eqs", 
+          "##compiler_flags#param-omega-max-wild-cards", 
+          "##compiler_flags#param-predictable-branch-outcome", 
+          "##compiler_flags#param-prefetch-min-insn-to-mem-ratio", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "974b78ca0a445bea", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "4f4d5a9f7472fb8f", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3596, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3190002441406, 
+          "##characteristics#run#repeat#min": 133333328
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0044493882091212, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0962239502263011
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fbranch-target-load-optimize -fcaller-saves -fno-cx-fortran-rules -fno-hoist-adjacent-loads -ffunction-cse -fguess-branch-probability -fno-peel-loops -fsection-anchors -fsel-sched-pipelining -fstrict-aliasing -fno-tree-fre -ftree-loop-distribution -ftree-tail-merge -fno-tree-ter -fvect-cost-model --param partial-inlining-entry-probability=81 --param max-unrolled-insns=53 --param max-peel-times=14 --param max-once-peeled-insns=70 --param tracer-max-code-growth=142 --param tracer-min-branch-probability=3 --param lim-expensive=25 --param sccvn-max-alias-queries-per-access=602 --param ira-max-loops-num=30 --param slp-max-insns-in-bb=1865 --param ipa-cp-loop-hint-bonus=15", 
+          "##characteristics#compile#md5_sum#min": "d486a961160a9d9971d307a80803552d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fbranch-target-load-optimize", 
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fno-cx-fortran-rules", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-guess-branch-probability": "-fguess-branch-probability", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-peel-loops": "-fno-peel-loops", 
+          "##compiler_flags#bool-section-anchors": "-fsection-anchors", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-strict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-tree-ter": "-fno-tree-ter", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model", 
+          "##compiler_flags#param-ipa-cp-loop-hint-bonus": "--param ipa-cp-loop-hint-bonus=15", 
+          "##compiler_flags#param-ira-max-loops-num": "--param ira-max-loops-num=30", 
+          "##compiler_flags#param-lim-expensive": "--param lim-expensive=25", 
+          "##compiler_flags#param-max-once-peeled-insns": "--param max-once-peeled-insns=70", 
+          "##compiler_flags#param-max-peel-times": "--param max-peel-times=14", 
+          "##compiler_flags#param-max-unrolled-insns": "--param max-unrolled-insns=53", 
+          "##compiler_flags#param-partial-inlining-entry-probability": "--param partial-inlining-entry-probability=81", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access": "--param sccvn-max-alias-queries-per-access=602", 
+          "##compiler_flags#param-slp-max-insns-in-bb": "--param slp-max-insns-in-bb=1865", 
+          "##compiler_flags#param-tracer-max-code-growth": "--param tracer-max-code-growth=142", 
+          "##compiler_flags#param-tracer-min-branch-probability": "--param tracer-min-branch-probability=3"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-target-load-optimize", 
+          "##compiler_flags#bool-caller-saves", 
+          "##compiler_flags#bool-cx-fortran-rules", 
+          "##compiler_flags#bool-function-cse", 
+          "##compiler_flags#bool-guess-branch-probability", 
+          "##compiler_flags#bool-hoist-adjacent-loads", 
+          "##compiler_flags#bool-peel-loops", 
+          "##compiler_flags#bool-section-anchors", 
+          "##compiler_flags#bool-sel-sched-pipelining", 
+          "##compiler_flags#bool-strict-aliasing", 
+          "##compiler_flags#bool-tree-fre", 
+          "##compiler_flags#bool-tree-loop-distribution", 
+          "##compiler_flags#bool-tree-tail-merge", 
+          "##compiler_flags#bool-tree-ter", 
+          "##compiler_flags#bool-vect-cost-model", 
+          "##compiler_flags#param-ipa-cp-loop-hint-bonus", 
+          "##compiler_flags#param-ira-max-loops-num", 
+          "##compiler_flags#param-lim-expensive", 
+          "##compiler_flags#param-max-once-peeled-insns", 
+          "##compiler_flags#param-max-peel-times", 
+          "##compiler_flags#param-max-unrolled-insns", 
+          "##compiler_flags#param-partial-inlining-entry-probability", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access", 
+          "##compiler_flags#param-slp-max-insns-in-bb", 
+          "##compiler_flags#param-tracer-max-code-growth", 
+          "##compiler_flags#param-tracer-min-branch-probability"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "938a8144b0e4c78a", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "edges", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-0001", 
+      "device_id": "SWQ49TFIT8YLU4DE", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1001.0, 
+        "1": 1001.0
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_misc_uid": "445a5b4fa3ff2cb0", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "kernel_repetitions": 59, 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "04c4cb629321407a"
+    }, 
+    "iterations": 19, 
+    "last_touch_uid": "0af7dc49369d9476", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0772102947059607, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0852367603295934
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-ivopts", 
+          "##characteristics#compile#md5_sum#min": "b5313190a24f0726b2a0a6a94af0bc2a", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0018362825174812005
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-ivopts"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-ivopts": {
+            "##characteristics#compile#obj_size#min_imp": 0.9337617399901137, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9197410149737748, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00912505553051356
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fno-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-single-precision-constant": "-fno-single-precision-constant", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-tree-slsr": "-fno-tree-slsr", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations", 
+          "##compiler_flags#bool-unswitch-loops": "-funswitch-loops", 
+          "##compiler_flags#bool-web": "-fno-web"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "cf542dbbbeddbb7f", 
+    "touched": 11, 
+    "validated": 1
+  }
+]

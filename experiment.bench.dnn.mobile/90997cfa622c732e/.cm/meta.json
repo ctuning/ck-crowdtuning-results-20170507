@@ -1,0 +1,109 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "a31fcb4bc24af69b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 2600, 
+          "5": 2600, 
+          "6": 2600, 
+          "7": 2600
+        }
+      ], 
+      "image_height": 4032, 
+      "image_width": 3024, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1487854070217.jpg ----------\n0.7123 - \"n03992509 potter's wheel\"\n0.0399 - \"n02834397 bib\"\n0.0276 - \"n03637318 lampshade, lamp shade\"\n0.0160 - \"n04560804 water jug\"\n0.0148 - \"n04380533 table lamp\"\n", 
+      "time": [
+        1023, 
+        1064, 
+        1236, 
+        1107, 
+        1034, 
+        557
+      ], 
+      "user": "grigori.fursin@ctuning.org", 
+      "xopenme": {
+        "execution_time": [
+          0.068715, 
+          0.065921, 
+          0.118646, 
+          0.065228, 
+          0.067447, 
+          0.067171
+        ], 
+        "execution_time_kernel_0": [
+          0.068715, 
+          0.065921, 
+          0.118646, 
+          0.065228, 
+          0.067447, 
+          0.067171
+        ], 
+        "execution_time_kernel_1": [
+          0.222866, 
+          0.222731, 
+          0.246409, 
+          0.224298, 
+          0.224348, 
+          0.224171
+        ], 
+        "execution_time_kernel_2": [
+          0.665112, 
+          0.703284, 
+          0.765396, 
+          0.755749, 
+          0.670667, 
+          0.195093
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "23447d7af493de68", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G930F", 
+    "platform_uid": "810cdedbaa41a0b7"
+  }
+}

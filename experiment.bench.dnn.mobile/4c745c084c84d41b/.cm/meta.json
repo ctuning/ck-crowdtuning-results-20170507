@@ -1,0 +1,295 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4058bfbd2624d4a7", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 2448, 
+      "image_width": 3264, 
+      "mispredictions": [
+        {
+          "correct_answer": "Christmas tree", 
+          "mispredicted_image": "misprediction-image-55fb49a495499e96.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482264764041.jpg ----------\n0.1696 - \"n03991062 pot, flowerpot\"\n0.1365 - \"n07716906 spaghetti squash\"\n0.0574 - \"n03633091 ladle\"\n0.0532 - \"n12267677 acorn\"\n0.0487 - \"n02319095 sea urchin\"\n"
+        }, 
+        {
+          "correct_answer": "headphones", 
+          "mispredicted_image": "misprediction-image-db46358210a9543b.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482319895000.jpg ----------\n0.1468 - \"n04332243 strainer\"\n0.1336 - \"n03633091 ladle\"\n0.1101 - \"n04317175 stethoscope\"\n0.0454 - \"n03109150 corkscrew, bottle screw\"\n0.0448 - \"n02951585 can opener, tin opener\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482264764041.jpg ----------\n0.1696 - \"n03991062 pot, flowerpot\"\n0.1365 - \"n07716906 spaghetti squash\"\n0.0574 - \"n03633091 ladle\"\n0.0532 - \"n12267677 acorn\"\n0.0487 - \"n02319095 sea urchin\"\n", 
+      "time": [
+        3126, 
+        3141, 
+        3021, 
+        3072, 
+        3166, 
+        3131, 
+        3083, 
+        3111, 
+        3071, 
+        4062, 
+        3879, 
+        4060, 
+        3152, 
+        3176, 
+        3123
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.093301, 
+          0.088837, 
+          0.088233, 
+          0.091852, 
+          0.09199, 
+          0.091803, 
+          0.096566, 
+          0.090246, 
+          0.090718, 
+          0.090035, 
+          0.095287, 
+          0.092837, 
+          0.090166, 
+          0.094848, 
+          0.092163
+        ], 
+        "execution_time_kernel_0": [
+          0.093301, 
+          0.088837, 
+          0.088233, 
+          0.091852, 
+          0.09199, 
+          0.091803, 
+          0.096566, 
+          0.090246, 
+          0.090718, 
+          0.090035, 
+          0.095287, 
+          0.092837, 
+          0.090166, 
+          0.094848, 
+          0.092163
+        ], 
+        "execution_time_kernel_1": [
+          0.555774, 
+          0.561837, 
+          0.556823, 
+          0.545783, 
+          0.543559, 
+          0.551336, 
+          0.542449, 
+          0.542693, 
+          0.543992, 
+          0.520011, 
+          0.566191, 
+          0.520144, 
+          0.511609, 
+          0.510946, 
+          0.519837
+        ], 
+        "execution_time_kernel_2": [
+          2.314496, 
+          2.37632, 
+          2.263304, 
+          2.287771, 
+          2.366511, 
+          2.364049, 
+          2.317522, 
+          2.352563, 
+          2.312629, 
+          3.324338, 
+          3.084018, 
+          3.317975, 
+          2.434364, 
+          2.42485, 
+          2.372614
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "636f196d1c8e4a4d", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 1536, 
+      "image_width": 1792, 
+      "mispredictions": [
+        {
+          "correct_answer": "mother-in-law", 
+          "mispredicted_image": "misprediction-image-4127a03245b59518.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/emulated/0/DCIM/Camera/20161220_093424.jpg ----------\n0.2209 - \"n03476991 hair spray\"\n0.1375 - \"n03483316 hand blower, blow dryer, blow drier, hair dryer, hair drier\"\n0.0733 - \"n03970156 plunger, plumber's helper\"\n0.0502 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n0.0442 - \"n03630383 lab coat, laboratory coat\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/emulated/0/DCIM/Camera/20161220_093424.jpg ----------\n0.2209 - \"n03476991 hair spray\"\n0.1375 - \"n03483316 hand blower, blow dryer, blow drier, hair dryer, hair drier\"\n0.0733 - \"n03970156 plunger, plumber's helper\"\n0.0502 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n0.0442 - \"n03630383 lab coat, laboratory coat\"\n", 
+      "time": [
+        2790, 
+        2685, 
+        2661
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.141712, 
+          0.093885, 
+          0.088751
+        ], 
+        "execution_time_kernel_0": [
+          0.141712, 
+          0.093885, 
+          0.088751
+        ], 
+        "execution_time_kernel_1": [
+          0.181973, 
+          0.181247, 
+          0.181572
+        ], 
+        "execution_time_kernel_2": [
+          2.347506, 
+          2.263857, 
+          2.276832
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "0x41-8-0x0-0xd03-4", 
+    "cpu_uid": "143de98987a30459", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T830", 
+    "gpu_uid": "cd4f4a81a14cb70f", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-T580", 
+    "platform_uid": "430599e08ace483c"
+  }
+}

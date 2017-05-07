@@ -1,0 +1,236 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "2b62c273c523eecb", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 955, 
+      "image_width": 956, 
+      "prediction": "0.2458 - \"n09229709 bubble\"\n0.1314 - \"n04258138 solar dish, solar collector, solar furnace\"\n0.0990 - \"n02782093 balloon\"\n0.0939 - \"n03388043 fountain\"\n0.0554 - \"n04356056 sunglasses, dark glasses, shades\"\n", 
+      "time": [
+        3671, 
+        3063, 
+        3131
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.219036, 
+          1.004088, 
+          1.003751
+        ], 
+        "execution_time_kernel_0": [
+          1.219036, 
+          1.004088, 
+          1.003751
+        ], 
+        "execution_time_kernel_1": [
+          0.028258, 
+          0.028047, 
+          0.028066
+        ], 
+        "execution_time_kernel_2": [
+          2.37354, 
+          1.984292, 
+          2.04989
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "45deb1dedfa1ded6", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 1440, 
+      "image_width": 2000, 
+      "mispredictions": [
+        {
+          "correct_answer": "Toast", 
+          "mispredicted_image": "misprediction-image-bebd4ebda0be018d.jpg", 
+          "misprediction_results": "0.1287 - \"n04525038 velvet\"\n0.0700 - \"n04026417 purse\"\n0.0648 - \"n02808304 bath towel\"\n0.0623 - \"n04325704 stole\"\n0.0433 - \"n04599235 wool, woolen, woollen\"\n"
+        }
+      ], 
+      "prediction": "0.1287 - \"n04525038 velvet\"\n0.0700 - \"n04026417 purse\"\n0.0648 - \"n02808304 bath towel\"\n0.0623 - \"n04325704 stole\"\n0.0433 - \"n04599235 wool, woolen, woollen\"\n", 
+      "time": [
+        3587, 
+        3367, 
+        3356, 
+        2997, 
+        3511, 
+        3021
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.067086, 
+          0.937568, 
+          1.045697, 
+          0.913389, 
+          0.908303, 
+          0.936893
+        ], 
+        "execution_time_kernel_0": [
+          1.067086, 
+          0.937568, 
+          1.045697, 
+          0.913389, 
+          0.908303, 
+          0.936893
+        ], 
+        "execution_time_kernel_1": [
+          0.083607, 
+          0.079588, 
+          0.079549, 
+          0.068339, 
+          0.068505, 
+          0.06748
+        ], 
+        "execution_time_kernel_2": [
+          1.984177, 
+          2.258902, 
+          2.178371, 
+          1.965346, 
+          2.481205, 
+          1.973528
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "667b81f814e5ebff", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "0.5711 - \"n02823428 beer bottle\"\n0.1494 - \"n03937543 pill bottle\"\n0.1326 - \"n03983396 pop bottle, soda bottle\"\n0.0316 - \"n02877765 bottlecap\"\n0.0252 - \"n07836838 chocolate sauce, chocolate syrup\"\n", 
+      "time": [
+        3324, 
+        3744, 
+        3735
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.934695, 
+          0.922989, 
+          0.947902
+        ], 
+        "execution_time_kernel_0": [
+          0.934695, 
+          0.922989, 
+          0.947902
+        ], 
+        "execution_time_kernel_1": [
+          0.361454, 
+          0.378021, 
+          0.36625
+        ], 
+        "execution_time_kernel_2": [
+          1.972905, 
+          2.388294, 
+          2.362073
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "947b0f4e546c6ae5", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G950F", 
+    "platform_uid": ""
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4b56bfafd7430537", 
+      "cpu_freqs_after": [
+        {
+          "0": 1890, 
+          "1": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1890, 
+          "1": 1890
+        }, 
+        {
+          "0": 1890, 
+          "1": 1890
+        }
+      ], 
+      "image_height": 3096, 
+      "image_width": 4128, 
+      "mispredictions": [
+        {
+          "correct_answer": "Sky helmet ", 
+          "mispredicted_image": "misprediction-image-c350640b45b28465.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/extSdCard/DCIM/Camera/20170212_173157.jpg ----------\n0.1705 - \"n02787622 banjo\"\n0.0997 - \"n02794156 barometer\"\n0.0807 - \"n04548280 wall clock\"\n0.0468 - \"n03929660 pick, plectrum, plectron\"\n0.0373 - \"n04118776 rule, ruler\"\n"
+        }, 
+        {
+          "correct_answer": "telescope", 
+          "mispredicted_image": "misprediction-image-198c7d88e594a9bb.jpg", 
+          "misprediction_results": "---------- Prediction for /storage/extSdCard/DCIM/Camera/20170212_171744.jpg ----------\n0.5708 - \"n02966687 carpenter's kit, tool kit\"\n0.0915 - \"n03995372 power drill\"\n0.0770 - \"n04154565 screwdriver\"\n0.0579 - \"n04208210 shovel\"\n0.0419 - \"n04228054 ski\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /storage/extSdCard/DCIM/Camera/20170212_173157.jpg ----------\n0.1705 - \"n02787622 banjo\"\n0.0997 - \"n02794156 barometer\"\n0.0807 - \"n04548280 wall clock\"\n0.0468 - \"n03929660 pick, plectrum, plectron\"\n0.0373 - \"n04118776 rule, ruler\"\n", 
+      "time": [
+        58721, 
+        14828, 
+        17911, 
+        14193, 
+        14085, 
+        261460
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          10.636688, 
+          6.325866, 
+          5.623718, 
+          5.421905, 
+          5.496155, 
+          64.584185
+        ], 
+        "execution_time_kernel_0": [
+          10.636688, 
+          6.325866, 
+          5.623718, 
+          5.421905, 
+          5.496155, 
+          64.584185
+        ], 
+        "execution_time_kernel_1": [
+          1.121674, 
+          0.928803, 
+          0.954101, 
+          1.11908, 
+          0.957123, 
+          185.552062
+        ], 
+        "execution_time_kernel_2": [
+          46.672609, 
+          7.31311, 
+          11.095972, 
+          7.43637, 
+          7.423156, 
+          11.109602
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "SAMSUNG JF", 
+    "cpu_uid": "45d2a18eedf4b9d5", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 320", 
+    "gpu_uid": "2d0bb02c4824949f", 
+    "model": "BVLC CaffeNet", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG GT-I9505", 
+    "platform_uid": "1a6c0b890473bb64"
+  }
+}

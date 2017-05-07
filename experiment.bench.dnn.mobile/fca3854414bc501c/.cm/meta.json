@@ -1,0 +1,353 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "79e8e20499b8a0c8", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 955, 
+      "image_width": 957, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.1588 - \"n09229709 bubble\"", 
+          "mispredicted_image": "misprediction-image-af0987544fa9af9c.jpg", 
+          "misprediction_results": "0.3171 - \"n03388043 fountain\"\n0.2741 - \"n02398521 hippopotamus, hippo, river horse, Hippopotamus amphibius\"\n0.1588 - \"n09229709 bubble\"\n0.0542 - \"n03598930 jigsaw puzzle\"\n0.0482 - \"n02807133 bathing cap, swimming cap\"\n"
+        }
+      ], 
+      "prediction": "0.3171 - \"n03388043 fountain\"\n0.2741 - \"n02398521 hippopotamus, hippo, river horse, Hippopotamus amphibius\"\n0.1588 - \"n09229709 bubble\"\n0.0542 - \"n03598930 jigsaw puzzle\"\n0.0482 - \"n02807133 bathing cap, swimming cap\"\n", 
+      "time": [
+        5534, 
+        6495, 
+        6019
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.509111, 
+          4.833767, 
+          4.859915
+        ], 
+        "execution_time_kernel_0": [
+          4.509111, 
+          4.833767, 
+          4.859915
+        ], 
+        "execution_time_kernel_1": [
+          0.028585, 
+          0.030146, 
+          0.026035
+        ], 
+        "execution_time_kernel_2": [
+          0.836026, 
+          1.430944, 
+          0.945168
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "e4ca14ab78bef862", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 1440, 
+      "image_width": 2000, 
+      "mispredictions": [
+        {
+          "correct_answer": "thermometer", 
+          "mispredicted_image": "misprediction-image-c11759cef476bade.jpg", 
+          "misprediction_results": "0.2397 - \"n04548362 wallet, billfold, notecase, pocketbook\"\n0.0773 - \"n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system\"\n0.0580 - \"n03777754 modem\"\n0.0467 - \"n03014705 chest\"\n0.0452 - \"n03492542 hard disc, hard disk, fixed disk\"\n"
+        }, 
+        {
+          "correct_answer": "battery", 
+          "mispredicted_image": "misprediction-image-cd91916e2f24f0cb.jpg", 
+          "misprediction_results": "0.2588 - \"n03445777 golf ball\"\n0.1389 - \"n03929660 pick, plectrum, plectron\"\n0.1180 - \"n03942813 ping-pong ball\"\n0.0676 - \"n04153751 screw\"\n0.0649 - \"n02877765 bottlecap\"\n"
+        }
+      ], 
+      "prediction": "0.2397 - \"n04548362 wallet, billfold, notecase, pocketbook\"\n0.0773 - \"n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system\"\n0.0580 - \"n03777754 modem\"\n0.0467 - \"n03014705 chest\"\n0.0452 - \"n03492542 hard disc, hard disk, fixed disk\"\n", 
+      "time": [
+        5508, 
+        5767, 
+        5826, 
+        6544, 
+        6963, 
+        7217, 
+        5301, 
+        5483, 
+        5411, 
+        5420, 
+        5347, 
+        5961, 
+        4920, 
+        4883, 
+        5129
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.528578, 
+          4.410098, 
+          4.465977, 
+          4.980557, 
+          5.565191, 
+          5.860175, 
+          4.301386, 
+          4.439886, 
+          4.430272, 
+          4.501711, 
+          4.363939, 
+          4.397078, 
+          4.002363, 
+          3.972037, 
+          4.147759
+        ], 
+        "execution_time_kernel_0": [
+          4.528578, 
+          4.410098, 
+          4.465977, 
+          4.980557, 
+          5.565191, 
+          5.860175, 
+          4.301386, 
+          4.439886, 
+          4.430272, 
+          4.501711, 
+          4.363939, 
+          4.397078, 
+          4.002363, 
+          3.972037, 
+          4.147759
+        ], 
+        "execution_time_kernel_1": [
+          0.073677, 
+          0.077965, 
+          0.085362, 
+          0.088375, 
+          0.092348, 
+          0.086186, 
+          0.073158, 
+          0.068124, 
+          0.071009, 
+          0.073744, 
+          0.072376, 
+          0.072423, 
+          0.078255, 
+          0.073134, 
+          0.083632
+        ], 
+        "execution_time_kernel_2": [
+          0.723273, 
+          1.188613, 
+          1.186999, 
+          1.387831, 
+          1.171169, 
+          1.150455, 
+          0.839802, 
+          0.799392, 
+          0.823423, 
+          0.677385, 
+          0.749906, 
+          1.419109, 
+          0.673195, 
+          0.68857, 
+          0.827741
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "3f623076c2e45139", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 2988, 
+      "image_width": 4150, 
+      "prediction": "0.7311 - \"n04296562 stage\"\n0.1127 - \"n03032252 cinema, movie theater, movie theatre, movie house, picture palace\"\n0.0350 - \"n04456115 torch\"\n0.0222 - \"n04418357 theater curtain, theatre curtain\"\n0.0218 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        5389, 
+        5117, 
+        5864
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          4.239721, 
+          4.004464, 
+          4.574323
+        ], 
+        "execution_time_kernel_0": [
+          4.239721, 
+          4.004464, 
+          4.574323
+        ], 
+        "execution_time_kernel_1": [
+          0.285736, 
+          0.277997, 
+          0.290038
+        ], 
+        "execution_time_kernel_2": [
+          0.779238, 
+          0.7605, 
+          0.922036
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G950F", 
+    "platform_uid": ""
+  }
+}

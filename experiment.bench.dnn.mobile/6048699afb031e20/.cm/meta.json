@@ -1,0 +1,216 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "d4f0e9db2c708c37", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "2": 1267.2, 
+          "3": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 160, 
+      "image_width": 120, 
+      "mispredictions": [
+        {
+          "correct_answer": "coffee maker", 
+          "mispredicted_image": "misprediction-image-072b1355c49b8867.jpg", 
+          "misprediction_results": "0.4354 - \"n03961711 plate rack\"\n0.3637 - \"n04542943 waffle iron\"\n0.1158 - \"n03400231 frying pan, frypan, skillet\"\n0.0160 - \"n03207941 dishwasher, dish washer, dishwashing machine\"\n0.0156 - \"n04270147 spatula\"\n"
+        }
+      ], 
+      "prediction": "0.4354 - \"n03961711 plate rack\"\n0.3637 - \"n04542943 waffle iron\"\n0.1158 - \"n03400231 frying pan, frypan, skillet\"\n0.0160 - \"n03207941 dishwasher, dish washer, dishwashing machine\"\n0.0156 - \"n04270147 spatula\"\n", 
+      "time": [
+        24980, 
+        25322, 
+        25021, 
+        24688, 
+        33259, 
+        30419
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.856389, 
+          3.858823, 
+          3.897999, 
+          3.823829, 
+          3.841646, 
+          4.510707
+        ], 
+        "execution_time_kernel_0": [
+          3.856389, 
+          3.858823, 
+          3.897999, 
+          3.823829, 
+          3.841646, 
+          4.510707
+        ], 
+        "execution_time_kernel_1": [
+          0.004711, 
+          0.005071, 
+          0.00489, 
+          0.004076, 
+          0.003899, 
+          0.00936
+        ], 
+        "execution_time_kernel_2": [
+          20.99521, 
+          21.34816, 
+          21.007308, 
+          20.740146, 
+          29.302676, 
+          25.746168
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "8b74993ad2a201be", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2
+        }, 
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 700, 
+      "image_width": 600, 
+      "prediction": "0.7376 - \"n04099969 rocking chair, rocker\"\n0.1172 - \"n02791124 barber chair\"\n0.0641 - \"n03376595 folding chair\"\n0.0182 - \"n03125729 cradle\"\n0.0155 - \"n04336792 stretcher\"\n", 
+      "time": [
+        26943, 
+        28750, 
+        25878, 
+        25188, 
+        24209, 
+        28069
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.871277, 
+          4.200739, 
+          4.432918, 
+          3.861658, 
+          3.924644, 
+          3.89197
+        ], 
+        "execution_time_kernel_0": [
+          3.871277, 
+          4.200739, 
+          4.432918, 
+          3.861658, 
+          3.924644, 
+          3.89197
+        ], 
+        "execution_time_kernel_1": [
+          0.048273, 
+          0.058985, 
+          0.047151, 
+          0.052162, 
+          0.05724, 
+          0.049471
+        ], 
+        "execution_time_kernel_2": [
+          22.890415, 
+          24.369418, 
+          21.281209, 
+          21.140953, 
+          20.106583, 
+          24.012768
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "f0615fb46d1a9068", 
+      "cpu_freqs_after": [
+        {
+          "0": 1267.2, 
+          "1": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1267.2, 
+          "3": 1267.2
+        }
+      ], 
+      "image_height": 600, 
+      "image_width": 650, 
+      "prediction": "0.1138 - \"n03794056 mousetrap\"\n0.0762 - \"n04372370 switch, electric switch, electrical switch\"\n0.0522 - \"n15075141 toilet tissue, toilet paper, bathroom tissue\"\n0.0519 - \"n02843684 birdhouse\"\n0.0516 - \"n03777754 modem\"\n", 
+      "time": [
+        24794, 
+        25177, 
+        24854
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.866134, 
+          3.878246, 
+          3.887453
+        ], 
+        "execution_time_kernel_0": [
+          3.866134, 
+          3.878246, 
+          3.887453
+        ], 
+        "execution_time_kernel_1": [
+          0.04479, 
+          0.061529, 
+          0.052763
+        ], 
+        "execution_time_kernel_2": [
+          20.768816, 
+          21.111327, 
+          20.789504
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc APQ8009", 
+    "cpu_uid": "", 
+    "crowd_uid": "947b0f4e546c6ae5", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 304", 
+    "gpu_uid": "8c922c304eb28756", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "LENOVO YT3-X50F", 
+    "platform_uid": ""
+  }
+}

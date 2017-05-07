@@ -1,0 +1,183 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 8728, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 4.646456956863403, 
+        "compilation_time_with_module": 13.184015989303589, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "f3a625ec6ee321848a8b569b2da654ea", 
+        "obj_size": 2980, 
+        "obj_sizes": {
+          "tif_predict.codelet__4.o": 1364, 
+          "tif_predict.codelet__4.wrapper.o": 1616
+        }, 
+        "program_git_hash": "5fb023fdf70c0c5022b8e9a5b333838cb3fddfb1"
+      }, 
+      "run": {
+        "execution_time": 1.1804778910290485e-05, 
+        "execution_time_kernel_0": 9.926674, 
+        "execution_time_with_module": 11.241595029830933, 
+        "output_check_failed": "no", 
+        "output_check_failed_bool": false, 
+        "repeat": 840903, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.926674
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 1.1823002177421177e-05, 
+        "execution_time_kernel_0": 9.941998, 
+        "execution_time_with_module": 11.27554202079773, 
+        "output_check_failed": "no", 
+        "output_check_failed_bool": false, 
+        "repeat": 840903, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.941998
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-4.0.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 840903, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        0, 
+        0
+      ], 
+      "raw": [
+        "clang version 4.0.0 (tags/RELEASE_400/final)", 
+        "Target: armv7l-unknown-linux-gnueabihf", 
+        "Thread model: posix", 
+        "InstalledDir: /home/fursin/CK-TOOLS/llvm-4.0.0-linux-32/bin", 
+        ""
+      ], 
+      "str": "4.0.0"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+        "current_freq": {
+          "0": 200.0
+        }, 
+        "max_freq": {
+          "0": 1400.0
+        }, 
+        "name": "ODROID-XU3", 
+        "num_proc": "1", 
+        "sub_name": "ARMv7 Processor rev 3 (v7l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "ODROID-XU3"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "12.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0100", 
+          "Serial": "0000000000000000", 
+          "ck_cpu_name": "ODROID-XU3", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 200.0, 
+          "max_freq": 1400.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "12.00", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0100", 
+          "Serial": "0000000000000000", 
+          "ck_cpu_name": "ODROID-XU3", 
+          "ck_cpu_subname": "ARMv7 Processor rev 3 (v7l)", 
+          "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "cur_freq": 200.0, 
+          "max_freq": 1400.0, 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv7l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Ubuntu 16.04.2 LTS", 
+        "name_long": "Linux-3.10.105-135-armv7l-with-Ubuntu-16.04-xenial", 
+        "name_short": "Linux 3.10.105", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Hardkernel odroid-xu3 board based on EXYNOS5422\u0000", 
+        "name": "Hardkernel (Hardkernel odroid-xu3 board based on EXYNOS5422\u0000)", 
+        "vendor": "Hardkernel"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "d720cae450ebd2c1", 
+    "statistical_repetitions": 2
+  }
+}

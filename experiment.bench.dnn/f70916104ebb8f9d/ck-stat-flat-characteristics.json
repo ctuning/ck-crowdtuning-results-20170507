@@ -1,0 +1,4337 @@
+{
+  "##characteristics#run#REAL_ENV_CK_CAFFE_BATCH_SIZE#all": [
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_BATCH_SIZE#all_unique": [
+    "1"
+  ], 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_BATCH_SIZE#min": "1", 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_BATCH_SIZE#repeats": 3, 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_ITERATIONS#all": [
+    "", 
+    "", 
+    ""
+  ], 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_ITERATIONS#all_unique": [
+    ""
+  ], 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_ITERATIONS#min": "", 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_ITERATIONS#repeats": 3, 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_MODEL#all": [
+    "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-ykMy3i.prototxt", 
+    "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-WGhw73.prototxt", 
+    "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-_djvlD.prototxt"
+  ], 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_MODEL#all_unique": [
+    "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-ykMy3i.prototxt", 
+    "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-WGhw73.prototxt", 
+    "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-_djvlD.prototxt"
+  ], 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_MODEL#min": "/home/fursin/CK/ck-caffe/program/caffe/tmp/tmp-ykMy3i.prototxt", 
+  "##characteristics#run#REAL_ENV_CK_CAFFE_MODEL#repeats": 3, 
+  "##characteristics#run#execution_time#all": [
+    1.932, 
+    1.9160000000000001, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#execution_time#all_unique": [
+    1.932, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#execution_time#center": 1.924, 
+  "##characteristics#run#execution_time#halfrange": 0.007999999999999896, 
+  "##characteristics#run#execution_time#max": 1.932, 
+  "##characteristics#run#execution_time#mean": 1.9213333333333333, 
+  "##characteristics#run#execution_time#min": 1.9160000000000001, 
+  "##characteristics#run#execution_time#range": 0.015999999999999792, 
+  "##characteristics#run#execution_time#range_percent": 0.008350730688935173, 
+  "##characteristics#run#execution_time#repeats": 3, 
+  "##characteristics#run#execution_time_with_module#all": [
+    4.375293970108032, 
+    4.283975839614868, 
+    4.209330797195435
+  ], 
+  "##characteristics#run#execution_time_with_module#all_unique": [
+    4.375293970108032, 
+    4.283975839614868, 
+    4.209330797195435
+  ], 
+  "##characteristics#run#execution_time_with_module#center": 4.292312383651733, 
+  "##characteristics#run#execution_time_with_module#halfrange": 0.08298158645629883, 
+  "##characteristics#run#execution_time_with_module#max": 4.375293970108032, 
+  "##characteristics#run#execution_time_with_module#mean": 4.289533535639445, 
+  "##characteristics#run#execution_time_with_module#min": 4.209330797195435, 
+  "##characteristics#run#execution_time_with_module#range": 0.16596317291259766, 
+  "##characteristics#run#execution_time_with_module#range_percent": 0.039427448425572664, 
+  "##characteristics#run#execution_time_with_module#repeats": 3, 
+  "##characteristics#run#memory_bytes#all": [
+    8323244, 
+    8323244, 
+    8323244
+  ], 
+  "##characteristics#run#memory_bytes#all_unique": [
+    8323244
+  ], 
+  "##characteristics#run#memory_bytes#center": 8323244, 
+  "##characteristics#run#memory_bytes#halfrange": 0, 
+  "##characteristics#run#memory_bytes#max": 8323244, 
+  "##characteristics#run#memory_bytes#mean": 8323244.0, 
+  "##characteristics#run#memory_bytes#min": 8323244, 
+  "##characteristics#run#memory_bytes#range": 0, 
+  "##characteristics#run#memory_bytes#range_percent": 0, 
+  "##characteristics#run#memory_bytes#repeats": 3, 
+  "##characteristics#run#memory_kbytes#all": [
+    8323.244, 
+    8323.244, 
+    8323.244
+  ], 
+  "##characteristics#run#memory_kbytes#all_unique": [
+    8323.244
+  ], 
+  "##characteristics#run#memory_kbytes#center": 8323.244, 
+  "##characteristics#run#memory_kbytes#halfrange": 0.0, 
+  "##characteristics#run#memory_kbytes#max": 8323.244, 
+  "##characteristics#run#memory_kbytes#mean": 8323.244, 
+  "##characteristics#run#memory_kbytes#min": 8323.244, 
+  "##characteristics#run#memory_kbytes#range": 0.0, 
+  "##characteristics#run#memory_kbytes#range_percent": 0.0, 
+  "##characteristics#run#memory_kbytes#repeats": 3, 
+  "##characteristics#run#memory_mbytes#all": [
+    8.323243999999999, 
+    8.323243999999999, 
+    8.323243999999999
+  ], 
+  "##characteristics#run#memory_mbytes#all_unique": [
+    8.323243999999999
+  ], 
+  "##characteristics#run#memory_mbytes#center": 8.323243999999999, 
+  "##characteristics#run#memory_mbytes#halfrange": 0.0, 
+  "##characteristics#run#memory_mbytes#max": 8.323243999999999, 
+  "##characteristics#run#memory_mbytes#mean": 8.323243999999999, 
+  "##characteristics#run#memory_mbytes#min": 8.323243999999999, 
+  "##characteristics#run#memory_mbytes#range": 0.0, 
+  "##characteristics#run#memory_mbytes#range_percent": 0.0, 
+  "##characteristics#run#memory_mbytes#repeats": 3, 
+  "##characteristics#run#per_layer_info@0#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@0#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@0#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@0#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@0#index#all": [
+    0, 
+    0, 
+    0
+  ], 
+  "##characteristics#run#per_layer_info@0#index#all_unique": [
+    0
+  ], 
+  "##characteristics#run#per_layer_info@0#index#center": 0, 
+  "##characteristics#run#per_layer_info@0#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@0#index#max": 0, 
+  "##characteristics#run#per_layer_info@0#index#mean": 0.0, 
+  "##characteristics#run#per_layer_info@0#index#min": 0, 
+  "##characteristics#run#per_layer_info@0#index#range": 0, 
+  "##characteristics#run#per_layer_info@0#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@0#label#all": [
+    "00: input", 
+    "00: input", 
+    "00: input"
+  ], 
+  "##characteristics#run#per_layer_info@0#label#all_unique": [
+    "00: input"
+  ], 
+  "##characteristics#run#per_layer_info@0#label#min": "00: input", 
+  "##characteristics#run#per_layer_info@0#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@0#time_ms#all": [
+    0.008, 
+    0.008, 
+    0.008
+  ], 
+  "##characteristics#run#per_layer_info@0#time_ms#all_unique": [
+    0.008
+  ], 
+  "##characteristics#run#per_layer_info@0#time_ms#center": 0.008, 
+  "##characteristics#run#per_layer_info@0#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@0#time_ms#max": 0.008, 
+  "##characteristics#run#per_layer_info@0#time_ms#mean": 0.008, 
+  "##characteristics#run#per_layer_info@0#time_ms#min": 0.008, 
+  "##characteristics#run#per_layer_info@0#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@0#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@0#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@0#time_s#all": [
+    8e-06, 
+    8e-06, 
+    8e-06
+  ], 
+  "##characteristics#run#per_layer_info@0#time_s#all_unique": [
+    8e-06
+  ], 
+  "##characteristics#run#per_layer_info@0#time_s#center": 8e-06, 
+  "##characteristics#run#per_layer_info@0#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@0#time_s#max": 8e-06, 
+  "##characteristics#run#per_layer_info@0#time_s#mean": 8e-06, 
+  "##characteristics#run#per_layer_info@0#time_s#min": 8e-06, 
+  "##characteristics#run#per_layer_info@0#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@0#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@0#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@0#timestamp#all": [
+    "0424 17:46:57.228345", 
+    "0424 17:47:02.362493", 
+    "0424 17:47:07.380480"
+  ], 
+  "##characteristics#run#per_layer_info@0#timestamp#all_unique": [
+    "0424 17:46:57.228345", 
+    "0424 17:47:02.362493", 
+    "0424 17:47:07.380480"
+  ], 
+  "##characteristics#run#per_layer_info@0#timestamp#min": "0424 17:46:57.228345", 
+  "##characteristics#run#per_layer_info@0#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@1#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@1#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@1#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@1#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@1#index#all": [
+    0, 
+    0, 
+    0
+  ], 
+  "##characteristics#run#per_layer_info@1#index#all_unique": [
+    0
+  ], 
+  "##characteristics#run#per_layer_info@1#index#center": 0, 
+  "##characteristics#run#per_layer_info@1#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@1#index#max": 0, 
+  "##characteristics#run#per_layer_info@1#index#mean": 0.0, 
+  "##characteristics#run#per_layer_info@1#index#min": 0, 
+  "##characteristics#run#per_layer_info@1#index#range": 0, 
+  "##characteristics#run#per_layer_info@1#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@1#label#all": [
+    "00: input", 
+    "00: input", 
+    "00: input"
+  ], 
+  "##characteristics#run#per_layer_info@1#label#all_unique": [
+    "00: input"
+  ], 
+  "##characteristics#run#per_layer_info@1#label#min": "00: input", 
+  "##characteristics#run#per_layer_info@1#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@1#time_ms#all": [
+    0.004, 
+    0.005, 
+    0.004
+  ], 
+  "##characteristics#run#per_layer_info@1#time_ms#all_unique": [
+    0.004, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@1#time_ms#center": 0.0045000000000000005, 
+  "##characteristics#run#per_layer_info@1#time_ms#halfrange": 0.0005, 
+  "##characteristics#run#per_layer_info@1#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@1#time_ms#mean": 0.004333333333333334, 
+  "##characteristics#run#per_layer_info@1#time_ms#min": 0.004, 
+  "##characteristics#run#per_layer_info@1#time_ms#range": 0.001, 
+  "##characteristics#run#per_layer_info@1#time_ms#range_percent": 0.25, 
+  "##characteristics#run#per_layer_info@1#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@1#time_s#all": [
+    4e-06, 
+    5e-06, 
+    4e-06
+  ], 
+  "##characteristics#run#per_layer_info@1#time_s#all_unique": [
+    4e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@1#time_s#center": 4.5e-06, 
+  "##characteristics#run#per_layer_info@1#time_s#halfrange": 5.000000000000003e-07, 
+  "##characteristics#run#per_layer_info@1#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@1#time_s#mean": 4.333333333333334e-06, 
+  "##characteristics#run#per_layer_info@1#time_s#min": 4e-06, 
+  "##characteristics#run#per_layer_info@1#time_s#range": 1.0000000000000006e-06, 
+  "##characteristics#run#per_layer_info@1#time_s#range_percent": 0.25000000000000017, 
+  "##characteristics#run#per_layer_info@1#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@1#timestamp#all": [
+    "0424 17:46:57.228384", 
+    "0424 17:47:02.362534", 
+    "0424 17:47:07.380518"
+  ], 
+  "##characteristics#run#per_layer_info@1#timestamp#all_unique": [
+    "0424 17:46:57.228384", 
+    "0424 17:47:02.362534", 
+    "0424 17:47:07.380518"
+  ], 
+  "##characteristics#run#per_layer_info@1#timestamp#min": "0424 17:46:57.228384", 
+  "##characteristics#run#per_layer_info@1#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@10#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@10#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@10#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@10#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@10#index#all": [
+    5, 
+    5, 
+    5
+  ], 
+  "##characteristics#run#per_layer_info@10#index#all_unique": [
+    5
+  ], 
+  "##characteristics#run#per_layer_info@10#index#center": 5, 
+  "##characteristics#run#per_layer_info@10#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@10#index#max": 5, 
+  "##characteristics#run#per_layer_info@10#index#mean": 5.0, 
+  "##characteristics#run#per_layer_info@10#index#min": 5, 
+  "##characteristics#run#per_layer_info@10#index#range": 0, 
+  "##characteristics#run#per_layer_info@10#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@10#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@10#label#all": [
+    "05: conv2", 
+    "05: conv2", 
+    "05: conv2"
+  ], 
+  "##characteristics#run#per_layer_info@10#label#all_unique": [
+    "05: conv2"
+  ], 
+  "##characteristics#run#per_layer_info@10#label#min": "05: conv2", 
+  "##characteristics#run#per_layer_info@10#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@10#time_ms#all": [
+    76.747, 
+    77.077, 
+    77.507
+  ], 
+  "##characteristics#run#per_layer_info@10#time_ms#all_unique": [
+    76.747, 
+    77.077, 
+    77.507
+  ], 
+  "##characteristics#run#per_layer_info@10#time_ms#center": 77.12700000000001, 
+  "##characteristics#run#per_layer_info@10#time_ms#halfrange": 0.38000000000000256, 
+  "##characteristics#run#per_layer_info@10#time_ms#max": 77.507, 
+  "##characteristics#run#per_layer_info@10#time_ms#mean": 77.11033333333334, 
+  "##characteristics#run#per_layer_info@10#time_ms#min": 76.747, 
+  "##characteristics#run#per_layer_info@10#time_ms#range": 0.7600000000000051, 
+  "##characteristics#run#per_layer_info@10#time_ms#range_percent": 0.009902667205232845, 
+  "##characteristics#run#per_layer_info@10#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@10#time_s#all": [
+    0.076747, 
+    0.077077, 
+    0.077507
+  ], 
+  "##characteristics#run#per_layer_info@10#time_s#all_unique": [
+    0.076747, 
+    0.077077, 
+    0.077507
+  ], 
+  "##characteristics#run#per_layer_info@10#time_s#center": 0.077127, 
+  "##characteristics#run#per_layer_info@10#time_s#halfrange": 0.00038000000000000533, 
+  "##characteristics#run#per_layer_info@10#time_s#max": 0.077507, 
+  "##characteristics#run#per_layer_info@10#time_s#mean": 0.07711033333333334, 
+  "##characteristics#run#per_layer_info@10#time_s#min": 0.076747, 
+  "##characteristics#run#per_layer_info@10#time_s#range": 0.0007600000000000107, 
+  "##characteristics#run#per_layer_info@10#time_s#range_percent": 0.009902667205232918, 
+  "##characteristics#run#per_layer_info@10#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@10#timestamp#all": [
+    "0424 17:46:57.228704", 
+    "0424 17:47:02.362850", 
+    "0424 17:47:07.380836"
+  ], 
+  "##characteristics#run#per_layer_info@10#timestamp#all_unique": [
+    "0424 17:46:57.228704", 
+    "0424 17:47:02.362850", 
+    "0424 17:47:07.380836"
+  ], 
+  "##characteristics#run#per_layer_info@10#timestamp#min": "0424 17:46:57.228704", 
+  "##characteristics#run#per_layer_info@10#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@11#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@11#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@11#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@11#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@11#index#all": [
+    5, 
+    5, 
+    5
+  ], 
+  "##characteristics#run#per_layer_info@11#index#all_unique": [
+    5
+  ], 
+  "##characteristics#run#per_layer_info@11#index#center": 5, 
+  "##characteristics#run#per_layer_info@11#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@11#index#max": 5, 
+  "##characteristics#run#per_layer_info@11#index#mean": 5.0, 
+  "##characteristics#run#per_layer_info@11#index#min": 5, 
+  "##characteristics#run#per_layer_info@11#index#range": 0, 
+  "##characteristics#run#per_layer_info@11#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@11#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@11#label#all": [
+    "05: conv2", 
+    "05: conv2", 
+    "05: conv2"
+  ], 
+  "##characteristics#run#per_layer_info@11#label#all_unique": [
+    "05: conv2"
+  ], 
+  "##characteristics#run#per_layer_info@11#label#min": "05: conv2", 
+  "##characteristics#run#per_layer_info@11#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@11#time_ms#all": [
+    74.69, 
+    75.021, 
+    74.955
+  ], 
+  "##characteristics#run#per_layer_info@11#time_ms#all_unique": [
+    74.69, 
+    75.021, 
+    74.955
+  ], 
+  "##characteristics#run#per_layer_info@11#time_ms#center": 74.8555, 
+  "##characteristics#run#per_layer_info@11#time_ms#halfrange": 0.16550000000000153, 
+  "##characteristics#run#per_layer_info@11#time_ms#max": 75.021, 
+  "##characteristics#run#per_layer_info@11#time_ms#mean": 74.88866666666667, 
+  "##characteristics#run#per_layer_info@11#time_ms#min": 74.69, 
+  "##characteristics#run#per_layer_info@11#time_ms#range": 0.33100000000000307, 
+  "##characteristics#run#per_layer_info@11#time_ms#range_percent": 0.004431650823403442, 
+  "##characteristics#run#per_layer_info@11#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@11#time_s#all": [
+    0.07468999999999999, 
+    0.075021, 
+    0.074955
+  ], 
+  "##characteristics#run#per_layer_info@11#time_s#all_unique": [
+    0.07468999999999999, 
+    0.075021, 
+    0.074955
+  ], 
+  "##characteristics#run#per_layer_info@11#time_s#center": 0.07485549999999999, 
+  "##characteristics#run#per_layer_info@11#time_s#halfrange": 0.00016550000000000592, 
+  "##characteristics#run#per_layer_info@11#time_s#max": 0.075021, 
+  "##characteristics#run#per_layer_info@11#time_s#mean": 0.07488866666666666, 
+  "##characteristics#run#per_layer_info@11#time_s#min": 0.07468999999999999, 
+  "##characteristics#run#per_layer_info@11#time_s#range": 0.00033100000000001184, 
+  "##characteristics#run#per_layer_info@11#time_s#range_percent": 0.004431650823403559, 
+  "##characteristics#run#per_layer_info@11#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@11#timestamp#all": [
+    "0424 17:46:57.228740", 
+    "0424 17:47:02.362885", 
+    "0424 17:47:07.380872"
+  ], 
+  "##characteristics#run#per_layer_info@11#timestamp#all_unique": [
+    "0424 17:46:57.228740", 
+    "0424 17:47:02.362885", 
+    "0424 17:47:07.380872"
+  ], 
+  "##characteristics#run#per_layer_info@11#timestamp#min": "0424 17:46:57.228740", 
+  "##characteristics#run#per_layer_info@11#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@12#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@12#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@12#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@12#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@12#index#all": [
+    6, 
+    6, 
+    6
+  ], 
+  "##characteristics#run#per_layer_info@12#index#all_unique": [
+    6
+  ], 
+  "##characteristics#run#per_layer_info@12#index#center": 6, 
+  "##characteristics#run#per_layer_info@12#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@12#index#max": 6, 
+  "##characteristics#run#per_layer_info@12#index#mean": 6.0, 
+  "##characteristics#run#per_layer_info@12#index#min": 6, 
+  "##characteristics#run#per_layer_info@12#index#range": 0, 
+  "##characteristics#run#per_layer_info@12#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@12#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@12#label#all": [
+    "06: relu2", 
+    "06: relu2", 
+    "06: relu2"
+  ], 
+  "##characteristics#run#per_layer_info@12#label#all_unique": [
+    "06: relu2"
+  ], 
+  "##characteristics#run#per_layer_info@12#label#min": "06: relu2", 
+  "##characteristics#run#per_layer_info@12#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@12#time_ms#all": [
+    2.519, 
+    2.519, 
+    2.538
+  ], 
+  "##characteristics#run#per_layer_info@12#time_ms#all_unique": [
+    2.519, 
+    2.538
+  ], 
+  "##characteristics#run#per_layer_info@12#time_ms#center": 2.5285, 
+  "##characteristics#run#per_layer_info@12#time_ms#halfrange": 0.009499999999999842, 
+  "##characteristics#run#per_layer_info@12#time_ms#max": 2.538, 
+  "##characteristics#run#per_layer_info@12#time_ms#mean": 2.5253333333333337, 
+  "##characteristics#run#per_layer_info@12#time_ms#min": 2.519, 
+  "##characteristics#run#per_layer_info@12#time_ms#range": 0.018999999999999684, 
+  "##characteristics#run#per_layer_info@12#time_ms#range_percent": 0.007542675664946282, 
+  "##characteristics#run#per_layer_info@12#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@12#time_s#all": [
+    0.002519, 
+    0.002519, 
+    0.002538
+  ], 
+  "##characteristics#run#per_layer_info@12#time_s#all_unique": [
+    0.002519, 
+    0.002538
+  ], 
+  "##characteristics#run#per_layer_info@12#time_s#center": 0.0025285, 
+  "##characteristics#run#per_layer_info@12#time_s#halfrange": 9.49999999999996e-06, 
+  "##characteristics#run#per_layer_info@12#time_s#max": 0.002538, 
+  "##characteristics#run#per_layer_info@12#time_s#mean": 0.002525333333333333, 
+  "##characteristics#run#per_layer_info@12#time_s#min": 0.002519, 
+  "##characteristics#run#per_layer_info@12#time_s#range": 1.899999999999992e-05, 
+  "##characteristics#run#per_layer_info@12#time_s#range_percent": 0.007542675664946375, 
+  "##characteristics#run#per_layer_info@12#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@12#timestamp#all": [
+    "0424 17:46:57.228776", 
+    "0424 17:47:02.362920", 
+    "0424 17:47:07.380908"
+  ], 
+  "##characteristics#run#per_layer_info@12#timestamp#all_unique": [
+    "0424 17:46:57.228776", 
+    "0424 17:47:02.362920", 
+    "0424 17:47:07.380908"
+  ], 
+  "##characteristics#run#per_layer_info@12#timestamp#min": "0424 17:46:57.228776", 
+  "##characteristics#run#per_layer_info@12#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@13#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@13#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@13#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@13#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@13#index#all": [
+    6, 
+    6, 
+    6
+  ], 
+  "##characteristics#run#per_layer_info@13#index#all_unique": [
+    6
+  ], 
+  "##characteristics#run#per_layer_info@13#index#center": 6, 
+  "##characteristics#run#per_layer_info@13#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@13#index#max": 6, 
+  "##characteristics#run#per_layer_info@13#index#mean": 6.0, 
+  "##characteristics#run#per_layer_info@13#index#min": 6, 
+  "##characteristics#run#per_layer_info@13#index#range": 0, 
+  "##characteristics#run#per_layer_info@13#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@13#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@13#label#all": [
+    "06: relu2", 
+    "06: relu2", 
+    "06: relu2"
+  ], 
+  "##characteristics#run#per_layer_info@13#label#all_unique": [
+    "06: relu2"
+  ], 
+  "##characteristics#run#per_layer_info@13#label#min": "06: relu2", 
+  "##characteristics#run#per_layer_info@13#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@13#time_ms#all": [
+    0.005, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@13#time_ms#all_unique": [
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@13#time_ms#center": 0.005, 
+  "##characteristics#run#per_layer_info@13#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@13#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@13#time_ms#mean": 0.005, 
+  "##characteristics#run#per_layer_info@13#time_ms#min": 0.005, 
+  "##characteristics#run#per_layer_info@13#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@13#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@13#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@13#time_s#all": [
+    5e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@13#time_s#all_unique": [
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@13#time_s#center": 5e-06, 
+  "##characteristics#run#per_layer_info@13#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@13#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@13#time_s#mean": 5e-06, 
+  "##characteristics#run#per_layer_info@13#time_s#min": 5e-06, 
+  "##characteristics#run#per_layer_info@13#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@13#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@13#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@13#timestamp#all": [
+    "0424 17:46:57.228811", 
+    "0424 17:47:02.362954", 
+    "0424 17:47:07.380940"
+  ], 
+  "##characteristics#run#per_layer_info@13#timestamp#all_unique": [
+    "0424 17:46:57.228811", 
+    "0424 17:47:02.362954", 
+    "0424 17:47:07.380940"
+  ], 
+  "##characteristics#run#per_layer_info@13#timestamp#min": "0424 17:46:57.228811", 
+  "##characteristics#run#per_layer_info@13#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@14#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@14#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@14#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@14#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@14#index#all": [
+    7, 
+    7, 
+    7
+  ], 
+  "##characteristics#run#per_layer_info@14#index#all_unique": [
+    7
+  ], 
+  "##characteristics#run#per_layer_info@14#index#center": 7, 
+  "##characteristics#run#per_layer_info@14#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@14#index#max": 7, 
+  "##characteristics#run#per_layer_info@14#index#mean": 7.0, 
+  "##characteristics#run#per_layer_info@14#index#min": 7, 
+  "##characteristics#run#per_layer_info@14#index#range": 0, 
+  "##characteristics#run#per_layer_info@14#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@14#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@14#label#all": [
+    "07: norm2", 
+    "07: norm2", 
+    "07: norm2"
+  ], 
+  "##characteristics#run#per_layer_info@14#label#all_unique": [
+    "07: norm2"
+  ], 
+  "##characteristics#run#per_layer_info@14#label#min": "07: norm2", 
+  "##characteristics#run#per_layer_info@14#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@14#time_ms#all": [
+    71.17, 
+    71.216, 
+    71.143
+  ], 
+  "##characteristics#run#per_layer_info@14#time_ms#all_unique": [
+    71.17, 
+    71.216, 
+    71.143
+  ], 
+  "##characteristics#run#per_layer_info@14#time_ms#center": 71.17949999999999, 
+  "##characteristics#run#per_layer_info@14#time_ms#halfrange": 0.036499999999996646, 
+  "##characteristics#run#per_layer_info@14#time_ms#max": 71.216, 
+  "##characteristics#run#per_layer_info@14#time_ms#mean": 71.17633333333333, 
+  "##characteristics#run#per_layer_info@14#time_ms#min": 71.143, 
+  "##characteristics#run#per_layer_info@14#time_ms#range": 0.07299999999999329, 
+  "##characteristics#run#per_layer_info@14#time_ms#range_percent": 0.001026102357224088, 
+  "##characteristics#run#per_layer_info@14#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@14#time_s#all": [
+    0.07117, 
+    0.071216, 
+    0.071143
+  ], 
+  "##characteristics#run#per_layer_info@14#time_s#all_unique": [
+    0.07117, 
+    0.071216, 
+    0.071143
+  ], 
+  "##characteristics#run#per_layer_info@14#time_s#center": 0.0711795, 
+  "##characteristics#run#per_layer_info@14#time_s#halfrange": 3.650000000000181e-05, 
+  "##characteristics#run#per_layer_info@14#time_s#max": 0.071216, 
+  "##characteristics#run#per_layer_info@14#time_s#mean": 0.07117633333333334, 
+  "##characteristics#run#per_layer_info@14#time_s#min": 0.071143, 
+  "##characteristics#run#per_layer_info@14#time_s#range": 7.300000000000362e-05, 
+  "##characteristics#run#per_layer_info@14#time_s#range_percent": 0.0010261023572242331, 
+  "##characteristics#run#per_layer_info@14#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@14#timestamp#all": [
+    "0424 17:46:57.228845", 
+    "0424 17:47:02.362988", 
+    "0424 17:47:07.380975"
+  ], 
+  "##characteristics#run#per_layer_info@14#timestamp#all_unique": [
+    "0424 17:46:57.228845", 
+    "0424 17:47:02.362988", 
+    "0424 17:47:07.380975"
+  ], 
+  "##characteristics#run#per_layer_info@14#timestamp#min": "0424 17:46:57.228845", 
+  "##characteristics#run#per_layer_info@14#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@15#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@15#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@15#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@15#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@15#index#all": [
+    7, 
+    7, 
+    7
+  ], 
+  "##characteristics#run#per_layer_info@15#index#all_unique": [
+    7
+  ], 
+  "##characteristics#run#per_layer_info@15#index#center": 7, 
+  "##characteristics#run#per_layer_info@15#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@15#index#max": 7, 
+  "##characteristics#run#per_layer_info@15#index#mean": 7.0, 
+  "##characteristics#run#per_layer_info@15#index#min": 7, 
+  "##characteristics#run#per_layer_info@15#index#range": 0, 
+  "##characteristics#run#per_layer_info@15#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@15#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@15#label#all": [
+    "07: norm2", 
+    "07: norm2", 
+    "07: norm2"
+  ], 
+  "##characteristics#run#per_layer_info@15#label#all_unique": [
+    "07: norm2"
+  ], 
+  "##characteristics#run#per_layer_info@15#label#min": "07: norm2", 
+  "##characteristics#run#per_layer_info@15#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@15#time_ms#all": [
+    79.105, 
+    78.919, 
+    79.55
+  ], 
+  "##characteristics#run#per_layer_info@15#time_ms#all_unique": [
+    79.105, 
+    78.919, 
+    79.55
+  ], 
+  "##characteristics#run#per_layer_info@15#time_ms#center": 79.2345, 
+  "##characteristics#run#per_layer_info@15#time_ms#halfrange": 0.3155000000000001, 
+  "##characteristics#run#per_layer_info@15#time_ms#max": 79.55, 
+  "##characteristics#run#per_layer_info@15#time_ms#mean": 79.19133333333333, 
+  "##characteristics#run#per_layer_info@15#time_ms#min": 78.919, 
+  "##characteristics#run#per_layer_info@15#time_ms#range": 0.6310000000000002, 
+  "##characteristics#run#per_layer_info@15#time_ms#range_percent": 0.007995539730609869, 
+  "##characteristics#run#per_layer_info@15#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@15#time_s#all": [
+    0.07910500000000001, 
+    0.078919, 
+    0.07955
+  ], 
+  "##characteristics#run#per_layer_info@15#time_s#all_unique": [
+    0.07910500000000001, 
+    0.078919, 
+    0.07955
+  ], 
+  "##characteristics#run#per_layer_info@15#time_s#center": 0.0792345, 
+  "##characteristics#run#per_layer_info@15#time_s#halfrange": 0.00031549999999999634, 
+  "##characteristics#run#per_layer_info@15#time_s#max": 0.07955, 
+  "##characteristics#run#per_layer_info@15#time_s#mean": 0.07919133333333334, 
+  "##characteristics#run#per_layer_info@15#time_s#min": 0.078919, 
+  "##characteristics#run#per_layer_info@15#time_s#range": 0.0006309999999999927, 
+  "##characteristics#run#per_layer_info@15#time_s#range_percent": 0.007995539730609773, 
+  "##characteristics#run#per_layer_info@15#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@15#timestamp#all": [
+    "0424 17:46:57.228880", 
+    "0424 17:47:02.363024", 
+    "0424 17:47:07.381009"
+  ], 
+  "##characteristics#run#per_layer_info@15#timestamp#all_unique": [
+    "0424 17:46:57.228880", 
+    "0424 17:47:02.363024", 
+    "0424 17:47:07.381009"
+  ], 
+  "##characteristics#run#per_layer_info@15#timestamp#min": "0424 17:46:57.228880", 
+  "##characteristics#run#per_layer_info@15#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@16#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@16#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@16#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@16#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@16#index#all": [
+    8, 
+    8, 
+    8
+  ], 
+  "##characteristics#run#per_layer_info@16#index#all_unique": [
+    8
+  ], 
+  "##characteristics#run#per_layer_info@16#index#center": 8, 
+  "##characteristics#run#per_layer_info@16#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@16#index#max": 8, 
+  "##characteristics#run#per_layer_info@16#index#mean": 8.0, 
+  "##characteristics#run#per_layer_info@16#index#min": 8, 
+  "##characteristics#run#per_layer_info@16#index#range": 0, 
+  "##characteristics#run#per_layer_info@16#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@16#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@16#label#all": [
+    "08: pool2", 
+    "08: pool2", 
+    "08: pool2"
+  ], 
+  "##characteristics#run#per_layer_info@16#label#all_unique": [
+    "08: pool2"
+  ], 
+  "##characteristics#run#per_layer_info@16#label#min": "08: pool2", 
+  "##characteristics#run#per_layer_info@16#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@16#time_ms#all": [
+    8.062, 
+    8.091, 
+    8.054
+  ], 
+  "##characteristics#run#per_layer_info@16#time_ms#all_unique": [
+    8.062, 
+    8.091, 
+    8.054
+  ], 
+  "##characteristics#run#per_layer_info@16#time_ms#center": 8.0725, 
+  "##characteristics#run#per_layer_info@16#time_ms#halfrange": 0.018499999999999517, 
+  "##characteristics#run#per_layer_info@16#time_ms#max": 8.091, 
+  "##characteristics#run#per_layer_info@16#time_ms#mean": 8.069, 
+  "##characteristics#run#per_layer_info@16#time_ms#min": 8.054, 
+  "##characteristics#run#per_layer_info@16#time_ms#range": 0.036999999999999034, 
+  "##characteristics#run#per_layer_info@16#time_ms#range_percent": 0.004593990563694938, 
+  "##characteristics#run#per_layer_info@16#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@16#time_s#all": [
+    0.008062, 
+    0.008091, 
+    0.008054
+  ], 
+  "##characteristics#run#per_layer_info@16#time_s#all_unique": [
+    0.008062, 
+    0.008091, 
+    0.008054
+  ], 
+  "##characteristics#run#per_layer_info@16#time_s#center": 0.0080725, 
+  "##characteristics#run#per_layer_info@16#time_s#halfrange": 1.849999999999942e-05, 
+  "##characteristics#run#per_layer_info@16#time_s#max": 0.008091, 
+  "##characteristics#run#per_layer_info@16#time_s#mean": 0.008069, 
+  "##characteristics#run#per_layer_info@16#time_s#min": 0.008054, 
+  "##characteristics#run#per_layer_info@16#time_s#range": 3.699999999999884e-05, 
+  "##characteristics#run#per_layer_info@16#time_s#range_percent": 0.004593990563694914, 
+  "##characteristics#run#per_layer_info@16#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@16#timestamp#all": [
+    "0424 17:46:57.228916", 
+    "0424 17:47:02.363059", 
+    "0424 17:47:07.381080"
+  ], 
+  "##characteristics#run#per_layer_info@16#timestamp#all_unique": [
+    "0424 17:46:57.228916", 
+    "0424 17:47:02.363059", 
+    "0424 17:47:07.381080"
+  ], 
+  "##characteristics#run#per_layer_info@16#timestamp#min": "0424 17:46:57.228916", 
+  "##characteristics#run#per_layer_info@16#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@17#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@17#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@17#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@17#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@17#index#all": [
+    8, 
+    8, 
+    8
+  ], 
+  "##characteristics#run#per_layer_info@17#index#all_unique": [
+    8
+  ], 
+  "##characteristics#run#per_layer_info@17#index#center": 8, 
+  "##characteristics#run#per_layer_info@17#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@17#index#max": 8, 
+  "##characteristics#run#per_layer_info@17#index#mean": 8.0, 
+  "##characteristics#run#per_layer_info@17#index#min": 8, 
+  "##characteristics#run#per_layer_info@17#index#range": 0, 
+  "##characteristics#run#per_layer_info@17#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@17#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@17#label#all": [
+    "08: pool2", 
+    "08: pool2", 
+    "08: pool2"
+  ], 
+  "##characteristics#run#per_layer_info@17#label#all_unique": [
+    "08: pool2"
+  ], 
+  "##characteristics#run#per_layer_info@17#label#min": "08: pool2", 
+  "##characteristics#run#per_layer_info@17#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@17#time_ms#all": [
+    0.005, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@17#time_ms#all_unique": [
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@17#time_ms#center": 0.005, 
+  "##characteristics#run#per_layer_info@17#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@17#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@17#time_ms#mean": 0.005, 
+  "##characteristics#run#per_layer_info@17#time_ms#min": 0.005, 
+  "##characteristics#run#per_layer_info@17#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@17#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@17#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@17#time_s#all": [
+    5e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@17#time_s#all_unique": [
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@17#time_s#center": 5e-06, 
+  "##characteristics#run#per_layer_info@17#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@17#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@17#time_s#mean": 5e-06, 
+  "##characteristics#run#per_layer_info@17#time_s#min": 5e-06, 
+  "##characteristics#run#per_layer_info@17#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@17#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@17#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@17#timestamp#all": [
+    "0424 17:46:57.228950", 
+    "0424 17:47:02.363093", 
+    "0424 17:47:07.381114"
+  ], 
+  "##characteristics#run#per_layer_info@17#timestamp#all_unique": [
+    "0424 17:46:57.228950", 
+    "0424 17:47:02.363093", 
+    "0424 17:47:07.381114"
+  ], 
+  "##characteristics#run#per_layer_info@17#timestamp#min": "0424 17:46:57.228950", 
+  "##characteristics#run#per_layer_info@17#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@18#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@18#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@18#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@18#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@18#index#all": [
+    9, 
+    9, 
+    9
+  ], 
+  "##characteristics#run#per_layer_info@18#index#all_unique": [
+    9
+  ], 
+  "##characteristics#run#per_layer_info@18#index#center": 9, 
+  "##characteristics#run#per_layer_info@18#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@18#index#max": 9, 
+  "##characteristics#run#per_layer_info@18#index#mean": 9.0, 
+  "##characteristics#run#per_layer_info@18#index#min": 9, 
+  "##characteristics#run#per_layer_info@18#index#range": 0, 
+  "##characteristics#run#per_layer_info@18#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@18#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@18#label#all": [
+    "09: conv3", 
+    "09: conv3", 
+    "09: conv3"
+  ], 
+  "##characteristics#run#per_layer_info@18#label#all_unique": [
+    "09: conv3"
+  ], 
+  "##characteristics#run#per_layer_info@18#label#min": "09: conv3", 
+  "##characteristics#run#per_layer_info@18#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@18#time_ms#all": [
+    47.313, 
+    47.394, 
+    47.443
+  ], 
+  "##characteristics#run#per_layer_info@18#time_ms#all_unique": [
+    47.313, 
+    47.394, 
+    47.443
+  ], 
+  "##characteristics#run#per_layer_info@18#time_ms#center": 47.378, 
+  "##characteristics#run#per_layer_info@18#time_ms#halfrange": 0.06499999999999773, 
+  "##characteristics#run#per_layer_info@18#time_ms#max": 47.443, 
+  "##characteristics#run#per_layer_info@18#time_ms#mean": 47.383333333333326, 
+  "##characteristics#run#per_layer_info@18#time_ms#min": 47.313, 
+  "##characteristics#run#per_layer_info@18#time_ms#range": 0.12999999999999545, 
+  "##characteristics#run#per_layer_info@18#time_ms#range_percent": 0.002747659205715035, 
+  "##characteristics#run#per_layer_info@18#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@18#time_s#all": [
+    0.047313, 
+    0.047394, 
+    0.047443
+  ], 
+  "##characteristics#run#per_layer_info@18#time_s#all_unique": [
+    0.047313, 
+    0.047394, 
+    0.047443
+  ], 
+  "##characteristics#run#per_layer_info@18#time_s#center": 0.047378, 
+  "##characteristics#run#per_layer_info@18#time_s#halfrange": 6.499999999999909e-05, 
+  "##characteristics#run#per_layer_info@18#time_s#max": 0.047443, 
+  "##characteristics#run#per_layer_info@18#time_s#mean": 0.04738333333333333, 
+  "##characteristics#run#per_layer_info@18#time_s#min": 0.047313, 
+  "##characteristics#run#per_layer_info@18#time_s#range": 0.00012999999999999817, 
+  "##characteristics#run#per_layer_info@18#time_s#range_percent": 0.0027476592057150925, 
+  "##characteristics#run#per_layer_info@18#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@18#timestamp#all": [
+    "0424 17:46:57.228984", 
+    "0424 17:47:02.363127", 
+    "0424 17:47:07.381148"
+  ], 
+  "##characteristics#run#per_layer_info@18#timestamp#all_unique": [
+    "0424 17:46:57.228984", 
+    "0424 17:47:02.363127", 
+    "0424 17:47:07.381148"
+  ], 
+  "##characteristics#run#per_layer_info@18#timestamp#min": "0424 17:46:57.228984", 
+  "##characteristics#run#per_layer_info@18#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@19#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@19#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@19#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@19#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@19#index#all": [
+    9, 
+    9, 
+    9
+  ], 
+  "##characteristics#run#per_layer_info@19#index#all_unique": [
+    9
+  ], 
+  "##characteristics#run#per_layer_info@19#index#center": 9, 
+  "##characteristics#run#per_layer_info@19#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@19#index#max": 9, 
+  "##characteristics#run#per_layer_info@19#index#mean": 9.0, 
+  "##characteristics#run#per_layer_info@19#index#min": 9, 
+  "##characteristics#run#per_layer_info@19#index#range": 0, 
+  "##characteristics#run#per_layer_info@19#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@19#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@19#label#all": [
+    "09: conv3", 
+    "09: conv3", 
+    "09: conv3"
+  ], 
+  "##characteristics#run#per_layer_info@19#label#all_unique": [
+    "09: conv3"
+  ], 
+  "##characteristics#run#per_layer_info@19#label#min": "09: conv3", 
+  "##characteristics#run#per_layer_info@19#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@19#time_ms#all": [
+    50.925, 
+    46.984, 
+    47.727
+  ], 
+  "##characteristics#run#per_layer_info@19#time_ms#all_unique": [
+    50.925, 
+    46.984, 
+    47.727
+  ], 
+  "##characteristics#run#per_layer_info@19#time_ms#center": 48.954499999999996, 
+  "##characteristics#run#per_layer_info@19#time_ms#halfrange": 1.9704999999999977, 
+  "##characteristics#run#per_layer_info@19#time_ms#max": 50.925, 
+  "##characteristics#run#per_layer_info@19#time_ms#mean": 48.54533333333333, 
+  "##characteristics#run#per_layer_info@19#time_ms#min": 46.984, 
+  "##characteristics#run#per_layer_info@19#time_ms#range": 3.9409999999999954, 
+  "##characteristics#run#per_layer_info@19#time_ms#range_percent": 0.08387961859356366, 
+  "##characteristics#run#per_layer_info@19#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@19#time_s#all": [
+    0.050925, 
+    0.046984000000000005, 
+    0.047727
+  ], 
+  "##characteristics#run#per_layer_info@19#time_s#all_unique": [
+    0.050925, 
+    0.046984000000000005, 
+    0.047727
+  ], 
+  "##characteristics#run#per_layer_info@19#time_s#center": 0.0489545, 
+  "##characteristics#run#per_layer_info@19#time_s#halfrange": 0.0019704999999999966, 
+  "##characteristics#run#per_layer_info@19#time_s#max": 0.050925, 
+  "##characteristics#run#per_layer_info@19#time_s#mean": 0.04854533333333333, 
+  "##characteristics#run#per_layer_info@19#time_s#min": 0.046984000000000005, 
+  "##characteristics#run#per_layer_info@19#time_s#range": 0.003940999999999993, 
+  "##characteristics#run#per_layer_info@19#time_s#range_percent": 0.08387961859356362, 
+  "##characteristics#run#per_layer_info@19#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@19#timestamp#all": [
+    "0424 17:46:57.229019", 
+    "0424 17:47:02.363163", 
+    "0424 17:47:07.381197"
+  ], 
+  "##characteristics#run#per_layer_info@19#timestamp#all_unique": [
+    "0424 17:46:57.229019", 
+    "0424 17:47:02.363163", 
+    "0424 17:47:07.381197"
+  ], 
+  "##characteristics#run#per_layer_info@19#timestamp#min": "0424 17:46:57.229019", 
+  "##characteristics#run#per_layer_info@19#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@2#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@2#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@2#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@2#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@2#index#all": [
+    1, 
+    1, 
+    1
+  ], 
+  "##characteristics#run#per_layer_info@2#index#all_unique": [
+    1
+  ], 
+  "##characteristics#run#per_layer_info@2#index#center": 1, 
+  "##characteristics#run#per_layer_info@2#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@2#index#max": 1, 
+  "##characteristics#run#per_layer_info@2#index#mean": 1.0, 
+  "##characteristics#run#per_layer_info@2#index#min": 1, 
+  "##characteristics#run#per_layer_info@2#index#range": 0, 
+  "##characteristics#run#per_layer_info@2#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@2#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@2#label#all": [
+    "01: conv1", 
+    "01: conv1", 
+    "01: conv1"
+  ], 
+  "##characteristics#run#per_layer_info@2#label#all_unique": [
+    "01: conv1"
+  ], 
+  "##characteristics#run#per_layer_info@2#label#min": "01: conv1", 
+  "##characteristics#run#per_layer_info@2#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@2#time_ms#all": [
+    40.212, 
+    43.946, 
+    40.046
+  ], 
+  "##characteristics#run#per_layer_info@2#time_ms#all_unique": [
+    40.212, 
+    43.946, 
+    40.046
+  ], 
+  "##characteristics#run#per_layer_info@2#time_ms#center": 41.995999999999995, 
+  "##characteristics#run#per_layer_info@2#time_ms#halfrange": 1.9499999999999993, 
+  "##characteristics#run#per_layer_info@2#time_ms#max": 43.946, 
+  "##characteristics#run#per_layer_info@2#time_ms#mean": 41.40133333333333, 
+  "##characteristics#run#per_layer_info@2#time_ms#min": 40.046, 
+  "##characteristics#run#per_layer_info@2#time_ms#range": 3.8999999999999986, 
+  "##characteristics#run#per_layer_info@2#time_ms#range_percent": 0.09738800379563499, 
+  "##characteristics#run#per_layer_info@2#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@2#time_s#all": [
+    0.040212000000000005, 
+    0.043946, 
+    0.040046
+  ], 
+  "##characteristics#run#per_layer_info@2#time_s#all_unique": [
+    0.040212000000000005, 
+    0.043946, 
+    0.040046
+  ], 
+  "##characteristics#run#per_layer_info@2#time_s#center": 0.041996, 
+  "##characteristics#run#per_layer_info@2#time_s#halfrange": 0.0019500000000000003, 
+  "##characteristics#run#per_layer_info@2#time_s#max": 0.043946, 
+  "##characteristics#run#per_layer_info@2#time_s#mean": 0.04140133333333334, 
+  "##characteristics#run#per_layer_info@2#time_s#min": 0.040046, 
+  "##characteristics#run#per_layer_info@2#time_s#range": 0.0039000000000000007, 
+  "##characteristics#run#per_layer_info@2#time_s#range_percent": 0.09738800379563504, 
+  "##characteristics#run#per_layer_info@2#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@2#timestamp#all": [
+    "0424 17:46:57.228420", 
+    "0424 17:47:02.362570", 
+    "0424 17:47:07.380554"
+  ], 
+  "##characteristics#run#per_layer_info@2#timestamp#all_unique": [
+    "0424 17:46:57.228420", 
+    "0424 17:47:02.362570", 
+    "0424 17:47:07.380554"
+  ], 
+  "##characteristics#run#per_layer_info@2#timestamp#min": "0424 17:46:57.228420", 
+  "##characteristics#run#per_layer_info@2#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@20#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@20#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@20#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@20#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@20#index#all": [
+    10, 
+    10, 
+    10
+  ], 
+  "##characteristics#run#per_layer_info@20#index#all_unique": [
+    10
+  ], 
+  "##characteristics#run#per_layer_info@20#index#center": 10, 
+  "##characteristics#run#per_layer_info@20#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@20#index#max": 10, 
+  "##characteristics#run#per_layer_info@20#index#mean": 10.0, 
+  "##characteristics#run#per_layer_info@20#index#min": 10, 
+  "##characteristics#run#per_layer_info@20#index#range": 0, 
+  "##characteristics#run#per_layer_info@20#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@20#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@20#label#all": [
+    "10: relu3", 
+    "10: relu3", 
+    "10: relu3"
+  ], 
+  "##characteristics#run#per_layer_info@20#label#all_unique": [
+    "10: relu3"
+  ], 
+  "##characteristics#run#per_layer_info@20#label#min": "10: relu3", 
+  "##characteristics#run#per_layer_info@20#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@20#time_ms#all": [
+    0.878, 
+    0.876, 
+    0.877
+  ], 
+  "##characteristics#run#per_layer_info@20#time_ms#all_unique": [
+    0.878, 
+    0.876, 
+    0.877
+  ], 
+  "##characteristics#run#per_layer_info@20#time_ms#center": 0.877, 
+  "##characteristics#run#per_layer_info@20#time_ms#halfrange": 0.0010000000000000009, 
+  "##characteristics#run#per_layer_info@20#time_ms#max": 0.878, 
+  "##characteristics#run#per_layer_info@20#time_ms#mean": 0.8770000000000001, 
+  "##characteristics#run#per_layer_info@20#time_ms#min": 0.876, 
+  "##characteristics#run#per_layer_info@20#time_ms#range": 0.0020000000000000018, 
+  "##characteristics#run#per_layer_info@20#time_ms#range_percent": 0.0022831050228310523, 
+  "##characteristics#run#per_layer_info@20#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@20#time_s#all": [
+    0.000878, 
+    0.000876, 
+    0.0008770000000000001
+  ], 
+  "##characteristics#run#per_layer_info@20#time_s#all_unique": [
+    0.000878, 
+    0.000876, 
+    0.0008770000000000001
+  ], 
+  "##characteristics#run#per_layer_info@20#time_s#center": 0.000877, 
+  "##characteristics#run#per_layer_info@20#time_s#halfrange": 9.9999999999997e-07, 
+  "##characteristics#run#per_layer_info@20#time_s#max": 0.000878, 
+  "##characteristics#run#per_layer_info@20#time_s#mean": 0.0008770000000000001, 
+  "##characteristics#run#per_layer_info@20#time_s#min": 0.000876, 
+  "##characteristics#run#per_layer_info@20#time_s#range": 1.99999999999994e-06, 
+  "##characteristics#run#per_layer_info@20#time_s#range_percent": 0.002283105022830982, 
+  "##characteristics#run#per_layer_info@20#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@20#timestamp#all": [
+    "0424 17:46:57.229055", 
+    "0424 17:47:02.363255", 
+    "0424 17:47:07.381233"
+  ], 
+  "##characteristics#run#per_layer_info@20#timestamp#all_unique": [
+    "0424 17:46:57.229055", 
+    "0424 17:47:02.363255", 
+    "0424 17:47:07.381233"
+  ], 
+  "##characteristics#run#per_layer_info@20#timestamp#min": "0424 17:46:57.229055", 
+  "##characteristics#run#per_layer_info@20#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@21#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@21#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@21#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@21#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@21#index#all": [
+    10, 
+    10, 
+    10
+  ], 
+  "##characteristics#run#per_layer_info@21#index#all_unique": [
+    10
+  ], 
+  "##characteristics#run#per_layer_info@21#index#center": 10, 
+  "##characteristics#run#per_layer_info@21#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@21#index#max": 10, 
+  "##characteristics#run#per_layer_info@21#index#mean": 10.0, 
+  "##characteristics#run#per_layer_info@21#index#min": 10, 
+  "##characteristics#run#per_layer_info@21#index#range": 0, 
+  "##characteristics#run#per_layer_info@21#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@21#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@21#label#all": [
+    "10: relu3", 
+    "10: relu3", 
+    "10: relu3"
+  ], 
+  "##characteristics#run#per_layer_info@21#label#all_unique": [
+    "10: relu3"
+  ], 
+  "##characteristics#run#per_layer_info@21#label#min": "10: relu3", 
+  "##characteristics#run#per_layer_info@21#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@21#time_ms#all": [
+    0.005, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@21#time_ms#all_unique": [
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@21#time_ms#center": 0.005, 
+  "##characteristics#run#per_layer_info@21#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@21#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@21#time_ms#mean": 0.005, 
+  "##characteristics#run#per_layer_info@21#time_ms#min": 0.005, 
+  "##characteristics#run#per_layer_info@21#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@21#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@21#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@21#time_s#all": [
+    5e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@21#time_s#all_unique": [
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@21#time_s#center": 5e-06, 
+  "##characteristics#run#per_layer_info@21#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@21#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@21#time_s#mean": 5e-06, 
+  "##characteristics#run#per_layer_info@21#time_s#min": 5e-06, 
+  "##characteristics#run#per_layer_info@21#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@21#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@21#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@21#timestamp#all": [
+    "0424 17:46:57.229089", 
+    "0424 17:47:02.363292", 
+    "0424 17:47:07.381268"
+  ], 
+  "##characteristics#run#per_layer_info@21#timestamp#all_unique": [
+    "0424 17:46:57.229089", 
+    "0424 17:47:02.363292", 
+    "0424 17:47:07.381268"
+  ], 
+  "##characteristics#run#per_layer_info@21#timestamp#min": "0424 17:46:57.229089", 
+  "##characteristics#run#per_layer_info@21#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@22#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@22#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@22#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@22#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@22#index#all": [
+    11, 
+    11, 
+    11
+  ], 
+  "##characteristics#run#per_layer_info@22#index#all_unique": [
+    11
+  ], 
+  "##characteristics#run#per_layer_info@22#index#center": 11, 
+  "##characteristics#run#per_layer_info@22#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@22#index#max": 11, 
+  "##characteristics#run#per_layer_info@22#index#mean": 11.0, 
+  "##characteristics#run#per_layer_info@22#index#min": 11, 
+  "##characteristics#run#per_layer_info@22#index#range": 0, 
+  "##characteristics#run#per_layer_info@22#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@22#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@22#label#all": [
+    "11: conv4", 
+    "11: conv4", 
+    "11: conv4"
+  ], 
+  "##characteristics#run#per_layer_info@22#label#all_unique": [
+    "11: conv4"
+  ], 
+  "##characteristics#run#per_layer_info@22#label#min": "11: conv4", 
+  "##characteristics#run#per_layer_info@22#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@22#time_ms#all": [
+    41.61, 
+    38.025, 
+    37.862
+  ], 
+  "##characteristics#run#per_layer_info@22#time_ms#all_unique": [
+    41.61, 
+    38.025, 
+    37.862
+  ], 
+  "##characteristics#run#per_layer_info@22#time_ms#center": 39.736000000000004, 
+  "##characteristics#run#per_layer_info@22#time_ms#halfrange": 1.8739999999999988, 
+  "##characteristics#run#per_layer_info@22#time_ms#max": 41.61, 
+  "##characteristics#run#per_layer_info@22#time_ms#mean": 39.16566666666666, 
+  "##characteristics#run#per_layer_info@22#time_ms#min": 37.862, 
+  "##characteristics#run#per_layer_info@22#time_ms#range": 3.7479999999999976, 
+  "##characteristics#run#per_layer_info@22#time_ms#range_percent": 0.09899107284348416, 
+  "##characteristics#run#per_layer_info@22#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@22#time_s#all": [
+    0.04161, 
+    0.038024999999999996, 
+    0.037862
+  ], 
+  "##characteristics#run#per_layer_info@22#time_s#all_unique": [
+    0.04161, 
+    0.038024999999999996, 
+    0.037862
+  ], 
+  "##characteristics#run#per_layer_info@22#time_s#center": 0.039736, 
+  "##characteristics#run#per_layer_info@22#time_s#halfrange": 0.0018740000000000007, 
+  "##characteristics#run#per_layer_info@22#time_s#max": 0.04161, 
+  "##characteristics#run#per_layer_info@22#time_s#mean": 0.03916566666666666, 
+  "##characteristics#run#per_layer_info@22#time_s#min": 0.037862, 
+  "##characteristics#run#per_layer_info@22#time_s#range": 0.0037480000000000013, 
+  "##characteristics#run#per_layer_info@22#time_s#range_percent": 0.09899107284348427, 
+  "##characteristics#run#per_layer_info@22#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@22#timestamp#all": [
+    "0424 17:46:57.229123", 
+    "0424 17:47:02.363327", 
+    "0424 17:47:07.381301"
+  ], 
+  "##characteristics#run#per_layer_info@22#timestamp#all_unique": [
+    "0424 17:46:57.229123", 
+    "0424 17:47:02.363327", 
+    "0424 17:47:07.381301"
+  ], 
+  "##characteristics#run#per_layer_info@22#timestamp#min": "0424 17:46:57.229123", 
+  "##characteristics#run#per_layer_info@22#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@23#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@23#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@23#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@23#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@23#index#all": [
+    11, 
+    11, 
+    11
+  ], 
+  "##characteristics#run#per_layer_info@23#index#all_unique": [
+    11
+  ], 
+  "##characteristics#run#per_layer_info@23#index#center": 11, 
+  "##characteristics#run#per_layer_info@23#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@23#index#max": 11, 
+  "##characteristics#run#per_layer_info@23#index#mean": 11.0, 
+  "##characteristics#run#per_layer_info@23#index#min": 11, 
+  "##characteristics#run#per_layer_info@23#index#range": 0, 
+  "##characteristics#run#per_layer_info@23#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@23#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@23#label#all": [
+    "11: conv4", 
+    "11: conv4", 
+    "11: conv4"
+  ], 
+  "##characteristics#run#per_layer_info@23#label#all_unique": [
+    "11: conv4"
+  ], 
+  "##characteristics#run#per_layer_info@23#label#min": "11: conv4", 
+  "##characteristics#run#per_layer_info@23#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@23#time_ms#all": [
+    38.29, 
+    38.248, 
+    38.356
+  ], 
+  "##characteristics#run#per_layer_info@23#time_ms#all_unique": [
+    38.29, 
+    38.248, 
+    38.356
+  ], 
+  "##characteristics#run#per_layer_info@23#time_ms#center": 38.302, 
+  "##characteristics#run#per_layer_info@23#time_ms#halfrange": 0.054000000000002046, 
+  "##characteristics#run#per_layer_info@23#time_ms#max": 38.356, 
+  "##characteristics#run#per_layer_info@23#time_ms#mean": 38.298, 
+  "##characteristics#run#per_layer_info@23#time_ms#min": 38.248, 
+  "##characteristics#run#per_layer_info@23#time_ms#range": 0.10800000000000409, 
+  "##characteristics#run#per_layer_info@23#time_ms#range_percent": 0.0028236770550095196, 
+  "##characteristics#run#per_layer_info@23#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@23#time_s#all": [
+    0.03829, 
+    0.038248, 
+    0.038356
+  ], 
+  "##characteristics#run#per_layer_info@23#time_s#all_unique": [
+    0.03829, 
+    0.038248, 
+    0.038356
+  ], 
+  "##characteristics#run#per_layer_info@23#time_s#center": 0.038302, 
+  "##characteristics#run#per_layer_info@23#time_s#halfrange": 5.400000000000196e-05, 
+  "##characteristics#run#per_layer_info@23#time_s#max": 0.038356, 
+  "##characteristics#run#per_layer_info@23#time_s#mean": 0.038298, 
+  "##characteristics#run#per_layer_info@23#time_s#min": 0.038248, 
+  "##characteristics#run#per_layer_info@23#time_s#range": 0.00010800000000000393, 
+  "##characteristics#run#per_layer_info@23#time_s#range_percent": 0.0028236770550095153, 
+  "##characteristics#run#per_layer_info@23#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@23#timestamp#all": [
+    "0424 17:46:57.229159", 
+    "0424 17:47:02.363363", 
+    "0424 17:47:07.381336"
+  ], 
+  "##characteristics#run#per_layer_info@23#timestamp#all_unique": [
+    "0424 17:46:57.229159", 
+    "0424 17:47:02.363363", 
+    "0424 17:47:07.381336"
+  ], 
+  "##characteristics#run#per_layer_info@23#timestamp#min": "0424 17:46:57.229159", 
+  "##characteristics#run#per_layer_info@23#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@24#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@24#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@24#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@24#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@24#index#all": [
+    12, 
+    12, 
+    12
+  ], 
+  "##characteristics#run#per_layer_info@24#index#all_unique": [
+    12
+  ], 
+  "##characteristics#run#per_layer_info@24#index#center": 12, 
+  "##characteristics#run#per_layer_info@24#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@24#index#max": 12, 
+  "##characteristics#run#per_layer_info@24#index#mean": 12.0, 
+  "##characteristics#run#per_layer_info@24#index#min": 12, 
+  "##characteristics#run#per_layer_info@24#index#range": 0, 
+  "##characteristics#run#per_layer_info@24#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@24#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@24#label#all": [
+    "12: relu4", 
+    "12: relu4", 
+    "12: relu4"
+  ], 
+  "##characteristics#run#per_layer_info@24#label#all_unique": [
+    "12: relu4"
+  ], 
+  "##characteristics#run#per_layer_info@24#label#min": "12: relu4", 
+  "##characteristics#run#per_layer_info@24#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@24#time_ms#all": [
+    0.876, 
+    0.877, 
+    0.89
+  ], 
+  "##characteristics#run#per_layer_info@24#time_ms#all_unique": [
+    0.876, 
+    0.877, 
+    0.89
+  ], 
+  "##characteristics#run#per_layer_info@24#time_ms#center": 0.883, 
+  "##characteristics#run#per_layer_info@24#time_ms#halfrange": 0.007000000000000006, 
+  "##characteristics#run#per_layer_info@24#time_ms#max": 0.89, 
+  "##characteristics#run#per_layer_info@24#time_ms#mean": 0.8810000000000001, 
+  "##characteristics#run#per_layer_info@24#time_ms#min": 0.876, 
+  "##characteristics#run#per_layer_info@24#time_ms#range": 0.014000000000000012, 
+  "##characteristics#run#per_layer_info@24#time_ms#range_percent": 0.015981735159817365, 
+  "##characteristics#run#per_layer_info@24#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@24#time_s#all": [
+    0.000876, 
+    0.0008770000000000001, 
+    0.0008900000000000001
+  ], 
+  "##characteristics#run#per_layer_info@24#time_s#all_unique": [
+    0.000876, 
+    0.0008770000000000001, 
+    0.0008900000000000001
+  ], 
+  "##characteristics#run#per_layer_info@24#time_s#center": 0.0008830000000000001, 
+  "##characteristics#run#per_layer_info@24#time_s#halfrange": 7.0000000000000075e-06, 
+  "##characteristics#run#per_layer_info@24#time_s#max": 0.0008900000000000001, 
+  "##characteristics#run#per_layer_info@24#time_s#mean": 0.0008810000000000002, 
+  "##characteristics#run#per_layer_info@24#time_s#min": 0.000876, 
+  "##characteristics#run#per_layer_info@24#time_s#range": 1.4000000000000015e-05, 
+  "##characteristics#run#per_layer_info@24#time_s#range_percent": 0.015981735159817368, 
+  "##characteristics#run#per_layer_info@24#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@24#timestamp#all": [
+    "0424 17:46:57.229194", 
+    "0424 17:47:02.363399", 
+    "0424 17:47:07.381371"
+  ], 
+  "##characteristics#run#per_layer_info@24#timestamp#all_unique": [
+    "0424 17:46:57.229194", 
+    "0424 17:47:02.363399", 
+    "0424 17:47:07.381371"
+  ], 
+  "##characteristics#run#per_layer_info@24#timestamp#min": "0424 17:46:57.229194", 
+  "##characteristics#run#per_layer_info@24#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@25#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@25#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@25#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@25#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@25#index#all": [
+    12, 
+    12, 
+    12
+  ], 
+  "##characteristics#run#per_layer_info@25#index#all_unique": [
+    12
+  ], 
+  "##characteristics#run#per_layer_info@25#index#center": 12, 
+  "##characteristics#run#per_layer_info@25#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@25#index#max": 12, 
+  "##characteristics#run#per_layer_info@25#index#mean": 12.0, 
+  "##characteristics#run#per_layer_info@25#index#min": 12, 
+  "##characteristics#run#per_layer_info@25#index#range": 0, 
+  "##characteristics#run#per_layer_info@25#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@25#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@25#label#all": [
+    "12: relu4", 
+    "12: relu4", 
+    "12: relu4"
+  ], 
+  "##characteristics#run#per_layer_info@25#label#all_unique": [
+    "12: relu4"
+  ], 
+  "##characteristics#run#per_layer_info@25#label#min": "12: relu4", 
+  "##characteristics#run#per_layer_info@25#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@25#time_ms#all": [
+    0.004, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@25#time_ms#all_unique": [
+    0.004, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@25#time_ms#center": 0.0045000000000000005, 
+  "##characteristics#run#per_layer_info@25#time_ms#halfrange": 0.0005, 
+  "##characteristics#run#per_layer_info@25#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@25#time_ms#mean": 0.004666666666666667, 
+  "##characteristics#run#per_layer_info@25#time_ms#min": 0.004, 
+  "##characteristics#run#per_layer_info@25#time_ms#range": 0.001, 
+  "##characteristics#run#per_layer_info@25#time_ms#range_percent": 0.25, 
+  "##characteristics#run#per_layer_info@25#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@25#time_s#all": [
+    4e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@25#time_s#all_unique": [
+    4e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@25#time_s#center": 4.5e-06, 
+  "##characteristics#run#per_layer_info@25#time_s#halfrange": 5.000000000000003e-07, 
+  "##characteristics#run#per_layer_info@25#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@25#time_s#mean": 4.666666666666667e-06, 
+  "##characteristics#run#per_layer_info@25#time_s#min": 4e-06, 
+  "##characteristics#run#per_layer_info@25#time_s#range": 1.0000000000000006e-06, 
+  "##characteristics#run#per_layer_info@25#time_s#range_percent": 0.25000000000000017, 
+  "##characteristics#run#per_layer_info@25#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@25#timestamp#all": [
+    "0424 17:46:57.229228", 
+    "0424 17:47:02.363432", 
+    "0424 17:47:07.381405"
+  ], 
+  "##characteristics#run#per_layer_info@25#timestamp#all_unique": [
+    "0424 17:46:57.229228", 
+    "0424 17:47:02.363432", 
+    "0424 17:47:07.381405"
+  ], 
+  "##characteristics#run#per_layer_info@25#timestamp#min": "0424 17:46:57.229228", 
+  "##characteristics#run#per_layer_info@25#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@26#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@26#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@26#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@26#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@26#index#all": [
+    13, 
+    13, 
+    13
+  ], 
+  "##characteristics#run#per_layer_info@26#index#all_unique": [
+    13
+  ], 
+  "##characteristics#run#per_layer_info@26#index#center": 13, 
+  "##characteristics#run#per_layer_info@26#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@26#index#max": 13, 
+  "##characteristics#run#per_layer_info@26#index#mean": 13.0, 
+  "##characteristics#run#per_layer_info@26#index#min": 13, 
+  "##characteristics#run#per_layer_info@26#index#range": 0, 
+  "##characteristics#run#per_layer_info@26#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@26#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@26#label#all": [
+    "13: conv5", 
+    "13: conv5", 
+    "13: conv5"
+  ], 
+  "##characteristics#run#per_layer_info@26#label#all_unique": [
+    "13: conv5"
+  ], 
+  "##characteristics#run#per_layer_info@26#label#min": "13: conv5", 
+  "##characteristics#run#per_layer_info@26#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@26#time_ms#all": [
+    26.637, 
+    26.689, 
+    26.734
+  ], 
+  "##characteristics#run#per_layer_info@26#time_ms#all_unique": [
+    26.637, 
+    26.689, 
+    26.734
+  ], 
+  "##characteristics#run#per_layer_info@26#time_ms#center": 26.6855, 
+  "##characteristics#run#per_layer_info@26#time_ms#halfrange": 0.048500000000000654, 
+  "##characteristics#run#per_layer_info@26#time_ms#max": 26.734, 
+  "##characteristics#run#per_layer_info@26#time_ms#mean": 26.686666666666667, 
+  "##characteristics#run#per_layer_info@26#time_ms#min": 26.637, 
+  "##characteristics#run#per_layer_info@26#time_ms#range": 0.09700000000000131, 
+  "##characteristics#run#per_layer_info@26#time_ms#range_percent": 0.003641551225738683, 
+  "##characteristics#run#per_layer_info@26#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@26#time_s#all": [
+    0.026637, 
+    0.026689, 
+    0.026734
+  ], 
+  "##characteristics#run#per_layer_info@26#time_s#all_unique": [
+    0.026637, 
+    0.026689, 
+    0.026734
+  ], 
+  "##characteristics#run#per_layer_info@26#time_s#center": 0.0266855, 
+  "##characteristics#run#per_layer_info@26#time_s#halfrange": 4.849999999999993e-05, 
+  "##characteristics#run#per_layer_info@26#time_s#max": 0.026734, 
+  "##characteristics#run#per_layer_info@26#time_s#mean": 0.026686666666666664, 
+  "##characteristics#run#per_layer_info@26#time_s#min": 0.026637, 
+  "##characteristics#run#per_layer_info@26#time_s#range": 9.699999999999986e-05, 
+  "##characteristics#run#per_layer_info@26#time_s#range_percent": 0.003641551225738629, 
+  "##characteristics#run#per_layer_info@26#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@26#timestamp#all": [
+    "0424 17:46:57.229262", 
+    "0424 17:47:02.363466", 
+    "0424 17:47:07.381438"
+  ], 
+  "##characteristics#run#per_layer_info@26#timestamp#all_unique": [
+    "0424 17:46:57.229262", 
+    "0424 17:47:02.363466", 
+    "0424 17:47:07.381438"
+  ], 
+  "##characteristics#run#per_layer_info@26#timestamp#min": "0424 17:46:57.229262", 
+  "##characteristics#run#per_layer_info@26#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@27#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@27#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@27#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@27#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@27#index#all": [
+    13, 
+    13, 
+    13
+  ], 
+  "##characteristics#run#per_layer_info@27#index#all_unique": [
+    13
+  ], 
+  "##characteristics#run#per_layer_info@27#index#center": 13, 
+  "##characteristics#run#per_layer_info@27#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@27#index#max": 13, 
+  "##characteristics#run#per_layer_info@27#index#mean": 13.0, 
+  "##characteristics#run#per_layer_info@27#index#min": 13, 
+  "##characteristics#run#per_layer_info@27#index#range": 0, 
+  "##characteristics#run#per_layer_info@27#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@27#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@27#label#all": [
+    "13: conv5", 
+    "13: conv5", 
+    "13: conv5"
+  ], 
+  "##characteristics#run#per_layer_info@27#label#all_unique": [
+    "13: conv5"
+  ], 
+  "##characteristics#run#per_layer_info@27#label#min": "13: conv5", 
+  "##characteristics#run#per_layer_info@27#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@27#time_ms#all": [
+    27.574, 
+    27.647, 
+    27.786
+  ], 
+  "##characteristics#run#per_layer_info@27#time_ms#all_unique": [
+    27.574, 
+    27.647, 
+    27.786
+  ], 
+  "##characteristics#run#per_layer_info@27#time_ms#center": 27.68, 
+  "##characteristics#run#per_layer_info@27#time_ms#halfrange": 0.10599999999999987, 
+  "##characteristics#run#per_layer_info@27#time_ms#max": 27.786, 
+  "##characteristics#run#per_layer_info@27#time_ms#mean": 27.669, 
+  "##characteristics#run#per_layer_info@27#time_ms#min": 27.574, 
+  "##characteristics#run#per_layer_info@27#time_ms#range": 0.21199999999999974, 
+  "##characteristics#run#per_layer_info@27#time_ms#range_percent": 0.007688402117937178, 
+  "##characteristics#run#per_layer_info@27#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@27#time_s#all": [
+    0.027574, 
+    0.027646999999999998, 
+    0.027786
+  ], 
+  "##characteristics#run#per_layer_info@27#time_s#all_unique": [
+    0.027574, 
+    0.027646999999999998, 
+    0.027786
+  ], 
+  "##characteristics#run#per_layer_info@27#time_s#center": 0.027680000000000003, 
+  "##characteristics#run#per_layer_info@27#time_s#halfrange": 0.00010600000000000019, 
+  "##characteristics#run#per_layer_info@27#time_s#max": 0.027786, 
+  "##characteristics#run#per_layer_info@27#time_s#mean": 0.027669, 
+  "##characteristics#run#per_layer_info@27#time_s#min": 0.027574, 
+  "##characteristics#run#per_layer_info@27#time_s#range": 0.00021200000000000038, 
+  "##characteristics#run#per_layer_info@27#time_s#range_percent": 0.0076884021179372, 
+  "##characteristics#run#per_layer_info@27#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@27#timestamp#all": [
+    "0424 17:46:57.229298", 
+    "0424 17:47:02.363502", 
+    "0424 17:47:07.381474"
+  ], 
+  "##characteristics#run#per_layer_info@27#timestamp#all_unique": [
+    "0424 17:46:57.229298", 
+    "0424 17:47:02.363502", 
+    "0424 17:47:07.381474"
+  ], 
+  "##characteristics#run#per_layer_info@27#timestamp#min": "0424 17:46:57.229298", 
+  "##characteristics#run#per_layer_info@27#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@28#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@28#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@28#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@28#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@28#index#all": [
+    14, 
+    14, 
+    14
+  ], 
+  "##characteristics#run#per_layer_info@28#index#all_unique": [
+    14
+  ], 
+  "##characteristics#run#per_layer_info@28#index#center": 14, 
+  "##characteristics#run#per_layer_info@28#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@28#index#max": 14, 
+  "##characteristics#run#per_layer_info@28#index#mean": 14.0, 
+  "##characteristics#run#per_layer_info@28#index#min": 14, 
+  "##characteristics#run#per_layer_info@28#index#range": 0, 
+  "##characteristics#run#per_layer_info@28#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@28#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@28#label#all": [
+    "14: relu5", 
+    "14: relu5", 
+    "14: relu5"
+  ], 
+  "##characteristics#run#per_layer_info@28#label#all_unique": [
+    "14: relu5"
+  ], 
+  "##characteristics#run#per_layer_info@28#label#min": "14: relu5", 
+  "##characteristics#run#per_layer_info@28#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@28#time_ms#all": [
+    0.587, 
+    0.586, 
+    0.586
+  ], 
+  "##characteristics#run#per_layer_info@28#time_ms#all_unique": [
+    0.587, 
+    0.586
+  ], 
+  "##characteristics#run#per_layer_info@28#time_ms#center": 0.5865, 
+  "##characteristics#run#per_layer_info@28#time_ms#halfrange": 0.0005000000000000004, 
+  "##characteristics#run#per_layer_info@28#time_ms#max": 0.587, 
+  "##characteristics#run#per_layer_info@28#time_ms#mean": 0.5863333333333333, 
+  "##characteristics#run#per_layer_info@28#time_ms#min": 0.586, 
+  "##characteristics#run#per_layer_info@28#time_ms#range": 0.0010000000000000009, 
+  "##characteristics#run#per_layer_info@28#time_ms#range_percent": 0.0017064846416382268, 
+  "##characteristics#run#per_layer_info@28#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@28#time_s#all": [
+    0.000587, 
+    0.0005859999999999999, 
+    0.0005859999999999999
+  ], 
+  "##characteristics#run#per_layer_info@28#time_s#all_unique": [
+    0.000587, 
+    0.0005859999999999999
+  ], 
+  "##characteristics#run#per_layer_info@28#time_s#center": 0.0005865, 
+  "##characteristics#run#per_layer_info@28#time_s#halfrange": 5.000000000000122e-07, 
+  "##characteristics#run#per_layer_info@28#time_s#max": 0.000587, 
+  "##characteristics#run#per_layer_info@28#time_s#mean": 0.0005863333333333333, 
+  "##characteristics#run#per_layer_info@28#time_s#min": 0.0005859999999999999, 
+  "##characteristics#run#per_layer_info@28#time_s#range": 1.0000000000000243e-06, 
+  "##characteristics#run#per_layer_info@28#time_s#range_percent": 0.001706484641638267, 
+  "##characteristics#run#per_layer_info@28#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@28#timestamp#all": [
+    "0424 17:46:57.229333", 
+    "0424 17:47:02.363538", 
+    "0424 17:47:07.381508"
+  ], 
+  "##characteristics#run#per_layer_info@28#timestamp#all_unique": [
+    "0424 17:46:57.229333", 
+    "0424 17:47:02.363538", 
+    "0424 17:47:07.381508"
+  ], 
+  "##characteristics#run#per_layer_info@28#timestamp#min": "0424 17:46:57.229333", 
+  "##characteristics#run#per_layer_info@28#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@29#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@29#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@29#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@29#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@29#index#all": [
+    14, 
+    14, 
+    14
+  ], 
+  "##characteristics#run#per_layer_info@29#index#all_unique": [
+    14
+  ], 
+  "##characteristics#run#per_layer_info@29#index#center": 14, 
+  "##characteristics#run#per_layer_info@29#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@29#index#max": 14, 
+  "##characteristics#run#per_layer_info@29#index#mean": 14.0, 
+  "##characteristics#run#per_layer_info@29#index#min": 14, 
+  "##characteristics#run#per_layer_info@29#index#range": 0, 
+  "##characteristics#run#per_layer_info@29#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@29#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@29#label#all": [
+    "14: relu5", 
+    "14: relu5", 
+    "14: relu5"
+  ], 
+  "##characteristics#run#per_layer_info@29#label#all_unique": [
+    "14: relu5"
+  ], 
+  "##characteristics#run#per_layer_info@29#label#min": "14: relu5", 
+  "##characteristics#run#per_layer_info@29#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@29#time_ms#all": [
+    0.003, 
+    0.003, 
+    0.003
+  ], 
+  "##characteristics#run#per_layer_info@29#time_ms#all_unique": [
+    0.003
+  ], 
+  "##characteristics#run#per_layer_info@29#time_ms#center": 0.003, 
+  "##characteristics#run#per_layer_info@29#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@29#time_ms#max": 0.003, 
+  "##characteristics#run#per_layer_info@29#time_ms#mean": 0.0030000000000000005, 
+  "##characteristics#run#per_layer_info@29#time_ms#min": 0.003, 
+  "##characteristics#run#per_layer_info@29#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@29#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@29#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@29#time_s#all": [
+    3e-06, 
+    3e-06, 
+    3e-06
+  ], 
+  "##characteristics#run#per_layer_info@29#time_s#all_unique": [
+    3e-06
+  ], 
+  "##characteristics#run#per_layer_info@29#time_s#center": 3e-06, 
+  "##characteristics#run#per_layer_info@29#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@29#time_s#max": 3e-06, 
+  "##characteristics#run#per_layer_info@29#time_s#mean": 3e-06, 
+  "##characteristics#run#per_layer_info@29#time_s#min": 3e-06, 
+  "##characteristics#run#per_layer_info@29#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@29#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@29#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@29#timestamp#all": [
+    "0424 17:46:57.229367", 
+    "0424 17:47:02.363570", 
+    "0424 17:47:07.381542"
+  ], 
+  "##characteristics#run#per_layer_info@29#timestamp#all_unique": [
+    "0424 17:46:57.229367", 
+    "0424 17:47:02.363570", 
+    "0424 17:47:07.381542"
+  ], 
+  "##characteristics#run#per_layer_info@29#timestamp#min": "0424 17:46:57.229367", 
+  "##characteristics#run#per_layer_info@29#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@3#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@3#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@3#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@3#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@3#index#all": [
+    1, 
+    1, 
+    1
+  ], 
+  "##characteristics#run#per_layer_info@3#index#all_unique": [
+    1
+  ], 
+  "##characteristics#run#per_layer_info@3#index#center": 1, 
+  "##characteristics#run#per_layer_info@3#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@3#index#max": 1, 
+  "##characteristics#run#per_layer_info@3#index#mean": 1.0, 
+  "##characteristics#run#per_layer_info@3#index#min": 1, 
+  "##characteristics#run#per_layer_info@3#index#range": 0, 
+  "##characteristics#run#per_layer_info@3#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@3#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@3#label#all": [
+    "01: conv1", 
+    "01: conv1", 
+    "01: conv1"
+  ], 
+  "##characteristics#run#per_layer_info@3#label#all_unique": [
+    "01: conv1"
+  ], 
+  "##characteristics#run#per_layer_info@3#label#min": "01: conv1", 
+  "##characteristics#run#per_layer_info@3#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@3#time_ms#all": [
+    39.439, 
+    39.198, 
+    39.626
+  ], 
+  "##characteristics#run#per_layer_info@3#time_ms#all_unique": [
+    39.439, 
+    39.198, 
+    39.626
+  ], 
+  "##characteristics#run#per_layer_info@3#time_ms#center": 39.412, 
+  "##characteristics#run#per_layer_info@3#time_ms#halfrange": 0.21399999999999864, 
+  "##characteristics#run#per_layer_info@3#time_ms#max": 39.626, 
+  "##characteristics#run#per_layer_info@3#time_ms#mean": 39.421, 
+  "##characteristics#run#per_layer_info@3#time_ms#min": 39.198, 
+  "##characteristics#run#per_layer_info@3#time_ms#range": 0.42799999999999727, 
+  "##characteristics#run#per_layer_info@3#time_ms#range_percent": 0.010918924434920079, 
+  "##characteristics#run#per_layer_info@3#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@3#time_s#all": [
+    0.039439, 
+    0.039198000000000004, 
+    0.039626
+  ], 
+  "##characteristics#run#per_layer_info@3#time_s#all_unique": [
+    0.039439, 
+    0.039198000000000004, 
+    0.039626
+  ], 
+  "##characteristics#run#per_layer_info@3#time_s#center": 0.039412, 
+  "##characteristics#run#per_layer_info@3#time_s#halfrange": 0.0002139999999999989, 
+  "##characteristics#run#per_layer_info@3#time_s#max": 0.039626, 
+  "##characteristics#run#per_layer_info@3#time_s#mean": 0.039421000000000005, 
+  "##characteristics#run#per_layer_info@3#time_s#min": 0.039198000000000004, 
+  "##characteristics#run#per_layer_info@3#time_s#range": 0.0004279999999999978, 
+  "##characteristics#run#per_layer_info@3#time_s#range_percent": 0.010918924434920093, 
+  "##characteristics#run#per_layer_info@3#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@3#timestamp#all": [
+    "0424 17:46:57.228458", 
+    "0424 17:47:02.362607", 
+    "0424 17:47:07.380592"
+  ], 
+  "##characteristics#run#per_layer_info@3#timestamp#all_unique": [
+    "0424 17:46:57.228458", 
+    "0424 17:47:02.362607", 
+    "0424 17:47:07.380592"
+  ], 
+  "##characteristics#run#per_layer_info@3#timestamp#min": "0424 17:46:57.228458", 
+  "##characteristics#run#per_layer_info@3#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@30#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@30#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@30#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@30#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@30#index#all": [
+    15, 
+    15, 
+    15
+  ], 
+  "##characteristics#run#per_layer_info@30#index#all_unique": [
+    15
+  ], 
+  "##characteristics#run#per_layer_info@30#index#center": 15, 
+  "##characteristics#run#per_layer_info@30#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@30#index#max": 15, 
+  "##characteristics#run#per_layer_info@30#index#mean": 15.0, 
+  "##characteristics#run#per_layer_info@30#index#min": 15, 
+  "##characteristics#run#per_layer_info@30#index#range": 0, 
+  "##characteristics#run#per_layer_info@30#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@30#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@30#label#all": [
+    "15: pool5", 
+    "15: pool5", 
+    "15: pool5"
+  ], 
+  "##characteristics#run#per_layer_info@30#label#all_unique": [
+    "15: pool5"
+  ], 
+  "##characteristics#run#per_layer_info@30#label#min": "15: pool5", 
+  "##characteristics#run#per_layer_info@30#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@30#time_ms#all": [
+    2.05, 
+    2.156, 
+    2.075
+  ], 
+  "##characteristics#run#per_layer_info@30#time_ms#all_unique": [
+    2.05, 
+    2.156, 
+    2.075
+  ], 
+  "##characteristics#run#per_layer_info@30#time_ms#center": 2.1029999999999998, 
+  "##characteristics#run#per_layer_info@30#time_ms#halfrange": 0.05300000000000016, 
+  "##characteristics#run#per_layer_info@30#time_ms#max": 2.156, 
+  "##characteristics#run#per_layer_info@30#time_ms#mean": 2.0936666666666666, 
+  "##characteristics#run#per_layer_info@30#time_ms#min": 2.05, 
+  "##characteristics#run#per_layer_info@30#time_ms#range": 0.10600000000000032, 
+  "##characteristics#run#per_layer_info@30#time_ms#range_percent": 0.05170731707317089, 
+  "##characteristics#run#per_layer_info@30#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@30#time_s#all": [
+    0.0020499999999999997, 
+    0.0021560000000000004, 
+    0.002075
+  ], 
+  "##characteristics#run#per_layer_info@30#time_s#all_unique": [
+    0.0020499999999999997, 
+    0.0021560000000000004, 
+    0.002075
+  ], 
+  "##characteristics#run#per_layer_info@30#time_s#center": 0.002103, 
+  "##characteristics#run#per_layer_info@30#time_s#halfrange": 5.300000000000031e-05, 
+  "##characteristics#run#per_layer_info@30#time_s#max": 0.0021560000000000004, 
+  "##characteristics#run#per_layer_info@30#time_s#mean": 0.002093666666666667, 
+  "##characteristics#run#per_layer_info@30#time_s#min": 0.0020499999999999997, 
+  "##characteristics#run#per_layer_info@30#time_s#range": 0.00010600000000000062, 
+  "##characteristics#run#per_layer_info@30#time_s#range_percent": 0.05170731707317104, 
+  "##characteristics#run#per_layer_info@30#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@30#timestamp#all": [
+    "0424 17:46:57.229401", 
+    "0424 17:47:02.363605", 
+    "0424 17:47:07.381577"
+  ], 
+  "##characteristics#run#per_layer_info@30#timestamp#all_unique": [
+    "0424 17:46:57.229401", 
+    "0424 17:47:02.363605", 
+    "0424 17:47:07.381577"
+  ], 
+  "##characteristics#run#per_layer_info@30#timestamp#min": "0424 17:46:57.229401", 
+  "##characteristics#run#per_layer_info@30#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@31#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@31#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@31#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@31#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@31#index#all": [
+    15, 
+    15, 
+    15
+  ], 
+  "##characteristics#run#per_layer_info@31#index#all_unique": [
+    15
+  ], 
+  "##characteristics#run#per_layer_info@31#index#center": 15, 
+  "##characteristics#run#per_layer_info@31#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@31#index#max": 15, 
+  "##characteristics#run#per_layer_info@31#index#mean": 15.0, 
+  "##characteristics#run#per_layer_info@31#index#min": 15, 
+  "##characteristics#run#per_layer_info@31#index#range": 0, 
+  "##characteristics#run#per_layer_info@31#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@31#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@31#label#all": [
+    "15: pool5", 
+    "15: pool5", 
+    "15: pool5"
+  ], 
+  "##characteristics#run#per_layer_info@31#label#all_unique": [
+    "15: pool5"
+  ], 
+  "##characteristics#run#per_layer_info@31#label#min": "15: pool5", 
+  "##characteristics#run#per_layer_info@31#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@31#time_ms#all": [
+    0.005, 
+    0.004, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@31#time_ms#all_unique": [
+    0.005, 
+    0.004
+  ], 
+  "##characteristics#run#per_layer_info@31#time_ms#center": 0.0045000000000000005, 
+  "##characteristics#run#per_layer_info@31#time_ms#halfrange": 0.0005, 
+  "##characteristics#run#per_layer_info@31#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@31#time_ms#mean": 0.004666666666666667, 
+  "##characteristics#run#per_layer_info@31#time_ms#min": 0.004, 
+  "##characteristics#run#per_layer_info@31#time_ms#range": 0.001, 
+  "##characteristics#run#per_layer_info@31#time_ms#range_percent": 0.25, 
+  "##characteristics#run#per_layer_info@31#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@31#time_s#all": [
+    5e-06, 
+    4e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@31#time_s#all_unique": [
+    5e-06, 
+    4e-06
+  ], 
+  "##characteristics#run#per_layer_info@31#time_s#center": 4.5e-06, 
+  "##characteristics#run#per_layer_info@31#time_s#halfrange": 5.000000000000003e-07, 
+  "##characteristics#run#per_layer_info@31#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@31#time_s#mean": 4.666666666666667e-06, 
+  "##characteristics#run#per_layer_info@31#time_s#min": 4e-06, 
+  "##characteristics#run#per_layer_info@31#time_s#range": 1.0000000000000006e-06, 
+  "##characteristics#run#per_layer_info@31#time_s#range_percent": 0.25000000000000017, 
+  "##characteristics#run#per_layer_info@31#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@31#timestamp#all": [
+    "0424 17:46:57.229434", 
+    "0424 17:47:02.363638", 
+    "0424 17:47:07.381609"
+  ], 
+  "##characteristics#run#per_layer_info@31#timestamp#all_unique": [
+    "0424 17:46:57.229434", 
+    "0424 17:47:02.363638", 
+    "0424 17:47:07.381609"
+  ], 
+  "##characteristics#run#per_layer_info@31#timestamp#min": "0424 17:46:57.229434", 
+  "##characteristics#run#per_layer_info@31#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@32#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@32#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@32#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@32#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@32#index#all": [
+    16, 
+    16, 
+    16
+  ], 
+  "##characteristics#run#per_layer_info@32#index#all_unique": [
+    16
+  ], 
+  "##characteristics#run#per_layer_info@32#index#center": 16, 
+  "##characteristics#run#per_layer_info@32#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@32#index#max": 16, 
+  "##characteristics#run#per_layer_info@32#index#mean": 16.0, 
+  "##characteristics#run#per_layer_info@32#index#min": 16, 
+  "##characteristics#run#per_layer_info@32#index#range": 0, 
+  "##characteristics#run#per_layer_info@32#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@32#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@32#label#all": [
+    "16: fc6", 
+    "16: fc6", 
+    "16: fc6"
+  ], 
+  "##characteristics#run#per_layer_info@32#label#all_unique": [
+    "16: fc6"
+  ], 
+  "##characteristics#run#per_layer_info@32#label#min": "16: fc6", 
+  "##characteristics#run#per_layer_info@32#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@32#time_ms#all": [
+    245.324, 
+    257.307, 
+    258.055
+  ], 
+  "##characteristics#run#per_layer_info@32#time_ms#all_unique": [
+    245.324, 
+    257.307, 
+    258.055
+  ], 
+  "##characteristics#run#per_layer_info@32#time_ms#center": 251.6895, 
+  "##characteristics#run#per_layer_info@32#time_ms#halfrange": 6.365499999999997, 
+  "##characteristics#run#per_layer_info@32#time_ms#max": 258.055, 
+  "##characteristics#run#per_layer_info@32#time_ms#mean": 253.562, 
+  "##characteristics#run#per_layer_info@32#time_ms#min": 245.324, 
+  "##characteristics#run#per_layer_info@32#time_ms#range": 12.730999999999995, 
+  "##characteristics#run#per_layer_info@32#time_ms#range_percent": 0.051894637295984064, 
+  "##characteristics#run#per_layer_info@32#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@32#time_s#all": [
+    0.24532400000000001, 
+    0.257307, 
+    0.25805500000000003
+  ], 
+  "##characteristics#run#per_layer_info@32#time_s#all_unique": [
+    0.24532400000000001, 
+    0.257307, 
+    0.25805500000000003
+  ], 
+  "##characteristics#run#per_layer_info@32#time_s#center": 0.2516895, 
+  "##characteristics#run#per_layer_info@32#time_s#halfrange": 0.00636550000000001, 
+  "##characteristics#run#per_layer_info@32#time_s#max": 0.25805500000000003, 
+  "##characteristics#run#per_layer_info@32#time_s#mean": 0.253562, 
+  "##characteristics#run#per_layer_info@32#time_s#min": 0.24532400000000001, 
+  "##characteristics#run#per_layer_info@32#time_s#range": 0.01273100000000002, 
+  "##characteristics#run#per_layer_info@32#time_s#range_percent": 0.05189463729598417, 
+  "##characteristics#run#per_layer_info@32#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@32#timestamp#all": [
+    "0424 17:46:57.229468", 
+    "0424 17:47:02.363672", 
+    "0424 17:47:07.381644"
+  ], 
+  "##characteristics#run#per_layer_info@32#timestamp#all_unique": [
+    "0424 17:46:57.229468", 
+    "0424 17:47:02.363672", 
+    "0424 17:47:07.381644"
+  ], 
+  "##characteristics#run#per_layer_info@32#timestamp#min": "0424 17:46:57.229468", 
+  "##characteristics#run#per_layer_info@32#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@33#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@33#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@33#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@33#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@33#index#all": [
+    16, 
+    16, 
+    16
+  ], 
+  "##characteristics#run#per_layer_info@33#index#all_unique": [
+    16
+  ], 
+  "##characteristics#run#per_layer_info@33#index#center": 16, 
+  "##characteristics#run#per_layer_info@33#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@33#index#max": 16, 
+  "##characteristics#run#per_layer_info@33#index#mean": 16.0, 
+  "##characteristics#run#per_layer_info@33#index#min": 16, 
+  "##characteristics#run#per_layer_info@33#index#range": 0, 
+  "##characteristics#run#per_layer_info@33#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@33#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@33#label#all": [
+    "16: fc6", 
+    "16: fc6", 
+    "16: fc6"
+  ], 
+  "##characteristics#run#per_layer_info@33#label#all_unique": [
+    "16: fc6"
+  ], 
+  "##characteristics#run#per_layer_info@33#label#min": "16: fc6", 
+  "##characteristics#run#per_layer_info@33#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@33#time_ms#all": [
+    424.724, 
+    412.058, 
+    412.212
+  ], 
+  "##characteristics#run#per_layer_info@33#time_ms#all_unique": [
+    424.724, 
+    412.058, 
+    412.212
+  ], 
+  "##characteristics#run#per_layer_info@33#time_ms#center": 418.39099999999996, 
+  "##characteristics#run#per_layer_info@33#time_ms#halfrange": 6.332999999999998, 
+  "##characteristics#run#per_layer_info@33#time_ms#max": 424.724, 
+  "##characteristics#run#per_layer_info@33#time_ms#mean": 416.3313333333333, 
+  "##characteristics#run#per_layer_info@33#time_ms#min": 412.058, 
+  "##characteristics#run#per_layer_info@33#time_ms#range": 12.665999999999997, 
+  "##characteristics#run#per_layer_info@33#time_ms#range_percent": 0.030738391197355705, 
+  "##characteristics#run#per_layer_info@33#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@33#time_s#all": [
+    0.424724, 
+    0.412058, 
+    0.412212
+  ], 
+  "##characteristics#run#per_layer_info@33#time_s#all_unique": [
+    0.424724, 
+    0.412058, 
+    0.412212
+  ], 
+  "##characteristics#run#per_layer_info@33#time_s#center": 0.41839099999999996, 
+  "##characteristics#run#per_layer_info@33#time_s#halfrange": 0.006333000000000005, 
+  "##characteristics#run#per_layer_info@33#time_s#max": 0.424724, 
+  "##characteristics#run#per_layer_info@33#time_s#mean": 0.41633133333333333, 
+  "##characteristics#run#per_layer_info@33#time_s#min": 0.412058, 
+  "##characteristics#run#per_layer_info@33#time_s#range": 0.01266600000000001, 
+  "##characteristics#run#per_layer_info@33#time_s#range_percent": 0.03073839119735574, 
+  "##characteristics#run#per_layer_info@33#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@33#timestamp#all": [
+    "0424 17:46:57.229504", 
+    "0424 17:47:02.363708", 
+    "0424 17:47:07.381678"
+  ], 
+  "##characteristics#run#per_layer_info@33#timestamp#all_unique": [
+    "0424 17:46:57.229504", 
+    "0424 17:47:02.363708", 
+    "0424 17:47:07.381678"
+  ], 
+  "##characteristics#run#per_layer_info@33#timestamp#min": "0424 17:46:57.229504", 
+  "##characteristics#run#per_layer_info@33#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@34#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@34#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@34#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@34#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@34#index#all": [
+    17, 
+    17, 
+    17
+  ], 
+  "##characteristics#run#per_layer_info@34#index#all_unique": [
+    17
+  ], 
+  "##characteristics#run#per_layer_info@34#index#center": 17, 
+  "##characteristics#run#per_layer_info@34#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@34#index#max": 17, 
+  "##characteristics#run#per_layer_info@34#index#mean": 17.0, 
+  "##characteristics#run#per_layer_info@34#index#min": 17, 
+  "##characteristics#run#per_layer_info@34#index#range": 0, 
+  "##characteristics#run#per_layer_info@34#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@34#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@34#label#all": [
+    "17: relu6", 
+    "17: relu6", 
+    "17: relu6"
+  ], 
+  "##characteristics#run#per_layer_info@34#label#all_unique": [
+    "17: relu6"
+  ], 
+  "##characteristics#run#per_layer_info@34#label#min": "17: relu6", 
+  "##characteristics#run#per_layer_info@34#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@34#time_ms#all": [
+    0.062, 
+    0.062, 
+    0.062
+  ], 
+  "##characteristics#run#per_layer_info@34#time_ms#all_unique": [
+    0.062
+  ], 
+  "##characteristics#run#per_layer_info@34#time_ms#center": 0.062, 
+  "##characteristics#run#per_layer_info@34#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@34#time_ms#max": 0.062, 
+  "##characteristics#run#per_layer_info@34#time_ms#mean": 0.062, 
+  "##characteristics#run#per_layer_info@34#time_ms#min": 0.062, 
+  "##characteristics#run#per_layer_info@34#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@34#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@34#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@34#time_s#all": [
+    6.2e-05, 
+    6.2e-05, 
+    6.2e-05
+  ], 
+  "##characteristics#run#per_layer_info@34#time_s#all_unique": [
+    6.2e-05
+  ], 
+  "##characteristics#run#per_layer_info@34#time_s#center": 6.2e-05, 
+  "##characteristics#run#per_layer_info@34#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@34#time_s#max": 6.2e-05, 
+  "##characteristics#run#per_layer_info@34#time_s#mean": 6.2e-05, 
+  "##characteristics#run#per_layer_info@34#time_s#min": 6.2e-05, 
+  "##characteristics#run#per_layer_info@34#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@34#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@34#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@34#timestamp#all": [
+    "0424 17:46:57.229540", 
+    "0424 17:47:02.363744", 
+    "0424 17:47:07.381714"
+  ], 
+  "##characteristics#run#per_layer_info@34#timestamp#all_unique": [
+    "0424 17:46:57.229540", 
+    "0424 17:47:02.363744", 
+    "0424 17:47:07.381714"
+  ], 
+  "##characteristics#run#per_layer_info@34#timestamp#min": "0424 17:46:57.229540", 
+  "##characteristics#run#per_layer_info@34#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@35#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@35#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@35#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@35#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@35#index#all": [
+    17, 
+    17, 
+    17
+  ], 
+  "##characteristics#run#per_layer_info@35#index#all_unique": [
+    17
+  ], 
+  "##characteristics#run#per_layer_info@35#index#center": 17, 
+  "##characteristics#run#per_layer_info@35#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@35#index#max": 17, 
+  "##characteristics#run#per_layer_info@35#index#mean": 17.0, 
+  "##characteristics#run#per_layer_info@35#index#min": 17, 
+  "##characteristics#run#per_layer_info@35#index#range": 0, 
+  "##characteristics#run#per_layer_info@35#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@35#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@35#label#all": [
+    "17: relu6", 
+    "17: relu6", 
+    "17: relu6"
+  ], 
+  "##characteristics#run#per_layer_info@35#label#all_unique": [
+    "17: relu6"
+  ], 
+  "##characteristics#run#per_layer_info@35#label#min": "17: relu6", 
+  "##characteristics#run#per_layer_info@35#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@35#time_ms#all": [
+    0.003, 
+    0.003, 
+    0.003
+  ], 
+  "##characteristics#run#per_layer_info@35#time_ms#all_unique": [
+    0.003
+  ], 
+  "##characteristics#run#per_layer_info@35#time_ms#center": 0.003, 
+  "##characteristics#run#per_layer_info@35#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@35#time_ms#max": 0.003, 
+  "##characteristics#run#per_layer_info@35#time_ms#mean": 0.0030000000000000005, 
+  "##characteristics#run#per_layer_info@35#time_ms#min": 0.003, 
+  "##characteristics#run#per_layer_info@35#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@35#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@35#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@35#time_s#all": [
+    3e-06, 
+    3e-06, 
+    3e-06
+  ], 
+  "##characteristics#run#per_layer_info@35#time_s#all_unique": [
+    3e-06
+  ], 
+  "##characteristics#run#per_layer_info@35#time_s#center": 3e-06, 
+  "##characteristics#run#per_layer_info@35#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@35#time_s#max": 3e-06, 
+  "##characteristics#run#per_layer_info@35#time_s#mean": 3e-06, 
+  "##characteristics#run#per_layer_info@35#time_s#min": 3e-06, 
+  "##characteristics#run#per_layer_info@35#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@35#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@35#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@35#timestamp#all": [
+    "0424 17:46:57.229574", 
+    "0424 17:47:02.363778", 
+    "0424 17:47:07.381748"
+  ], 
+  "##characteristics#run#per_layer_info@35#timestamp#all_unique": [
+    "0424 17:46:57.229574", 
+    "0424 17:47:02.363778", 
+    "0424 17:47:07.381748"
+  ], 
+  "##characteristics#run#per_layer_info@35#timestamp#min": "0424 17:46:57.229574", 
+  "##characteristics#run#per_layer_info@35#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@36#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@36#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@36#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@36#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@36#index#all": [
+    18, 
+    18, 
+    18
+  ], 
+  "##characteristics#run#per_layer_info@36#index#all_unique": [
+    18
+  ], 
+  "##characteristics#run#per_layer_info@36#index#center": 18, 
+  "##characteristics#run#per_layer_info@36#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@36#index#max": 18, 
+  "##characteristics#run#per_layer_info@36#index#mean": 18.0, 
+  "##characteristics#run#per_layer_info@36#index#min": 18, 
+  "##characteristics#run#per_layer_info@36#index#range": 0, 
+  "##characteristics#run#per_layer_info@36#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@36#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@36#label#all": [
+    "18: drop6", 
+    "18: drop6", 
+    "18: drop6"
+  ], 
+  "##characteristics#run#per_layer_info@36#label#all_unique": [
+    "18: drop6"
+  ], 
+  "##characteristics#run#per_layer_info@36#label#min": "18: drop6", 
+  "##characteristics#run#per_layer_info@36#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@36#time_ms#all": [
+    0.234, 
+    0.235, 
+    0.235
+  ], 
+  "##characteristics#run#per_layer_info@36#time_ms#all_unique": [
+    0.234, 
+    0.235
+  ], 
+  "##characteristics#run#per_layer_info@36#time_ms#center": 0.2345, 
+  "##characteristics#run#per_layer_info@36#time_ms#halfrange": 0.0004999999999999866, 
+  "##characteristics#run#per_layer_info@36#time_ms#max": 0.235, 
+  "##characteristics#run#per_layer_info@36#time_ms#mean": 0.23466666666666666, 
+  "##characteristics#run#per_layer_info@36#time_ms#min": 0.234, 
+  "##characteristics#run#per_layer_info@36#time_ms#range": 0.0009999999999999731, 
+  "##characteristics#run#per_layer_info@36#time_ms#range_percent": 0.004273504273504159, 
+  "##characteristics#run#per_layer_info@36#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@36#time_s#all": [
+    0.00023400000000000002, 
+    0.000235, 
+    0.000235
+  ], 
+  "##characteristics#run#per_layer_info@36#time_s#all_unique": [
+    0.00023400000000000002, 
+    0.000235
+  ], 
+  "##characteristics#run#per_layer_info@36#time_s#center": 0.0002345, 
+  "##characteristics#run#per_layer_info@36#time_s#halfrange": 4.99999999999985e-07, 
+  "##characteristics#run#per_layer_info@36#time_s#max": 0.000235, 
+  "##characteristics#run#per_layer_info@36#time_s#mean": 0.00023466666666666666, 
+  "##characteristics#run#per_layer_info@36#time_s#min": 0.00023400000000000002, 
+  "##characteristics#run#per_layer_info@36#time_s#range": 9.9999999999997e-07, 
+  "##characteristics#run#per_layer_info@36#time_s#range_percent": 0.0042735042735041456, 
+  "##characteristics#run#per_layer_info@36#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@36#timestamp#all": [
+    "0424 17:46:57.229609", 
+    "0424 17:47:02.363812", 
+    "0424 17:47:07.381781"
+  ], 
+  "##characteristics#run#per_layer_info@36#timestamp#all_unique": [
+    "0424 17:46:57.229609", 
+    "0424 17:47:02.363812", 
+    "0424 17:47:07.381781"
+  ], 
+  "##characteristics#run#per_layer_info@36#timestamp#min": "0424 17:46:57.229609", 
+  "##characteristics#run#per_layer_info@36#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@37#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@37#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@37#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@37#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@37#index#all": [
+    18, 
+    18, 
+    18
+  ], 
+  "##characteristics#run#per_layer_info@37#index#all_unique": [
+    18
+  ], 
+  "##characteristics#run#per_layer_info@37#index#center": 18, 
+  "##characteristics#run#per_layer_info@37#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@37#index#max": 18, 
+  "##characteristics#run#per_layer_info@37#index#mean": 18.0, 
+  "##characteristics#run#per_layer_info@37#index#min": 18, 
+  "##characteristics#run#per_layer_info@37#index#range": 0, 
+  "##characteristics#run#per_layer_info@37#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@37#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@37#label#all": [
+    "18: drop6", 
+    "18: drop6", 
+    "18: drop6"
+  ], 
+  "##characteristics#run#per_layer_info@37#label#all_unique": [
+    "18: drop6"
+  ], 
+  "##characteristics#run#per_layer_info@37#label#min": "18: drop6", 
+  "##characteristics#run#per_layer_info@37#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@37#time_ms#all": [
+    0.008, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@37#time_ms#all_unique": [
+    0.008, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@37#time_ms#center": 0.006500000000000001, 
+  "##characteristics#run#per_layer_info@37#time_ms#halfrange": 0.0015, 
+  "##characteristics#run#per_layer_info@37#time_ms#max": 0.008, 
+  "##characteristics#run#per_layer_info@37#time_ms#mean": 0.006000000000000001, 
+  "##characteristics#run#per_layer_info@37#time_ms#min": 0.005, 
+  "##characteristics#run#per_layer_info@37#time_ms#range": 0.003, 
+  "##characteristics#run#per_layer_info@37#time_ms#range_percent": 0.6, 
+  "##characteristics#run#per_layer_info@37#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@37#time_s#all": [
+    8e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@37#time_s#all_unique": [
+    8e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@37#time_s#center": 6.5000000000000004e-06, 
+  "##characteristics#run#per_layer_info@37#time_s#halfrange": 1.4999999999999996e-06, 
+  "##characteristics#run#per_layer_info@37#time_s#max": 8e-06, 
+  "##characteristics#run#per_layer_info@37#time_s#mean": 6e-06, 
+  "##characteristics#run#per_layer_info@37#time_s#min": 5e-06, 
+  "##characteristics#run#per_layer_info@37#time_s#range": 2.9999999999999992e-06, 
+  "##characteristics#run#per_layer_info@37#time_s#range_percent": 0.5999999999999998, 
+  "##characteristics#run#per_layer_info@37#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@37#timestamp#all": [
+    "0424 17:46:57.229642", 
+    "0424 17:47:02.363847", 
+    "0424 17:47:07.381815"
+  ], 
+  "##characteristics#run#per_layer_info@37#timestamp#all_unique": [
+    "0424 17:46:57.229642", 
+    "0424 17:47:02.363847", 
+    "0424 17:47:07.381815"
+  ], 
+  "##characteristics#run#per_layer_info@37#timestamp#min": "0424 17:46:57.229642", 
+  "##characteristics#run#per_layer_info@37#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@38#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@38#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@38#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@38#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@38#index#all": [
+    19, 
+    19, 
+    19
+  ], 
+  "##characteristics#run#per_layer_info@38#index#all_unique": [
+    19
+  ], 
+  "##characteristics#run#per_layer_info@38#index#center": 19, 
+  "##characteristics#run#per_layer_info@38#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@38#index#max": 19, 
+  "##characteristics#run#per_layer_info@38#index#mean": 19.0, 
+  "##characteristics#run#per_layer_info@38#index#min": 19, 
+  "##characteristics#run#per_layer_info@38#index#range": 0, 
+  "##characteristics#run#per_layer_info@38#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@38#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@38#label#all": [
+    "19: fc7", 
+    "19: fc7", 
+    "19: fc7"
+  ], 
+  "##characteristics#run#per_layer_info@38#label#all_unique": [
+    "19: fc7"
+  ], 
+  "##characteristics#run#per_layer_info@38#label#min": "19: fc7", 
+  "##characteristics#run#per_layer_info@38#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@38#time_ms#all": [
+    120.193, 
+    116.962, 
+    117.07
+  ], 
+  "##characteristics#run#per_layer_info@38#time_ms#all_unique": [
+    120.193, 
+    116.962, 
+    117.07
+  ], 
+  "##characteristics#run#per_layer_info@38#time_ms#center": 118.5775, 
+  "##characteristics#run#per_layer_info@38#time_ms#halfrange": 1.6154999999999973, 
+  "##characteristics#run#per_layer_info@38#time_ms#max": 120.193, 
+  "##characteristics#run#per_layer_info@38#time_ms#mean": 118.075, 
+  "##characteristics#run#per_layer_info@38#time_ms#min": 116.962, 
+  "##characteristics#run#per_layer_info@38#time_ms#range": 3.2309999999999945, 
+  "##characteristics#run#per_layer_info@38#time_ms#range_percent": 0.027624356628648573, 
+  "##characteristics#run#per_layer_info@38#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@38#time_s#all": [
+    0.120193, 
+    0.11696200000000001, 
+    0.11707
+  ], 
+  "##characteristics#run#per_layer_info@38#time_s#all_unique": [
+    0.120193, 
+    0.11696200000000001, 
+    0.11707
+  ], 
+  "##characteristics#run#per_layer_info@38#time_s#center": 0.1185775, 
+  "##characteristics#run#per_layer_info@38#time_s#halfrange": 0.001615499999999992, 
+  "##characteristics#run#per_layer_info@38#time_s#max": 0.120193, 
+  "##characteristics#run#per_layer_info@38#time_s#mean": 0.118075, 
+  "##characteristics#run#per_layer_info@38#time_s#min": 0.11696200000000001, 
+  "##characteristics#run#per_layer_info@38#time_s#range": 0.003230999999999984, 
+  "##characteristics#run#per_layer_info@38#time_s#range_percent": 0.02762435662864848, 
+  "##characteristics#run#per_layer_info@38#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@38#timestamp#all": [
+    "0424 17:46:57.229676", 
+    "0424 17:47:02.363880", 
+    "0424 17:47:07.381849"
+  ], 
+  "##characteristics#run#per_layer_info@38#timestamp#all_unique": [
+    "0424 17:46:57.229676", 
+    "0424 17:47:02.363880", 
+    "0424 17:47:07.381849"
+  ], 
+  "##characteristics#run#per_layer_info@38#timestamp#min": "0424 17:46:57.229676", 
+  "##characteristics#run#per_layer_info@38#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@39#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@39#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@39#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@39#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@39#index#all": [
+    19, 
+    19, 
+    19
+  ], 
+  "##characteristics#run#per_layer_info@39#index#all_unique": [
+    19
+  ], 
+  "##characteristics#run#per_layer_info@39#index#center": 19, 
+  "##characteristics#run#per_layer_info@39#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@39#index#max": 19, 
+  "##characteristics#run#per_layer_info@39#index#mean": 19.0, 
+  "##characteristics#run#per_layer_info@39#index#min": 19, 
+  "##characteristics#run#per_layer_info@39#index#range": 0, 
+  "##characteristics#run#per_layer_info@39#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@39#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@39#label#all": [
+    "19: fc7", 
+    "19: fc7", 
+    "19: fc7"
+  ], 
+  "##characteristics#run#per_layer_info@39#label#all_unique": [
+    "19: fc7"
+  ], 
+  "##characteristics#run#per_layer_info@39#label#min": "19: fc7", 
+  "##characteristics#run#per_layer_info@39#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@39#time_ms#all": [
+    184.939, 
+    180.0, 
+    181.896
+  ], 
+  "##characteristics#run#per_layer_info@39#time_ms#all_unique": [
+    184.939, 
+    180.0, 
+    181.896
+  ], 
+  "##characteristics#run#per_layer_info@39#time_ms#center": 182.46949999999998, 
+  "##characteristics#run#per_layer_info@39#time_ms#halfrange": 2.4694999999999965, 
+  "##characteristics#run#per_layer_info@39#time_ms#max": 184.939, 
+  "##characteristics#run#per_layer_info@39#time_ms#mean": 182.2783333333333, 
+  "##characteristics#run#per_layer_info@39#time_ms#min": 180.0, 
+  "##characteristics#run#per_layer_info@39#time_ms#range": 4.938999999999993, 
+  "##characteristics#run#per_layer_info@39#time_ms#range_percent": 0.02743888888888885, 
+  "##characteristics#run#per_layer_info@39#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@39#time_s#all": [
+    0.184939, 
+    0.18, 
+    0.181896
+  ], 
+  "##characteristics#run#per_layer_info@39#time_s#all_unique": [
+    0.184939, 
+    0.18, 
+    0.181896
+  ], 
+  "##characteristics#run#per_layer_info@39#time_s#center": 0.1824695, 
+  "##characteristics#run#per_layer_info@39#time_s#halfrange": 0.0024694999999999995, 
+  "##characteristics#run#per_layer_info@39#time_s#max": 0.184939, 
+  "##characteristics#run#per_layer_info@39#time_s#mean": 0.18227833333333332, 
+  "##characteristics#run#per_layer_info@39#time_s#min": 0.18, 
+  "##characteristics#run#per_layer_info@39#time_s#range": 0.004938999999999999, 
+  "##characteristics#run#per_layer_info@39#time_s#range_percent": 0.027438888888888884, 
+  "##characteristics#run#per_layer_info@39#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@39#timestamp#all": [
+    "0424 17:46:57.229712", 
+    "0424 17:47:02.363915", 
+    "0424 17:47:07.381883"
+  ], 
+  "##characteristics#run#per_layer_info@39#timestamp#all_unique": [
+    "0424 17:46:57.229712", 
+    "0424 17:47:02.363915", 
+    "0424 17:47:07.381883"
+  ], 
+  "##characteristics#run#per_layer_info@39#timestamp#min": "0424 17:46:57.229712", 
+  "##characteristics#run#per_layer_info@39#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@4#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@4#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@4#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@4#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@4#index#all": [
+    2, 
+    2, 
+    2
+  ], 
+  "##characteristics#run#per_layer_info@4#index#all_unique": [
+    2
+  ], 
+  "##characteristics#run#per_layer_info@4#index#center": 2, 
+  "##characteristics#run#per_layer_info@4#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@4#index#max": 2, 
+  "##characteristics#run#per_layer_info@4#index#mean": 2.0, 
+  "##characteristics#run#per_layer_info@4#index#min": 2, 
+  "##characteristics#run#per_layer_info@4#index#range": 0, 
+  "##characteristics#run#per_layer_info@4#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@4#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@4#label#all": [
+    "02: relu1", 
+    "02: relu1", 
+    "02: relu1"
+  ], 
+  "##characteristics#run#per_layer_info@4#label#all_unique": [
+    "02: relu1"
+  ], 
+  "##characteristics#run#per_layer_info@4#label#min": "02: relu1", 
+  "##characteristics#run#per_layer_info@4#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@4#time_ms#all": [
+    3.965, 
+    4.125, 
+    3.962
+  ], 
+  "##characteristics#run#per_layer_info@4#time_ms#all_unique": [
+    3.965, 
+    4.125, 
+    3.962
+  ], 
+  "##characteristics#run#per_layer_info@4#time_ms#center": 4.0435, 
+  "##characteristics#run#per_layer_info@4#time_ms#halfrange": 0.0814999999999999, 
+  "##characteristics#run#per_layer_info@4#time_ms#max": 4.125, 
+  "##characteristics#run#per_layer_info@4#time_ms#mean": 4.017333333333333, 
+  "##characteristics#run#per_layer_info@4#time_ms#min": 3.962, 
+  "##characteristics#run#per_layer_info@4#time_ms#range": 0.1629999999999998, 
+  "##characteristics#run#per_layer_info@4#time_ms#range_percent": 0.0411408379606259, 
+  "##characteristics#run#per_layer_info@4#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@4#time_s#all": [
+    0.003965, 
+    0.004125, 
+    0.003962
+  ], 
+  "##characteristics#run#per_layer_info@4#time_s#all_unique": [
+    0.003965, 
+    0.004125, 
+    0.003962
+  ], 
+  "##characteristics#run#per_layer_info@4#time_s#center": 0.0040435, 
+  "##characteristics#run#per_layer_info@4#time_s#halfrange": 8.149999999999998e-05, 
+  "##characteristics#run#per_layer_info@4#time_s#max": 0.004125, 
+  "##characteristics#run#per_layer_info@4#time_s#mean": 0.004017333333333334, 
+  "##characteristics#run#per_layer_info@4#time_s#min": 0.003962, 
+  "##characteristics#run#per_layer_info@4#time_s#range": 0.00016299999999999995, 
+  "##characteristics#run#per_layer_info@4#time_s#range_percent": 0.04114083796062593, 
+  "##characteristics#run#per_layer_info@4#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@4#timestamp#all": [
+    "0424 17:46:57.228494", 
+    "0424 17:47:02.362643", 
+    "0424 17:47:07.380628"
+  ], 
+  "##characteristics#run#per_layer_info@4#timestamp#all_unique": [
+    "0424 17:46:57.228494", 
+    "0424 17:47:02.362643", 
+    "0424 17:47:07.380628"
+  ], 
+  "##characteristics#run#per_layer_info@4#timestamp#min": "0424 17:46:57.228494", 
+  "##characteristics#run#per_layer_info@4#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@40#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@40#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@40#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@40#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@40#index#all": [
+    20, 
+    20, 
+    20
+  ], 
+  "##characteristics#run#per_layer_info@40#index#all_unique": [
+    20
+  ], 
+  "##characteristics#run#per_layer_info@40#index#center": 20, 
+  "##characteristics#run#per_layer_info@40#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@40#index#max": 20, 
+  "##characteristics#run#per_layer_info@40#index#mean": 20.0, 
+  "##characteristics#run#per_layer_info@40#index#min": 20, 
+  "##characteristics#run#per_layer_info@40#index#range": 0, 
+  "##characteristics#run#per_layer_info@40#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@40#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@40#label#all": [
+    "20: relu7", 
+    "20: relu7", 
+    "20: relu7"
+  ], 
+  "##characteristics#run#per_layer_info@40#label#all_unique": [
+    "20: relu7"
+  ], 
+  "##characteristics#run#per_layer_info@40#label#min": "20: relu7", 
+  "##characteristics#run#per_layer_info@40#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@40#time_ms#all": [
+    0.062, 
+    0.063, 
+    0.063
+  ], 
+  "##characteristics#run#per_layer_info@40#time_ms#all_unique": [
+    0.062, 
+    0.063
+  ], 
+  "##characteristics#run#per_layer_info@40#time_ms#center": 0.0625, 
+  "##characteristics#run#per_layer_info@40#time_ms#halfrange": 0.0005000000000000004, 
+  "##characteristics#run#per_layer_info@40#time_ms#max": 0.063, 
+  "##characteristics#run#per_layer_info@40#time_ms#mean": 0.06266666666666666, 
+  "##characteristics#run#per_layer_info@40#time_ms#min": 0.062, 
+  "##characteristics#run#per_layer_info@40#time_ms#range": 0.0010000000000000009, 
+  "##characteristics#run#per_layer_info@40#time_ms#range_percent": 0.01612903225806453, 
+  "##characteristics#run#per_layer_info@40#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@40#time_s#all": [
+    6.2e-05, 
+    6.3e-05, 
+    6.3e-05
+  ], 
+  "##characteristics#run#per_layer_info@40#time_s#all_unique": [
+    6.2e-05, 
+    6.3e-05
+  ], 
+  "##characteristics#run#per_layer_info@40#time_s#center": 6.25e-05, 
+  "##characteristics#run#per_layer_info@40#time_s#halfrange": 4.999999999999986e-07, 
+  "##characteristics#run#per_layer_info@40#time_s#max": 6.3e-05, 
+  "##characteristics#run#per_layer_info@40#time_s#mean": 6.266666666666667e-05, 
+  "##characteristics#run#per_layer_info@40#time_s#min": 6.2e-05, 
+  "##characteristics#run#per_layer_info@40#time_s#range": 9.999999999999972e-07, 
+  "##characteristics#run#per_layer_info@40#time_s#range_percent": 0.01612903225806447, 
+  "##characteristics#run#per_layer_info@40#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@40#timestamp#all": [
+    "0424 17:46:57.229815", 
+    "0424 17:47:02.364017", 
+    "0424 17:47:07.381984"
+  ], 
+  "##characteristics#run#per_layer_info@40#timestamp#all_unique": [
+    "0424 17:46:57.229815", 
+    "0424 17:47:02.364017", 
+    "0424 17:47:07.381984"
+  ], 
+  "##characteristics#run#per_layer_info@40#timestamp#min": "0424 17:46:57.229815", 
+  "##characteristics#run#per_layer_info@40#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@41#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@41#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@41#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@41#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@41#index#all": [
+    20, 
+    20, 
+    20
+  ], 
+  "##characteristics#run#per_layer_info@41#index#all_unique": [
+    20
+  ], 
+  "##characteristics#run#per_layer_info@41#index#center": 20, 
+  "##characteristics#run#per_layer_info@41#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@41#index#max": 20, 
+  "##characteristics#run#per_layer_info@41#index#mean": 20.0, 
+  "##characteristics#run#per_layer_info@41#index#min": 20, 
+  "##characteristics#run#per_layer_info@41#index#range": 0, 
+  "##characteristics#run#per_layer_info@41#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@41#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@41#label#all": [
+    "20: relu7", 
+    "20: relu7", 
+    "20: relu7"
+  ], 
+  "##characteristics#run#per_layer_info@41#label#all_unique": [
+    "20: relu7"
+  ], 
+  "##characteristics#run#per_layer_info@41#label#min": "20: relu7", 
+  "##characteristics#run#per_layer_info@41#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@41#time_ms#all": [
+    0.002, 
+    0.003, 
+    0.003
+  ], 
+  "##characteristics#run#per_layer_info@41#time_ms#all_unique": [
+    0.002, 
+    0.003
+  ], 
+  "##characteristics#run#per_layer_info@41#time_ms#center": 0.0025, 
+  "##characteristics#run#per_layer_info@41#time_ms#halfrange": 0.0005, 
+  "##characteristics#run#per_layer_info@41#time_ms#max": 0.003, 
+  "##characteristics#run#per_layer_info@41#time_ms#mean": 0.0026666666666666666, 
+  "##characteristics#run#per_layer_info@41#time_ms#min": 0.002, 
+  "##characteristics#run#per_layer_info@41#time_ms#range": 0.001, 
+  "##characteristics#run#per_layer_info@41#time_ms#range_percent": 0.5, 
+  "##characteristics#run#per_layer_info@41#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@41#time_s#all": [
+    2e-06, 
+    3e-06, 
+    3e-06
+  ], 
+  "##characteristics#run#per_layer_info@41#time_s#all_unique": [
+    2e-06, 
+    3e-06
+  ], 
+  "##characteristics#run#per_layer_info@41#time_s#center": 2.4999999999999998e-06, 
+  "##characteristics#run#per_layer_info@41#time_s#halfrange": 5.000000000000001e-07, 
+  "##characteristics#run#per_layer_info@41#time_s#max": 3e-06, 
+  "##characteristics#run#per_layer_info@41#time_s#mean": 2.6666666666666664e-06, 
+  "##characteristics#run#per_layer_info@41#time_s#min": 2e-06, 
+  "##characteristics#run#per_layer_info@41#time_s#range": 1.0000000000000002e-06, 
+  "##characteristics#run#per_layer_info@41#time_s#range_percent": 0.5000000000000001, 
+  "##characteristics#run#per_layer_info@41#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@41#timestamp#all": [
+    "0424 17:46:57.229851", 
+    "0424 17:47:02.364051", 
+    "0424 17:47:07.382019"
+  ], 
+  "##characteristics#run#per_layer_info@41#timestamp#all_unique": [
+    "0424 17:46:57.229851", 
+    "0424 17:47:02.364051", 
+    "0424 17:47:07.382019"
+  ], 
+  "##characteristics#run#per_layer_info@41#timestamp#min": "0424 17:46:57.229851", 
+  "##characteristics#run#per_layer_info@41#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@42#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@42#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@42#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@42#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@42#index#all": [
+    21, 
+    21, 
+    21
+  ], 
+  "##characteristics#run#per_layer_info@42#index#all_unique": [
+    21
+  ], 
+  "##characteristics#run#per_layer_info@42#index#center": 21, 
+  "##characteristics#run#per_layer_info@42#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@42#index#max": 21, 
+  "##characteristics#run#per_layer_info@42#index#mean": 21.0, 
+  "##characteristics#run#per_layer_info@42#index#min": 21, 
+  "##characteristics#run#per_layer_info@42#index#range": 0, 
+  "##characteristics#run#per_layer_info@42#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@42#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@42#label#all": [
+    "21: drop7", 
+    "21: drop7", 
+    "21: drop7"
+  ], 
+  "##characteristics#run#per_layer_info@42#label#all_unique": [
+    "21: drop7"
+  ], 
+  "##characteristics#run#per_layer_info@42#label#min": "21: drop7", 
+  "##characteristics#run#per_layer_info@42#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@42#time_ms#all": [
+    0.239, 
+    0.24, 
+    0.24
+  ], 
+  "##characteristics#run#per_layer_info@42#time_ms#all_unique": [
+    0.239, 
+    0.24
+  ], 
+  "##characteristics#run#per_layer_info@42#time_ms#center": 0.2395, 
+  "##characteristics#run#per_layer_info@42#time_ms#halfrange": 0.0005000000000000004, 
+  "##characteristics#run#per_layer_info@42#time_ms#max": 0.24, 
+  "##characteristics#run#per_layer_info@42#time_ms#mean": 0.23966666666666667, 
+  "##characteristics#run#per_layer_info@42#time_ms#min": 0.239, 
+  "##characteristics#run#per_layer_info@42#time_ms#range": 0.0010000000000000009, 
+  "##characteristics#run#per_layer_info@42#time_ms#range_percent": 0.004184100418410046, 
+  "##characteristics#run#per_layer_info@42#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@42#time_s#all": [
+    0.00023899999999999998, 
+    0.00024, 
+    0.00024
+  ], 
+  "##characteristics#run#per_layer_info@42#time_s#all_unique": [
+    0.00023899999999999998, 
+    0.00024
+  ], 
+  "##characteristics#run#per_layer_info@42#time_s#center": 0.0002395, 
+  "##characteristics#run#per_layer_info@42#time_s#halfrange": 5.000000000000122e-07, 
+  "##characteristics#run#per_layer_info@42#time_s#max": 0.00024, 
+  "##characteristics#run#per_layer_info@42#time_s#mean": 0.00023966666666666667, 
+  "##characteristics#run#per_layer_info@42#time_s#min": 0.00023899999999999998, 
+  "##characteristics#run#per_layer_info@42#time_s#range": 1.0000000000000243e-06, 
+  "##characteristics#run#per_layer_info@42#time_s#range_percent": 0.004184100418410144, 
+  "##characteristics#run#per_layer_info@42#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@42#timestamp#all": [
+    "0424 17:46:57.229884", 
+    "0424 17:47:02.364085", 
+    "0424 17:47:07.382055"
+  ], 
+  "##characteristics#run#per_layer_info@42#timestamp#all_unique": [
+    "0424 17:46:57.229884", 
+    "0424 17:47:02.364085", 
+    "0424 17:47:07.382055"
+  ], 
+  "##characteristics#run#per_layer_info@42#timestamp#min": "0424 17:46:57.229884", 
+  "##characteristics#run#per_layer_info@42#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@43#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@43#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@43#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@43#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@43#index#all": [
+    21, 
+    21, 
+    21
+  ], 
+  "##characteristics#run#per_layer_info@43#index#all_unique": [
+    21
+  ], 
+  "##characteristics#run#per_layer_info@43#index#center": 21, 
+  "##characteristics#run#per_layer_info@43#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@43#index#max": 21, 
+  "##characteristics#run#per_layer_info@43#index#mean": 21.0, 
+  "##characteristics#run#per_layer_info@43#index#min": 21, 
+  "##characteristics#run#per_layer_info@43#index#range": 0, 
+  "##characteristics#run#per_layer_info@43#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@43#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@43#label#all": [
+    "21: drop7", 
+    "21: drop7", 
+    "21: drop7"
+  ], 
+  "##characteristics#run#per_layer_info@43#label#all_unique": [
+    "21: drop7"
+  ], 
+  "##characteristics#run#per_layer_info@43#label#min": "21: drop7", 
+  "##characteristics#run#per_layer_info@43#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@43#time_ms#all": [
+    0.005, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@43#time_ms#all_unique": [
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@43#time_ms#center": 0.005, 
+  "##characteristics#run#per_layer_info@43#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@43#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@43#time_ms#mean": 0.005, 
+  "##characteristics#run#per_layer_info@43#time_ms#min": 0.005, 
+  "##characteristics#run#per_layer_info@43#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@43#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@43#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@43#time_s#all": [
+    5e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@43#time_s#all_unique": [
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@43#time_s#center": 5e-06, 
+  "##characteristics#run#per_layer_info@43#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@43#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@43#time_s#mean": 5e-06, 
+  "##characteristics#run#per_layer_info@43#time_s#min": 5e-06, 
+  "##characteristics#run#per_layer_info@43#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@43#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@43#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@43#timestamp#all": [
+    "0424 17:46:57.229918", 
+    "0424 17:47:02.364120", 
+    "0424 17:47:07.382087"
+  ], 
+  "##characteristics#run#per_layer_info@43#timestamp#all_unique": [
+    "0424 17:46:57.229918", 
+    "0424 17:47:02.364120", 
+    "0424 17:47:07.382087"
+  ], 
+  "##characteristics#run#per_layer_info@43#timestamp#min": "0424 17:46:57.229918", 
+  "##characteristics#run#per_layer_info@43#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@44#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@44#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@44#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@44#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@44#index#all": [
+    22, 
+    22, 
+    22
+  ], 
+  "##characteristics#run#per_layer_info@44#index#all_unique": [
+    22
+  ], 
+  "##characteristics#run#per_layer_info@44#index#center": 22, 
+  "##characteristics#run#per_layer_info@44#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@44#index#max": 22, 
+  "##characteristics#run#per_layer_info@44#index#mean": 22.0, 
+  "##characteristics#run#per_layer_info@44#index#min": 22, 
+  "##characteristics#run#per_layer_info@44#index#range": 0, 
+  "##characteristics#run#per_layer_info@44#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@44#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@44#label#all": [
+    "22: fc8", 
+    "22: fc8", 
+    "22: fc8"
+  ], 
+  "##characteristics#run#per_layer_info@44#label#all_unique": [
+    "22: fc8"
+  ], 
+  "##characteristics#run#per_layer_info@44#label#min": "22: fc8", 
+  "##characteristics#run#per_layer_info@44#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@44#time_ms#all": [
+    29.189, 
+    28.903, 
+    28.627
+  ], 
+  "##characteristics#run#per_layer_info@44#time_ms#all_unique": [
+    29.189, 
+    28.903, 
+    28.627
+  ], 
+  "##characteristics#run#per_layer_info@44#time_ms#center": 28.908, 
+  "##characteristics#run#per_layer_info@44#time_ms#halfrange": 0.2810000000000006, 
+  "##characteristics#run#per_layer_info@44#time_ms#max": 29.189, 
+  "##characteristics#run#per_layer_info@44#time_ms#mean": 28.906333333333333, 
+  "##characteristics#run#per_layer_info@44#time_ms#min": 28.627, 
+  "##characteristics#run#per_layer_info@44#time_ms#range": 0.5620000000000012, 
+  "##characteristics#run#per_layer_info@44#time_ms#range_percent": 0.01963181611765121, 
+  "##characteristics#run#per_layer_info@44#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@44#time_s#all": [
+    0.029189, 
+    0.028902999999999998, 
+    0.028627
+  ], 
+  "##characteristics#run#per_layer_info@44#time_s#all_unique": [
+    0.029189, 
+    0.028902999999999998, 
+    0.028627
+  ], 
+  "##characteristics#run#per_layer_info@44#time_s#center": 0.028908, 
+  "##characteristics#run#per_layer_info@44#time_s#halfrange": 0.000281, 
+  "##characteristics#run#per_layer_info@44#time_s#max": 0.029189, 
+  "##characteristics#run#per_layer_info@44#time_s#mean": 0.02890633333333333, 
+  "##characteristics#run#per_layer_info@44#time_s#min": 0.028627, 
+  "##characteristics#run#per_layer_info@44#time_s#range": 0.000562, 
+  "##characteristics#run#per_layer_info@44#time_s#range_percent": 0.01963181611765117, 
+  "##characteristics#run#per_layer_info@44#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@44#timestamp#all": [
+    "0424 17:46:57.229951", 
+    "0424 17:47:02.364152", 
+    "0424 17:47:07.382120"
+  ], 
+  "##characteristics#run#per_layer_info@44#timestamp#all_unique": [
+    "0424 17:46:57.229951", 
+    "0424 17:47:02.364152", 
+    "0424 17:47:07.382120"
+  ], 
+  "##characteristics#run#per_layer_info@44#timestamp#min": "0424 17:46:57.229951", 
+  "##characteristics#run#per_layer_info@44#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@45#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@45#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@45#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@45#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@45#index#all": [
+    22, 
+    22, 
+    22
+  ], 
+  "##characteristics#run#per_layer_info@45#index#all_unique": [
+    22
+  ], 
+  "##characteristics#run#per_layer_info@45#index#center": 22, 
+  "##characteristics#run#per_layer_info@45#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@45#index#max": 22, 
+  "##characteristics#run#per_layer_info@45#index#mean": 22.0, 
+  "##characteristics#run#per_layer_info@45#index#min": 22, 
+  "##characteristics#run#per_layer_info@45#index#range": 0, 
+  "##characteristics#run#per_layer_info@45#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@45#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@45#label#all": [
+    "22: fc8", 
+    "22: fc8", 
+    "22: fc8"
+  ], 
+  "##characteristics#run#per_layer_info@45#label#all_unique": [
+    "22: fc8"
+  ], 
+  "##characteristics#run#per_layer_info@45#label#min": "22: fc8", 
+  "##characteristics#run#per_layer_info@45#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@45#time_ms#all": [
+    47.371, 
+    43.945, 
+    43.988
+  ], 
+  "##characteristics#run#per_layer_info@45#time_ms#all_unique": [
+    47.371, 
+    43.945, 
+    43.988
+  ], 
+  "##characteristics#run#per_layer_info@45#time_ms#center": 45.658, 
+  "##characteristics#run#per_layer_info@45#time_ms#halfrange": 1.713000000000001, 
+  "##characteristics#run#per_layer_info@45#time_ms#max": 47.371, 
+  "##characteristics#run#per_layer_info@45#time_ms#mean": 45.101333333333336, 
+  "##characteristics#run#per_layer_info@45#time_ms#min": 43.945, 
+  "##characteristics#run#per_layer_info@45#time_ms#range": 3.426000000000002, 
+  "##characteristics#run#per_layer_info@45#time_ms#range_percent": 0.07796108772329052, 
+  "##characteristics#run#per_layer_info@45#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@45#time_s#all": [
+    0.047371, 
+    0.043945, 
+    0.043988
+  ], 
+  "##characteristics#run#per_layer_info@45#time_s#all_unique": [
+    0.047371, 
+    0.043945, 
+    0.043988
+  ], 
+  "##characteristics#run#per_layer_info@45#time_s#center": 0.045658000000000004, 
+  "##characteristics#run#per_layer_info@45#time_s#halfrange": 0.0017130000000000027, 
+  "##characteristics#run#per_layer_info@45#time_s#max": 0.047371, 
+  "##characteristics#run#per_layer_info@45#time_s#mean": 0.045101333333333334, 
+  "##characteristics#run#per_layer_info@45#time_s#min": 0.043945, 
+  "##characteristics#run#per_layer_info@45#time_s#range": 0.0034260000000000054, 
+  "##characteristics#run#per_layer_info@45#time_s#range_percent": 0.0779610877232906, 
+  "##characteristics#run#per_layer_info@45#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@45#timestamp#all": [
+    "0424 17:46:57.229987", 
+    "0424 17:47:02.364188", 
+    "0424 17:47:07.382156"
+  ], 
+  "##characteristics#run#per_layer_info@45#timestamp#all_unique": [
+    "0424 17:46:57.229987", 
+    "0424 17:47:02.364188", 
+    "0424 17:47:07.382156"
+  ], 
+  "##characteristics#run#per_layer_info@45#timestamp#min": "0424 17:46:57.229987", 
+  "##characteristics#run#per_layer_info@45#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@46#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@46#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@46#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@46#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@46#index#all": [
+    23, 
+    23, 
+    23
+  ], 
+  "##characteristics#run#per_layer_info@46#index#all_unique": [
+    23
+  ], 
+  "##characteristics#run#per_layer_info@46#index#center": 23, 
+  "##characteristics#run#per_layer_info@46#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@46#index#max": 23, 
+  "##characteristics#run#per_layer_info@46#index#mean": 23.0, 
+  "##characteristics#run#per_layer_info@46#index#min": 23, 
+  "##characteristics#run#per_layer_info@46#index#range": 0, 
+  "##characteristics#run#per_layer_info@46#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@46#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@46#label#all": [
+    "23: prob", 
+    "23: prob", 
+    "23: prob"
+  ], 
+  "##characteristics#run#per_layer_info@46#label#all_unique": [
+    "23: prob"
+  ], 
+  "##characteristics#run#per_layer_info@46#label#min": "23: prob", 
+  "##characteristics#run#per_layer_info@46#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@46#time_ms#all": [
+    0.251, 
+    0.249, 
+    0.251
+  ], 
+  "##characteristics#run#per_layer_info@46#time_ms#all_unique": [
+    0.251, 
+    0.249
+  ], 
+  "##characteristics#run#per_layer_info@46#time_ms#center": 0.25, 
+  "##characteristics#run#per_layer_info@46#time_ms#halfrange": 0.0010000000000000009, 
+  "##characteristics#run#per_layer_info@46#time_ms#max": 0.251, 
+  "##characteristics#run#per_layer_info@46#time_ms#mean": 0.25033333333333335, 
+  "##characteristics#run#per_layer_info@46#time_ms#min": 0.249, 
+  "##characteristics#run#per_layer_info@46#time_ms#range": 0.0020000000000000018, 
+  "##characteristics#run#per_layer_info@46#time_ms#range_percent": 0.008032128514056233, 
+  "##characteristics#run#per_layer_info@46#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@46#time_s#all": [
+    0.00025100000000000003, 
+    0.000249, 
+    0.00025100000000000003
+  ], 
+  "##characteristics#run#per_layer_info@46#time_s#all_unique": [
+    0.00025100000000000003, 
+    0.000249
+  ], 
+  "##characteristics#run#per_layer_info@46#time_s#center": 0.00025, 
+  "##characteristics#run#per_layer_info@46#time_s#halfrange": 1.0000000000000243e-06, 
+  "##characteristics#run#per_layer_info@46#time_s#max": 0.00025100000000000003, 
+  "##characteristics#run#per_layer_info@46#time_s#mean": 0.00025033333333333336, 
+  "##characteristics#run#per_layer_info@46#time_s#min": 0.000249, 
+  "##characteristics#run#per_layer_info@46#time_s#range": 2.0000000000000486e-06, 
+  "##characteristics#run#per_layer_info@46#time_s#range_percent": 0.00803212851405642, 
+  "##characteristics#run#per_layer_info@46#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@46#timestamp#all": [
+    "0424 17:46:57.230022", 
+    "0424 17:47:02.364223", 
+    "0424 17:47:07.382191"
+  ], 
+  "##characteristics#run#per_layer_info@46#timestamp#all_unique": [
+    "0424 17:46:57.230022", 
+    "0424 17:47:02.364223", 
+    "0424 17:47:07.382191"
+  ], 
+  "##characteristics#run#per_layer_info@46#timestamp#min": "0424 17:46:57.230022", 
+  "##characteristics#run#per_layer_info@46#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@47#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@47#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@47#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@47#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@47#index#all": [
+    23, 
+    23, 
+    23
+  ], 
+  "##characteristics#run#per_layer_info@47#index#all_unique": [
+    23
+  ], 
+  "##characteristics#run#per_layer_info@47#index#center": 23, 
+  "##characteristics#run#per_layer_info@47#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@47#index#max": 23, 
+  "##characteristics#run#per_layer_info@47#index#mean": 23.0, 
+  "##characteristics#run#per_layer_info@47#index#min": 23, 
+  "##characteristics#run#per_layer_info@47#index#range": 0, 
+  "##characteristics#run#per_layer_info@47#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@47#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@47#label#all": [
+    "23: prob", 
+    "23: prob", 
+    "23: prob"
+  ], 
+  "##characteristics#run#per_layer_info@47#label#all_unique": [
+    "23: prob"
+  ], 
+  "##characteristics#run#per_layer_info@47#label#min": "23: prob", 
+  "##characteristics#run#per_layer_info@47#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@47#time_ms#all": [
+    0.106, 
+    0.105, 
+    0.104
+  ], 
+  "##characteristics#run#per_layer_info@47#time_ms#all_unique": [
+    0.106, 
+    0.105, 
+    0.104
+  ], 
+  "##characteristics#run#per_layer_info@47#time_ms#center": 0.105, 
+  "##characteristics#run#per_layer_info@47#time_ms#halfrange": 0.0010000000000000009, 
+  "##characteristics#run#per_layer_info@47#time_ms#max": 0.106, 
+  "##characteristics#run#per_layer_info@47#time_ms#mean": 0.105, 
+  "##characteristics#run#per_layer_info@47#time_ms#min": 0.104, 
+  "##characteristics#run#per_layer_info@47#time_ms#range": 0.0020000000000000018, 
+  "##characteristics#run#per_layer_info@47#time_ms#range_percent": 0.01923076923076925, 
+  "##characteristics#run#per_layer_info@47#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@47#time_s#all": [
+    0.000106, 
+    0.000105, 
+    0.000104
+  ], 
+  "##characteristics#run#per_layer_info@47#time_s#all_unique": [
+    0.000106, 
+    0.000105, 
+    0.000104
+  ], 
+  "##characteristics#run#per_layer_info@47#time_s#center": 0.000105, 
+  "##characteristics#run#per_layer_info@47#time_s#halfrange": 1.000000000000004e-06, 
+  "##characteristics#run#per_layer_info@47#time_s#max": 0.000106, 
+  "##characteristics#run#per_layer_info@47#time_s#mean": 0.000105, 
+  "##characteristics#run#per_layer_info@47#time_s#min": 0.000104, 
+  "##characteristics#run#per_layer_info@47#time_s#range": 2.000000000000008e-06, 
+  "##characteristics#run#per_layer_info@47#time_s#range_percent": 0.019230769230769308, 
+  "##characteristics#run#per_layer_info@47#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@47#timestamp#all": [
+    "0424 17:46:57.230056", 
+    "0424 17:47:02.364258", 
+    "0424 17:47:07.382225"
+  ], 
+  "##characteristics#run#per_layer_info@47#timestamp#all_unique": [
+    "0424 17:46:57.230056", 
+    "0424 17:47:02.364258", 
+    "0424 17:47:07.382225"
+  ], 
+  "##characteristics#run#per_layer_info@47#timestamp#min": "0424 17:46:57.230056", 
+  "##characteristics#run#per_layer_info@47#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@5#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@5#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@5#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@5#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@5#index#all": [
+    2, 
+    2, 
+    2
+  ], 
+  "##characteristics#run#per_layer_info@5#index#all_unique": [
+    2
+  ], 
+  "##characteristics#run#per_layer_info@5#index#center": 2, 
+  "##characteristics#run#per_layer_info@5#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@5#index#max": 2, 
+  "##characteristics#run#per_layer_info@5#index#mean": 2.0, 
+  "##characteristics#run#per_layer_info@5#index#min": 2, 
+  "##characteristics#run#per_layer_info@5#index#range": 0, 
+  "##characteristics#run#per_layer_info@5#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@5#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@5#label#all": [
+    "02: relu1", 
+    "02: relu1", 
+    "02: relu1"
+  ], 
+  "##characteristics#run#per_layer_info@5#label#all_unique": [
+    "02: relu1"
+  ], 
+  "##characteristics#run#per_layer_info@5#label#min": "02: relu1", 
+  "##characteristics#run#per_layer_info@5#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@5#time_ms#all": [
+    0.004, 
+    0.004, 
+    0.004
+  ], 
+  "##characteristics#run#per_layer_info@5#time_ms#all_unique": [
+    0.004
+  ], 
+  "##characteristics#run#per_layer_info@5#time_ms#center": 0.004, 
+  "##characteristics#run#per_layer_info@5#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@5#time_ms#max": 0.004, 
+  "##characteristics#run#per_layer_info@5#time_ms#mean": 0.004, 
+  "##characteristics#run#per_layer_info@5#time_ms#min": 0.004, 
+  "##characteristics#run#per_layer_info@5#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@5#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@5#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@5#time_s#all": [
+    4e-06, 
+    4e-06, 
+    4e-06
+  ], 
+  "##characteristics#run#per_layer_info@5#time_s#all_unique": [
+    4e-06
+  ], 
+  "##characteristics#run#per_layer_info@5#time_s#center": 4e-06, 
+  "##characteristics#run#per_layer_info@5#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@5#time_s#max": 4e-06, 
+  "##characteristics#run#per_layer_info@5#time_s#mean": 4e-06, 
+  "##characteristics#run#per_layer_info@5#time_s#min": 4e-06, 
+  "##characteristics#run#per_layer_info@5#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@5#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@5#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@5#timestamp#all": [
+    "0424 17:46:57.228529", 
+    "0424 17:47:02.362676", 
+    "0424 17:47:07.380661"
+  ], 
+  "##characteristics#run#per_layer_info@5#timestamp#all_unique": [
+    "0424 17:46:57.228529", 
+    "0424 17:47:02.362676", 
+    "0424 17:47:07.380661"
+  ], 
+  "##characteristics#run#per_layer_info@5#timestamp#min": "0424 17:46:57.228529", 
+  "##characteristics#run#per_layer_info@5#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@6#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@6#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@6#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@6#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@6#index#all": [
+    3, 
+    3, 
+    3
+  ], 
+  "##characteristics#run#per_layer_info@6#index#all_unique": [
+    3
+  ], 
+  "##characteristics#run#per_layer_info@6#index#center": 3, 
+  "##characteristics#run#per_layer_info@6#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@6#index#max": 3, 
+  "##characteristics#run#per_layer_info@6#index#mean": 3.0, 
+  "##characteristics#run#per_layer_info@6#index#min": 3, 
+  "##characteristics#run#per_layer_info@6#index#range": 0, 
+  "##characteristics#run#per_layer_info@6#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@6#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@6#label#all": [
+    "03: norm1", 
+    "03: norm1", 
+    "03: norm1"
+  ], 
+  "##characteristics#run#per_layer_info@6#label#all_unique": [
+    "03: norm1"
+  ], 
+  "##characteristics#run#per_layer_info@6#label#min": "03: norm1", 
+  "##characteristics#run#per_layer_info@6#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@6#time_ms#all": [
+    109.58, 
+    109.558, 
+    109.616
+  ], 
+  "##characteristics#run#per_layer_info@6#time_ms#all_unique": [
+    109.58, 
+    109.558, 
+    109.616
+  ], 
+  "##characteristics#run#per_layer_info@6#time_ms#center": 109.587, 
+  "##characteristics#run#per_layer_info@6#time_ms#halfrange": 0.028999999999996362, 
+  "##characteristics#run#per_layer_info@6#time_ms#max": 109.616, 
+  "##characteristics#run#per_layer_info@6#time_ms#mean": 109.58466666666668, 
+  "##characteristics#run#per_layer_info@6#time_ms#min": 109.558, 
+  "##characteristics#run#per_layer_info@6#time_ms#range": 0.057999999999992724, 
+  "##characteristics#run#per_layer_info@6#time_ms#range_percent": 0.0005293999525364895, 
+  "##characteristics#run#per_layer_info@6#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@6#time_s#all": [
+    0.10958, 
+    0.109558, 
+    0.109616
+  ], 
+  "##characteristics#run#per_layer_info@6#time_s#all_unique": [
+    0.10958, 
+    0.109558, 
+    0.109616
+  ], 
+  "##characteristics#run#per_layer_info@6#time_s#center": 0.109587, 
+  "##characteristics#run#per_layer_info@6#time_s#halfrange": 2.9000000000001247e-05, 
+  "##characteristics#run#per_layer_info@6#time_s#max": 0.109616, 
+  "##characteristics#run#per_layer_info@6#time_s#mean": 0.10958466666666666, 
+  "##characteristics#run#per_layer_info@6#time_s#min": 0.109558, 
+  "##characteristics#run#per_layer_info@6#time_s#range": 5.8000000000002494e-05, 
+  "##characteristics#run#per_layer_info@6#time_s#range_percent": 0.0005293999525365788, 
+  "##characteristics#run#per_layer_info@6#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@6#timestamp#all": [
+    "0424 17:46:57.228564", 
+    "0424 17:47:02.362710", 
+    "0424 17:47:07.380695"
+  ], 
+  "##characteristics#run#per_layer_info@6#timestamp#all_unique": [
+    "0424 17:46:57.228564", 
+    "0424 17:47:02.362710", 
+    "0424 17:47:07.380695"
+  ], 
+  "##characteristics#run#per_layer_info@6#timestamp#min": "0424 17:46:57.228564", 
+  "##characteristics#run#per_layer_info@6#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@7#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@7#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@7#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@7#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@7#index#all": [
+    3, 
+    3, 
+    3
+  ], 
+  "##characteristics#run#per_layer_info@7#index#all_unique": [
+    3
+  ], 
+  "##characteristics#run#per_layer_info@7#index#center": 3, 
+  "##characteristics#run#per_layer_info@7#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@7#index#max": 3, 
+  "##characteristics#run#per_layer_info@7#index#mean": 3.0, 
+  "##characteristics#run#per_layer_info@7#index#min": 3, 
+  "##characteristics#run#per_layer_info@7#index#range": 0, 
+  "##characteristics#run#per_layer_info@7#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@7#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@7#label#all": [
+    "03: norm1", 
+    "03: norm1", 
+    "03: norm1"
+  ], 
+  "##characteristics#run#per_layer_info@7#label#all_unique": [
+    "03: norm1"
+  ], 
+  "##characteristics#run#per_layer_info@7#label#min": "03: norm1", 
+  "##characteristics#run#per_layer_info@7#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@7#time_ms#all": [
+    122.614, 
+    121.854, 
+    121.91
+  ], 
+  "##characteristics#run#per_layer_info@7#time_ms#all_unique": [
+    122.614, 
+    121.854, 
+    121.91
+  ], 
+  "##characteristics#run#per_layer_info@7#time_ms#center": 122.23400000000001, 
+  "##characteristics#run#per_layer_info@7#time_ms#halfrange": 0.38000000000000256, 
+  "##characteristics#run#per_layer_info@7#time_ms#max": 122.614, 
+  "##characteristics#run#per_layer_info@7#time_ms#mean": 122.12600000000002, 
+  "##characteristics#run#per_layer_info@7#time_ms#min": 121.854, 
+  "##characteristics#run#per_layer_info@7#time_ms#range": 0.7600000000000051, 
+  "##characteristics#run#per_layer_info@7#time_ms#range_percent": 0.006236972114169458, 
+  "##characteristics#run#per_layer_info@7#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@7#time_s#all": [
+    0.122614, 
+    0.121854, 
+    0.12191
+  ], 
+  "##characteristics#run#per_layer_info@7#time_s#all_unique": [
+    0.122614, 
+    0.121854, 
+    0.12191
+  ], 
+  "##characteristics#run#per_layer_info@7#time_s#center": 0.12223400000000001, 
+  "##characteristics#run#per_layer_info@7#time_s#halfrange": 0.0003799999999999984, 
+  "##characteristics#run#per_layer_info@7#time_s#max": 0.122614, 
+  "##characteristics#run#per_layer_info@7#time_s#mean": 0.12212600000000001, 
+  "##characteristics#run#per_layer_info@7#time_s#min": 0.121854, 
+  "##characteristics#run#per_layer_info@7#time_s#range": 0.0007599999999999968, 
+  "##characteristics#run#per_layer_info@7#time_s#range_percent": 0.00623697211416939, 
+  "##characteristics#run#per_layer_info@7#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@7#timestamp#all": [
+    "0424 17:46:57.228600", 
+    "0424 17:47:02.362746", 
+    "0424 17:47:07.380731"
+  ], 
+  "##characteristics#run#per_layer_info@7#timestamp#all_unique": [
+    "0424 17:46:57.228600", 
+    "0424 17:47:02.362746", 
+    "0424 17:47:07.380731"
+  ], 
+  "##characteristics#run#per_layer_info@7#timestamp#min": "0424 17:46:57.228600", 
+  "##characteristics#run#per_layer_info@7#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@8#direction#all": [
+    "forward", 
+    "forward", 
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@8#direction#all_unique": [
+    "forward"
+  ], 
+  "##characteristics#run#per_layer_info@8#direction#min": "forward", 
+  "##characteristics#run#per_layer_info@8#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@8#index#all": [
+    4, 
+    4, 
+    4
+  ], 
+  "##characteristics#run#per_layer_info@8#index#all_unique": [
+    4
+  ], 
+  "##characteristics#run#per_layer_info@8#index#center": 4, 
+  "##characteristics#run#per_layer_info@8#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@8#index#max": 4, 
+  "##characteristics#run#per_layer_info@8#index#mean": 4.0, 
+  "##characteristics#run#per_layer_info@8#index#min": 4, 
+  "##characteristics#run#per_layer_info@8#index#range": 0, 
+  "##characteristics#run#per_layer_info@8#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@8#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@8#label#all": [
+    "04: pool1", 
+    "04: pool1", 
+    "04: pool1"
+  ], 
+  "##characteristics#run#per_layer_info@8#label#all_unique": [
+    "04: pool1"
+  ], 
+  "##characteristics#run#per_layer_info@8#label#min": "04: pool1", 
+  "##characteristics#run#per_layer_info@8#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@8#time_ms#all": [
+    12.338, 
+    12.3, 
+    12.168
+  ], 
+  "##characteristics#run#per_layer_info@8#time_ms#all_unique": [
+    12.338, 
+    12.3, 
+    12.168
+  ], 
+  "##characteristics#run#per_layer_info@8#time_ms#center": 12.253, 
+  "##characteristics#run#per_layer_info@8#time_ms#halfrange": 0.08499999999999996, 
+  "##characteristics#run#per_layer_info@8#time_ms#max": 12.338, 
+  "##characteristics#run#per_layer_info@8#time_ms#mean": 12.268666666666666, 
+  "##characteristics#run#per_layer_info@8#time_ms#min": 12.168, 
+  "##characteristics#run#per_layer_info@8#time_ms#range": 0.16999999999999993, 
+  "##characteristics#run#per_layer_info@8#time_ms#range_percent": 0.013971071663379351, 
+  "##characteristics#run#per_layer_info@8#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@8#time_s#all": [
+    0.012338, 
+    0.0123, 
+    0.012168
+  ], 
+  "##characteristics#run#per_layer_info@8#time_s#all_unique": [
+    0.012338, 
+    0.0123, 
+    0.012168
+  ], 
+  "##characteristics#run#per_layer_info@8#time_s#center": 0.012253, 
+  "##characteristics#run#per_layer_info@8#time_s#halfrange": 8.5e-05, 
+  "##characteristics#run#per_layer_info@8#time_s#max": 0.012338, 
+  "##characteristics#run#per_layer_info@8#time_s#mean": 0.012268666666666666, 
+  "##characteristics#run#per_layer_info@8#time_s#min": 0.012168, 
+  "##characteristics#run#per_layer_info@8#time_s#range": 0.00017, 
+  "##characteristics#run#per_layer_info@8#time_s#range_percent": 0.013971071663379356, 
+  "##characteristics#run#per_layer_info@8#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@8#timestamp#all": [
+    "0424 17:46:57.228634", 
+    "0424 17:47:02.362782", 
+    "0424 17:47:07.380767"
+  ], 
+  "##characteristics#run#per_layer_info@8#timestamp#all_unique": [
+    "0424 17:46:57.228634", 
+    "0424 17:47:02.362782", 
+    "0424 17:47:07.380767"
+  ], 
+  "##characteristics#run#per_layer_info@8#timestamp#min": "0424 17:46:57.228634", 
+  "##characteristics#run#per_layer_info@8#timestamp#repeats": 3, 
+  "##characteristics#run#per_layer_info@9#direction#all": [
+    "backward", 
+    "backward", 
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@9#direction#all_unique": [
+    "backward"
+  ], 
+  "##characteristics#run#per_layer_info@9#direction#min": "backward", 
+  "##characteristics#run#per_layer_info@9#direction#repeats": 3, 
+  "##characteristics#run#per_layer_info@9#index#all": [
+    4, 
+    4, 
+    4
+  ], 
+  "##characteristics#run#per_layer_info@9#index#all_unique": [
+    4
+  ], 
+  "##characteristics#run#per_layer_info@9#index#center": 4, 
+  "##characteristics#run#per_layer_info@9#index#halfrange": 0, 
+  "##characteristics#run#per_layer_info@9#index#max": 4, 
+  "##characteristics#run#per_layer_info@9#index#mean": 4.0, 
+  "##characteristics#run#per_layer_info@9#index#min": 4, 
+  "##characteristics#run#per_layer_info@9#index#range": 0, 
+  "##characteristics#run#per_layer_info@9#index#range_percent": 0, 
+  "##characteristics#run#per_layer_info@9#index#repeats": 3, 
+  "##characteristics#run#per_layer_info@9#label#all": [
+    "04: pool1", 
+    "04: pool1", 
+    "04: pool1"
+  ], 
+  "##characteristics#run#per_layer_info@9#label#all_unique": [
+    "04: pool1"
+  ], 
+  "##characteristics#run#per_layer_info@9#label#min": "04: pool1", 
+  "##characteristics#run#per_layer_info@9#label#repeats": 3, 
+  "##characteristics#run#per_layer_info@9#time_ms#all": [
+    0.005, 
+    0.005, 
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@9#time_ms#all_unique": [
+    0.005
+  ], 
+  "##characteristics#run#per_layer_info@9#time_ms#center": 0.005, 
+  "##characteristics#run#per_layer_info@9#time_ms#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@9#time_ms#max": 0.005, 
+  "##characteristics#run#per_layer_info@9#time_ms#mean": 0.005, 
+  "##characteristics#run#per_layer_info@9#time_ms#min": 0.005, 
+  "##characteristics#run#per_layer_info@9#time_ms#range": 0.0, 
+  "##characteristics#run#per_layer_info@9#time_ms#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@9#time_ms#repeats": 3, 
+  "##characteristics#run#per_layer_info@9#time_s#all": [
+    5e-06, 
+    5e-06, 
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@9#time_s#all_unique": [
+    5e-06
+  ], 
+  "##characteristics#run#per_layer_info@9#time_s#center": 5e-06, 
+  "##characteristics#run#per_layer_info@9#time_s#halfrange": 0.0, 
+  "##characteristics#run#per_layer_info@9#time_s#max": 5e-06, 
+  "##characteristics#run#per_layer_info@9#time_s#mean": 5e-06, 
+  "##characteristics#run#per_layer_info@9#time_s#min": 5e-06, 
+  "##characteristics#run#per_layer_info@9#time_s#range": 0.0, 
+  "##characteristics#run#per_layer_info@9#time_s#range_percent": 0.0, 
+  "##characteristics#run#per_layer_info@9#time_s#repeats": 3, 
+  "##characteristics#run#per_layer_info@9#timestamp#all": [
+    "0424 17:46:57.228670", 
+    "0424 17:47:02.362817", 
+    "0424 17:47:07.380802"
+  ], 
+  "##characteristics#run#per_layer_info@9#timestamp#all_unique": [
+    "0424 17:46:57.228670", 
+    "0424 17:47:02.362817", 
+    "0424 17:47:07.380802"
+  ], 
+  "##characteristics#run#per_layer_info@9#timestamp#min": "0424 17:46:57.228670", 
+  "##characteristics#run#per_layer_info@9#timestamp#repeats": 3, 
+  "##characteristics#run#post_processed#all": [
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##characteristics#run#post_processed#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#run#post_processed#min": "yes", 
+  "##characteristics#run#post_processed#repeats": 3, 
+  "##characteristics#run#repeat#all": [
+    1, 
+    1, 
+    1
+  ], 
+  "##characteristics#run#repeat#all_unique": [
+    1
+  ], 
+  "##characteristics#run#repeat#center": 1, 
+  "##characteristics#run#repeat#halfrange": 0, 
+  "##characteristics#run#repeat#max": 1, 
+  "##characteristics#run#repeat#mean": 1.0, 
+  "##characteristics#run#repeat#min": 1, 
+  "##characteristics#run#repeat#range": 0, 
+  "##characteristics#run#repeat#range_percent": 0, 
+  "##characteristics#run#repeat#repeats": 3, 
+  "##characteristics#run#return_code#all": [
+    0, 
+    0, 
+    0
+  ], 
+  "##characteristics#run#return_code#all_unique": [
+    0
+  ], 
+  "##characteristics#run#return_code#center": 0, 
+  "##characteristics#run#return_code#halfrange": 0, 
+  "##characteristics#run#return_code#max": 0, 
+  "##characteristics#run#return_code#mean": 0.0, 
+  "##characteristics#run#return_code#min": 0, 
+  "##characteristics#run#return_code#range": 0, 
+  "##characteristics#run#return_code#repeats": 3, 
+  "##characteristics#run#run_success#all": [
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##characteristics#run#run_success#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#run#run_success#min": "yes", 
+  "##characteristics#run#run_success#repeats": 3, 
+  "##characteristics#run#run_success_bool#all": [
+    true, 
+    true, 
+    true
+  ], 
+  "##characteristics#run#run_success_bool#all_unique": [
+    true
+  ], 
+  "##characteristics#run#run_success_bool#min": true, 
+  "##characteristics#run#run_success_bool#repeats": 3, 
+  "##characteristics#run#time_bw_ms#all": [
+    1090.01, 
+    1064.2, 
+    1068.34
+  ], 
+  "##characteristics#run#time_bw_ms#all_unique": [
+    1090.01, 
+    1064.2, 
+    1068.34
+  ], 
+  "##characteristics#run#time_bw_ms#center": 1077.105, 
+  "##characteristics#run#time_bw_ms#halfrange": 12.904999999999973, 
+  "##characteristics#run#time_bw_ms#max": 1090.01, 
+  "##characteristics#run#time_bw_ms#mean": 1074.1833333333334, 
+  "##characteristics#run#time_bw_ms#min": 1064.2, 
+  "##characteristics#run#time_bw_ms#range": 25.809999999999945, 
+  "##characteristics#run#time_bw_ms#range_percent": 0.02425295996993041, 
+  "##characteristics#run#time_bw_ms#repeats": 3, 
+  "##characteristics#run#time_bw_s#all": [
+    1.09001, 
+    1.0642, 
+    1.0683399999999998
+  ], 
+  "##characteristics#run#time_bw_s#all_unique": [
+    1.09001, 
+    1.0642, 
+    1.0683399999999998
+  ], 
+  "##characteristics#run#time_bw_s#center": 1.077105, 
+  "##characteristics#run#time_bw_s#halfrange": 0.012904999999999944, 
+  "##characteristics#run#time_bw_s#max": 1.09001, 
+  "##characteristics#run#time_bw_s#mean": 1.0741833333333333, 
+  "##characteristics#run#time_bw_s#min": 1.0642, 
+  "##characteristics#run#time_bw_s#range": 0.02580999999999989, 
+  "##characteristics#run#time_bw_s#range_percent": 0.02425295996993036, 
+  "##characteristics#run#time_bw_s#repeats": 3, 
+  "##characteristics#run#time_fw_ms#all": [
+    840.343, 
+    849.69, 
+    846.326
+  ], 
+  "##characteristics#run#time_fw_ms#all_unique": [
+    840.343, 
+    849.69, 
+    846.326
+  ], 
+  "##characteristics#run#time_fw_ms#center": 845.0165, 
+  "##characteristics#run#time_fw_ms#halfrange": 4.673500000000047, 
+  "##characteristics#run#time_fw_ms#max": 849.69, 
+  "##characteristics#run#time_fw_ms#mean": 845.453, 
+  "##characteristics#run#time_fw_ms#min": 840.343, 
+  "##characteristics#run#time_fw_ms#range": 9.347000000000094, 
+  "##characteristics#run#time_fw_ms#range_percent": 0.01112283912640445, 
+  "##characteristics#run#time_fw_ms#repeats": 3, 
+  "##characteristics#run#time_fw_s#all": [
+    0.840343, 
+    0.8496900000000001, 
+    0.846326
+  ], 
+  "##characteristics#run#time_fw_s#all_unique": [
+    0.840343, 
+    0.8496900000000001, 
+    0.846326
+  ], 
+  "##characteristics#run#time_fw_s#center": 0.8450165000000001, 
+  "##characteristics#run#time_fw_s#halfrange": 0.004673500000000053, 
+  "##characteristics#run#time_fw_s#max": 0.8496900000000001, 
+  "##characteristics#run#time_fw_s#mean": 0.845453, 
+  "##characteristics#run#time_fw_s#min": 0.840343, 
+  "##characteristics#run#time_fw_s#range": 0.009347000000000105, 
+  "##characteristics#run#time_fw_s#range_percent": 0.011122839126404464, 
+  "##characteristics#run#time_fw_s#repeats": 3, 
+  "##characteristics#run#time_fwbw_ms#all": [
+    1932.0, 
+    1916.0, 
+    1916.0
+  ], 
+  "##characteristics#run#time_fwbw_ms#all_unique": [
+    1932.0, 
+    1916.0
+  ], 
+  "##characteristics#run#time_fwbw_ms#center": 1924.0, 
+  "##characteristics#run#time_fwbw_ms#halfrange": 8.0, 
+  "##characteristics#run#time_fwbw_ms#max": 1932.0, 
+  "##characteristics#run#time_fwbw_ms#mean": 1921.3333333333333, 
+  "##characteristics#run#time_fwbw_ms#min": 1916.0, 
+  "##characteristics#run#time_fwbw_ms#range": 16.0, 
+  "##characteristics#run#time_fwbw_ms#range_percent": 0.008350730688935281, 
+  "##characteristics#run#time_fwbw_ms#repeats": 3, 
+  "##characteristics#run#time_fwbw_s#all": [
+    1.932, 
+    1.9160000000000001, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#time_fwbw_s#all_unique": [
+    1.932, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#time_fwbw_s#center": 1.924, 
+  "##characteristics#run#time_fwbw_s#halfrange": 0.007999999999999896, 
+  "##characteristics#run#time_fwbw_s#max": 1.932, 
+  "##characteristics#run#time_fwbw_s#mean": 1.9213333333333333, 
+  "##characteristics#run#time_fwbw_s#min": 1.9160000000000001, 
+  "##characteristics#run#time_fwbw_s#range": 0.015999999999999792, 
+  "##characteristics#run#time_fwbw_s#range_percent": 0.008350730688935173, 
+  "##characteristics#run#time_fwbw_s#repeats": 3, 
+  "##characteristics#run#time_total_ms#all": [
+    1932.0, 
+    1916.0, 
+    1916.0
+  ], 
+  "##characteristics#run#time_total_ms#all_unique": [
+    1932.0, 
+    1916.0
+  ], 
+  "##characteristics#run#time_total_ms#center": 1924.0, 
+  "##characteristics#run#time_total_ms#halfrange": 8.0, 
+  "##characteristics#run#time_total_ms#max": 1932.0, 
+  "##characteristics#run#time_total_ms#mean": 1921.3333333333333, 
+  "##characteristics#run#time_total_ms#min": 1916.0, 
+  "##characteristics#run#time_total_ms#range": 16.0, 
+  "##characteristics#run#time_total_ms#range_percent": 0.008350730688935281, 
+  "##characteristics#run#time_total_ms#repeats": 3, 
+  "##characteristics#run#time_total_ms_kernel_0#all": [
+    1932.0, 
+    1916.0, 
+    1916.0
+  ], 
+  "##characteristics#run#time_total_ms_kernel_0#all_unique": [
+    1932.0, 
+    1916.0
+  ], 
+  "##characteristics#run#time_total_ms_kernel_0#center": 1924.0, 
+  "##characteristics#run#time_total_ms_kernel_0#halfrange": 8.0, 
+  "##characteristics#run#time_total_ms_kernel_0#max": 1932.0, 
+  "##characteristics#run#time_total_ms_kernel_0#mean": 1921.3333333333333, 
+  "##characteristics#run#time_total_ms_kernel_0#min": 1916.0, 
+  "##characteristics#run#time_total_ms_kernel_0#range": 16.0, 
+  "##characteristics#run#time_total_ms_kernel_0#range_percent": 0.008350730688935281, 
+  "##characteristics#run#time_total_ms_kernel_0#repeats": 3, 
+  "##characteristics#run#time_total_s#all": [
+    1.932, 
+    1.9160000000000001, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#time_total_s#all_unique": [
+    1.932, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#time_total_s#center": 1.924, 
+  "##characteristics#run#time_total_s#halfrange": 0.007999999999999896, 
+  "##characteristics#run#time_total_s#max": 1.932, 
+  "##characteristics#run#time_total_s#mean": 1.9213333333333333, 
+  "##characteristics#run#time_total_s#min": 1.9160000000000001, 
+  "##characteristics#run#time_total_s#range": 0.015999999999999792, 
+  "##characteristics#run#time_total_s#range_percent": 0.008350730688935173, 
+  "##characteristics#run#time_total_s#repeats": 3, 
+  "##characteristics#run#time_total_s_kernel_0#all": [
+    1.932, 
+    1.9160000000000001, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#time_total_s_kernel_0#all_unique": [
+    1.932, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#time_total_s_kernel_0#center": 1.924, 
+  "##characteristics#run#time_total_s_kernel_0#halfrange": 0.007999999999999896, 
+  "##characteristics#run#time_total_s_kernel_0#max": 1.932, 
+  "##characteristics#run#time_total_s_kernel_0#mean": 1.9213333333333333, 
+  "##characteristics#run#time_total_s_kernel_0#min": 1.9160000000000001, 
+  "##characteristics#run#time_total_s_kernel_0#range": 0.015999999999999792, 
+  "##characteristics#run#time_total_s_kernel_0#range_percent": 0.008350730688935173, 
+  "##characteristics#run#time_total_s_kernel_0#repeats": 3, 
+  "##characteristics#run#total_execution_time#all": [
+    1.932, 
+    1.9160000000000001, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#total_execution_time#all_unique": [
+    1.932, 
+    1.9160000000000001
+  ], 
+  "##characteristics#run#total_execution_time#center": 1.924, 
+  "##characteristics#run#total_execution_time#halfrange": 0.007999999999999896, 
+  "##characteristics#run#total_execution_time#max": 1.932, 
+  "##characteristics#run#total_execution_time#mean": 1.9213333333333333, 
+  "##characteristics#run#total_execution_time#min": 1.9160000000000001, 
+  "##characteristics#run#total_execution_time#range": 0.015999999999999792, 
+  "##characteristics#run#total_execution_time#range_percent": 0.008350730688935173, 
+  "##characteristics#run#total_execution_time#repeats": 3
+}

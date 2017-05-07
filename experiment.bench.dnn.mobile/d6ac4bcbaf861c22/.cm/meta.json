@@ -1,0 +1,124 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "159a040ceaec9412", 
+      "cpu_freqs_after": [
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }, 
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }, 
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }, 
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }, 
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }
+      ], 
+      "image_height": 2592, 
+      "image_width": 1944, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1486425767174.jpg ----------\n0.9526 - \"n03793489 mouse, computer mouse\"\n0.0068 - \"n03929660 pick, plectrum, plectron\"\n0.0055 - \"n03400231 frying pan, frypan, skillet\"\n0.0053 - \"n02783161 ballpoint, ballpoint pen, ballpen, Biro\"\n0.0018 - \"n04597913 wooden spoon\"\n", 
+      "time": [
+        7378, 
+        7571, 
+        7170, 
+        7776, 
+        9376, 
+        9865, 
+        7468, 
+        7363, 
+        7318
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.165473, 
+          0.165852, 
+          0.16032, 
+          0.159289, 
+          0.209268, 
+          0.214327, 
+          0.159134, 
+          0.160673, 
+          0.166322
+        ], 
+        "execution_time_kernel_0": [
+          0.165473, 
+          0.165852, 
+          0.16032, 
+          0.159289, 
+          0.209268, 
+          0.214327, 
+          0.159134, 
+          0.160673, 
+          0.166322
+        ], 
+        "execution_time_kernel_1": [
+          0.579624, 
+          0.553006, 
+          0.609467, 
+          0.658062, 
+          0.619968, 
+          0.738413, 
+          0.5675, 
+          0.584631, 
+          0.583182
+        ], 
+        "execution_time_kernel_2": [
+          6.431688, 
+          6.669648, 
+          6.218736, 
+          6.75903, 
+          8.327665, 
+          8.669184, 
+          6.554521, 
+          6.44597, 
+          6.390279
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm MSM8626", 
+    "cpu_uid": "", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 305", 
+    "gpu_uid": "ce8eac17d56a45b9", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.1", 
+    "os_uid": "4a7a7aa243109ec2", 
+    "plat_name": "MOTOROLA XT1028", 
+    "platform_uid": ""
+  }
+}

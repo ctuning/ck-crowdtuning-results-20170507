@@ -1,0 +1,136 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "71f939a4bbd94472", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 1440, 
+      "image_width": 2000, 
+      "prediction": "0.4151 - \"swimming trunks (945)\"\n0.1016 - \"apron (845)\"\n0.0447 - \"packet (921)\"\n0.0146 - \"shower cap (868)\"\n0.0109 - \"purse (939)\"\n", 
+      "time": [
+        2665, 
+        2336, 
+        2348
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.553029, 
+          0.603233, 
+          0.589966
+        ], 
+        "execution_time_kernel_0": [
+          0.553029, 
+          0.603233, 
+          0.589966
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.007632, 
+          1.616122, 
+          1.648765
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "23114ff0cd542828", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 955, 
+      "image_width": 956, 
+      "prediction": "0.1996 - \"bubble (992)\"\n0.0814 - \"fountain (712)\"\n0.0332 - \"toilet seat (312)\"\n0.0232 - \"solar dish (577)\"\n0.0095 - \"balloon (233)\"\n", 
+      "time": [
+        2564, 
+        2458, 
+        2448
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.43079, 
+          0.420829, 
+          0.512443
+        ], 
+        "execution_time_kernel_0": [
+          0.43079, 
+          0.420829, 
+          0.512443
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.024239, 
+          1.9239, 
+          1.820811
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G950F", 
+    "platform_uid": ""
+  }
+}

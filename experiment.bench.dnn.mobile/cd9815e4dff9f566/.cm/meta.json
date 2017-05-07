@@ -1,0 +1,120 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "03fbf4f468c14113", 
+      "cpu_freqs_after": [
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        8024, 
+        9228, 
+        8327
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.162662, 
+          0.155707, 
+          0.156019
+        ], 
+        "execution_time_kernel_0": [
+          0.162662, 
+          0.155707, 
+          0.156019
+        ], 
+        "execution_time_kernel_1": [
+          1.66182, 
+          1.811632, 
+          1.66595
+        ], 
+        "execution_time_kernel_2": [
+          6.048282, 
+          7.110037, 
+          6.350052
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "a40b486359131a54", 
+      "cpu_freqs_after": [
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1190.4, 
+          "1": 1190.4, 
+          "2": 1190.4, 
+          "3": 1190.4
+        }
+      ], 
+      "image_height": 1536, 
+      "image_width": 2048, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1487967290139.jpg ----------\n0.3275 - \"n03709823 mailbag, postbag\"\n0.1182 - \"n04517823 vacuum, vacuum cleaner\"\n0.1005 - \"n02892767 brassiere, bra, bandeau\"\n0.0904 - \"n02769748 backpack, back pack, knapsack, packsack, rucksack, haversack\"\n0.0414 - \"n04398044 teapot\"\n", 
+      "time": [
+        7002, 
+        6928, 
+        6912
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.154996, 
+          0.156495, 
+          0.156732
+        ], 
+        "execution_time_kernel_0": [
+          0.154996, 
+          0.156495, 
+          0.156732
+        ], 
+        "execution_time_kernel_1": [
+          0.348414, 
+          0.368735, 
+          0.381532
+        ], 
+        "execution_time_kernel_2": [
+          6.362688, 
+          6.272727, 
+          6.24208
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm MSM8926", 
+    "cpu_uid": "30e4154b1c1f4535", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 305", 
+    "gpu_uid": "ce8eac17d56a45b9", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0.2", 
+    "os_uid": "bb6cce787ea5e178", 
+    "plat_name": "SAMSUNG SM-T535", 
+    "platform_uid": ""
+  }
+}

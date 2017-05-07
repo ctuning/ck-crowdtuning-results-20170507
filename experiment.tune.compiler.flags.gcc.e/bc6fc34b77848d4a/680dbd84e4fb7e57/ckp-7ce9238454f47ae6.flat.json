@@ -1,0 +1,203 @@
+{
+  "##characteristics#compile#binary_size#all": [
+    6640
+  ], 
+  "##characteristics#compile#binary_size#all_unique": [
+    6640
+  ], 
+  "##characteristics#compile#binary_size#center": 6640, 
+  "##characteristics#compile#binary_size#center_imp": 1.0, 
+  "##characteristics#compile#binary_size#exp": 6640.0, 
+  "##characteristics#compile#binary_size#exp_allx": [
+    6640.0
+  ], 
+  "##characteristics#compile#binary_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#binary_size#exp_imp": 1.0, 
+  "##characteristics#compile#binary_size#exp_warning": "no", 
+  "##characteristics#compile#binary_size#halfrange": 0, 
+  "##characteristics#compile#binary_size#max": 6640, 
+  "##characteristics#compile#binary_size#mean": 6640.0, 
+  "##characteristics#compile#binary_size#mean_imp": 1.0, 
+  "##characteristics#compile#binary_size#min": 6640, 
+  "##characteristics#compile#binary_size#min_imp": 1.0, 
+  "##characteristics#compile#binary_size#range": 0, 
+  "##characteristics#compile#binary_size#range_percent": 0, 
+  "##characteristics#compile#binary_size#repeats": 1, 
+  "##characteristics#compile#compilation_success#all": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#min": "yes", 
+  "##characteristics#compile#compilation_success#min_imp": 0, 
+  "##characteristics#compile#compilation_success#repeats": 1, 
+  "##characteristics#compile#compilation_success_bool#all": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#all_unique": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#min": true, 
+  "##characteristics#compile#compilation_success_bool#min_imp": 0, 
+  "##characteristics#compile#compilation_success_bool#repeats": 1, 
+  "##characteristics#compile#compilation_time#all": [
+    0.07766079902648926
+  ], 
+  "##characteristics#compile#compilation_time#all_unique": [
+    0.07766079902648926
+  ], 
+  "##characteristics#compile#compilation_time#center": 0.07766079902648926, 
+  "##characteristics#compile#compilation_time#center_imp": 12.235465857005584, 
+  "##characteristics#compile#compilation_time#exp": 0.07766079902648926, 
+  "##characteristics#compile#compilation_time#exp_allx": [
+    0.07766079902648926
+  ], 
+  "##characteristics#compile#compilation_time#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time#exp_imp": 12.235465857005584, 
+  "##characteristics#compile#compilation_time#exp_warning": "no", 
+  "##characteristics#compile#compilation_time#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time#max": 0.07766079902648926, 
+  "##characteristics#compile#compilation_time#mean": 0.07766079902648926, 
+  "##characteristics#compile#compilation_time#mean_imp": 12.235465857005584, 
+  "##characteristics#compile#compilation_time#min": 0.07766079902648926, 
+  "##characteristics#compile#compilation_time#min_imp": 12.235465857005584, 
+  "##characteristics#compile#compilation_time#range": 0.0, 
+  "##characteristics#compile#compilation_time#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time#repeats": 1, 
+  "##characteristics#compile#compilation_time_with_module#all": [
+    1.2471609115600586
+  ], 
+  "##characteristics#compile#compilation_time_with_module#all_unique": [
+    1.2471609115600586
+  ], 
+  "##characteristics#compile#compilation_time_with_module#center": 1.2471609115600586, 
+  "##characteristics#compile#compilation_time_with_module#center_imp": 1.679678270118823, 
+  "##characteristics#compile#compilation_time_with_module#exp": 1.2471609115600586, 
+  "##characteristics#compile#compilation_time_with_module#exp_allx": [
+    1.2471609115600586
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_imp": 1.679678270118823, 
+  "##characteristics#compile#compilation_time_with_module#exp_warning": "no", 
+  "##characteristics#compile#compilation_time_with_module#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#max": 1.2471609115600586, 
+  "##characteristics#compile#compilation_time_with_module#mean": 1.2471609115600586, 
+  "##characteristics#compile#compilation_time_with_module#mean_imp": 1.679678270118823, 
+  "##characteristics#compile#compilation_time_with_module#min": 1.2471609115600586, 
+  "##characteristics#compile#compilation_time_with_module#min_imp": 1.679678270118823, 
+  "##characteristics#compile#compilation_time_with_module#range": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#repeats": 1, 
+  "##characteristics#compile#joined_compiler_flags#all": [
+    "-O3 -fno-caller-saves -fno-cx-limited-range -fdelete-null-pointer-checks -fno-if-conversion -fipa-cp-clone -fno-function-cse -fpeephole2 -fno-ree -fno-reorder-blocks -fsched-spec-insn-heuristic -fno-section-anchors -fsel-sched-pipelining -fno-split-wide-types -fno-tree-copy-prop -fno-tree-loop-distribute-patterns -fno-tree-loop-optimize -fno-tree-switch-conversion -ftree-tail-merge -fno-unroll-loops -falign-labels=0 --param max-inline-recursive-depth=1 --param min-vect-loop-bound=1 --param max-delay-slot-live-search=281 --param large-function-insns=5399 --param gcse-cost-distance-ratio=1 --param max-unrolled-insns=314 --param max-average-unrolled-insns=55 --param max-peel-times=12 --param sms-dfa-history=0 --param sms-loop-average-count-threshold=0 --param tracer-min-branch-probability=87 --param max-cse-insns=936 --param omega-max-keys=197 --param sched-mem-true-dep-cost=0 --param ira-max-conflict-table-size=1821 --param tm-max-aggregate-size=15 --param max-stores-to-sink=2 --param tree-reassoc-width=0 --param sched-pressure-algorithm=2 --param max-slsr-cand-scan=545000 --param asan-globals=1"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#all_unique": [
+    "-O3 -fno-caller-saves -fno-cx-limited-range -fdelete-null-pointer-checks -fno-if-conversion -fipa-cp-clone -fno-function-cse -fpeephole2 -fno-ree -fno-reorder-blocks -fsched-spec-insn-heuristic -fno-section-anchors -fsel-sched-pipelining -fno-split-wide-types -fno-tree-copy-prop -fno-tree-loop-distribute-patterns -fno-tree-loop-optimize -fno-tree-switch-conversion -ftree-tail-merge -fno-unroll-loops -falign-labels=0 --param max-inline-recursive-depth=1 --param min-vect-loop-bound=1 --param max-delay-slot-live-search=281 --param large-function-insns=5399 --param gcse-cost-distance-ratio=1 --param max-unrolled-insns=314 --param max-average-unrolled-insns=55 --param max-peel-times=12 --param sms-dfa-history=0 --param sms-loop-average-count-threshold=0 --param tracer-min-branch-probability=87 --param max-cse-insns=936 --param omega-max-keys=197 --param sched-mem-true-dep-cost=0 --param ira-max-conflict-table-size=1821 --param tm-max-aggregate-size=15 --param max-stores-to-sink=2 --param tree-reassoc-width=0 --param sched-pressure-algorithm=2 --param max-slsr-cand-scan=545000 --param asan-globals=1"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-caller-saves -fno-cx-limited-range -fdelete-null-pointer-checks -fno-if-conversion -fipa-cp-clone -fno-function-cse -fpeephole2 -fno-ree -fno-reorder-blocks -fsched-spec-insn-heuristic -fno-section-anchors -fsel-sched-pipelining -fno-split-wide-types -fno-tree-copy-prop -fno-tree-loop-distribute-patterns -fno-tree-loop-optimize -fno-tree-switch-conversion -ftree-tail-merge -fno-unroll-loops -falign-labels=0 --param max-inline-recursive-depth=1 --param min-vect-loop-bound=1 --param max-delay-slot-live-search=281 --param large-function-insns=5399 --param gcse-cost-distance-ratio=1 --param max-unrolled-insns=314 --param max-average-unrolled-insns=55 --param max-peel-times=12 --param sms-dfa-history=0 --param sms-loop-average-count-threshold=0 --param tracer-min-branch-probability=87 --param max-cse-insns=936 --param omega-max-keys=197 --param sched-mem-true-dep-cost=0 --param ira-max-conflict-table-size=1821 --param tm-max-aggregate-size=15 --param max-stores-to-sink=2 --param tree-reassoc-width=0 --param sched-pressure-algorithm=2 --param max-slsr-cand-scan=545000 --param asan-globals=1", 
+  "##characteristics#compile#joined_compiler_flags#min_imp": 0, 
+  "##characteristics#compile#joined_compiler_flags#repeats": 1, 
+  "##characteristics#compile#md5_sum#all": [
+    "8d73bbecffa0e1d7d919d9b7e26a4fb0"
+  ], 
+  "##characteristics#compile#md5_sum#all_unique": [
+    "8d73bbecffa0e1d7d919d9b7e26a4fb0"
+  ], 
+  "##characteristics#compile#md5_sum#min": "8d73bbecffa0e1d7d919d9b7e26a4fb0", 
+  "##characteristics#compile#md5_sum#min_imp": 0, 
+  "##characteristics#compile#md5_sum#repeats": 1, 
+  "##characteristics#compile#obj_size#all": [
+    3556
+  ], 
+  "##characteristics#compile#obj_size#all_unique": [
+    3556
+  ], 
+  "##characteristics#compile#obj_size#center": 3556, 
+  "##characteristics#compile#obj_size#center_imp": 0.9988751406074241, 
+  "##characteristics#compile#obj_size#exp": 3556.0, 
+  "##characteristics#compile#obj_size#exp_allx": [
+    3556.0
+  ], 
+  "##characteristics#compile#obj_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_size#exp_imp": 0.9988751406074241, 
+  "##characteristics#compile#obj_size#exp_warning": "no", 
+  "##characteristics#compile#obj_size#halfrange": 0, 
+  "##characteristics#compile#obj_size#max": 3556, 
+  "##characteristics#compile#obj_size#mean": 3556.0, 
+  "##characteristics#compile#obj_size#mean_imp": 0.9988751406074241, 
+  "##characteristics#compile#obj_size#min": 3556, 
+  "##characteristics#compile#obj_size#min_imp": 0.9988751406074241, 
+  "##characteristics#compile#obj_size#range": 0, 
+  "##characteristics#compile#obj_size#range_percent": 0, 
+  "##characteristics#compile#obj_size#repeats": 1, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#all": [
+    1032
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#all_unique": [
+    1032
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#center": 1032, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#center_imp": 0.9961240310077519, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#exp": 1032.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#exp_allx": [
+    1032.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#exp_imp": 0.9961240310077519, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#max": 1032, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#mean": 1032.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#mean_imp": 0.9961240310077519, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#min": 1032, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#min_imp": 0.9961240310077519, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#range": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.o#repeats": 1, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#all": [
+    2524
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#all_unique": [
+    2524
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#center": 2524, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#center_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#exp": 2524.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#exp_allx": [
+    2524.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#exp_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#max": 2524, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#mean": 2524.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#mean_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#min": 2524, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#min_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#range": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__5.wrapper.o#repeats": 1, 
+  "##characteristics#compile#program_git_hash#all": [
+    "540987ceb20f9153dee31b7b45f428c8b3117198"
+  ], 
+  "##characteristics#compile#program_git_hash#all_unique": [
+    "540987ceb20f9153dee31b7b45f428c8b3117198"
+  ], 
+  "##characteristics#compile#program_git_hash#min": "540987ceb20f9153dee31b7b45f428c8b3117198", 
+  "##characteristics#compile#program_git_hash#min_imp": 0, 
+  "##characteristics#compile#program_git_hash#repeats": 1
+}

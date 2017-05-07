@@ -1,0 +1,136 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "20fd559e74492698", 
+      "cpu_freqs_after": [
+        {
+          "0": 1459.2, 
+          "1": 1459.2, 
+          "2": 1459.2, 
+          "3": 1459.2, 
+          "4": 1113.6, 
+          "5": 1113.6, 
+          "6": 1113.6, 
+          "7": 1113.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1459.2, 
+          "1": 1459.2, 
+          "2": 1459.2, 
+          "3": 1459.2, 
+          "4": 1113.6, 
+          "5": 1113.6, 
+          "6": 1113.6, 
+          "7": 1113.6
+        }
+      ], 
+      "image_height": 4128, 
+      "image_width": 3096, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1486702901730.jpg ----------\n0.1001 - \"n03804744 nail\"\n0.0987 - \"n04435653 tile roof\"\n0.0660 - \"n03481172 hammer\"\n0.0459 - \"n03876231 paintbrush\"\n0.0400 - \"n03041632 cleaver, meat cleaver, chopper\"\n", 
+      "time": [
+        6263, 
+        6102, 
+        6057
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.152828, 
+          0.143075, 
+          0.153205
+        ], 
+        "execution_time_kernel_0": [
+          0.152828, 
+          0.143075, 
+          0.153205
+        ], 
+        "execution_time_kernel_1": [
+          1.376723, 
+          1.367296, 
+          1.351215
+        ], 
+        "execution_time_kernel_2": [
+          4.50091, 
+          4.404714, 
+          4.335481
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "1047de048f58691f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1459.2, 
+          "1": 1459.2, 
+          "2": 1459.2, 
+          "3": 1459.2, 
+          "4": 1113.6, 
+          "5": 1113.6, 
+          "6": 1113.6, 
+          "7": 1113.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1459.2, 
+          "1": 1459.2, 
+          "2": 1459.2, 
+          "3": 1459.2, 
+          "4": 1113.6, 
+          "5": 1113.6, 
+          "6": 1113.6, 
+          "7": 1113.6
+        }
+      ], 
+      "image_height": 2000, 
+      "image_width": 1440, 
+      "prediction": "---------- Prediction for /storage/emulated/0/DCIM/Camera/20170209_121243.jpg ----------\n0.1621 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0636 - \"n04584207 wig\"\n0.0476 - \"n03876231 paintbrush\"\n0.0446 - \"n03404251 fur coat\"\n0.0368 - \"n03476684 hair slide\"\n", 
+      "time": [
+        5168, 
+        5160, 
+        5053
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.155089, 
+          0.149126, 
+          0.164763
+        ], 
+        "execution_time_kernel_0": [
+          0.155089, 
+          0.149126, 
+          0.164763
+        ], 
+        "execution_time_kernel_1": [
+          0.310094, 
+          0.321765, 
+          0.306602
+        ], 
+        "execution_time_kernel_2": [
+          4.49309, 
+          4.498382, 
+          4.363361
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8939", 
+    "cpu_uid": "c399263229d60808", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 405", 
+    "gpu_uid": "c5bebc57566d5cd2", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-A700FD", 
+    "platform_uid": ""
+  }
+}

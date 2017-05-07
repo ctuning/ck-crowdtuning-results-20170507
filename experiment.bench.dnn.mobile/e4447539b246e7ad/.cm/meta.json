@@ -1,0 +1,272 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "edc6c902d3649449", 
+      "cpu_freqs_after": [
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        4089, 
+        4813, 
+        4025
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.211034, 
+          0.11364, 
+          0.118125
+        ], 
+        "execution_time_kernel_0": [
+          0.211034, 
+          0.11364, 
+          0.118125
+        ], 
+        "execution_time_kernel_1": [
+          0.738923, 
+          0.679663, 
+          0.713556
+        ], 
+        "execution_time_kernel_2": [
+          3.007488, 
+          3.891981, 
+          3.081114
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "22a5feaa0404a6d9", 
+      "cpu_freqs_after": [
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }, 
+        {
+          "0": 2457.6, 
+          "1": 2457.6, 
+          "2": 2457.6, 
+          "3": 2457.6
+        }
+      ], 
+      "image_height": 1280, 
+      "image_width": 960, 
+      "mispredictions": [
+        {
+          "correct_answer": "scissors", 
+          "mispredicted_image": "misprediction-image-37adad8d418e8ab7.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482390695961.jpg ----------\n0.4501 - \"n03532672 hook, claw\"\n0.0973 - \"n04208210 shovel\"\n0.0417 - \"n02951585 can opener, tin opener\"\n0.0291 - \"n03109150 corkscrew, bottle screw\"\n0.0273 - \"n04372370 switch, electric switch, electrical switch\"\n"
+        }, 
+        {
+          "correct_answer": "towel", 
+          "mispredicted_image": "misprediction-image-fa852105c2fa34d4.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482390801646.jpg ----------\n0.2001 - \"n03045698 cloak\"\n0.1141 - \"n03041632 cleaver, meat cleaver, chopper\"\n0.1045 - \"n04141327 scabbard\"\n0.0638 - \"n03980874 poncho\"\n0.0572 - \"n03709823 mailbag, postbag\"\n"
+        }, 
+        {
+          "correct_answer": "0.0936 - \"n04553703 washbasin, handbasin, washbowl, lavabo, wash-hand basin\"", 
+          "mispredicted_image": "misprediction-image-9c73d411688365f3.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482390953633.jpg ----------\n0.1987 - \"n15075141 toilet tissue, toilet paper, bathroom tissue\"\n0.1130 - \"n04447861 toilet seat\"\n0.0936 - \"n04553703 washbasin, handbasin, washbowl, lavabo, wash-hand basin\"\n0.0724 - \"n04254120 soap dispenser\"\n0.0550 - \"n04286575 spotlight, spot\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482390695961.jpg ----------\n0.4501 - \"n03532672 hook, claw\"\n0.0973 - \"n04208210 shovel\"\n0.0417 - \"n02951585 can opener, tin opener\"\n0.0291 - \"n03109150 corkscrew, bottle screw\"\n0.0273 - \"n04372370 switch, electric switch, electrical switch\"\n", 
+      "time": [
+        3060, 
+        3151, 
+        3558, 
+        3143, 
+        3321, 
+        3316, 
+        3025, 
+        3578, 
+        3422, 
+        3064, 
+        3087, 
+        3390, 
+        3168, 
+        3419, 
+        3154, 
+        2954, 
+        3265, 
+        3561
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.110279, 
+          0.108718, 
+          0.102374, 
+          0.105538, 
+          0.097552, 
+          0.111761, 
+          0.104114, 
+          0.169244, 
+          0.104166, 
+          0.100236, 
+          0.103355, 
+          0.130944, 
+          0.110207, 
+          0.10268, 
+          0.107649, 
+          0.11068, 
+          0.197028, 
+          0.129811
+        ], 
+        "execution_time_kernel_0": [
+          0.110279, 
+          0.108718, 
+          0.102374, 
+          0.105538, 
+          0.097552, 
+          0.111761, 
+          0.104114, 
+          0.169244, 
+          0.104166, 
+          0.100236, 
+          0.103355, 
+          0.130944, 
+          0.110207, 
+          0.10268, 
+          0.107649, 
+          0.11068, 
+          0.197028, 
+          0.129811
+        ], 
+        "execution_time_kernel_1": [
+          0.066108, 
+          0.053617, 
+          0.051916, 
+          0.063433, 
+          0.054989, 
+          0.053953, 
+          0.054865, 
+          0.167551, 
+          0.062446, 
+          0.055151, 
+          0.053595, 
+          0.053312, 
+          0.056659, 
+          0.055482, 
+          0.075479, 
+          0.05582, 
+          0.067112, 
+          0.183348
+        ], 
+        "execution_time_kernel_2": [
+          2.764214, 
+          2.869302, 
+          3.297559, 
+          2.83578, 
+          3.067365, 
+          3.057965, 
+          2.76596, 
+          3.096549, 
+          3.165427, 
+          2.80041, 
+          2.832936, 
+          3.062876, 
+          2.863272, 
+          3.170475, 
+          2.872749, 
+          2.692953, 
+          2.848988, 
+          3.12097
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm MSM8974PRO-AC", 
+    "cpu_uid": "1305ed04175b26fd", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 330", 
+    "gpu_uid": "7b42b07cd7764052", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 5.0", 
+    "os_uid": "9a480940498fbb11", 
+    "plat_name": "LGE LG-D855", 
+    "platform_uid": "84b5d48c8b5b2ee5"
+  }
+}

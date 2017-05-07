@@ -1,0 +1,152 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4b2996f74b18d3f6", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }
+      ], 
+      "image_height": 3264, 
+      "image_width": 2448, 
+      "prediction": "Use GPU with device ID 0\n---------- Prediction for /sdcard/openscience//tmp//1485271188351.jpg ----------\n", 
+      "time": [
+        32127, 
+        31309, 
+        30149
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {}
+    }, 
+    {
+      "behavior_uid": "784bad84848514e0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586
+        }
+      ], 
+      "image_height": 3528, 
+      "image_width": 3024, 
+      "prediction": "Use GPU with device ID 0\n---------- Prediction for /storage/emulated/0/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n", 
+      "time": [
+        31997, 
+        30429, 
+        30995, 
+        33038, 
+        31583, 
+        35058, 
+        4976, 
+        4677, 
+        4754, 
+        5063, 
+        4749, 
+        4774
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          28.720337, 
+          28.720337, 
+          28.720337
+        ], 
+        "execution_time_kernel_0": [
+          28.720337, 
+          28.720337, 
+          28.720337
+        ], 
+        "execution_time_kernel_1": [
+          0.678226, 
+          0.678226, 
+          0.678226
+        ], 
+        "execution_time_kernel_2": [
+          3.547741, 
+          3.547741, 
+          3.547741
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "0x41-8-0x0-0xd03-4", 
+    "cpu_uid": "143de98987a30459", 
+    "crowd_uid": "9dc1e8944f728b1a", 
+    "engine": "Caffe OpenCL", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T830", 
+    "gpu_uid": "cd4f4a81a14cb70f", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-T580", 
+    "platform_uid": "430599e08ace483c"
+  }
+}

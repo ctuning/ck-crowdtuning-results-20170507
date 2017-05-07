@@ -1,0 +1,193 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "459c47019754775b", 
+      "cpu_freqs_after": [
+        {
+          "0": 2265.6, 
+          "1": 2265.6
+        }, 
+        {
+          "0": 2265.6, 
+          "1": 2265.6, 
+          "2": 2265.6, 
+          "3": 2265.6
+        }, 
+        {
+          "0": 2265.6, 
+          "1": 2265.6, 
+          "2": 2265.6, 
+          "3": 2265.6
+        }, 
+        {
+          "0": 2265.6, 
+          "1": 2265.6, 
+          "2": 2265.6, 
+          "3": 2265.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2265.6, 
+          "1": 2265.6
+        }, 
+        {
+          "0": 2265.6, 
+          "1": 2265.6, 
+          "2": 2265.6, 
+          "3": 2265.6
+        }, 
+        {
+          "0": 2265.6, 
+          "1": 2265.6, 
+          "2": 2265.6, 
+          "3": 2265.6
+        }, 
+        {
+          "0": 2265.6, 
+          "1": 2265.6, 
+          "2": 2265.6, 
+          "3": 2265.6
+        }
+      ], 
+      "image_height": 3264, 
+      "image_width": 2448, 
+      "prediction": "0.2587 - \"n03201208 dining table, board\"\n0.1869 - \"n03452741 grand piano, grand\"\n0.0465 - \"n03982430 pool table, billiard table, snooker table\"\n0.0425 - \"n04005630 prison, prison house\"\n0.0327 - \"n02870880 bookcase\"\n", 
+      "time": [
+        23175, 
+        22401, 
+        22596, 
+        14306, 
+        12825, 
+        13743, 
+        16579, 
+        14230, 
+        18079, 
+        166924, 
+        50862, 
+        399823
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          12.475665, 
+          10.600546, 
+          10.778121, 
+          8.617253, 
+          6.994906, 
+          6.277649, 
+          9.361615, 
+          6.491655, 
+          8.879577, 
+          39.59172, 
+          6.722453, 
+          236.648281
+        ], 
+        "execution_time_kernel_0": [
+          12.475665, 
+          10.600546, 
+          10.778121, 
+          8.617253, 
+          6.994906, 
+          6.277649, 
+          9.361615, 
+          6.491655, 
+          8.879577, 
+          39.59172, 
+          6.722453, 
+          236.648281
+        ], 
+        "execution_time_kernel_1": [
+          0.702724, 
+          0.665873, 
+          0.671617, 
+          0.335655, 
+          0.331467, 
+          0.416648, 
+          0.331297, 
+          0.40965, 
+          0.393506, 
+          0.470791, 
+          38.153756, 
+          60.627263
+        ], 
+        "execution_time_kernel_2": [
+          9.715957, 
+          10.890381, 
+          10.90764, 
+          5.091816, 
+          5.163258, 
+          6.864947, 
+          6.714578, 
+          7.151083, 
+          8.597471, 
+          126.606261, 
+          5.83027, 
+          102.378885
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "df264ddda71ac620", 
+      "cpu_freqs_after": [
+        {
+          "0": 2265.6, 
+          "1": 2265.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2265.6, 
+          "1": 2265.6
+        }
+      ], 
+      "image_height": 2448, 
+      "image_width": 2856, 
+      "prediction": "0.1632 - \"n01873310 platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus\"\n0.0558 - \"n01667114 mud turtle\"\n0.0511 - \"n01698640 American alligator, Alligator mississipiensis\"\n0.0419 - \"n02018795 bustard\"\n0.0370 - \"n02363005 beaver\"\n", 
+      "time": [
+        46528, 
+        13597, 
+        19084
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          40.091544, 
+          6.788556, 
+          11.252327
+        ], 
+        "execution_time_kernel_0": [
+          40.091544, 
+          6.788556, 
+          11.252327
+        ], 
+        "execution_time_kernel_1": [
+          0.424441, 
+          0.397393, 
+          0.482911
+        ], 
+        "execution_time_kernel_2": [
+          5.797582, 
+          6.200839, 
+          7.144846
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm MSM 8974 HAMMERHEAD (Flattened Device Tree)", 
+    "cpu_uid": "a05de5bb2493b8bd", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 330", 
+    "gpu_uid": "7b42b07cd7764052", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "LGE NEXUS 5", 
+    "platform_uid": "496e93e2a7bbc77c"
+  }
+}

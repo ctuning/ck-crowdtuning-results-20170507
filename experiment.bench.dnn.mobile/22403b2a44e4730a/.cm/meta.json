@@ -1,0 +1,171 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "1236c4412a811311", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }, 
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        1349, 
+        1238, 
+        1329, 
+        1721, 
+        1583, 
+        1628
+      ], 
+      "user": "eblachier@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.050478, 
+          0.04967, 
+          0.049543, 
+          0.051289, 
+          0.054189, 
+          0.051261
+        ], 
+        "execution_time_kernel_0": [
+          0.050478, 
+          0.04967, 
+          0.049543, 
+          0.051289, 
+          0.054189, 
+          0.051261
+        ], 
+        "execution_time_kernel_1": [
+          0.337519, 
+          0.333921, 
+          0.333826, 
+          0.35211, 
+          0.347254, 
+          0.337162
+        ], 
+        "execution_time_kernel_2": [
+          0.867999, 
+          0.770048, 
+          0.861505, 
+          1.240634, 
+          1.104895, 
+          1.164905
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "ea742bc8a670b0a0", 
+      "cpu_freqs_after": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1500, 
+          "1": 1500, 
+          "2": 1500, 
+          "3": 1500, 
+          "4": 2100, 
+          "5": 2100, 
+          "6": 2100, 
+          "7": 2100
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482497031198.jpg ----------\n0.3940 - \"n03992509 potter's wheel\"\n0.0716 - \"n03642806 laptop, laptop computer\"\n0.0325 - \"n07860988 dough\"\n0.0226 - \"n03995372 power drill\"\n0.0221 - \"n03125729 cradle\"\n", 
+      "time": [
+        1410, 
+        1368, 
+        1353
+      ], 
+      "user": "eblachier@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.04884, 
+          0.048533, 
+          0.049945
+        ], 
+        "execution_time_kernel_0": [
+          0.04884, 
+          0.048533, 
+          0.049945
+        ], 
+        "execution_time_kernel_1": [
+          0.367111, 
+          0.374699, 
+          0.362681
+        ], 
+        "execution_time_kernel_2": [
+          0.905073, 
+          0.855093, 
+          0.850958
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "SAMSUNG Exynos7420", 
+    "cpu_uid": "d35780d449a19831", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G920F", 
+    "platform_uid": "fb18fe26730049bd"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "b21a144a6a80cade", 
+      "cpu_freqs_after": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2649.6, 
+          "1": 2649.6, 
+          "2": 2649.6
+        }
+      ], 
+      "image_height": 2988, 
+      "image_width": 5312, 
+      "mispredictions": [
+        {
+          "correct_answer": "0.0589 - \"n02094433 Yorkshire terrier\"", 
+          "mispredicted_image": "misprediction-image-07b62bd4aa9812fb.jpg", 
+          "misprediction_results": "0.3010 - \"n02096294 Australian terrier\"\n0.1397 - \"n02094114 Norfolk terrier\"\n0.1124 - \"n02093991 Irish terrier\"\n0.0824 - \"n02097658 silky terrier, Sydney silky\"\n0.0589 - \"n02094433 Yorkshire terrier\"\n"
+        }
+      ], 
+      "prediction": "0.3010 - \"n02096294 Australian terrier\"\n0.1397 - \"n02094114 Norfolk terrier\"\n0.1124 - \"n02093991 Irish terrier\"\n0.0824 - \"n02097658 silky terrier, Sydney silky\"\n0.0589 - \"n02094433 Yorkshire terrier\"\n", 
+      "time": [
+        28886, 
+        27989, 
+        27641
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          12.927671, 
+          12.02451, 
+          11.787744
+        ], 
+        "execution_time_kernel_0": [
+          12.927671, 
+          12.02451, 
+          11.787744
+        ], 
+        "execution_time_kernel_1": [
+          1.661465, 
+          1.778171, 
+          1.715804
+        ], 
+        "execution_time_kernel_2": [
+          14.020976, 
+          13.916787, 
+          13.862446
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm APQ8084", 
+    "cpu_uid": "89d2384b64b9a8cb", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 420", 
+    "gpu_uid": "9b34e7c9af6a0ca3", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-N910P", 
+    "platform_uid": "24d989eaa14bf0db"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "ded4d3b84743f243", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9835 - \"n03793489 mouse, computer mouse\"\n0.0042 - \"n04548280 wall clock\"\n0.0015 - \"n03532672 hook, claw\"\n0.0013 - \"n02988304 CD player\"\n0.0013 - \"n04317175 stethoscope\"\n", 
+      "time": [
+        6525, 
+        6622, 
+        5102
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          5.275681, 
+          5.443468, 
+          4.048292
+        ], 
+        "execution_time_kernel_0": [
+          5.275681, 
+          5.443468, 
+          4.048292
+        ], 
+        "execution_time_kernel_1": [
+          0.285333, 
+          0.281953, 
+          0.286184
+        ], 
+        "execution_time_kernel_2": [
+          0.567226, 
+          0.60718, 
+          0.524514
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "baafe4c638fa6c3f", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 1920, 
+      "image_width": 1080, 
+      "prediction": "0.0980 - \"n04356056 sunglasses, dark glasses, shades\"\n0.0767 - \"n03793489 mouse, computer mouse\"\n0.0726 - \"n02965783 car mirror\"\n0.0427 - \"n02988304 CD player\"\n0.0369 - \"n04355933 sunglass\"\n", 
+      "time": [
+        7214, 
+        6731, 
+        6220
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          5.931489, 
+          5.782366, 
+          5.050626
+        ], 
+        "execution_time_kernel_0": [
+          5.931489, 
+          5.782366, 
+          5.050626
+        ], 
+        "execution_time_kernel_1": [
+          0.052441, 
+          0.047627, 
+          0.052978
+        ], 
+        "execution_time_kernel_2": [
+          0.9304, 
+          0.581252, 
+          0.746165
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "9fc94f5a89260603", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 3528, 
+      "image_width": 3024, 
+      "prediction": "0.1949 - \"n04589890 window screen\"\n0.0471 - \"n03908618 pencil box, pencil case\"\n0.0460 - \"n04548362 wallet, billfold, notecase, pocketbook\"\n0.0437 - \"n02672831 accordion, piano accordion, squeeze box\"\n0.0335 - \"n04590129 window shade\"\n", 
+      "time": [
+        6106, 
+        5512, 
+        5784
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          5.051947, 
+          4.536312, 
+          4.824579
+        ], 
+        "execution_time_kernel_0": [
+          5.051947, 
+          4.536312, 
+          4.824579
+        ], 
+        "execution_time_kernel_1": [
+          0.201891, 
+          0.19218, 
+          0.182762
+        ], 
+        "execution_time_kernel_2": [
+          0.527044, 
+          0.491187, 
+          0.543953
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "a27443838abbe044", 
+      "cpu_freqs_after": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1593.6, 
+          "1": 1593.6, 
+          "2": 2150.4, 
+          "3": 2150.4
+        }
+      ], 
+      "image_height": 683, 
+      "image_width": 853, 
+      "prediction": "0.6747 - \"n04120489 running shoe\"\n0.0898 - \"n03047690 clog, geta, patten, sabot\"\n0.0578 - \"n04133789 sandal\"\n0.0515 - \"n04200800 shoe shop, shoe-shop, shoe store\"\n0.0311 - \"n03775071 mitten\"\n", 
+      "time": [
+        4395, 
+        4870, 
+        4478
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          3.644809, 
+          4.125476, 
+          3.747164
+        ], 
+        "execution_time_kernel_0": [
+          3.644809, 
+          4.125476, 
+          3.747164
+        ], 
+        "execution_time_kernel_1": [
+          0.011406, 
+          0.010176, 
+          0.011007
+        ], 
+        "execution_time_kernel_2": [
+          0.503953, 
+          0.460432, 
+          0.442419
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+    "cpu_uid": "1469b9e209e7bc37", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 530", 
+    "gpu_uid": "47a7bfca16923990", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 7.0", 
+    "os_uid": "de98569847a92092", 
+    "plat_name": "SAMSUNG SM-G935V", 
+    "platform_uid": "c51258b44bb3a9a6"
+  }
+}

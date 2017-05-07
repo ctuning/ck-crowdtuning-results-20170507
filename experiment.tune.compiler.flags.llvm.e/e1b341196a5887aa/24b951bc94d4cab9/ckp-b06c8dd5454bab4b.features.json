@@ -1,0 +1,162 @@
+{
+  "choices": {
+    "calibration_time": 10.0,
+    "cmd_key": "default",
+    "compile_type": "dynamic",
+    "compiler_description_uoa": "llvm-4.0.0-auto",
+    "compiler_flags": {
+      "base_opt": "-O3"
+    },
+    "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1",
+    "dataset_file": "",
+    "dataset_uoa": "",
+    "device_cfg": {},
+    "device_id": "",
+    "host_os": "windows-64",
+    "module_uoa": "b0ac08fe1d3c2615",
+    "no_state_check": "yes",
+    "program_tags": "",
+    "repeat": 20828993,
+    "target": "",
+    "target_os": "windows-64",
+    "target_os_bits": "64"
+  },
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ],
+  "features": {
+    "compiler_version": {
+      "list": [
+        4,
+        0,
+        0
+      ],
+      "raw": [
+        "clang version 4.0.0 (tags/RELEASE_400/final)",
+        "Target: x86_64-pc-windows-msvc",
+        "Thread model: posix",
+        "InstalledDir: C:\\Users\\User\\CK-TOOLS\\llvm-4.0.0-windows-64\\bin",
+        ""
+      ],
+      "str": "4.0.0"
+    },
+    "number_of_selected_compiler_flags": 1,
+    "platform": {
+      "cpu": {
+        "current_freq": {
+          "0": 1400
+        },
+        "max_freq": {
+          "0": 1400
+        },
+        "name": "AMD E1-2500 APU with Radeon(TM) HD Graphics",
+        "num_proc": 2,
+        "sub_name": "AMD E1-2500 APU with Radeon(TM) HD Graphics"
+      },
+      "cpu_misc": {
+        "AddressWidth": "64",
+        "Architecture": "9",
+        "AssetTag": "FFFF",
+        "Availability": "3",
+        "Caption": "AMD64 Family 22 Model 0 Stepping 1",
+        "Characteristics": "4",
+        "ConfigManagerErrorCode": "",
+        "ConfigManagerUserConfig": "",
+        "CpuStatus": "1",
+        "CreationClassName": "Win32_Processor",
+        "CurrentClockSpeed": "1400",
+        "CurrentVoltage": "12",
+        "DataWidth": "64",
+        "Description": "AMD64 Family 22 Model 0 Stepping 1",
+        "DeviceID": "CPU0",
+        "ErrorCleared": "",
+        "ErrorDescription": "",
+        "ExtClock": "100",
+        "Family": "71",
+        "InstallDate": "",
+        "L2CacheSize": "1024",
+        "L2CacheSpeed": "",
+        "L3CacheSize": "0",
+        "L3CacheSpeed": "0",
+        "LastErrorCode": "",
+        "Level": "22",
+        "LoadPercentage": "21",
+        "Manufacturer": "AuthenticAMD",
+        "MaxClockSpeed": "1400",
+        "Name": "AMD E1-2500 APU with Radeon(TM) HD Graphics",
+        "NumberOfCores": "2",
+        "NumberOfEnabledCore": "2",
+        "NumberOfLogicalProcessors": "2",
+        "OtherFamilyDescription": "",
+        "PNPDeviceID": "",
+        "PartNumber": "FFFF",
+        "PowerManagementCapabilities": "",
+        "PowerManagementSupported": "FALSE",
+        "ProcessorId": "178BFBFF00700F01",
+        "ProcessorType": "3",
+        "Revision": "1",
+        "Role": "CPU",
+        "SecondLevelAddressTranslationExtensions": "TRUE",
+        "SerialNumber": "NotSupport",
+        "SocketDesignation": "Socket FT1",
+        "Status": "OK",
+        "StatusInfo": "3",
+        "Stepping": "1",
+        "SystemCreationClassName": "Win32_ComputerSystem",
+        "SystemName": "LAPTOP-JM9FHQPR",
+        "ThreadCount": "2",
+        "UniqueId": "",
+        "UpgradeMethod": "6",
+        "VMMonitorModeExtensions": "TRUE",
+        "Version": "Modèle 0, niveau 1",
+        "VirtualizationFirmwareEnabled": "FALSE",
+        "VoltageCaps": ""
+      },
+      "cpu_new_format": "",
+      "cpu_unique": [
+        {
+          "ck_cpu_name": "AMD E1-2500 APU with Radeon(TM) HD Graphics",
+          "ck_cpu_subname": "AMD E1-2500 APU with Radeon(TM) HD Graphics"
+        }
+      ],
+      "gpu": {
+        "name": "AMD Radeon HD 8200 / R3 Series",
+        "possibly_related_cpu_name": "AMD E1-2500 APU with Radeon(TM) HD Graphics",
+        "vendor": "AMD"
+      },
+      "gpu_misc": {},
+      "os": {
+        "abi": "",
+        "bits": "64",
+        "ck_os_base_uoa": "",
+        "ck_os_uoa": "windows-64",
+        "name": "Windows 10",
+        "name_long": "Windows-10-10.0.14393-SP0",
+        "name_short": "Windows 10",
+        "serial_number": ""
+      },
+      "os_misc": {},
+      "platform": {
+        "model": "Aspire ES1-520",
+        "name": "Acer V1.06 (Aspire ES1-520)",
+        "vendor": "Acer"
+      },
+      "platform_misc": {
+        "cs_product": {
+          "Caption": "Produit système informatique",
+          "Description": "Produit système informatique",
+          "IdentifyingNumber": "NXG2JEF019610037373400",
+          "Name": "Aspire ES1-520",
+          "SKUNumber": "",
+          "UUID": "DDC4009D-27E4-E511-AFC0-1C394799274B",
+          "Vendor": "Acer",
+          "Version": "V1.06"
+        }
+      }
+    },
+    "solution_uid": "24b951bc94d4cab9",
+    "statistical_repetitions": 2
+  },
+  "permanent": "yes",
+  "sub_points": 1
+}

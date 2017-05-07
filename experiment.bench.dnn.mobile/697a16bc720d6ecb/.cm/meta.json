@@ -1,0 +1,117 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "484c5c3335ae77fb", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1800, 
+          "5": 1800, 
+          "6": 1800, 
+          "7": 1800
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1800, 
+          "5": 1800, 
+          "6": 1800, 
+          "7": 1800
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.0812 - \"n03291819 envelope\"\n0.0508 - \"n01698640 American alligator, Alligator mississipiensis\"\n0.0424 - \"n04592741 wing\"\n0.0273 - \"n02840245 binder, ring-binder\"\n0.0261 - \"n09229709 bubble\"\n", 
+      "time": [
+        10574, 
+        7621, 
+        5574
+      ], 
+      "user": "acknowledge your contributions!", 
+      "xopenme": {}
+    }, 
+    {
+      "behavior_uid": "0c5261989164095b", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1800, 
+          "5": 1800, 
+          "6": 1800, 
+          "7": 1800
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1800, 
+          "5": 1800, 
+          "6": 1800, 
+          "7": 1800
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1800, 
+          "5": 1800, 
+          "6": 1800, 
+          "7": 1800
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1800, 
+          "5": 1800, 
+          "6": 1800, 
+          "7": 1800
+        }
+      ], 
+      "image_height": 2592, 
+      "image_width": 4608, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1489742239199.jpg ----------\n0.5191 - \"n03085013 computer keyboard, keypad\"\n0.2048 - \"n04505470 typewriter keyboard\"\n0.1522 - \"n04264628 space bar\"\n0.0576 - \"n04074963 remote control, remote\"\n0.0185 - \"n02666196 abacus\"\n", 
+      "time": [
+        5006, 
+        5105, 
+        4712, 
+        5137, 
+        5114, 
+        4690
+      ], 
+      "user": "acknowledge your contributions!", 
+      "xopenme": {}
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "", 
+    "cpu_name": "", 
+    "cpu_uid": "", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "", 
+    "gpu_uid": "", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "", 
+    "os_uid": "", 
+    "plat_name": "", 
+    "platform_uid": ""
+  }
+}

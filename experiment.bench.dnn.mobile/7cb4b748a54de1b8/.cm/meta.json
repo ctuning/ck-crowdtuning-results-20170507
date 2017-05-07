@@ -1,0 +1,78 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "59cf11434644a0d8", 
+      "cpu_freqs_after": [
+        {
+          "0": 2016, 
+          "1": 2016, 
+          "2": 2016, 
+          "3": 2016, 
+          "4": 2016, 
+          "5": 2016, 
+          "6": 2016, 
+          "7": 2016
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 2016, 
+          "1": 2016, 
+          "2": 2016, 
+          "3": 2016, 
+          "4": 2016, 
+          "5": 2016, 
+          "6": 2016, 
+          "7": 2016
+        }
+      ], 
+      "image_height": 1080, 
+      "image_width": 1500, 
+      "prediction": "0.1444 - \"n02607072 anemone fish\"\n0.1411 - \"n09256479 coral reef\"\n0.0979 - \"n01914609 sea anemone, anemone\"\n0.0603 - \"n09229709 bubble\"\n0.0489 - \"n01820546 lorikeet\"\n", 
+      "time": [
+        6955, 
+        6839, 
+        33904
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          5.717346, 
+          5.635073, 
+          8.270738
+        ], 
+        "execution_time_kernel_0": [
+          5.717346, 
+          5.635073, 
+          8.270738
+        ], 
+        "execution_time_kernel_1": [
+          0.070847, 
+          0.07241, 
+          0.073497
+        ], 
+        "execution_time_kernel_2": [
+          0.97272, 
+          0.985412, 
+          24.034973
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8953", 
+    "cpu_uid": "", 
+    "crowd_uid": "a7340ffbefcb5923", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 506", 
+    "gpu_uid": "", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "XIAOMI REDMI NOTE 4", 
+    "platform_uid": ""
+  }
+}

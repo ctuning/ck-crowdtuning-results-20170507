@@ -1,0 +1,174 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "954f41824f868d24", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9999 - \"n03793489 mouse, computer mouse\"\n0.0000 - \"n03637318 lampshade, lamp shade\"\n0.0000 - \"n04517823 vacuum, vacuum cleaner\"\n0.0000 - \"n04286575 spotlight, spot\"\n0.0000 - \"n03602883 joystick\"\n", 
+      "time": [
+        4968, 
+        4624, 
+        3941, 
+        3869, 
+        4695, 
+        3669, 
+        6004, 
+        3914, 
+        3901
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          2.200395, 
+          1.821209, 
+          1.31639, 
+          1.193086, 
+          1.862187, 
+          1.246428, 
+          2.995269, 
+          1.254152, 
+          1.246913
+        ], 
+        "execution_time_kernel_0": [
+          2.200395, 
+          1.821209, 
+          1.31639, 
+          1.193086, 
+          1.862187, 
+          1.246428, 
+          2.995269, 
+          1.254152, 
+          1.246913
+        ], 
+        "execution_time_kernel_1": [
+          0.922272, 
+          0.939343, 
+          0.932224, 
+          0.928649, 
+          0.925081, 
+          0.927466, 
+          1.189994, 
+          0.935743, 
+          0.92337
+        ], 
+        "execution_time_kernel_2": [
+          1.501816, 
+          1.634825, 
+          1.474615, 
+          1.456514, 
+          1.708043, 
+          1.329272, 
+          1.435398, 
+          1.434953, 
+          1.533736
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "90b31944f99a5331", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 1200, 
+      "image_width": 1600, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1483786560489.jpg ----------\n0.5454 - \"n03782006 monitor\"\n0.2270 - \"n04152593 screen, CRT screen\"\n0.0682 - \"n04404412 television, television system\"\n0.0507 - \"n03529860 home theater, home theatre\"\n0.0436 - \"n02977058 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM\"\n", 
+      "time": [
+        3057, 
+        3209, 
+        4371
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.211204, 
+          1.224508, 
+          1.466962
+        ], 
+        "execution_time_kernel_0": [
+          1.211204, 
+          1.224508, 
+          1.466962
+        ], 
+        "execution_time_kernel_1": [
+          0.113479, 
+          0.114877, 
+          0.121247
+        ], 
+        "execution_time_kernel_2": [
+          1.450522, 
+          1.698273, 
+          2.118743
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT8163", 
+    "cpu_uid": "4ff6a09d0ea92ac1", 
+    "crowd_uid": "2da50a2bbc874425", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "ARCHOS 101E NEON", 
+    "platform_uid": "07e14fb18c2382d8"
+  }
+}

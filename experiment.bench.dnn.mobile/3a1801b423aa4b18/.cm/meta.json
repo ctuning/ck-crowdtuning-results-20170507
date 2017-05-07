@@ -1,0 +1,78 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "2ef4bddac0d0d0f5", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 5312, 
+      "image_width": 2988, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1486531592073.jpg ----------\n0.3398 - \"n03938244 pillow\"\n0.1675 - \"n04548362 wallet, billfold, notecase, pocketbook\"\n0.0387 - \"n02672831 accordion, piano accordion, squeeze box\"\n0.0329 - \"n03223299 doormat, welcome mat\"\n0.0310 - \"n04026417 purse\"\n", 
+      "time": [
+        17784, 
+        10736, 
+        10776
+      ], 
+      "user": "daniil.ol.versiin", 
+      "xopenme": {
+        "execution_time": [
+          4.567741, 
+          3.385475, 
+          3.108215
+        ], 
+        "execution_time_kernel_0": [
+          4.567741, 
+          3.385475, 
+          3.108215
+        ], 
+        "execution_time_kernel_1": [
+          0.833045, 
+          0.650066, 
+          0.641578
+        ], 
+        "execution_time_kernel_2": [
+          11.977358, 
+          6.545849, 
+          6.885506
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Samsung EXYNOS5433", 
+    "cpu_uid": "16270e7f2844ab79", 
+    "crowd_uid": "177a48e4305ab28a", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "BVLC AlexNet", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG SM-N910C", 
+    "platform_uid": "1924152a7004ec09"
+  }
+}

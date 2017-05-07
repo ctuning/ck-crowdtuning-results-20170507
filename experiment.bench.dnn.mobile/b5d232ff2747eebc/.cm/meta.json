@@ -1,0 +1,97 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4764664b59c8efcf", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }, 
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9728 - \"n03793489 mouse, computer mouse\"\n0.0059 - \"n04286575 spotlight, spot\"\n0.0028 - \"n01774384 black widow, Latrodectus mactans\"\n0.0020 - \"n04356056 sunglasses, dark glasses, shades\"\n0.0016 - \"n04517823 vacuum, vacuum cleaner\"\n", 
+      "time": [
+        2900, 
+        2086, 
+        2051, 
+        2233, 
+        2380, 
+        2101
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.146544, 
+          0.123561, 
+          0.122427, 
+          0.165844, 
+          0.147455, 
+          0.121063
+        ], 
+        "execution_time_kernel_0": [
+          0.146544, 
+          0.123561, 
+          0.122427, 
+          0.165844, 
+          0.147455, 
+          0.121063
+        ], 
+        "execution_time_kernel_1": [
+          0.945363, 
+          0.940475, 
+          0.938762, 
+          0.988521, 
+          0.94321, 
+          0.935408
+        ], 
+        "execution_time_kernel_2": [
+          1.600861, 
+          0.852256, 
+          0.818983, 
+          0.864863, 
+          1.097103, 
+          0.872761
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "MT8163", 
+    "cpu_uid": "4ff6a09d0ea92ac1", 
+    "crowd_uid": "ce6c9a6d4cac89b0", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T720", 
+    "gpu_uid": "8044f57756f402c8", 
+    "model": "DeepScale Squeezenet 1.0", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "ACER B1-780", 
+    "platform_uid": "598e2cb0c240450a"
+  }
+}

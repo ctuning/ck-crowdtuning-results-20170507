@@ -1,0 +1,107 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "9881043664c97421", 
+      "cpu_freqs_after": [
+        {
+          "0": 1401, 
+          "1": 1401, 
+          "2": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }, 
+        {
+          "2": 1401, 
+          "3": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1401, 
+          "1": 1401, 
+          "2": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }, 
+        {
+          "2": 1401, 
+          "3": 1401, 
+          "4": 1094.4, 
+          "5": 1094.4, 
+          "6": 1094.4, 
+          "7": 1094.4
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9728 - \"n03793489 mouse, computer mouse\"\n0.0059 - \"n04286575 spotlight, spot\"\n0.0028 - \"n01774384 black widow, Latrodectus mactans\"\n0.0020 - \"n04356056 sunglasses, dark glasses, shades\"\n0.0016 - \"n04517823 vacuum, vacuum cleaner\"\n", 
+      "time": [
+        2498, 
+        2187, 
+        2194, 
+        3353, 
+        5879, 
+        5814
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.259065, 
+          0.271233, 
+          0.2628, 
+          1.349041, 
+          0.282701, 
+          0.267178
+        ], 
+        "execution_time_kernel_0": [
+          0.259065, 
+          0.271233, 
+          0.2628, 
+          1.349041, 
+          0.282701, 
+          0.267178
+        ], 
+        "execution_time_kernel_1": [
+          0.875253, 
+          0.868396, 
+          0.868119, 
+          0.889688, 
+          1.129369, 
+          1.129605
+        ], 
+        "execution_time_kernel_2": [
+          0.98936, 
+          0.916482, 
+          0.94078, 
+          1.013868, 
+          4.328127, 
+          4.222503
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "arm64-v8a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8937", 
+    "cpu_uid": "e874b4472681058b", 
+    "crowd_uid": "0952cf7bb34139af", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 505", 
+    "gpu_uid": "c347940bf9e5dc00", 
+    "model": "DeepScale SqueezeNet 1.0", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "XIAOMI REDMI 3S", 
+    "platform_uid": "a94ca184534dcd1a"
+  }
+}

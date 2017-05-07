@@ -1,0 +1,78 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "673415b817721b24", 
+      "cpu_freqs_after": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1300, 
+          "1": 1300, 
+          "2": 1300, 
+          "3": 1300, 
+          "4": 1900, 
+          "5": 1900, 
+          "6": 1900, 
+          "7": 1900
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "0.9984 - \"mouse (511)\"\n0.0001 - \"spotlight (593)\"\n0.0001 - \"lampshade (814)\"\n0.0001 - \"mousetrap (599)\"\n0.0000 - \"crash helmet (778)\"\n", 
+      "time": [
+        4693, 
+        4556, 
+        4684
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          1.710801, 
+          1.657709, 
+          1.678067
+        ], 
+        "execution_time_kernel_0": [
+          1.710801, 
+          1.657709, 
+          1.678067
+        ], 
+        "execution_time_kernel_1": [
+          0, 
+          0, 
+          0
+        ], 
+        "execution_time_kernel_2": [
+          2.738458, 
+          2.67168, 
+          2.777787
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Samsung EXYNOS5433", 
+    "cpu_uid": "16270e7f2844ab79", 
+    "crowd_uid": "8ea63e841698f4ad", 
+    "engine": "TensorFlow CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T760", 
+    "gpu_uid": "8ea3d7446e912b92", 
+    "model": "Inception Imagenet 20151205", 
+    "os_name": "Android 5.0.1", 
+    "os_uid": "382cae4a2e82853d", 
+    "plat_name": "SAMSUNG SM-N910C", 
+    "platform_uid": "1924152a7004ec09"
+  }
+}

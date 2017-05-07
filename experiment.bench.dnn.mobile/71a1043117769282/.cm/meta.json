@@ -1,0 +1,120 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4a048b928be4d908", 
+      "cpu_freqs_after": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }, 
+        {
+          "0": 1586, 
+          "1": 1586, 
+          "2": 1586, 
+          "3": 1586, 
+          "4": 1586, 
+          "5": 1586, 
+          "6": 1586, 
+          "7": 1586
+        }
+      ], 
+      "image_height": 2448, 
+      "image_width": 3264, 
+      "mispredictions": [
+        {
+          "correct_answer": "Christmas tree", 
+          "mispredicted_image": "misprediction-image-4807894084e662d0.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1482264764041.jpg ----------\n0.0928 - \"n12267677 acorn\"\n0.0864 - \"n02607072 anemone fish\"\n0.0861 - \"n01914609 sea anemone, anemone\"\n0.0805 - \"n01943899 conch\"\n0.0567 - \"n01944390 snail\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1482188229565.jpg ----------\n0.2396 - \"n03637318 lampshade, lamp shade\"\n0.2191 - \"n04380533 table lamp\"\n0.2092 - \"n04286575 spotlight, spot\"\n0.0931 - \"n03584829 iron, smoothing iron\"\n0.0424 - \"n04507155 umbrella\"\n", 
+      "time": [
+        10314, 
+        11534, 
+        10467, 
+        10222, 
+        10220, 
+        10277
+      ], 
+      "user": "anton.lokhmotov@gmail.com", 
+      "xopenme": {
+        "execution_time": [
+          0.88999, 
+          0.88855, 
+          0.893285, 
+          0.891052, 
+          0.887158, 
+          0.89017
+        ], 
+        "execution_time_kernel_0": [
+          0.88999, 
+          0.88855, 
+          0.893285, 
+          0.891052, 
+          0.887158, 
+          0.89017
+        ], 
+        "execution_time_kernel_1": [
+          0.523412, 
+          0.524517, 
+          0.525265, 
+          0.558073, 
+          0.559189, 
+          0.565197
+        ], 
+        "execution_time_kernel_2": [
+          8.682478, 
+          9.918344, 
+          8.872011, 
+          8.57124, 
+          8.605283, 
+          8.643424
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "0x41-8-0x0-0xd03-4", 
+    "cpu_uid": "143de98987a30459", 
+    "crowd_uid": "2da50a2bbc874425", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T830", 
+    "gpu_uid": "cd4f4a81a14cb70f", 
+    "model": "BVLC GoogleNet", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-T580", 
+    "platform_uid": "430599e08ace483c"
+  }
+}

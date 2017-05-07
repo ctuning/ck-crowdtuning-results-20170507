@@ -1,0 +1,120 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "50eba524c8d54d51", 
+      "cpu_freqs_after": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse1.jpg ----------\n0.9003 - \"n03793489 mouse, computer mouse\"\n0.0118 - \"n03929660 pick, plectrum, plectron\"\n0.0081 - \"n04317175 stethoscope\"\n0.0058 - \"n04548280 wall clock\"\n0.0058 - \"n04286575 spotlight, spot\"\n", 
+      "time": [
+        16121, 
+        11283, 
+        8253
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.224403, 
+          0.322748, 
+          0.146927
+        ], 
+        "execution_time_kernel_0": [
+          0.224403, 
+          0.322748, 
+          0.146927
+        ], 
+        "execution_time_kernel_1": [
+          1.345123, 
+          1.56865, 
+          1.298702
+        ], 
+        "execution_time_kernel_2": [
+          14.202496, 
+          8.996413, 
+          6.635691
+        ]
+      }
+    }, 
+    {
+      "behavior_uid": "59ed3de4e4d51b66", 
+      "cpu_freqs_after": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "cpu_freqs_before": [
+        {
+          "0": 1209.6, 
+          "1": 1209.6, 
+          "2": 1209.6, 
+          "3": 1209.6
+        }
+      ], 
+      "image_height": 320, 
+      "image_width": 240, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1483368277304.jpg ----------\n0.1998 - \"n02783161 ballpoint, ballpoint pen, ballpen, Biro\"\n0.1603 - \"n03658185 letter opener, paper knife, paperknife\"\n0.0787 - \"n03041632 cleaver, meat cleaver, chopper\"\n0.0551 - \"n03804744 nail\"\n0.0377 - \"n04270147 spatula\"\n", 
+      "time": [
+        6255, 
+        6535, 
+        6678
+      ], 
+      "user": "", 
+      "xopenme": {
+        "execution_time": [
+          0.181165, 
+          0.128637, 
+          0.147768
+        ], 
+        "execution_time_kernel_0": [
+          0.181165, 
+          0.128637, 
+          0.147768
+        ], 
+        "execution_time_kernel_1": [
+          0.009212, 
+          0.007568, 
+          0.008881
+        ], 
+        "execution_time_kernel_2": [
+          5.897283, 
+          6.242827, 
+          6.360846
+        ]
+      }
+    }
+  ], 
+  "meta": {
+    "cpu_abi": "armeabi-v7a", 
+    "cpu_name": "Qualcomm Technologies, Inc MSM8916", 
+    "cpu_uid": "bc0db4c4bbe612fe", 
+    "crowd_uid": "97fd474c94b90ed3", 
+    "engine": "Caffe CPU", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 306", 
+    "gpu_uid": "4e79a7ee92836d24", 
+    "model": "DeepScale SqueezeNet 1.1", 
+    "os_name": "Android 6.0", 
+    "os_uid": "9ca001de0cf948c7", 
+    "plat_name": "LGE LG-H440", 
+    "platform_uid": ""
+  }
+}
